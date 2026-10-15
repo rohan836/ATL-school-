@@ -372,8 +372,8 @@ Choose the controller board first. Modules connect to the board, so board voltag
 | Component / product | Purpose | Compatibility notes | Not verified | 1 | Not verified | [Search Amazon](https://www.amazon.in/s?k=Component%20%2F%20product) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Arduino Nicla Vision | Compact machine-vision and edge-AI projects | Integrated camera-oriented board; check current libraries | ₹8,050 | 1 | ₹8,050 | [Amazon search](https://www.amazon.in/s?k=Arduino%20Nicla%20Vision) |
-| Arduino UNO Q with supported USB camera/accessories | Vision, AI, and robotics projects | Use accessories explicitly supported by the board | ₹5,949 | 1 | ₹5,949 | [Amazon search](https://www.amazon.in/s?k=Arduino%20UNO%20Q%20with%20supported%20USB%20camera%2Faccessories) |
-| Arduino GIGA R1 WiFi with compatible camera hardware | Camera and advanced embedded experiments | Check connector, sensor, driver, and example support | ₹6,397 | 1 | ₹6,397 | [Amazon search](https://www.amazon.in/s?k=Arduino%20GIGA%20R1%20WiFi%20with%20compatible%20camera%20hardware) |
+| Arduino UNO Q with supported USB camera/accessories | Vision, AI, and robotics projects | Use accessories explicitly supported by the board | Not verified | 1 | Not verified | [Search Amazon](https://www.amazon.in/s?k=Arduino%20UNO%20Q%20USB%20camera%20accessories) |
+| Arduino GIGA R1 WiFi with compatible camera hardware | Camera and advanced embedded experiments | Check connector, sensor, driver, and example support | Not verified | 1 | Not verified | [Search Amazon](https://www.amazon.in/s?k=Arduino%20GIGA%20R1%20WiFi%20camera%20hardware) |
 | USB UVC webcam | Camera input for supported Linux/USB-host boards | Not a universal direct connection to ordinary Arduino microcontrollers | Not verified | 1 | Not verified | [Search Amazon](https://www.amazon.in/s?k=USB%20UVC%20webcam) |
 | OV2640 camera module | Image capture on supported camera-capable hardware | Requires a compatible camera interface, pinout, memory, and driver | Not verified | 1 | Not verified | [Search Amazon](https://www.amazon.in/s?k=OV2640%20camera%20module) |
 | Arducam camera module (exact model) | Camera experiments with supported controller/interface | Verify model, interface, voltage, and library | Not verified | 1 | Not verified | [Search Amazon](https://www.amazon.in/s?k=Arducam%20camera%20module%20(exact%20model)) |
@@ -474,11 +474,11 @@ Use this record when the lab obtains or tests a component.
 
 **Pricing basis (checked 16 October 2026):** Prices below are specific Amazon India listings found for the named product or a close matching module. Each catalogue line assumes **quantity 1**; where Amazon's offer is a multi-pack, the price and line total are for that entire pack. The Amazon link opens the identified listing where a specific link was available, otherwise it opens an Amazon India search for the exact component name.
 
-**Subtotal of priced catalogue lines: ₹89,928.** This adds each priced hardware row in Sections 1–10 once, using its displayed pack/listing price. Section 11 project bundles are examples and are not added separately, since they reuse components already listed in the catalogue.
+**Subtotal of priced catalogue lines: ₹77,582.** This adds each priced hardware row in Sections 1–10 once, using its displayed pack/listing price. Section 11 project bundles are examples and are not added separately, since they reuse components already listed in the catalogue.
 
-**Items with a verified Amazon price in this pass:** 68 catalogue lines.
+**Items with a verified Amazon price in this pass:** 66 catalogue lines.
 
-**Items with no reliable Amazon India price matched:** 205 catalogue lines (204 distinct component names). They are marked **Not verified** and excluded from the subtotal. Their Amazon search links are provided in the table. Because Amazon prices could not be verified for every catalogue item, the subtotal is **not a complete all-items procurement total**; the final total will increase when those unpriced rows have verified prices.
+**Items with no reliable Amazon India price matched:** 207 catalogue lines (206 distinct component names). They are marked **Not verified** and excluded from the subtotal. Their Amazon search links are provided in the table. Because Amazon prices could not be verified for every catalogue item, the subtotal is **not a complete all-items procurement total**; the final total will increase when those unpriced rows have verified prices.
 
 **Important:** This is a catalogue of optional and alternative boards/modules, not a purchase order. The calculation intentionally counts every priced catalogue row once, so repeated listings of the same type in multiple categories can be counted more than once. Pack pricing can also mean a line represents several physical pieces. Shipping, availability, and seller prices may change.
 
