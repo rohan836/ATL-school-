@@ -15,6 +15,7 @@ Keep this file focused on project-wide information. **Do not put long hardware c
 
 ## Source-of-Truth Files
 
+- **[ARDUINO-COMPONENTS.md](ARDUINO-COMPONENTS.md)** — catalogue of major Arduino board families and common Arduino-compatible boards, plus modules grouped by purpose, including sensors, displays, robotics, communication, power, cameras, shields, and project bundles. This is a planning reference, not proof that the ATL Lab owns every item.
 - **[ESP-MODULES.md](ESP-MODULES.md)** — catalogue of pre-built, market-available modules and boards that may connect to ESP32 / ESP8266 projects. It includes camera systems and other module categories. This is a reference list, not proof that the ATL Lab owns every item.
 - **[README.md](README.md)** — public landing page and quick-start instructions, when created.
 - **[HARDWARE-INVENTORY.md](HARDWARE-INVENTORY.md)** — actual hardware physically available in the lab, including quantity and verification status, when created.
@@ -28,8 +29,9 @@ Create a referenced file when there is useful content to put in it. Do not creat
 ## Current Repository State
 
 - `PROJECT.md` is the master project context and maintenance guide.
+- `ARDUINO-COMPONENTS.md` is the separate reference catalogue for Arduino boards, modules, shields, and project bundles, grouped by function.
 - `ESP-MODULES.md` is the separate reference catalogue for pre-built ESP-compatible modules and development boards.
-- The module catalogue describes common market products. The exact inventory of the ATL Lab has not yet been confirmed.
+- The Arduino and ESP catalogues describe common market products and planning options. The exact inventory of the ATL Lab has not yet been confirmed.
 - The exact ESP32 / ESP8266 board models, project requirements, and available parts still need to be recorded.
 - Do not claim that a circuit, module, firmware build, or project has been tested unless repository evidence records the test.
 
@@ -79,7 +81,7 @@ When updating this file, preserve valid existing information, correct outdated l
 
 ## Project Status Checklist
 
-- [ ] Confirm the exact ESP development board model(s).
+- [ ] Confirm the exact Arduino, ESP32, and ESP8266 board model(s) physically available.
 - [ ] Record the modules and quantities physically available in the ATL Lab.
 - [ ] Identify the first project and define its requirements.
 - [ ] Create a project-specific folder or document when the first project is selected.
@@ -90,3 +92,4 @@ When updating this file, preserve valid existing information, correct outdated l
 ## Update History
 
 - **2026-10-15:** Created the master project file and separated the pre-built ESP32 / ESP8266 module catalogue into `ESP-MODULES.md`.
+- **2026-10-16:** Added `ARDUINO-COMPONENTS.md`, a categorized planning catalogue of Arduino boards and common modules, their purposes, compatibility cautions, and school project bundles.
