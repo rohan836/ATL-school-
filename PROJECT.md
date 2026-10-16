@@ -15,6 +15,8 @@ Keep this file focused on project-wide information. **Do not put long hardware c
 
 ## Source-of-Truth Files
 
+- **[ATL_Equipment_List_90_students.md](ATL_Equipment_List_90_students.md)** — original ATL equipment catalogue, retaining the source specifications and quantities.
+- **[ATL_COMPONENT_PROJECT_IDEAS.md](ATL_COMPONENT_PROJECT_IDEAS.md)** — two or three practical school project ideas for each item in the ATL equipment catalogue.
 - **[ARDUINO-COMPONENTS.md](ARDUINO-COMPONENTS.md)** — catalogue of major Arduino board families and common Arduino-compatible boards, plus modules grouped by purpose, including sensors, displays, robotics, communication, power, cameras, shields, and project bundles. This is a planning reference, not proof that the ATL Lab owns every item.
 - **[ESP-MODULES.md](ESP-MODULES.md)** — catalogue of pre-built, market-available modules and boards that may connect to ESP32 / ESP8266 projects. It includes camera systems and other module categories. This is a reference list, not proof that the ATL Lab owns every item.
 - **[README.md](README.md)** — public landing page and quick-start instructions, when created.
