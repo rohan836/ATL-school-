@@ -1,10 +1,7 @@
-# ATL Component List — Batch of 90 Students
+## Electronics Development, Robotics, Internet of Things and Sensors
 
 | Component | Suggested Quantity |
 |---|---:|
-
-## Electronics Development, Robotics, Internet of Things and Sensors
-
 | Arduino Uno or equivalent | 45 |
 | Arduino Nano or equivalent | 15 |
 | Arduino Mega or equivalent | 15 |
@@ -117,6 +114,8 @@
 
 ## Rapid Prototyping Tools
 
+| Component | Suggested Quantity |
+|---|---:|
 | 3D Printer Kit and Tools | 1 |
 | Dedicated UPS / Power Backup | 1 |
 | Filament for 3D Printer | 5 |
@@ -130,6 +129,8 @@
 
 ## Mechanical, Electrical and Measurement Tools
 
+| Component | Suggested Quantity |
+|---|---:|
 | Hacksaw Frame | 1 |
 | Hacksaw Blades | 10 |
 | Mini Hacksaw Frame | 1 |
@@ -181,6 +182,8 @@
 
 ## Power Supply, Accessories and Safety Equipment
 
+| Component | Suggested Quantity |
+|---|---:|
 | Glue Sticks | 150 |
 | Nuts, Bolts and Screws | 40 |
 | Small Cable Tie Pack | 15 packs |
