@@ -6,6 +6,20 @@ This timetable is for electronics, robotics, and project-based practical lessons
 
 The teaching plan keeps each class's C and D batches in consecutive periods. This lets the teacher prepare one practical, teach it to C, then repeat it for D. It also places sessions for each class on consecutive days so students can continue a project from one session to the next.
 
+## Full weekly timetable
+
+| Day | Period 1 | Period 2 | Period 3 | Period 4 |
+|---|---|---|---|---|
+| Monday | 5C | 5D | 8C | 8D |
+| Tuesday | 5C | 5D | 8C | 8D |
+| Wednesday | 6C | 6D | 8C | 8D |
+| Thursday | 6C | 6D | 9C | 9D |
+| Friday | 7C | 7D | 9C | 9D |
+| Saturday | 7C | 7D | 9C | 9D |
+
+<details>
+<summary><strong>Show / hide weekly counts, project sequence, and teaching notes</strong></summary>
+
 ## Fixed constraints
 
 - Classes: 5, 6, 7, 8, and 9.
@@ -17,17 +31,6 @@ The teaching plan keeps each class's C and D batches in consecutive periods. Thi
 - C and D for the same class are taught in consecutive periods.
 - Classes 5, 6, and 7 have 2 sessions per batch each week.
 - Classes 8 and 9 have 3 sessions per batch each week.
-
-## Full weekly timetable
-
-| Day | Period 1 | Period 2 | Period 3 | Period 4 |
-|---|---|---|---|---|
-| Monday | 5C | 5D | 8C | 8D |
-| Tuesday | 5C | 5D | 8C | 8D |
-| Wednesday | 6C | 6D | 8C | 8D |
-| Thursday | 6C | 6D | 9C | 9D |
-| Friday | 7C | 7D | 9C | 9D |
-| Saturday | 7C | 7D | 9C | 9D |
 
 ## Weekly session count and teaching time
 
@@ -80,3 +83,5 @@ Teach C first and D immediately after it using the same lesson plan and practica
 - Confirm the school's bell times and break schedule. The table lists periods, not exact clock times.
 - This plan assumes the same practical can be repeated for C and D and that components are available for both batches.
 - If a session is cancelled, record the missed batch and schedule a make-up session so that C and D keep the same progress.
+
+</details>
