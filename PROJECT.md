@@ -19,6 +19,7 @@ Keep this file focused on project-wide information. **Do not put long hardware c
 - **[ATL_COMPONENT_PROJECT_IDEAS.md](ATL_COMPONENT_PROJECT_IDEAS.md)** — two or three practical school project ideas for each item in the ATL equipment catalogue.
 - **[ARDUINO-COMPONENTS.md](ARDUINO-COMPONENTS.md)** — catalogue of major Arduino board families and common Arduino-compatible boards, plus modules grouped by purpose, including sensors, displays, robotics, communication, power, cameras, shields, and project bundles. This is a planning reference, not proof that the ATL Lab owns every item.
 - **[ESP-MODULES.md](ESP-MODULES.md)** — catalogue of pre-built, market-available modules and boards that may connect to ESP32 / ESP8266 projects. It includes camera systems and other module categories. This is a reference list, not proof that the ATL Lab owns every item.
+- **[SCHOOL-OPERATIONS/ATL-LAB-TIMETABLE.md](SCHOOL-OPERATIONS/ATL-LAB-TIMETABLE.md)** — five-week rotating timetable for Classes 5–9, batches C/D, with consecutive same-class practical lessons.
 - **[README.md](README.md)** — public landing page and quick-start instructions, when created.
 - **[HARDWARE-INVENTORY.md](HARDWARE-INVENTORY.md)** — actual hardware physically available in the lab, including quantity and verification status, when created.
 - **[PROJECTS.md](PROJECTS.md)** — index of individual ATL projects, when created.
@@ -33,6 +34,7 @@ Create a referenced file when there is useful content to put in it. Do not creat
 - `PROJECT.md` is the master project context and maintenance guide.
 - `ARDUINO-COMPONENTS.md` is the separate reference catalogue for Arduino boards, modules, shields, and project bundles, grouped by function.
 - `ESP-MODULES.md` is the separate reference catalogue for pre-built ESP-compatible modules and development boards.
+- `SCHOOL-OPERATIONS/ATL-LAB-TIMETABLE.md` documents the ATL teaching schedule and its five-week fairness rotation.
 - The Arduino and ESP catalogues describe common market products and planning options. The exact inventory of the ATL Lab has not yet been confirmed.
 - The exact ESP32 / ESP8266 board models, project requirements, and available parts still need to be recorded.
 - Do not claim that a circuit, module, firmware build, or project has been tested unless repository evidence records the test.
@@ -95,3 +97,4 @@ When updating this file, preserve valid existing information, correct outdated l
 
 - **2026-10-15:** Created the master project file and separated the pre-built ESP32 / ESP8266 module catalogue into `ESP-MODULES.md`.
 - **2026-10-16:** Added `ARDUINO-COMPONENTS.md`, a categorized planning catalogue of Arduino boards and common modules, their purposes, compatibility cautions, and school project bundles.
+- **2026-10-21:** Added `SCHOOL-OPERATIONS/ATL-LAB-TIMETABLE.md` with a five-week rotating timetable for Classes 5–9 and batches C/D.
