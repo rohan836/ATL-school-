@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temporary ATL Timetable — 60-Minute Sessions</title>
+  <style>
+    :root {
+      --ink: #182230; --muted: #5b6675; --line: #dbe2ea;
+      --page: #f4f7fb; --navy: #17365d; --surface: #fff;
+      --c5: #e8f1ff; --c5b: #8bb7f0; --c6: #e8f7ee; --c6b: #8ccba4;
+      --c7: #fff2df; --c7b: #e8b66f; --c8: #f2ebff; --c8b: #b8a0ec;
+      --c9: #e4f7f7; --c9b: #80c9c9;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--page); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 1500px; margin: 0 auto; padding: 28px 20px 42px; }
+    header { background: var(--navy); color: #fff; border-radius: 16px; padding: 25px 27px; margin-bottom: 20px; }
+    .tag { margin: 0 0 6px; color: #c9dcf7; font-size: .78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(1.65rem, 3vw, 2.4rem); line-height: 1.15; }
+    header p:last-child { margin: 11px 0 0; color: #edf4ff; }
+    .summary { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px; margin-bottom: 22px; }
+    .summary article { padding: 15px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+    .summary strong { display: block; color: var(--navy); font-size: 1.25rem; }
+    .summary span { color: var(--muted); font-size: .9rem; }
+    h2 { margin: 25px 0 10px; font-size: 1.3rem; }
+    .sub { color: var(--muted); margin: -5px 0 12px; }
+    .wrap { overflow-x: auto; background: #fff; border: 1px solid var(--line); border-radius: 14px; }
+    table { border-collapse: separate; border-spacing: 0; width: 100%; }
+    .main-table { min-width: 1060px; }
+    th, td { padding: 13px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+    thead th { background: #eaf0f8; color: #253b59; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
+    tbody tr:last-child td { border-bottom: 0; }
+    .day { width: 115px; font-weight: 800; white-space: nowrap; }
+    .day small { display: block; color: var(--muted); font-weight: 500; }
+    .card { min-height: 88px; padding: 11px 12px; border: 1px solid; border-radius: 10px; }
+    .grade { display: block; font-weight: 800; margin-bottom: 5px; }
+    .time { display: block; font-size: .9rem; font-weight: 650; white-space: nowrap; }
+    .duration { display: inline-block; margin-top: 7px; padding: 2px 8px; border-radius: 99px; background: #fff; font-size: .78rem; font-weight: 800; }
+    .c5 { background: var(--c5); border-color: var(--c5b); }
+    .c6 { background: var(--c6); border-color: var(--c6b); }
+    .c7 { background: var(--c7); border-color: var(--c7b); }
+    .c8 { background: var(--c8); border-color: var(--c8b); }
+    .c9 { background: var(--c9); border-color: var(--c9b); }
+    .legend { display: flex; gap: 9px; flex-wrap: wrap; margin-top: 12px; }
+    .legend span { display: inline-flex; gap: 7px; align-items: center; background: white; border: 1px solid var(--line); border-radius: 99px; padding: 5px 9px; font-size: .82rem; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; }
+    .frequency { min-width: 640px; }
+    .frequency td, .frequency th { padding: 12px 15px; }
+    footer { color: var(--muted); margin-top: 22px; font-size: .88rem; }
+    @media (max-width: 700px) { main { padding: 16px 10px 28px; } header { padding: 20px 18px; } .summary { grid-template-columns: 1fr; gap: 8px; } th, td { padding: 10px; } }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } header { background: white; color: var(--ink); border: 2px solid var(--navy); } header .tag, header p:last-child { color: var(--ink); } .wrap { overflow: visible; } .main-table { min-width: 0; } th, td { padding: 7px; } .card { padding: 7px; min-height: 0; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="tag">Temporary version · School Operations · ATL</p>
+    <h1>ATL Lab Timetable — 60-Minute Sessions</h1>
+    <p>Trial timetable for Classes 5–9, Monday to Saturday. The regular timetable remains unchanged.</p>
+  </header>
+  <section class="summary" aria-label="Timetable summary">
+    <article><strong>60 minutes</strong><span>Every ATL session</span></article>
+    <article><strong>24 sessions/week</strong><span>Four sessions per day across six days</span></article>
+    <article><strong>Same weekly pattern</strong><span>Class days and batch frequency retained</span></article>
+  </section>
+
+  <h2>Main weekly timetable</h2>
+  <p class="sub">All session times avoid the school's scheduled breaks.</p>
+  <div class="wrap">
+    <table class="main-table">
+      <thead><tr><th>Day</th><th>Class 1</th><th>Class 2</th><th>Class 3</th><th>Class 4</th></tr></thead>
+      <tbody>
+        <tr><td class="day">Monday<small>Weekday</small></td>
+          <td><div class="card c5"><span class="grade">Class 5 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c5"><span class="grade">Class 5 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c7"><span class="grade">Class 7 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c7"><span class="grade">Class 7 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
+        <tr><td class="day">Tuesday<small>Weekday</small></td>
+          <td><div class="card c5"><span class="grade">Class 5 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c5"><span class="grade">Class 5 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c7"><span class="grade">Class 7 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c7"><span class="grade">Class 7 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
+        <tr><td class="day">Wednesday<small>Weekday</small></td>
+          <td><div class="card c5"><span class="grade">Class 5 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c5"><span class="grade">Class 5 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c8"><span class="grade">Class 8 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c8"><span class="grade">Class 8 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
+        <tr><td class="day">Thursday<small>Weekday</small></td>
+          <td><div class="card c6"><span class="grade">Class 6 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c6"><span class="grade">Class 6 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c8"><span class="grade">Class 8 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c8"><span class="grade">Class 8 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
+        <tr><td class="day">Friday<small>Weekday</small></td>
+          <td><div class="card c6"><span class="grade">Class 6 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c6"><span class="grade">Class 6 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c9"><span class="grade">Class 9 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c9"><span class="grade">Class 9 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
+        <tr><td class="day">Saturday<small>Saturday bell times</small></td>
+          <td><div class="card c6"><span class="grade">Class 6 · Batch C</span><span class="time">7:30–8:30 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c6"><span class="grade">Class 6 · Batch D</span><span class="time">9:00–10:00 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c9"><span class="grade">Class 9 · Batch C</span><span class="time">10:20–11:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td><div class="card c9"><span class="grade">Class 9 · Batch D</span><span class="time">11:30 AM–12:30 PM</span><span class="duration">60 minutes</span></div></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="legend" aria-label="Class colour key">
+    <span><i class="dot" style="background:var(--c5b)"></i>Class 5</span>
+    <span><i class="dot" style="background:var(--c6b)"></i>Class 6</span>
+    <span><i class="dot" style="background:var(--c7b)"></i>Class 7</span>
+    <span><i class="dot" style="background:var(--c8b)"></i>Class 8</span>
+    <span><i class="dot" style="background:var(--c9b)"></i>Class 9</span>
+  </div>
+
+  <h2>Weekly attendance by class</h2>
+  <div class="wrap">
+    <table class="frequency">
+      <thead><tr><th>Class</th><th>Scheduled days</th><th>Sessions per batch per week</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Class 5</strong></td><td>Monday, Tuesday, Wednesday</td><td>3</td></tr>
+        <tr><td><strong>Class 6</strong></td><td>Thursday, Friday, Saturday</td><td>3</td></tr>
+        <tr><td><strong>Class 7</strong></td><td>Monday, Tuesday</td><td>2</td></tr>
+        <tr><td><strong>Class 8</strong></td><td>Wednesday, Thursday</td><td>2</td></tr>
+        <tr><td><strong>Class 9</strong></td><td>Friday, Saturday</td><td>2</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Session times at a glance</h2>
+  <div class="wrap">
+    <table class="frequency">
+      <thead><tr><th>Day type</th><th>Class 1</th><th>Class 2</th><th>Class 3</th><th>Class 4</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Monday–Friday</strong></td><td>7:20–8:20 AM</td><td>8:45–9:45 AM</td><td>10:05–11:05 AM</td><td>11:20 AM–12:20 PM</td></tr>
+        <tr><td><strong>Saturday</strong></td><td>7:30–8:30 AM</td><td>9:00–10:00 AM</td><td>10:20–11:20 AM</td><td>11:30 AM–12:30 PM</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <footer>Temporary ATL timetable · 60-minute sessions · Existing timetable retained separately</footer>
+</main>
+</body>
+</html>
