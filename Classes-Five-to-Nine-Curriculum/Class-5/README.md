@@ -1,7 +1,10 @@
 # Class 5
 
-Class-wise ATL planning and timetable files for Class 5.
+ATL curriculum, timetable, lesson plans, and project planning for Class 5.
 
-Sections: [C](C/README.md) · [D](D/README.md)
+## Sections
 
-Reference timetable: [Temporary 60-minute timetable](../../../Temp/ATL-TEMP-TIMETABLE-60-MIN.md).
+- [Class 5 C](Class-5-C/README.md)
+- [Class 5 D](Class-5-D/README.md)
+
+Reference: [Temporary 60-minute ATL timetable](../../../Temp/ATL-TEMP-TIMETABLE-60-MIN.md).
