@@ -27,7 +27,7 @@
     .sub { color: var(--muted); margin: -5px 0 12px; }
     .wrap { overflow-x: auto; background: #fff; border: 1px solid var(--line); border-radius: 14px; }
     table { border-collapse: separate; border-spacing: 0; width: 100%; }
-    .main-table { min-width: 1060px; }
+    .main-table { min-width: 1650px; }
     th, td { padding: 13px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
     thead th { background: #eaf0f8; color: #253b59; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
     tbody tr:last-child td { border-bottom: 0; }
@@ -37,6 +37,10 @@
     .grade { display: block; font-weight: 800; margin-bottom: 5px; }
     .time { display: block; font-size: .9rem; font-weight: 650; white-space: nowrap; }
     .duration { display: inline-block; margin-top: 7px; padding: 2px 8px; border-radius: 99px; background: #fff; font-size: .78rem; font-weight: 800; }
+    .break-col { min-width: 130px; }
+    .break-card { min-height: 88px; padding: 11px 10px; border: 1px solid #e6cb73; border-radius: 10px; background: #fff2c9; color: #6b4e0b; text-align: center; }
+    .break-card .grade { margin-bottom: 6px; }
+    .break-card .time { white-space: nowrap; font-size: .84rem; font-weight: 750; }
     .c5 { background: var(--c5); border-color: var(--c5b); }
     .c6 { background: var(--c6); border-color: var(--c6b); }
     .c7 { background: var(--c7); border-color: var(--c7b); }
@@ -73,37 +77,55 @@
   <p class="sub">All session times avoid the school's scheduled breaks.</p>
   <div class="wrap">
     <table class="main-table">
-      <thead><tr><th>Day</th><th>Class 1</th><th>Class 2</th><th>Class 3</th><th>Class 4</th></tr></thead>
+      <thead><tr><th scope="col">Day</th><th scope="col">Class 1</th><th scope="col">Break 1</th><th scope="col">Class 2</th><th scope="col">Break 2</th><th scope="col">Class 3</th><th scope="col">Break 3</th><th scope="col">Class 4</th></tr></thead>
       <tbody>
         <tr><td class="day">Monday<small>Weekday</small></td>
           <td><div class="card c5"><span class="grade">Class 5 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 1</span><span class="time">8:35–8:45 AM</span></div></td>
           <td><div class="card c5"><span class="grade">Class 5 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 2</span><span class="time">9:55–10:05 AM</span></div></td>
           <td><div class="card c7"><span class="grade">Class 7 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 3</span><span class="time">11:15–11:20 AM</span></div></td>
           <td><div class="card c7"><span class="grade">Class 7 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
         <tr><td class="day">Tuesday<small>Weekday</small></td>
           <td><div class="card c5"><span class="grade">Class 5 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 1</span><span class="time">8:35–8:45 AM</span></div></td>
           <td><div class="card c5"><span class="grade">Class 5 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 2</span><span class="time">9:55–10:05 AM</span></div></td>
           <td><div class="card c7"><span class="grade">Class 7 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 3</span><span class="time">11:15–11:20 AM</span></div></td>
           <td><div class="card c7"><span class="grade">Class 7 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
         <tr><td class="day">Wednesday<small>Weekday</small></td>
           <td><div class="card c5"><span class="grade">Class 5 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 1</span><span class="time">8:35–8:45 AM</span></div></td>
           <td><div class="card c5"><span class="grade">Class 5 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 2</span><span class="time">9:55–10:05 AM</span></div></td>
           <td><div class="card c8"><span class="grade">Class 8 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 3</span><span class="time">11:15–11:20 AM</span></div></td>
           <td><div class="card c8"><span class="grade">Class 8 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
         <tr><td class="day">Thursday<small>Weekday</small></td>
           <td><div class="card c6"><span class="grade">Class 6 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 1</span><span class="time">8:35–8:45 AM</span></div></td>
           <td><div class="card c6"><span class="grade">Class 6 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 2</span><span class="time">9:55–10:05 AM</span></div></td>
           <td><div class="card c8"><span class="grade">Class 8 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 3</span><span class="time">11:15–11:20 AM</span></div></td>
           <td><div class="card c8"><span class="grade">Class 8 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
         <tr><td class="day">Friday<small>Weekday</small></td>
           <td><div class="card c6"><span class="grade">Class 6 · Batch C</span><span class="time">7:20–8:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 1</span><span class="time">8:35–8:45 AM</span></div></td>
           <td><div class="card c6"><span class="grade">Class 6 · Batch D</span><span class="time">8:45–9:45 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 2</span><span class="time">9:55–10:05 AM</span></div></td>
           <td><div class="card c9"><span class="grade">Class 9 · Batch C</span><span class="time">10:05–11:05 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 3</span><span class="time">11:15–11:20 AM</span></div></td>
           <td><div class="card c9"><span class="grade">Class 9 · Batch D</span><span class="time">11:20 AM–12:20 PM</span><span class="duration">60 minutes</span></div></td></tr>
         <tr><td class="day">Saturday<small>Saturday bell times</small></td>
           <td><div class="card c6"><span class="grade">Class 6 · Batch C</span><span class="time">7:30–8:30 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 1</span><span class="time">8:45–9:00 AM</span></div></td>
           <td><div class="card c6"><span class="grade">Class 6 · Batch D</span><span class="time">9:00–10:00 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 2</span><span class="time">10:10–10:20 AM</span></div></td>
           <td><div class="card c9"><span class="grade">Class 9 · Batch C</span><span class="time">10:20–11:20 AM</span><span class="duration">60 minutes</span></div></td>
+          <td class="break-col"><div class="break-card"><span class="grade">BREAK 3</span><span class="time">11:25–11:30 AM</span></div></td>
           <td><div class="card c9"><span class="grade">Class 9 · Batch D</span><span class="time">11:30 AM–12:30 PM</span><span class="duration">60 minutes</span></div></td></tr>
       </tbody>
     </table>
