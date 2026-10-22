@@ -1,67 +1,63 @@
 # ATL Lab Teaching Timetable
 
 ## Purpose
-This timetable combines two consecutive school periods into one ATL practical session. Session lengths follow the actual bell schedule; they are not forced to be 60 minutes. Depending on the paired periods, sessions last 60, 65, 70, or 75 minutes. Classes 5–9 each have C and D batches. C and D are assigned consecutive daily slots so the same practical can be repeated for the second batch.
+
+This timetable combines two consecutive school periods into one ATL practical session. Session durations follow the actual bell schedule: 60, 65, 70, or 75 minutes depending on the paired periods. Each class has C and D batches; the same practical is repeated in the next slot for the other batch.
 
 ## Full weekly ATL timetable
 
 ### Monday–Friday
 
-| Day | Periods 1+2 | Periods 3+4 | Periods 5+6 | Periods 7+8 |
+| Day | Session 1 | Session 2 | Session 3 | Session 4 |
 |---|---|---|---|---|
-| Monday | 5C · 7:20–8:35 AM (75 min) | 5D · 8:45–9:55 AM (70 min) | 8C · 10:05–11:15 AM (70 min) | 8D · 11:20 AM–12:25 PM (65 min) |
-| Tuesday | 5C · 7:20–8:35 AM (75 min) | 5D · 8:45–9:55 AM (70 min) | 8C · 10:05–11:15 AM (70 min) | 8D · 11:20 AM–12:25 PM (65 min) |
-| Wednesday | 6C · 7:20–8:35 AM (75 min) | 6D · 8:45–9:55 AM (70 min) | 8C · 10:05–11:15 AM (70 min) | 8D · 11:20 AM–12:25 PM (65 min) |
-| Thursday | 6C · 7:20–8:35 AM (75 min) | 6D · 8:45–9:55 AM (70 min) | 9C · 10:05–11:15 AM (70 min) | 9D · 11:20 AM–12:25 PM (65 min) |
-| Friday | 7C · 7:20–8:35 AM (75 min) | 7D · 8:45–9:55 AM (70 min) | 9C · 10:05–11:15 AM (70 min) | 9D · 11:20 AM–12:25 PM (65 min) |
+| Monday | Class 5C · 7:20–8:35 AM (75 min) | Class 5D · 8:45–9:55 AM (70 min) | Class 8C · 10:05–11:15 AM (70 min) | Class 8D · 11:20 AM–12:25 PM (65 min) |
+| Tuesday | Class 5C · 7:20–8:35 AM (75 min) | Class 5D · 8:45–9:55 AM (70 min) | Class 8C · 10:05–11:15 AM (70 min) | Class 8D · 11:20 AM–12:25 PM (65 min) |
+| Wednesday | Class 5C · 7:20–8:35 AM (75 min) | Class 5D · 8:45–9:55 AM (70 min) | Class 6C · 10:05–11:15 AM (70 min) | Class 6D · 11:20 AM–12:25 PM (65 min) |
+| Thursday | Class 6C · 7:20–8:35 AM (75 min) | Class 6D · 8:45–9:55 AM (70 min) | Class 9C · 10:05–11:15 AM (70 min) | Class 9D · 11:20 AM–12:25 PM (65 min) |
+| Friday | Class 6C · 7:20–8:35 AM (75 min) | Class 6D · 8:45–9:55 AM (70 min) | Class 7C · 10:05–11:15 AM (70 min) | Class 7D · 11:20 AM–12:25 PM (65 min) |
 
 ### Saturday
 
-| Combined periods | Batch | Time | Duration |
+| Session | Batch | Time | Duration |
 |---|---|---|---:|
-| Periods 1+2 | 7C | 7:30–8:45 AM | 75 min |
-| Periods 3+4 | 7D | 9:00–10:10 AM | 70 min |
-| Periods 5+6 | 9C | 10:20–11:25 AM | 65 min |
-| Periods 7+8 | 9D | 11:30 AM–12:30 PM | 60 min |
+| Session 1 | Class 7C | 7:30–8:45 AM | 75 min |
+| Session 2 | Class 7D | 9:00–10:10 AM | 70 min |
+| Session 3 | Class 9C | 10:20–11:25 AM | 65 min |
+| Session 4 | Class 9D | 11:30 AM–12:30 PM | 60 min |
 
-School breaks remain breaks and are not included in the session duration.
+## Weekly frequency
 
-## Weekly session counts and duration
-
-| Class / batch | Days | Sessions per week | Weekly minutes |
+| Class | Scheduled days | Sessions per batch per week | Sessions for C and D combined |
 |---|---|---:|---:|
-| Class 5C | Monday, Tuesday | 2 | 150 min (2 h 30 min) |
-| Class 5D | Monday, Tuesday | 2 | 140 min (2 h 20 min) |
-| Class 6C | Wednesday, Thursday | 2 | 150 min (2 h 30 min) |
-| Class 6D | Wednesday, Thursday | 2 | 140 min (2 h 20 min) |
-| Class 7C | Friday, Saturday | 2 | 150 min (2 h 30 min) |
-| Class 7D | Friday, Saturday | 2 | 140 min (2 h 20 min) |
-| Class 8C | Monday, Tuesday, Wednesday | 3 | 210 min (3 h 30 min) |
-| Class 8D | Monday, Tuesday, Wednesday | 3 | 195 min (3 h 15 min) |
-| Class 9C | Thursday, Friday, Saturday | 3 | 205 min (3 h 25 min) |
-| Class 9D | Thursday, Friday, Saturday | 3 | 190 min (3 h 10 min) |
+| Class 5 | Monday, Tuesday, Wednesday | 3 | 6 |
+| Class 6 | Wednesday, Thursday, Friday | 3 | 6 |
+| Class 7 | Friday, Saturday | 2 | 4 |
+| Class 8 | Monday, Tuesday | 2 | 4 |
+| Class 9 | Thursday, Saturday | 2 | 4 |
+| **Total** | Monday–Saturday | — | **24 sessions** |
 
-Because paired school periods have different lengths, C and D do not receive identical total minutes in this draft, although each batch receives the same number of sessions. If equal minutes per batch are required, the slot assignments must be rotated between C and D across their scheduled days.
+Classes 5 and 6 now receive three sessions per batch per week. Classes 8 and 9 receive two sessions per batch per week. Class 7 remains at two sessions per batch per week. Every batch receives the same number of sessions as the other batch in its class.
 
 ## Project continuity
-- **Class 5 — Monday and Tuesday:** introduce the concept and plan on Monday; build, test, and record results on Tuesday.
-- **Class 6 — Wednesday and Thursday:** introduce the concept and plan on Wednesday; build, test, and record results on Thursday.
-- **Class 7 — Friday and Saturday:** introduce the concept and plan on Friday; build, test, and record results on Saturday.
-- **Class 8 — Monday, Tuesday, and Wednesday:** understand the concept and plan on Monday; build and test on Tuesday; improve and demonstrate on Wednesday.
-- **Class 9 — Thursday, Friday, and Saturday:** understand the concept and plan on Thursday; build and test on Friday; improve and demonstrate on Saturday.
+
+- **Class 5 — Monday, Tuesday, Wednesday:** understand and plan the project; build and test; improve and demonstrate.
+- **Class 6 — Wednesday, Thursday, Friday:** understand and plan the project; build and test; improve and demonstrate.
+- **Class 7 — Friday and Saturday:** introduce and build; continue, test, and record results.
+- **Class 8 — Monday and Tuesday:** introduce and plan; build, test, and record results.
+- **Class 9 — Thursday and Saturday:** introduce and plan on Thursday; continue, test, and record on Saturday. If continuity across consecutive days is important, these two sessions can instead be moved to Thursday and Friday, but that would require moving another class pair.
 
 ## Suggested session workflow
-1. Introduce a challenge and learning goal.
+
+1. Introduce the challenge and learning goal.
 2. Explain the concept and demonstrate safe component use.
 3. Students build or continue the project.
 4. Test, troubleshoot, and explain the result.
 5. Record progress and the next step; reset components for the next batch.
 
-Use the same practical for C and D on the same day, keeping both batches at a similar project stage.
-
 ## School bell timetable reference
 
 ### Monday–Friday
+
 | Activity | Time |
 |---|---|
 | First bell | 7:10 AM |
@@ -79,6 +75,7 @@ Use the same practical for C and D on the same day, keeping both batches at a si
 | Period 8 | 11:55 AM–12:25 PM |
 
 ### Saturday
+
 | Activity | Time |
 |---|---|
 | First bell | 7:10 AM |
@@ -96,5 +93,6 @@ Use the same practical for C and D on the same day, keeping both batches at a si
 | Period 7 | 11:30 AM–12:00 PM |
 | Period 8 | 12:00–12:30 PM |
 
-## Planning note
-This plan combines consecutive school periods into one ATL practical session, with variable durations based on the bell times. Confirm that students can remain in the ATL across the paired periods and that class transitions happen during the listed breaks.
+## Scheduling note
+
+Session durations follow the school's paired-period timings, and school breaks remain unchanged. Confirm that the ATL class can stay together across both periods in each session.
