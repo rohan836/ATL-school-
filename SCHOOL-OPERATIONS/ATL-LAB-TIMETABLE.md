@@ -1,48 +1,48 @@
 # ATL Lab Weekly Timetable
 
-## How to read this timetable
+## How to read the table
 
-- **5C** means Class 5, Batch C. **5D** means Class 5, Batch D. The same format applies to Classes 6–9.
-- Each session combines two school periods into one ATL practical.
-- The session length follows the school's timetable. Depending on the day and slot, a session is **60, 65, 70, or 75 minutes**.
-- C and D batches have separate sessions so the teacher can repeat the same practical for the other batch.
+- **Class 5C** means Class 5, Batch C; **Class 5D** means Class 5, Batch D. The same applies to Classes 6–9.
+- Every class's C and D batches are scheduled in the two time slots reserved for that class on that day. The same practical can be repeated for both batches.
+- Each ATL session combines two consecutive school periods. The real session length is determined by the bell schedule, so it may be 60, 65, 70, or 75 minutes.
+- School breaks remain breaks and are not included in the session times.
 
 ## Main weekly timetable
 
 | Day | Session 1 | Session 2 | Session 3 | Session 4 |
 |---|---|---|---|---|
-| **Monday** | **Class 5C**<br>7:20–8:35 AM<br>75 min | **Class 5D**<br>8:45–9:55 AM<br>70 min | **Class 8C**<br>10:05–11:15 AM<br>70 min | **Class 8D**<br>11:20 AM–12:25 PM<br>65 min |
-| **Tuesday** | **Class 5C**<br>7:20–8:35 AM<br>75 min | **Class 5D**<br>8:45–9:55 AM<br>70 min | **Class 8C**<br>10:05–11:15 AM<br>70 min | **Class 8D**<br>11:20 AM–12:25 PM<br>65 min |
-| **Wednesday** | **Class 5C**<br>7:20–8:35 AM<br>75 min | **Class 5D**<br>8:45–9:55 AM<br>70 min | **Class 6C**<br>10:05–11:15 AM<br>70 min | **Class 6D**<br>11:20 AM–12:25 PM<br>65 min |
-| **Thursday** | **Class 6C**<br>7:20–8:35 AM<br>75 min | **Class 6D**<br>8:45–9:55 AM<br>70 min | **Class 9C**<br>10:05–11:15 AM<br>70 min | **Class 9D**<br>11:20 AM–12:25 PM<br>65 min |
-| **Friday** | **Class 6C**<br>7:20–8:35 AM<br>75 min | **Class 6D**<br>8:45–9:55 AM<br>70 min | **Class 7C**<br>10:05–11:15 AM<br>70 min | **Class 7D**<br>11:20 AM–12:25 PM<br>65 min |
-| **Saturday** | **Class 7C**<br>7:30–8:45 AM<br>75 min | **Class 7D**<br>9:00–10:10 AM<br>70 min | **Class 9C**<br>10:20–11:25 AM<br>65 min | **Class 9D**<br>11:30 AM–12:30 PM<br>60 min |
+| **Monday** | **Class 5C**<br>7:20–8:35 AM<br>75 min | **Class 5D**<br>8:45–9:55 AM<br>70 min | **Class 7C**<br>10:05–11:15 AM<br>70 min | **Class 7D**<br>11:20 AM–12:25 PM<br>65 min |
+| **Tuesday** | **Class 5C**<br>7:20–8:35 AM<br>75 min | **Class 5D**<br>8:45–9:55 AM<br>70 min | **Class 7C**<br>10:05–11:15 AM<br>70 min | **Class 7D**<br>11:20 AM–12:25 PM<br>65 min |
+| **Wednesday** | **Class 5C**<br>7:20–8:35 AM<br>75 min | **Class 5D**<br>8:45–9:55 AM<br>70 min | **Class 8C**<br>10:05–11:15 AM<br>70 min | **Class 8D**<br>11:20 AM–12:25 PM<br>65 min |
+| **Thursday** | **Class 6C**<br>7:20–8:35 AM<br>75 min | **Class 6D**<br>8:45–9:55 AM<br>70 min | **Class 8C**<br>10:05–11:15 AM<br>70 min | **Class 8D**<br>11:20 AM–12:25 PM<br>65 min |
+| **Friday** | **Class 6C**<br>7:20–8:35 AM<br>75 min | **Class 6D**<br>8:45–9:55 AM<br>70 min | **Class 9C**<br>10:05–11:15 AM<br>70 min | **Class 9D**<br>11:20 AM–12:25 PM<br>65 min |
+| **Saturday** | **Class 6C**<br>7:30–8:45 AM<br>75 min | **Class 6D**<br>9:00–10:10 AM<br>70 min | **Class 9C**<br>10:20–11:25 AM<br>65 min | **Class 9D**<br>11:30 AM–12:30 PM<br>60 min |
 
-## How often does each class attend?
+## Class days and weekly frequency
 
-| Class | Days | Sessions per batch each week |
+| Class | Scheduled days | Sessions per batch each week |
 |---|---|---:|
 | **Class 5** | Monday, Tuesday, Wednesday | 3 |
-| **Class 6** | Wednesday, Thursday, Friday | 3 |
-| **Class 7** | Friday, Saturday | 2 |
-| **Class 8** | Monday, Tuesday | 2 |
-| **Class 9** | Thursday, Saturday | 2 |
+| **Class 6** | Thursday, Friday, Saturday | 3 |
+| **Class 7** | Monday, Tuesday | 2 |
+| **Class 8** | Wednesday, Thursday | 2 |
+| **Class 9** | Friday, Saturday | 2 |
 
-**Weekly total:** 24 ATL sessions — 4 sessions a day for 6 days.
+**All classes attend on consecutive days.** Classes 5 and 6 have three consecutive sessions; Classes 7, 8, and 9 have two consecutive sessions. Each day has four sessions, giving 24 ATL sessions in total each week.
 
-## Simple project plan
+## Project plan
 
-| Class | Use each session for |
+| Class | Simple project sequence |
 |---|---|
-| **Class 5** | Session 1: learn and plan; Session 2: build and test; Session 3: improve and show the project. |
-| **Class 6** | Session 1: learn and plan; Session 2: build and test; Session 3: improve and show the project. |
-| **Class 7** | Session 1: learn and start building; Session 2: continue, test, and record results. |
-| **Class 8** | Session 1: learn and plan; Session 2: build, test, and record results. |
-| **Class 9** | Session 1: learn and plan; Session 2: continue, test, and record results. |
+| **Class 5** | Monday: learn the concept and plan. Tuesday: build and test. Wednesday: improve and demonstrate. |
+| **Class 6** | Thursday: learn the concept and plan. Friday: build and test. Saturday: improve and demonstrate. |
+| **Class 7** | Monday: learn the concept and start building. Tuesday: continue, test, and record results. |
+| **Class 8** | Wednesday: learn the concept and plan. Thursday: build, test, and record results. |
+| **Class 9** | Friday: learn the concept and plan. Saturday: continue, test, and record results. |
 
-Use the same practical for Batch C and Batch D. Record where each batch stops so students can continue the project in their next session.
+Use the same practical for Batch C and Batch D on the same day. Record each batch's progress so students can continue from where they stopped.
 
-> **Time note:** Breaks are not part of any ATL session. Session lengths vary because the school periods are different lengths. The current fixed slots mean Batch C and Batch D may receive slightly different total minutes over the week.
+> **Duration note:** Session lengths follow the school's actual period timings. Because each class stays in the same pair of daily slots during its assigned days, Batch C and Batch D may get slightly different total minutes per week, even though they receive the same number of sessions.
 
 <details>
 <summary><strong>Show school bell times</strong></summary>
