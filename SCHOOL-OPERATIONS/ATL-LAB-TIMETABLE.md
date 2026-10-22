@@ -28,15 +28,20 @@ School breaks remain breaks and are not included in the session duration.
 
 ## Weekly session counts and duration
 
-| Class | Days | Sessions per batch per week | Weekly minutes per batch |
+| Class / batch | Days | Sessions per week | Weekly minutes |
 |---|---|---:|---:|
-| Class 5 | Monday, Tuesday | 2 | 145 min (2 h 25 min) |
-| Class 6 | Wednesday, Thursday | 2 | 145 min (2 h 25 min) |
-| Class 7 | Friday, Saturday | 2 | 145 min (2 h 25 min) |
-| Class 8 | Monday, Tuesday, Wednesday | 3 | 205 min (3 h 25 min) |
-| Class 9 | Thursday, Friday, Saturday | 3 | 205 min (3 h 25 min) |
+| Class 5C | Monday, Tuesday | 2 | 150 min (2 h 30 min) |
+| Class 5D | Monday, Tuesday | 2 | 140 min (2 h 20 min) |
+| Class 6C | Wednesday, Thursday | 2 | 150 min (2 h 30 min) |
+| Class 6D | Wednesday, Thursday | 2 | 140 min (2 h 20 min) |
+| Class 7C | Friday, Saturday | 2 | 150 min (2 h 30 min) |
+| Class 7D | Friday, Saturday | 2 | 140 min (2 h 20 min) |
+| Class 8C | Monday, Tuesday, Wednesday | 3 | 210 min (3 h 30 min) |
+| Class 8D | Monday, Tuesday, Wednesday | 3 | 195 min (3 h 15 min) |
+| Class 9C | Thursday, Friday, Saturday | 3 | 205 min (3 h 25 min) |
+| Class 9D | Thursday, Friday, Saturday | 3 | 190 min (3 h 10 min) |
 
-These weekly totals are based on the actual slot assignments: Classes 5 and 6 use 75- and 70-minute weekday slots; Class 7 uses a 75-minute Friday slot and a 75-minute Saturday slot; Class 8 uses 70-, 70-, and 65-minute slots; Class 9 uses 70-, 65-, and 65-minute slots. See the daily timetable for exact times.
+Because paired school periods have different lengths, C and D do not receive identical total minutes in this draft, although each batch receives the same number of sessions. If equal minutes per batch are required, the slot assignments must be rotated between C and D across their scheduled days.
 
 ## Project continuity
 - **Class 5 — Monday and Tuesday:** introduce the concept and plan on Monday; build, test, and record results on Tuesday.
