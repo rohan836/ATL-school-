@@ -8,12 +8,12 @@ Every ATL session is exactly **60 minutes**. The slots are adjusted to fit aroun
 
 | Day | Class 1 | Break 1 | Class 2 | Break 2 | Class 3 | Break 3 | Class 4 |
 |---|---|---|---|---|---|---|---|
-| **Monday** | **Class 5C**<br>7:20–8:20 AM<br>60 min | **BREAK**<br>8:35–8:45 AM | **Class 5D**<br>8:45–9:45 AM<br>60 min | **BREAK**<br>9:55–10:05 AM | **Class 7C**<br>10:05–11:05 AM<br>60 min | **BREAK**<br>11:15–11:20 AM | **Class 7D**<br>11:20 AM–12:20 PM<br>60 min |
-| **Tuesday** | **Class 5C**<br>7:20–8:20 AM<br>60 min | **BREAK**<br>8:35–8:45 AM | **Class 5D**<br>8:45–9:45 AM<br>60 min | **BREAK**<br>9:55–10:05 AM | **Class 7C**<br>10:05–11:05 AM<br>60 min | **BREAK**<br>11:15–11:20 AM | **Class 7D**<br>11:20 AM–12:20 PM<br>60 min |
-| **Wednesday** | **Class 5C**<br>7:20–8:20 AM<br>60 min | **BREAK**<br>8:35–8:45 AM | **Class 5D**<br>8:45–9:45 AM<br>60 min | **BREAK**<br>9:55–10:05 AM | **Class 8C**<br>10:05–11:05 AM<br>60 min | **BREAK**<br>11:15–11:20 AM | **Class 8D**<br>11:20 AM–12:20 PM<br>60 min |
-| **Thursday** | **Class 6C**<br>7:20–8:20 AM<br>60 min | **BREAK**<br>8:35–8:45 AM | **Class 6D**<br>8:45–9:45 AM<br>60 min | **BREAK**<br>9:55–10:05 AM | **Class 8C**<br>10:05–11:05 AM<br>60 min | **BREAK**<br>11:15–11:20 AM | **Class 8D**<br>11:20 AM–12:20 PM<br>60 min |
-| **Friday** | **Class 6C**<br>7:20–8:20 AM<br>60 min | **BREAK**<br>8:35–8:45 AM | **Class 6D**<br>8:45–9:45 AM<br>60 min | **BREAK**<br>9:55–10:05 AM | **Class 9C**<br>10:05–11:05 AM<br>60 min | **BREAK**<br>11:15–11:20 AM | **Class 9D**<br>11:20 AM–12:20 PM<br>60 min |
-| **Saturday** | **Class 6C**<br>7:30–8:30 AM<br>60 min | **BREAK**<br>8:45–9:00 AM | **Class 6D**<br>9:00–10:00 AM<br>60 min | **BREAK**<br>10:10–10:20 AM | **Class 9C**<br>10:20–11:20 AM<br>60 min | **BREAK**<br>11:25–11:30 AM | **Class 9D**<br>11:30 AM–12:30 PM<br>60 min |
+| **Monday** | **Class 5C**<br>7:20–8:20 AM<br>60 min | **BREAK 1**<br>8:35–8:45 AM<br>10 min | **Class 5D**<br>8:45–9:45 AM<br>60 min | **BREAK 2**<br>9:55–10:05 AM<br>10 min | **Class 7C**<br>10:05–11:05 AM<br>60 min | **BREAK 3**<br>11:15–11:20 AM<br>5 min | **Class 7D**<br>11:20 AM–12:20 PM<br>60 min |
+| **Tuesday** | **Class 5C**<br>7:20–8:20 AM<br>60 min | **BREAK 1**<br>8:35–8:45 AM<br>10 min | **Class 5D**<br>8:45–9:45 AM<br>60 min | **BREAK 2**<br>9:55–10:05 AM<br>10 min | **Class 7C**<br>10:05–11:05 AM<br>60 min | **BREAK 3**<br>11:15–11:20 AM<br>5 min | **Class 7D**<br>11:20 AM–12:20 PM<br>60 min |
+| **Wednesday** | **Class 5C**<br>7:20–8:20 AM<br>60 min | **BREAK 1**<br>8:35–8:45 AM<br>10 min | **Class 5D**<br>8:45–9:45 AM<br>60 min | **BREAK 2**<br>9:55–10:05 AM<br>10 min | **Class 8C**<br>10:05–11:05 AM<br>60 min | **BREAK 3**<br>11:15–11:20 AM<br>5 min | **Class 8D**<br>11:20 AM–12:20 PM<br>60 min |
+| **Thursday** | **Class 6C**<br>7:20–8:20 AM<br>60 min | **BREAK 1**<br>8:35–8:45 AM<br>10 min | **Class 6D**<br>8:45–9:45 AM<br>60 min | **BREAK 2**<br>9:55–10:05 AM<br>10 min | **Class 8C**<br>10:05–11:05 AM<br>60 min | **BREAK 3**<br>11:15–11:20 AM<br>5 min | **Class 8D**<br>11:20 AM–12:20 PM<br>60 min |
+| **Friday** | **Class 6C**<br>7:20–8:20 AM<br>60 min | **BREAK 1**<br>8:35–8:45 AM<br>10 min | **Class 6D**<br>8:45–9:45 AM<br>60 min | **BREAK 2**<br>9:55–10:05 AM<br>10 min | **Class 9C**<br>10:05–11:05 AM<br>60 min | **BREAK 3**<br>11:15–11:20 AM<br>5 min | **Class 9D**<br>11:20 AM–12:20 PM<br>60 min |
+| **Saturday** | **Class 6C**<br>7:30–8:30 AM<br>60 min | **BREAK 1**<br>8:45–9:00 AM<br>15 min | **Class 6D**<br>9:00–10:00 AM<br>60 min | **BREAK 2**<br>10:10–10:20 AM<br>10 min | **Class 9C**<br>10:20–11:20 AM<br>60 min | **BREAK 3**<br>11:25–11:30 AM<br>5 min | **Class 9D**<br>11:30 AM–12:30 PM<br>60 min |
 
 ## Class days and weekly frequency
 
@@ -53,13 +53,13 @@ Every ATL session is exactly **60 minutes**. The slots are adjusted to fit aroun
 | Prayer | 7:15 AM |
 | Period 1 | 7:20–8:00 AM |
 | Period 2 | 8:00–8:35 AM |
-| **Break 1** | **8:35–8:45 AM** |
+| **Break 1 (10 min)** | **8:35–8:45 AM** |
 | Period 3 | 8:45–9:20 AM |
 | Period 4 | 9:20–9:55 AM |
-| **Break 2** | **9:55–10:05 AM** |
+| **Break 2 (10 min)** | **9:55–10:05 AM** |
 | Period 5 | 10:05–10:40 AM |
 | Period 6 | 10:40–11:15 AM |
-| **Break 3** | **11:15–11:20 AM** |
+| **Break 3 (5 min)** | **11:15–11:20 AM** |
 | Period 7 | 11:20–11:55 AM |
 | Period 8 | 11:55 AM–12:25 PM |
 
@@ -72,13 +72,13 @@ Every ATL session is exactly **60 minutes**. The slots are adjusted to fit aroun
 | Assembly | 7:10–7:20 AM |
 | Period 1 | 7:30–8:10 AM |
 | Period 2 | 8:10–8:45 AM |
-| **Break 1** | **8:45–9:00 AM** |
+| **Break 1 (15 min)** | **8:45–9:00 AM** |
 | Period 3 | 9:00–9:35 AM |
 | Period 4 | 9:35–10:10 AM |
-| **Break 2** | **10:10–10:20 AM** |
+| **Break 2 (10 min)** | **10:10–10:20 AM** |
 | Period 5 | 10:20–10:55 AM |
 | Period 6 | 10:55–11:25 AM |
-| **Break 3** | **11:25–11:30 AM** |
+| **Break 3 (5 min)** | **11:25–11:30 AM** |
 | Period 7 | 11:30 AM–12:00 PM |
 | Period 8 | 12:00–12:30 PM |
 
