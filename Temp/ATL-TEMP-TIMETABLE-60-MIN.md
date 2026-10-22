@@ -43,6 +43,47 @@ Every ATL session is exactly **60 minutes**. The slots are adjusted to fit aroun
 | Class 3 | 10:20–11:20 AM | 60 minutes |
 | Class 4 | 11:30 AM–12:30 PM | 60 minutes |
 
+## School bell schedule, periods, and breaks
+
+### Monday–Friday
+
+| School activity | Time |
+|---|---|
+| First bell | 7:10 AM |
+| Prayer | 7:15 AM |
+| Period 1 | 7:20–8:00 AM |
+| Period 2 | 8:00–8:35 AM |
+| **Break 1** | **8:35–8:45 AM** |
+| Period 3 | 8:45–9:20 AM |
+| Period 4 | 9:20–9:55 AM |
+| **Break 2** | **9:55–10:05 AM** |
+| Period 5 | 10:05–10:40 AM |
+| Period 6 | 10:40–11:15 AM |
+| **Break 3** | **11:15–11:20 AM** |
+| Period 7 | 11:20–11:55 AM |
+| Period 8 | 11:55 AM–12:25 PM |
+
+### Saturday
+
+| School activity | Time |
+|---|---|
+| First bell | 7:10 AM |
+| Prayer | 7:10 AM |
+| Assembly | 7:10–7:20 AM |
+| Period 1 | 7:30–8:10 AM |
+| Period 2 | 8:10–8:45 AM |
+| **Break 1** | **8:45–9:00 AM** |
+| Period 3 | 9:00–9:35 AM |
+| Period 4 | 9:35–10:10 AM |
+| **Break 2** | **10:10–10:20 AM** |
+| Period 5 | 10:20–10:55 AM |
+| Period 6 | 10:55–11:25 AM |
+| **Break 3** | **11:25–11:30 AM** |
+| Period 7 | 11:30 AM–12:00 PM |
+| Period 8 | 12:00–12:30 PM |
+
+**Break rule:** No 60-minute ATL session overlaps a scheduled school break. The ATL session times are listed separately from the school bell schedule so each is easy to check.
+
 ## Notes
 
 - This temporary version preserves the old class-day pattern and weekly frequency.
