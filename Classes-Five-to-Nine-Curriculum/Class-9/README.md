@@ -1,7 +1,10 @@
 # Class 9
 
-Class-wise ATL planning and timetable files for Class 9.
+ATL curriculum, timetable, lesson plans, and project planning for Class 9.
 
-Sections: [C](C/README.md) · [D](D/README.md)
+## Sections
 
-Reference: [Temporary 60-minute timetable](../../../Temp/ATL-TEMP-TIMETABLE-60-MIN.md).
+- [Class 9 C](Class-9-C/README.md)
+- [Class 9 D](Class-9-D/README.md)
+
+Reference: [Temporary 60-minute ATL timetable](../../../Temp/ATL-TEMP-TIMETABLE-60-MIN.md).
