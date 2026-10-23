@@ -90,5 +90,6 @@ The school bell schedule below gives the timing and duration of each period and 
 
 - This temporary version preserves the old class-day pattern and weekly frequency.
 - School breaks remain outside the scheduled session times.
+- Each 60-minute session begins with the school slot and ends 5–15 minutes before the next break; the remaining minutes are a short transition buffer, not an unscheduled class.
 - Each day contains four ATL sessions, for **24 sessions per week** across the timetable.
 - The regular timetable has not been replaced or edited.
