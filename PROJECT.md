@@ -1,147 +1,73 @@
-# ATL School — Project Control and Context
+# PROJECT.md — Teacher's ATL Work Database
 
-This file is the central project brief and navigation map for the ATL School repository. It explains what the project is, how its information is organized, which files are authoritative, and how the repository holder expects changes to be managed.
+## Purpose
 
-For agent behavior, permission gates, and safe execution rules, read [AGENTS.md](AGENTS.md). The two files are intentionally separate:
-- **AGENTS.md:** how an agent must behave and what it must ask before changing.
-- **PROJECT.md:** what this project is, how its information connects, and where to find or maintain each part.
+This repository is a personal knowledge base and work-management space for a teacher working with the school's Atal Tinkering Lab (ATL) programme. It helps organize teaching across Classes 5–9 and manage related plans, timetables, lab references, project ideas, and workflows.
 
-## 1. Project identity
+**This is a teaching and work-management database, not a software development project.** Some documents contain electronics or project references because those are part of the teaching work. They do not define how the entire repository should be controlled.
 
-This repository supports the Atal Tinkering Lab (ATL) teaching programme at the school. The teaching work includes AI, electronics, robotics, and project-based learning for Classes 5–9.
+Read [AGENTS.md](AGENTS.md) for the rules an AI assistant must follow when reading or changing this database.
 
-### Teaching team and responsibilities
+## What this database supports
 
-- **Rohan and his brother:** teach AI.
-- **Rushi:** teaches electronics through projects.
-- The team works together within the ATL programme and lab context.
+- **Class and section organization:** a place to navigate information for Classes 5, 6, 7, 8, and 9, with sections C and D.
+- **Teaching and lesson planning:** class-related information and teaching material as it is added.
+- **Timetable management:** separate locations for the main timetable and a temporary 60-minute version.
+- **Lab references:** equipment and component reference documents.
+- **Project planning:** a collection of project ideas to support practical, project-based teaching.
+- **Workload and workflow management:** a structured place to find and maintain the records used to plan and manage teaching-related work.
 
-These role notes describe the teaching context. They do not define or approve a timetable, workload, or class allocation. Use the current timetable files for scheduled assignments.
+Only information that actually exists in the repository should be treated as a record. Do not assume a class plan, lesson log, task tracker, or inventory exists just because it is listed as a possible use.
 
-### Project goals
+## How to navigate the repository
 
-Use this repository to keep teaching and lab information organized and connected, including:
-- class and section curriculum context;
-- approved and temporary timetables;
-- project concepts and project work;
-- lab equipment and component references;
-- teaching notes and records as they are added with repository-holder approval.
+Start here, then open the source document that matches the task. Use [AGENTS.md](AGENTS.md) for change permissions and repository-handling rules.
 
-The repository should let a teacher or a coding agent understand the ATL project by reading this file first and then following its links to relevant source documents.
-
-## 2. Operating model: one source of truth
-
-Keep each authoritative fact in one clear place. Other files should link to it rather than copy it.
-
-| Information | Authoritative location | Interpretation |
+| Need | Main location | How to interpret it |
 |---|---|---|
-| Repository-wide agent rules and approval requirements | [AGENTS.md](AGENTS.md) | Mandatory behavior for agents |
-| Project identity, structure, and source map | This file | Central orientation and control map |
-| Classes 5–9 and section folder index | [Curriculum index](CURRICULUM/CLASSES/README.md) | Navigation to class/section areas |
-| Main timetable | [Main timetable Markdown](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md) | Main schedule source |
-| Main timetable presentation | [Main timetable HTML](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.html) | HTML counterpart; check consistency before approved edits |
-| Temporary 60-minute timetable | [Temporary timetable Markdown](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.md) | Separate temporary/proposed schedule; not the main schedule |
-| Temporary timetable presentation | [Temporary timetable HTML](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.html) | HTML counterpart of temporary schedule |
-| Original ATL equipment list | [Equipment list](LAB/REFERENCE/ATL_Equipment_List_90_students.md) | Source catalogue/list, not verified stock |
-| Arduino component reference | [Arduino catalogue](LAB/REFERENCE/ARDUINO-COMPONENTS.md) | Reference information, not verified stock |
-| ESP module reference | [ESP catalogue](LAB/REFERENCE/ESP-MODULES.md) | Reference information, not verified stock |
-| Component-linked project suggestions | [Project ideas](PROJECTS/IDEAS/ATL_COMPONENT_PROJECT_IDEAS.md) | Ideas only; check availability and suitability |
+| Navigate all classes and sections | [Class index](CURRICULUM/CLASSES/README.md) | Index for the current class folders |
+| Open a class or section | `CURRICULUM/CLASSES/Class-<number>/` | Class folders cover Classes 5–9; section folders use full names such as `Class-5-C` and `Class-5-D` |
+| Check the main timetable | [Main timetable (Markdown)](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md) | Main timetable source |
+| View the main timetable | [Main timetable (HTML)](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.html) | Presentation counterpart; check it against Markdown when relevant |
+| Check the temporary 60-minute timetable | [Temporary timetable (Markdown)](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.md) | Separate temporary schedule, not the main timetable |
+| View the temporary timetable | [Temporary timetable (HTML)](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.html) | Presentation counterpart of the temporary schedule |
+| Find the supplied ATL equipment list | [Equipment list](LAB/REFERENCE/ATL_Equipment_List_90_students.md) | Reference list, not proof that every item is currently available |
+| Find Arduino component references | [Arduino components](LAB/REFERENCE/ARDUINO-COMPONENTS.md) | Component reference for teaching and planning |
+| Find ESP module references | [ESP modules](LAB/REFERENCE/ESP-MODULES.md) | Module reference for teaching and planning |
+| Browse component-linked project ideas | [ATL component project ideas](PROJECTS/IDEAS/ATL_COMPONENT_PROJECT_IDEAS.md) | Suggestions, not a record of completed projects |
 
-**Important distinction:** a suggested component quantity, catalogue entry, or project idea does not establish that the school owns the item, that it is currently available, or that a project has been built and tested.
+Use the live repository to confirm that a path still exists before relying on it. The table is a navigation guide, not permission to create missing files.
 
-## 3. Repository map
+## Information rules
 
-```text
-ATL-school-/
-├── AGENTS.md                         # Agent rules, safety, and approval gates
-├── PROJECT.md                        # This project control/context document
-├── CURRICULUM/
-│   └── CLASSES/
-│       ├── README.md                 # Class 5–9 navigation index
-│       ├── Class-5/
-│       │   ├── README.md
-│       │   ├── Class-5-C/README.md
-│       │   └── Class-5-D/README.md
-│       ├── Class-6/                  # Same class + C/D pattern
-│       ├── Class-7/
-│       ├── Class-8/
-│       └── Class-9/
-├── SCHOOL-OPERATIONS/
-│   └── TIMETABLES/
-│       ├── MAIN/                     # Main schedule, Markdown + HTML
-│       └── TEMPORARY/                # Temporary 60-minute schedule, Markdown + HTML
-├── LAB/
-│   └── REFERENCE/                    # Original list and component catalogues
-└── PROJECTS/
-    └── IDEAS/                        # Existing component/project ideas reference
-```
+### Timetables
+Treat the main and temporary timetables as separate records. Do not merge them or assume the temporary version is approved or current. When a timetable task does not identify which version to use, ask. When an approved change affects both Markdown and HTML, check that the two versions remain consistent.
 
-The map is an orientation guide. Confirm the live repository tree before assuming that a listed file exists or that a path has not changed.
+### Classes and teaching material
+Use the class and section folders that already exist. Keep section names explicit. Do not invent lesson coverage, class allocations, or teaching records. Add new records only after following the confirmation requirement in [AGENTS.md](AGENTS.md).
 
-## 4. Class and section conventions
+### Lab references and project ideas
+A reference list does not confirm physical stock, and an idea does not confirm approval, assignment, completion, or testing. Keep facts, proposals, and unknowns clearly distinguished.
 
-- The programme currently covers Classes 5, 6, 7, 8, and 9.
-- Each class has section C and section D.
-- Use full section names in folder paths: `Class-5-C`, `Class-5-D`, and corresponding names for other classes.
-- The class-level README links to its section folders.
-- The curriculum index links to all classes and sections.
-- Do not create lesson content, curriculum scope, or student records without a direct request and appropriate approval.
+### Workload and workflows
+Use existing records as the basis for workload or workflow answers. Do not infer that a task was completed, a responsibility was assigned, or a schedule was agreed unless a repository record supports it.
 
-## 5. Timetable interpretation
+### Privacy
+The repository is public. Keep student-identifiable details, confidential performance records, credentials, and private staff information out of it.
 
-- The MAIN timetable folder holds the main timetable files.
-- The TEMPORARY folder holds the separate 60-minute timetable files.
-- Temporary does not mean approved or current as the main schedule.
-- Do not merge, replace, or silently modify these schedules.
-- If a timetable edit is requested, identify which schedule is in scope. If unclear, ask.
-- When an approved edit changes schedule content, check both Markdown and HTML counterparts and update them together only when the holder authorizes the change.
+## How an assistant should use this database
 
-## 6. Lab and project interpretation
+1. Read [AGENTS.md](AGENTS.md), then this file.
+2. Identify the user's actual goal: find information, explain it, plan work, or update a record.
+3. Follow the table above to the relevant source and read it before answering.
+4. Avoid duplicate records. Keep the original source identifiable.
+5. Follow the confirmation rules before adding, deleting, removing, renaming, moving, or making broad changes.
+6. Check relevant values and connected records before reporting the result.
 
-### Lab reference
+## Maintenance of this guide
 
-The LAB/REFERENCE documents contain equipment and component reference information. They do not yet represent a verified physical inventory unless a document explicitly records a physical count and its date.
+Update this file only when the database's purpose, directory layout, or authoritative source locations change. Keep detailed class notes, timetable values, component information, and project descriptions in their relevant source files rather than copying them here.
 
-Do not state that an item is available, reserved, or in stock based only on its presence in a reference catalogue.
+## Current boundaries
 
-### Project ideas
-
-The existing component-project guide is an idea source. It does not mean that any listed project is approved, assigned to a class, active, completed, or tested.
-
-A project-specific record or workflow may be added only after the repository holder requests or approves it.
-
-## 7. How to work with this repository
-
-For any human, coding agent, or other AI system:
-
-1. Start with AGENTS.md and this PROJECT.md.
-2. Identify the requested outcome and scope.
-3. Follow the source-of-truth table to the relevant file(s).
-4. Read the source content; do not guess from file names or old conversation notes.
-5. If a request could involve adding, deleting, removing content, renaming, moving, or a broad structural edit, follow the confirmation gates in AGENTS.md.
-6. Make authorized changes only. Keep connected records aligned and avoid duplicate facts.
-7. Verify affected paths, links, values, and consistency.
-8. Report the change, verification, and anything that remains unconfirmed.
-
-## 8. Project context maintenance
-
-Update this file when an approved change alters:
-- project purpose or teaching team responsibilities;
-- the repository's directory structure;
-- authoritative source locations;
-- how timetables or lab references must be interpreted;
-- repository-wide workflows or constraints.
-
-Do not add every lesson note, component detail, or project description here. Store those in their approved subject location and link them from this map.
-
-## 9. Current limitations and known boundaries
-
-- There is a source equipment list and component reference material, but no claim here that these are verified current stock records.
-- The main and temporary timetables are distinct sources.
-- The project idea guide is not a project status tracker.
-- This repository is public. Keep credentials, student-identifiable records, sensitive student performance details, and private staff information out of it.
-- A coding agent can use repository documents as context, but no Markdown file can guarantee that every model or agent platform reads every file automatically. The agent must support its instruction format and be started with this repository as its workspace.
-
-## 10. Context change log
-
-- **2026-10-23:** Revised the project context to define the ATL teaching team, project scope, source-of-truth register, repository navigation, timetable boundaries, and agent handoff process. Revised AGENTS.md to define explicit approval gates and safe repository operations.
+The repository currently contains class/section navigation, main and temporary timetable files, lab reference documents, and a project-ideas document. These files support the teacher's work, but they do not by themselves provide a complete lesson log, verified live inventory, or general task tracker.
