@@ -4,7 +4,7 @@
 
 This repository is a personal knowledge base and work-management space for a teacher working with the school's Atal Tinkering Lab (ATL) programme. It helps organize teaching across Classes 5–9 and manage related plans, timetables, lab references, project ideas, and workflows.
 
-**This is a teaching and work-management database, not a software development project.** Some documents contain electronics or project references because those are part of the teaching work. They do not define how the entire repository should be controlled.
+**This is a teaching and work-management database, not a software development project.**
 
 Read [AGENTS.md](AGENTS.md) for the rules an AI assistant must follow when reading or changing this database.
 

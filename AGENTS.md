@@ -1,6 +1,6 @@
 # AGENTS.md — Repository Control Rules
 
-This repository is a teacher's personal database for teaching, school operations, and workload management. It is not a software product or a coding project. These rules control how an AI assistant works with the repository.
+This repository is a teacher's personal database for teaching, school operations, and workload management. These rules control how an AI assistant works with the repository.
 
 ## Before starting
 1. Read this file.
@@ -34,4 +34,4 @@ Before finishing, check the edited content, affected links, dates, durations, ca
 - **AGENTS.md:** rules for how an assistant handles this repository.
 - **PROJECT.md:** the purpose of the teacher's database, its organization, and where information belongs.
 
-Keep these rules focused on repository control. Do not put subject-specific hardware, electronics, Arduino, or coding instructions here.
+Keep this file limited to repository permissions, editing standards, verification, and reporting.
