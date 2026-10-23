@@ -1,24 +1,36 @@
-# Class 7 — AI Curriculum
+# Class 7 — Electronics and Robotics Curriculum
 
-What Class 7 learns in the AI programme, in teaching order. No dates, no weeks.
+**Course focus:** Combine sensors, motors, mechanisms, and control sequences to create a basic robotic system.
 
-1. **What AI is** — learned patterns versus written rules, with real examples.
-2. **Data, pattern, prediction** — where the data ends and the prediction begins.
-3. **Features and labels** — choosing useful features and correct labels.
-4. **Classification and generation** — two different jobs, two different risks.
-5. **Building a dataset** — balance, variety, and clean labels.
-6. **Training a model** — from examples to a working classifier.
-7. **Testing and accuracy** — measuring on unseen examples, not on training data.
-8. **Data quality and bias** — how a dataset decides who the model fails.
-9. **Train and test data** — why memorising looks like learning.
-10. **The model card** — recording accuracy, failures, and limits.
-11. **Sensors** — reading live light, distance, and colour values.
-12. **Decision rules** — thresholds, and when a rule beats a model.
-13. **Actuators** — servos and relays, powered safely.
-14. **Model and hardware** — a classifier that drives a real output.
-15. **Build: colour-sorting station** — colour sensor, servo, and a sorting chute.
-16. **Test and demonstrate** — measure accuracy and state the failure cases.
+## Learning sequence
 
-## What you will build
+| Unit | Concept | Practical activity or build |
+|---|---|---|
+| 1 | Circuit and controller review | Build a sensor-controlled LED |
+| 2 | Digital and analog signals | Compare button and sensor readings |
+| 3 | Sensor calibration | Record distance readings at known positions |
+| 4 | Thresholds and conditions | Create a proximity-triggered alert |
+| 5 | RGB LED | Build a multi-colour status indicator |
+| 6 | Colour sensor basics | Explore how a sensor detects object colour |
+| 7 | Actuators | Compare servo and DC motor behavior |
+| 8 | Motor driver | Control a DC motor using a suitable driver |
+| 9 | Mechanical design | Sketch a simple sorting mechanism |
+| 10 | Timing and sequence | Create a timed motor/servo sequence |
+| 11 | Multiple inputs | Combine a sensor with a button or second sensor |
+| 12 | Reliability testing | Test with different objects and conditions |
+| 13 | Project design | Plan a colour-sorting station |
+| 14 | Build | Assemble sensor, mechanism, and control |
+| 15 | Debug and improve | Improve sorting repeatability |
+| 16 | Demonstrate | Explain sensor, control sequence, and mechanism |
 
-A station that reads an object's colour and sends it down the correct path, with its accuracy measured.
+## Capstone
+
+**Colour-sorting station.** A colour sensor reads an object and a servo or motorized mechanism moves it into a selected path. The project is based on sensor readings and programmed rules—not AI model training.
+
+## Expected outcomes
+
+Students can calibrate a sensor, control a motor through a driver, describe a mechanical sequence, and evaluate a prototype through repeated tests.
+
+## Practical note
+
+The project requires a suitable colour sensor and mechanical parts. If those are unavailable, substitute a line-following or obstacle-avoiding robot using the components on hand.

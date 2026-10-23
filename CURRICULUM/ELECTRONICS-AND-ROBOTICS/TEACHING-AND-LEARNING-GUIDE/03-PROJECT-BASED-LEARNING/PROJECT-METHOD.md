@@ -2,19 +2,17 @@
 
 ## 1. Project-first teaching
 
-A project should be a learning sequence, not only a final assembly task. Students should encounter a problem, explore the required components, build in stages, test with evidence, and improve the design.
+A project should be a learning sequence, not only a final assembly task. Students encounter a problem, explore components, build in stages, test with evidence, and improve the design.
 
 A good project has:
 - A clear real-world challenge
-- A manageable set of learning goals
+- Manageable learning goals
 - A physical build students can test
 - A visible or measurable result
 - Opportunities for debugging and improvement
 - A final explanation by students
 
 ## 2. Project milestone pattern
-
-Use this pattern for most projects:
 
 1. **Understand the problem:** What should the system do?
 2. **Explore components:** What can each component detect or control?
@@ -44,38 +42,36 @@ This is an illustrative multi-session sequence. Combine milestones if the availa
 
 ## 4. Example project: Class 6 smart dustbin
 
-Break the build into independent parts before integrating:
-
 1. **Sensor test:** Read distance values and interpret them.
 2. **Servo test:** Move the servo to a specified position.
 3. **Control logic:** Open the lid when an object is detected.
 4. **Integration:** Connect sensor, servo, and microcontroller.
 5. **Testing:** Try objects at different distances.
-6. **Improvement:** Reduce false triggers and make movement more reliable.
-7. **Demonstration:** Explain how input, decision, and output work together.
+6. **Improvement:** Reduce false triggers and improve movement reliability.
+7. **Demonstration:** Explain input, decision, and output.
 
-Students should test the sensor and servo separately before combining them.
+Test the sensor and servo separately before combining them.
 
 ## 5. Project progression across classes
 
 | Class | Suggested major project | Main learning |
 |---|---|---|
-| 5 | Distance alarm or automatic light | Basic circuit, input/output, simple response |
+| 5 | Distance alarm or automatic light | Basic circuit, simple sensing, input/output |
 | 6 | Smart dustbin | Sensor, microcontroller, servo, conditional logic |
-| 7 | Colour-sorting station | Calibration, classification by sensor, motor mechanism |
+| 7 | Colour-sorting station or alternative robot | Calibration, sensor rules, mechanism, motor control |
 | 8 | Plant-care assistant | Environmental sensing, thresholds, control, testing |
-| 9 | AI classifier connected to hardware | System design, data, model output, hardware response |
+| 9 | Autonomous obstacle-avoiding or line-following robot | System design, sensor navigation, motor control |
 
-Treat these as candidate projects. Check the school's component inventory, cost, safety, and time before committing to a particular design.
+These are candidate projects. Check component inventory, cost, safety, and timetable before choosing.
 
 ## 6. Student design choices
 
-Where possible, allow students to make a meaningful choice:
+Where possible, allow students to:
 - Change the enclosure or mechanism.
 - Adjust a threshold after collecting data.
 - Add a status indicator.
-- Compare two sensor placements.
+- Compare sensor placements.
 - Improve reliability under a defined test.
-- Propose a different use for the same circuit.
+- Propose another use for the same circuit.
 
-The project should have a common learning target while allowing students to personalize a feature or improvement.
+Keep a common learning target while allowing students to personalize an improvement.

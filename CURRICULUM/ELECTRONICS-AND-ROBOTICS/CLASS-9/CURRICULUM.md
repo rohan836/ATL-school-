@@ -1,28 +1,40 @@
-# Class 9 — AI Curriculum
+# Class 9 — Electronics and Robotics Curriculum
 
-What Class 9 learns in the AI programme, in teaching order. No dates, no weeks.
+**Course focus:** Design, build, program, test, and document an autonomous robotic system using sensors, control logic, motors, and mechanical design.
 
-1. **What AI is** — learned patterns versus written rules, including where AI is the wrong tool.
-2. **Data, pattern, prediction** — the full pipeline from raw data to a claim.
-3. **Features and labels** — feature choice, label quality, and their effect on results.
-4. **Classification and generation** — capabilities, costs, and failure modes of each.
-5. **Building a dataset** — balance, variety, leakage, and clean labels.
-6. **Training a model** — from examples to a working classifier.
-7. **Testing and accuracy** — measuring on data the model has never seen.
-8. **Data quality and bias** — who the model fails, and why.
-9. **Train and test data** — overfitting, generalisation, and honest evaluation.
-10. **The model card** — accuracy, known failures, intended use, and limits.
-11. **Sensors** — reading and calibrating real signals.
-12. **Decision rules** — thresholds, and comparing a rule with a learned model.
-13. **Actuators** — servos, relays, and pumps with separate supplies.
-14. **Model and hardware** — inference on a device, and its timing limits.
-15. **Python and data** — loading a dataset on the Raspberry Pi and inspecting it.
-16. **Train/test split and confusion matrix** — measuring properly, class by class.
-17. **Error analysis** — false positives, false negatives, and what the model cannot do.
-18. **Capstone design and build** — a classifier driving a physical output.
-19. **Deployment** — running the model on the device with a fixed, documented setup.
-20. **Evaluation and demonstration** — reporting measured accuracy and honest limits.
+## Learning sequence
 
-## What you will build
+| Unit | Concept | Practical activity or build |
+|---|---|---|
+| 1 | System architecture | Map a system into inputs, controller, outputs, and power |
+| 2 | Circuit diagrams | Draw and interpret a circuit schematic |
+| 3 | Structured microcontroller code | Use variables, functions, conditions, and loops |
+| 4 | Sensor data | Collect and interpret real sensor readings |
+| 5 | Calibration and error | Compare measured values and discuss uncertainty |
+| 6 | Motor control | Use a motor driver to control speed/direction where supported |
+| 7 | Communication basics | Explore serial communication or an available suitable module |
+| 8 | Data logging | Record robot or sensor test data |
+| 9 | Control sequences | Implement a multi-step behavior |
+| 10 | Feedback control | Make behavior respond to changing sensor input |
+| 11 | Reliability | Test edge cases and common component faults |
+| 12 | Engineering constraints | Consider cost, power, size, and reliability |
+| 13 | Robot navigation | Explore line following, obstacle avoidance, or a simple maze |
+| 14 | Capstone design | Plan an autonomous robot and define success criteria |
+| 15 | Prototype build | Assemble chassis, sensors, motor driver, and controller |
+| 16 | Testing | Run repeatable tests and record results |
+| 17 | Improvement | Tune sensor placement, logic, or movement |
+| 18 | Documentation | Prepare circuit, block diagram, code notes, and test records |
+| 19 | Demonstration | Demonstrate and explain the robot |
+| 20 | Reflection | State limitations and future improvements |
 
-A system that classifies real input, acts on the result with hardware, and reports an accuracy measured on held-out data.
+## Capstone
+
+**Autonomous obstacle-avoiding or line-following robot.** Students use sensor inputs and programmed control rules to guide movement. Choose the robot type based on the actual available chassis, sensors, motors, and driver boards.
+
+## Expected outcomes
+
+Students can plan a hardware system, build and program a robot, test its behavior using evidence, diagnose faults, and document design choices and limitations.
+
+## Practical note
+
+This is an electronics-and-robotics capstone. AI model training, datasets, and classifier deployment are not part of this class curriculum; those belong in the separate AI-only stream.

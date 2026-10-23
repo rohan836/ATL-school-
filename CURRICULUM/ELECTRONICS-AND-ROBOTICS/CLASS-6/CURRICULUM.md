@@ -1,24 +1,36 @@
-# Class 6 — AI Curriculum
+# Class 6 — Electronics and Robotics Curriculum
 
-What Class 6 learns in the AI programme, in teaching order. No dates, no weeks.
+**Course focus:** Move from basic circuits to microcontroller-controlled devices and simple automation.
 
-1. **What AI is** — machines that learn from examples instead of following only fixed rules.
-2. **Data, pattern, prediction** — the three words behind every AI system.
-3. **Features and labels** — what the machine looks at, and the answer it is given.
-4. **Sorting and creating** — AI that classifies, and AI that generates.
-5. **Building a dataset** — categories, examples, and enough variety.
-6. **Training a model** — teaching the machine with examples.
-7. **Testing and accuracy** — checking it on examples it has not seen.
-8. **Good data, fair answers** — why poor examples give wrong answers.
-9. **Why memorising fails** — a model that only remembers is not intelligent.
-10. **The model card** — writing down what it can do and where it fails.
-11. **Sensors** — distance, light, and sound as machine senses.
-12. **Decision rules** — a threshold that makes a choice.
-13. **Actuators** — LEDs, buzzers, and servos that act on a decision.
-14. **Model and device** — joining a decision to something physical.
-15. **Build: smart dustbin** — ultrasonic sensor and servo lid.
-16. **Test and demonstrate** — prove it works, then explain its limits.
+## Learning sequence
 
-## What you will build
+| Unit | Concept | Practical activity or build |
+|---|---|---|
+| 1 | Circuit review and diagrams | Rebuild a circuit from a simple schematic |
+| 2 | Resistor and LED calculations | Select a suitable LED resistor |
+| 3 | Breadboard connections | Build and inspect a solderless circuit |
+| 4 | Push buttons and switches | Make a button-controlled indicator |
+| 5 | Transistor as a switch | Control a suitable low-voltage load using a transistor |
+| 6 | Buzzer and alarm logic | Build a simple alert circuit |
+| 7 | Microcontroller basics | Identify Arduino board, pins, and USB connection |
+| 8 | Digital output | Blink an LED using code |
+| 9 | Digital input | Read a push button |
+| 10 | Analog input | Read a potentiometer or analog sensor |
+| 11 | Sensor readings | Measure light or distance |
+| 12 | Conditional control | Activate an output when a sensor crosses a threshold |
+| 13 | Servo motor | Control servo position |
+| 14 | System design | Plan a sensor-operated smart-dustbin lid |
+| 15 | Build and debug | Integrate distance sensor, servo, and controller |
+| 16 | Test and present | Test the lid response, improve, and explain |
 
-A dustbin that opens its lid when a hand comes near, using a distance sensor and a servo.
+## Capstone
+
+**Smart dustbin.** A distance sensor detects a nearby hand; a microcontroller controls a servo to open and close the lid.
+
+## Expected outcomes
+
+Students can distinguish input and output, connect a basic sensor, write simple input/output code, control a servo, and troubleshoot a small automated system.
+
+## Practical note
+
+Test the sensor and servo separately before integration. Power the servo according to its specifications; do not assume a microcontroller pin can supply its motor current.

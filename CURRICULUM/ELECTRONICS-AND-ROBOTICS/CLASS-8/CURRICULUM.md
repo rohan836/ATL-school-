@@ -1,24 +1,38 @@
-# Class 8 — AI Curriculum
+# Class 8 — Electronics and Robotics Curriculum
 
-What Class 8 learns in the AI programme, in teaching order. No dates, no weeks.
+**Course focus:** Build environmental monitoring and automatic control systems with attention to measurement, reliability, and safe power handling.
 
-1. **What AI is** — learned patterns versus written rules, with real examples.
-2. **Data, pattern, prediction** — where the data ends and the prediction begins.
-3. **Features and labels** — choosing useful features and correct labels.
-4. **Classification and generation** — two different jobs, two different risks.
-5. **Building a dataset** — balance, variety, and clean labels.
-6. **Training a model** — from examples to a working classifier.
-7. **Testing and accuracy** — measuring on unseen examples.
-8. **Data quality and bias** — how a dataset decides who the model fails.
-9. **Train and test data** — why memorising looks like learning.
-10. **The model card** — recording accuracy, failures, and limits.
-11. **Sensors** — soil moisture, temperature, and light as inputs.
-12. **Decision rules** — thresholds, hysteresis, and fail-safe behaviour.
-13. **Actuators** — relays and pumps, isolated from the board.
-14. **Model and hardware** — a decision driving a real action.
-15. **Build: plant care assistant** — soil sensor, DHT11, relay or pump, safety cutoff.
-16. **Test and demonstrate** — measure reliability and state failure modes.
+## Learning sequence
 
-## What you will build
+| Unit | Concept | Practical activity or build |
+|---|---|---|
+| 1 | Embedded-system review | Build a sensor-to-output system |
+| 2 | Voltage and current measurement | Measure a low-voltage circuit with a multimeter |
+| 3 | Sensor calibration | Calibrate a soil-moisture or temperature sensor |
+| 4 | Environmental sensors | Compare sensor readings under different conditions |
+| 5 | Data collection | Record readings and organize them in a table |
+| 6 | Threshold control | Set an automatic trigger based on measured values |
+| 7 | Switching and relay principles | Study safe low-voltage load switching |
+| 8 | Motor or pump control | Operate a suitable low-voltage actuator |
+| 9 | Open-loop and closed-loop control | Compare fixed action with sensor-based response |
+| 10 | Control rules | Design conditions for an automatic system |
+| 11 | Status display | Show sensor values or system state |
+| 12 | Power and fault handling | Identify power needs and common faults |
+| 13 | Project design | Plan a plant-care assistant |
+| 14 | Build and integrate | Connect sensors, controller, and output |
+| 15 | Test and refine | Test dry/wet or changing environmental conditions |
+| 16 | Demonstrate | Explain system operation and safety |
+| 17 | Documentation | Draw circuit and block diagrams |
+| 18 | Extension | Add a sensor or improve the control response |
 
-A device that watches a plant's soil and waters it only when needed, and stays off if a sensor fails.
+## Capstone
+
+**Plant-care assistant.** Monitor soil moisture and operate an appropriate low-voltage watering mechanism when needed. Include a safe stop or fail-off behavior for sensor faults.
+
+## Expected outcomes
+
+Students can measure and interpret sensor values, describe calibration, distinguish open-loop and closed-loop control, and design a sensor-based automation system.
+
+## Practical note
+
+Keep water physically separated from powered electronics. Use only teacher-approved low-voltage pump arrangements and suitable driver/power components; do not have students work with mains wiring.
