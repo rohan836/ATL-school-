@@ -1,8 +1,8 @@
 # ATL Hardware List — Tools and Workshop Equipment
 
-**Status:** Derived list, not a stock record. Extracted from [ATL_Equipment_List_90_students.md](ATL_Equipment_List_90_students.md), Packages 2–4, on 23 October 2026. Quantities are the suggested quantities in the source, not counted or verified stock.
+**Status:** Derived list, not a stock record. Extracted from [ATL_Equipment_List_90_students.md](../ATL_Equipment_List_90_students.md), Packages 2–4, on 23 October 2026. Quantities are the suggested quantities in the source, not counted or verified stock.
 
-Package 1 (electronics development, robotics, IoT, and sensors) is intentionally excluded. For those items, use the source equipment list.
+Package 1 (electronics development, robotics, IoT, and sensors) is intentionally excluded. For those items, see the [component lists](README.md).
 
 **Scope:** 73 physical items — 45 marked Equipment and 28 marked Consumable.
 
