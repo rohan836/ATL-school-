@@ -7,16 +7,16 @@ Plan only; this is not a record of teaching completed. The shared spine, outcome
 **Capstone:** distance alarm or automatic light (Arduino, HC-SR04 or LDR, buzzer/LED).
 **Units:** 1–16 — see [AI-TEACHING-LIST.md](../../AI-TEACHING-LIST.md).
 
-| Week | Dates | Session 1 (Mon) | Session 2 (Tue) | Session 3 (Wed) | Evidence |
-|---|---|---|---|---|---|
-| 1 | 26–28 Oct | Hook, then sort cards by rule and by example | "AI or not?" sort; classification vs generation; write data → pattern → prediction | Label three AI examples | Definition + 3 examples |
-| 2 | 2–4 Nov | Features and labels; plan a 3-category dataset, 15 examples each | Collect and train (Teachable Machine, or human classifier) | Test on new examples; first accuracy | Dataset count, accuracy |
-| 3 | 9–11 Nov | Add variety: angle, light, background | Retrain and compare with Week 2 | Bias hunt: one group the model gets wrong | Before/after accuracy |
-| 4 | 16–18 Nov | Training vs test examples | Simple 3×3 confusion table | Write a one-page model card | Model card |
-| 5 | 23–25 Nov | Read live LDR or ultrasonic values | Threshold switches an LED or buzzer | Rule vs learned decision | Working circuit |
-| 6 | 30 Nov–2 Dec | Design brief and wiring plan | Build and debug | Demo to another team; list failures | Prototype + failure list |
-| 7 | 7–9 Dec | Teams of 4–5; problem and success test | Build sprint | Build and integrate | Dated build log |
-| 8 | 14–16 Dec | Test against criteria; fix | Demo day | Reflection and record outcome | Demo result |
+| Week | Session 1 (Mon) | Session 2 (Tue) | Session 3 (Wed) | Evidence |
+|---|---|---|---|---|
+| 1 | Hook, then sort cards by rule and by example | "AI or not?" sort; classification vs generation; write data → pattern → prediction | Label three AI examples | Definition + 3 examples |
+| 2 | Features and labels; plan a 3-category dataset, 15 examples each | Collect and train (Teachable Machine, or human classifier) | Test on new examples; first accuracy | Dataset count, accuracy |
+| 3 | Add variety: angle, light, background | Retrain and compare with Week 2 | Bias hunt: one group the model gets wrong | Before/after accuracy |
+| 4 | Training vs test examples | Simple 3×3 confusion table | Write a one-page model card | Model card |
+| 5 | Read live LDR or ultrasonic values | Threshold switches an LED or buzzer | Rule vs learned decision | Working circuit |
+| 6 | Design brief and wiring plan | Build and debug | Demo to another team; list failures | Prototype + failure list |
+| 7 | Teams of 4–5; problem and success test | Build sprint | Build and integrate | Dated build log |
+| 8 | Test against criteria; fix | Demo day | Reflection and record outcome | Demo result |
 
 ## Delivery notes
 

@@ -7,16 +7,16 @@ Plan only; this is not a record of teaching completed. The shared spine, outcome
 **Capstone:** plant care assistant (Arduino, soil sensor, DHT11, relay or pump).
 **Units:** 1–16 — see [AI-TEACHING-LIST.md](../../AI-TEACHING-LIST.md).
 
-| Week | Dates | Session 1 (Wed) | Session 2 (Thu) | Evidence |
-|---|---|---|---|---|
-| 1 | 28–29 Oct | Hook; rule vs learned pattern; AI or not | Data → pattern → prediction; classification vs generation; label three examples | Definition + 3 examples |
-| 2 | 4–5 Nov | Features and labels; plan a 3-category dataset; collect examples | Train, test on new examples, record accuracy | Dataset count, accuracy |
-| 3 | 11–12 Nov | Add variety and balance; retrain | Compare accuracy; bias hunt | Before/after accuracy |
-| 4 | 18–19 Nov | Training vs test split; 3×3 confusion table | Write the model card | Model card |
-| 5 | 25–26 Nov | Read soil and temperature values; set thresholds | Drive a relay or pump; compare rule with learning | Working circuit |
-| 6 | 2–3 Dec | Design brief: thresholds, watering limit, safety cutoff | Build, debug, demonstrate to another team | Prototype + failure list |
-| 7 | 9–10 Dec | Teams; problem and success test | Build sprint and integration | Dated build log |
-| 8 | 16–17 Dec | Test against criteria; fix | Demo day; reflection and record | Demo result |
+| Week | Session 1 (Wed) | Session 2 (Thu) | Evidence |
+|---|---|---|---|
+| 1 | Hook; rule vs learned pattern; AI or not | Data → pattern → prediction; classification vs generation; label three examples | Definition + 3 examples |
+| 2 | Features and labels; plan a 3-category dataset; collect examples | Train, test on new examples, record accuracy | Dataset count, accuracy |
+| 3 | Add variety and balance; retrain | Compare accuracy; bias hunt | Before/after accuracy |
+| 4 | Training vs test split; 3×3 confusion table | Write the model card | Model card |
+| 5 | Read soil and temperature values; set thresholds | Drive a relay or pump; compare rule with learning | Working circuit |
+| 6 | Design brief: thresholds, watering limit, safety cutoff | Build, debug, demonstrate to another team | Prototype + failure list |
+| 7 | Teams; problem and success test | Build sprint and integration | Dated build log |
+| 8 | Test against criteria; fix | Demo day; reflection and record | Demo result |
 
 ## Delivery notes
 

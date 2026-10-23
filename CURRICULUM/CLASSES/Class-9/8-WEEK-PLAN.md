@@ -7,16 +7,16 @@ Plan only; this is not a record of teaching completed. The shared spine, outcome
 **Capstone:** a trained classifier driving a physical output, with accuracy measured on held-out data.
 **Units:** 1–20 — see [AI-TEACHING-LIST.md](../../AI-TEACHING-LIST.md).
 
-| Week | Dates | Session 1 (Fri) | Session 2 (Sat) | Evidence |
-|---|---|---|---|---|
-| 1 | 30–31 Oct | What AI is; rule vs learned pattern; real examples | Data → pattern → prediction; classification vs generation; define the dataset to build | Definition + dataset plan |
-| 2 | 6–7 Nov | Features and labels; collect and train a 3-category classifier | Test on new examples; record accuracy as a fraction | Dataset count, accuracy |
-| 3 | 13–14 Nov | Data quality: variety, balance, labelling errors | Retrain; compare accuracy; identify bias | Before/after accuracy |
-| 4 | 20–21 Nov | Train/test split; confusion matrix; precision in plain words | Model card; start Python on the Raspberry Pi | Model card |
-| 5 | 27–28 Nov | Python: load a small dataset, train, print accuracy | Sensor thresholds on Arduino; rule vs learned | Script output + circuit |
-| 6 | 4–5 Dec | Design brief: model, decision, output, failure mode | Build and integrate model with actuator | Prototype + failure list |
-| 7 | 11–12 Dec | Teams; measurable success test | Build sprint and integration | Dated build log |
-| 8 | 18–19 Dec | Test on unseen data; record the result | Demo day; written evaluation of limits | Report + demo |
+| Week | Session 1 (Fri) | Session 2 (Sat) | Evidence |
+|---|---|---|---|
+| 1 | What AI is; rule vs learned pattern; real examples | Data → pattern → prediction; classification vs generation; define the dataset to build | Definition + dataset plan |
+| 2 | Features and labels; collect and train a 3-category classifier | Test on new examples; record accuracy as a fraction | Dataset count, accuracy |
+| 3 | Data quality: variety, balance, labelling errors | Retrain; compare accuracy; identify bias | Before/after accuracy |
+| 4 | Train/test split; confusion matrix; precision in plain words | Model card; start Python on the Raspberry Pi | Model card |
+| 5 | Python: load a small dataset, train, print accuracy | Sensor thresholds on Arduino; rule vs learned | Script output + circuit |
+| 6 | Design brief: model, decision, output, failure mode | Build and integrate model with actuator | Prototype + failure list |
+| 7 | Teams; measurable success test | Build sprint and integration | Dated build log |
+| 8 | Test on unseen data; record the result | Demo day; written evaluation of limits | Report + demo |
 
 ## Advanced track (level 3)
 
