@@ -14,6 +14,7 @@ This file is the evolving map of this repository. Update it when new record area
 |---|---|---|
 | Classes and sections | [Class index](CURRICULUM/CLASSES/README.md) | Current navigation for class and section folders. |
 | AI course contents | [AI course — contents](CURRICULUM/AI-CONTENTS.md) | Units 1–20 in teaching order for Classes 5–9. Depth per class noted at the end. Not a record of teaching completed. |
+| Class curricula | [5](CURRICULUM/CLASSES/Class-5/CURRICULUM.md) · [6](CURRICULUM/CLASSES/Class-6/CURRICULUM.md) · [7](CURRICULUM/CLASSES/Class-7/CURRICULUM.md) · [8](CURRICULUM/CLASSES/Class-8/CURRICULUM.md) · [9](CURRICULUM/CLASSES/Class-9/CURRICULUM.md) | Contents list for each class, with its build. |
 | Main timetable | [Main timetable — Markdown](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md) · [HTML view](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.html) | The Markdown file is the source of truth. The HTML view mirrors the timetable data but may omit narrative sections such as the project plan. |
 | Temporary 60-minute timetable | [Temporary timetable — Markdown](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.md) · [HTML view](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.html) | Separate temporary schedule; the Markdown file is the source of truth. |
 | ATL equipment reference | [Equipment list](LAB/REFERENCE/ATL_Equipment_List_90_students.md) | Reference document; does not by itself confirm current stock. |

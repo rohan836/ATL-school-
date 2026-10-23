@@ -1,5 +1,7 @@
 # AI Course — Contents
 
+Per class: [Class 5](CLASSES/Class-5/CURRICULUM.md) · [Class 6](CLASSES/Class-6/CURRICULUM.md) · [Class 7](CLASSES/Class-7/CURRICULUM.md) · [Class 8](CLASSES/Class-8/CURRICULUM.md) · [Class 9](CLASSES/Class-9/CURRICULUM.md)
+
 **1. What AI is** — machines that learn patterns from data, not follow fixed rules.
 **2. Data, pattern, prediction** — the three words behind every AI system.
 **3. Features and labels** — what the machine looks at, and what it is told the answer is.

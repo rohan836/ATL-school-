@@ -7,6 +7,10 @@ This folder contains class-level ATL curriculum, lesson planning, and project pl
 - [Class 6 C](Class-6-C/README.md)
 - [Class 6 D](Class-6-D/README.md)
 
+## Curriculum
+
+- [Class 6 AI curriculum](CURRICULUM.md)
+
 ## Timetable references
 
 - [Main ATL timetable](../../../SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md)
