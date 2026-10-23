@@ -9,7 +9,8 @@ This folder contains class-level ATL curriculum, lesson planning, and project pl
 
 ## Curriculum
 
-- [Class 9 AI curriculum](CURRICULUM.md)
+- [Class 9 AI curriculum with ATL activities](CURRICULUM.md)
+- [Separate Class 9 AI-only curriculum](../../AI-ONLY/CLASS-9-AI-CURRICULUM.md) — 20 research-informed AI-literacy units; no electronics, robotics or hardware.
 
 ## Timetable references
 
