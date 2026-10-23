@@ -1,0 +1,2 @@
+# Keep text files normalized in the repository; checkout style is left to each machine.
+* text=auto
