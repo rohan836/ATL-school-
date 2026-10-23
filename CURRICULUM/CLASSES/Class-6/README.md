@@ -9,7 +9,8 @@ This folder contains class-level ATL curriculum, lesson planning, and project pl
 
 ## Curriculum
 
-- [Class 6 AI curriculum](CURRICULUM.md)
+- [Class 6 AI curriculum with ATL activities](CURRICULUM.md)
+- [Separate Class 6 AI-only curriculum](../../AI-ONLY/CLASS-6-AI-CURRICULUM.md) — 20 research-informed AI-literacy units; no electronics, robotics or hardware.
 
 ## Timetable references
 
