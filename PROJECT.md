@@ -1,73 +1,59 @@
-# PROJECT.md — Teacher's ATL Work Database
+# PROJECT.md — Personal Knowledge and Work Database
 
 ## Purpose
 
-This repository is a personal knowledge base and work-management space for a teacher working with the school's Atal Tinkering Lab (ATL) programme. It helps organize teaching across Classes 5–9 and manage related plans, timetables, lab references, project ideas, and workflows.
+This repository is a personal database and second brain for recording, finding, maintaining, and using information across teaching, school operations, projects, schedules, workflows, and future areas of work.
 
-**This is a teaching and work-management database, not a software development project.**
+It is a knowledge and work-management space—not a software development project. The repository should be able to grow as the owner's responsibilities, interests, and workflows change.
 
-Read [AGENTS.md](AGENTS.md) for the rules an AI assistant must follow when reading or changing this database.
+## Operating model
 
-## What this database supports
+The database has five layers:
 
-- **Class and section organization:** a place to navigate information for Classes 5, 6, 7, 8, and 9, with sections C and D.
-- **Teaching and lesson planning:** class-related information and teaching material as it is added.
-- **Timetable management:** separate locations for the main timetable and a temporary 60-minute version.
-- **Lab references:** equipment and component reference documents.
-- **Project planning:** a collection of project ideas to support practical, project-based teaching.
-- **Workload and workflow management:** a structured place to find and maintain the records used to plan and manage teaching-related work.
+1. **Control rules — `AGENTS.md`:** stable instructions for safe, accurate repository work.
+2. **Project guide — this file:** purpose, concepts, and general operating principles.
+3. **Navigation — `INDEX.md`:** an evolving map of current folders, records, and authoritative sources.
+4. **Skills — `.agents/skills/`:** reusable procedures for capturing, finding, updating, and reviewing knowledge.
+5. **Records:** the actual information. Records may be added or organized into new areas as the database evolves, subject to the control rules.
 
-Only information that actually exists in the repository should be treated as a record. Do not assume a class plan, lesson log, task tracker, or inventory exists just because it is listed as a possible use.
+These layers have different jobs. Do not turn the control documents into a hard-coded list of every present or future record.
 
-## How to navigate the repository
+## General information principles
 
-Start here, then open the source document that matches the task. Use [AGENTS.md](AGENTS.md) for change permissions and repository-handling rules.
+- **Source of truth:** identify the authoritative record for a fact or arrangement. Link to it rather than maintaining competing copies.
+- **Traceability:** preserve where information came from and when it was recorded, where useful.
+- **Status clarity:** distinguish facts, ideas, plans, decisions, in-progress work, completed work, and archived history.
+- **Context:** records should be understandable later without relying on the current chat.
+- **Search before create:** look for an existing record before adding a new one. Extend it when appropriate; avoid duplicate notes.
+- **Flexible structure:** use existing locations when they fit. A genuinely new subject or workflow may receive a new location after the required approval.
+- **Incremental maintenance:** update the index when the repository's navigable structure or authoritative records change. Keep detailed content in its source record.
+- **Privacy:** this repository is public. Do not store credentials, student-identifiable information, confidential staff information, or other private data here.
 
-| Need | Main location | How to interpret it |
-|---|---|---|
-| Navigate all classes and sections | [Class index](CURRICULUM/CLASSES/README.md) | Index for the current class folders |
-| Open a class or section | `CURRICULUM/CLASSES/Class-<number>/` | Class folders cover Classes 5–9; section folders use full names such as `Class-5-C` and `Class-5-D` |
-| Check the main timetable | [Main timetable (Markdown)](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md) | Main timetable source |
-| View the main timetable | [Main timetable (HTML)](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.html) | Presentation counterpart; check it against Markdown when relevant |
-| Check the temporary 60-minute timetable | [Temporary timetable (Markdown)](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.md) | Separate temporary schedule, not the main timetable |
-| View the temporary timetable | [Temporary timetable (HTML)](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.html) | Presentation counterpart of the temporary schedule |
-| Find the supplied ATL equipment list | [Equipment list](LAB/REFERENCE/ATL_Equipment_List_90_students.md) | Reference list, not proof that every item is currently available |
-| Find Arduino component references | [Arduino components](LAB/REFERENCE/ARDUINO-COMPONENTS.md) | Component reference for teaching and planning |
-| Find ESP module references | [ESP modules](LAB/REFERENCE/ESP-MODULES.md) | Module reference for teaching and planning |
-| Browse component-linked project ideas | [ATL component project ideas](PROJECTS/IDEAS/ATL_COMPONENT_PROJECT_IDEAS.md) | Suggestions, not a record of completed projects |
+## How to use the database
 
-Use the live repository to confirm that a path still exists before relying on it. The table is a navigation guide, not permission to create missing files.
+For a request, first determine whether the owner wants to:
+- find or recall existing information;
+- understand or summarize records;
+- capture new information;
+- update an existing record;
+- plan or track work;
+- review, connect, or archive information.
 
-## Information rules
+Then consult the relevant source and follow the matching skill if one exists. Skills are procedural guidance, not independent authority: they must follow `AGENTS.md` and the owner's request.
 
-### Timetables
-Treat the main and temporary timetables as separate records. Do not merge them or assume the temporary version is approved or current. When a timetable task does not identify which version to use, ask. When an approved change affects both Markdown and HTML, check that the two versions remain consistent.
+## Extending the database
 
-### Classes and teaching material
-Use the class and section folders that already exist. Keep section names explicit. Do not invent lesson coverage, class allocations, or teaching records. Add new records only after following the confirmation requirement in [AGENTS.md](AGENTS.md).
+The database is designed to expand without requiring edits to its control documents every time a new type of information is introduced.
 
-### Lab references and project ideas
-A reference list does not confirm physical stock, and an idea does not confirm approval, assignment, completion, or testing. Keep facts, proposals, and unknowns clearly distinguished.
+When a new area is approved:
+- choose a clear, understandable location;
+- use a suitable record format rather than forcing every topic into one template;
+- link related records and avoid duplicating authoritative information;
+- add or update the relevant entry in `INDEX.md`;
+- create or adapt a skill only when the workflow is repeated or meaningfully distinct.
 
-### Workload and workflows
-Use existing records as the basis for workload or workflow answers. Do not infer that a task was completed, a responsibility was assigned, or a schedule was agreed unless a repository record supports it.
+Do not create empty folders or speculative systems just to anticipate future needs. Add structure when it serves an actual record or workflow.
 
-### Privacy
-The repository is public. Keep student-identifiable details, confidential performance records, credentials, and private staff information out of it.
+## Current repository map
 
-## How an assistant should use this database
-
-1. Read [AGENTS.md](AGENTS.md), then this file.
-2. Identify the user's actual goal: find information, explain it, plan work, or update a record.
-3. Follow the table above to the relevant source and read it before answering.
-4. Avoid duplicate records. Keep the original source identifiable.
-5. Follow the confirmation rules before adding, deleting, removing, renaming, moving, or making broad changes.
-6. Check relevant values and connected records before reporting the result.
-
-## Maintenance of this guide
-
-Update this file only when the database's purpose, directory layout, or authoritative source locations change. Keep detailed class notes, timetable values, component information, and project descriptions in their relevant source files rather than copying them here.
-
-## Current boundaries
-
-The repository currently contains class/section navigation, main and temporary timetable files, lab reference documents, and a project-ideas document. These files support the teacher's work, but they do not by themselves provide a complete lesson log, verified live inventory, or general task tracker.
+The live map belongs in [INDEX.md](INDEX.md), not here. Use it to find current records and verify their paths before relying on them.
