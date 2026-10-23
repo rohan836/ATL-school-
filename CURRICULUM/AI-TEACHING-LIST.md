@@ -1,6 +1,6 @@
 # AI Teaching List — Units 1–20
 
-Content list only: what to teach, in order. No dates and no week numbers. For the dated version, see [AI-8-WEEK-PROGRAM.md](AI-8-WEEK-PROGRAM.md) and the per-class `8-WEEK-PLAN.md` files.
+Content list only: what to teach, in order. No dates and no week numbers. For the dated version, see [AI-8-WEEK-PROGRAM.md](CLASSES/AI-8-WEEK-PROGRAM.md) and the per-class `8-WEEK-PLAN.md` files.
 
 **Status:** plan, not a record of teaching completed.
 
