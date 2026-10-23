@@ -9,7 +9,8 @@ This folder contains class-level ATL curriculum, lesson planning, and project pl
 
 ## Curriculum
 
-- [Class 5 AI curriculum](CURRICULUM.md)
+- [Class 5 AI curriculum with ATL builds](CURRICULUM.md)
+- [Separate Class 5 AI-only curriculum](../../AI-ONLY/CLASS-5-AI-CURRICULUM.md) — 20 age-appropriate AI literacy units; no electronics or hardware projects.
 
 ## Timetable references
 
