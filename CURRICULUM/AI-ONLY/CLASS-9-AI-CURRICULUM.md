@@ -112,63 +112,49 @@ Students analyse AI projects as systems that can be tested, challenged and gover
 
 ## Stage 4 — Generative AI and Responsible Systems (Units 13–19)
 
-### Unit 13. Transformers, Tokens and Embeddings
-**Learn:** Modern language models often use transformers. Text is processed as tokens; embeddings represent items as numerical vectors that can capture learned relationships, not perfect meaning.
+### Unit 13. Transformers, Tokens, Embeddings and Language Generation
+**Learn:** Modern language models often use transformer architectures. Text is processed as tokens; embeddings represent items as numerical vectors that can capture learned relationships. The model uses context and learned patterns to generate a sequence of likely text. These mechanisms do not guarantee factual understanding or correctness.
 
-**Activity:** Use a teacher-provided semantic-similarity example to discuss near and far matches and how context may change interpretation.
+**Activity:** Use a teacher-provided semantic-similarity worksheet to compare token pieces and related words, then critique a fluent but unsupported response. Identify what the context may have influenced and which claims require corroboration.
 
-**Evidence of learning:** A concept map linking tokens, embeddings, context and model output while noting limitations.
+**Evidence of learning:** A concept map linking tokens, embeddings, context and generated text, plus a critique separating fluency, plausibility and evidence.
 
-### Unit 14. How Large Language Models Generate Text
-**Learn:** LLMs generate sequences using patterns learned during training and context supplied at use time. They can be fluent yet wrong, outdated or incomplete; output is not a guaranteed database lookup.
+### Unit 14. Prompt Design, Evaluation and Reproducibility
+**Learn:** Prompts can specify a task, context, constraints, examples and output format. A consistent format does not guarantee correct content. To evaluate an AI system fairly, define criteria before comparing outputs, use the same test cases, record the procedure and note limitations.
 
-**Activity:** Compare a fluent unsupported answer with an evidence-based answer and identify which claims require corroboration.
+**Activity:** Write a prompt and rubric for a neutral task, compare multiple teacher-prepared outputs using identical cases, and draft a miniature evaluation record including the tool or model details available, test method, results and failure cases.
 
-**Evidence of learning:** A critique separating fluency, plausibility and evidence.
+**Evidence of learning:** A documented prompt, pre-set rubric, comparison table and brief report distinguishing observed results from assumptions.
 
-### Unit 15. Prompt Design, Structured Output and Evaluation
-**Learn:** Prompts can specify task, context, constraints, examples and output format. Stable-looking formats do not guarantee correct contents; repeatable evaluation requires defined criteria.
-
-**Activity:** Build a prompt and a scoring rubric for a neutral task, then assess multiple teacher-prepared outputs against the same criteria.
-
-**Evidence of learning:** A documented prompt, rubric and comparison table.
-
-### Unit 16. Retrieval-Augmented Generation and Source Grounding
+### Unit 15. Retrieval-Augmented Generation and Source Grounding
 **Learn:** Retrieval-augmented generation (RAG) fetches source material to inform an answer. It may improve traceability but can fail when retrieval is incomplete or the model misreads evidence.
 
 **Activity:** Use a small teacher-provided document set to answer questions, then check whether each output statement is supported by the retrieved source.
 
 **Evidence of learning:** A traceability table linking claims to exact supporting material or marking them unsupported.
 
-### Unit 17. AI Evaluation and Reproducibility
-**Learn:** A result should state the dataset, test procedure, metric, model or tool version when known, limitations and conditions. Repeatability and a fair comparison matter more than a single impressive output.
-
-**Activity:** Draft a miniature evaluation report for two fictional systems tested on the same cases.
-
-**Evidence of learning:** A report including method, results, failure cases and limits on the conclusion.
-
-### Unit 18. AI Security and Adversarial Inputs
+### Unit 16. AI Security and Adversarial Inputs
 **Learn:** Models may be manipulated by misleading inputs, prompt injection, poisoned examples or unsafe tool permissions. Risks depend on the system's access and intended use.
 
 **Activity:** Run a harmless paper tabletop scenario where a retrieved document contains an instruction to break the task rules; design a safe response and permissions boundary.
 
 **Evidence of learning:** A threat sketch with mitigation, limits and a human escalation point.
 
-### Unit 19. Fairness, Accessibility and Unequal Errors
+### Unit 17. Fairness, Accessibility and Unequal Errors
 **Learn:** Aggregate results can conceal unequal performance. Fair evaluation considers relevant subgroups, accessibility, context, error costs and the limits of available evidence.
 
 **Activity:** Review fictional performance tables across different conditions and propose additional tests without using sensitive real student data.
 
 **Evidence of learning:** A fairness test plan with a proposed metric, impact analysis and mitigation.
 
-### Unit 20. Deepfakes, Provenance, Privacy and Rights
+### Unit 18. Deepfakes, Provenance, Privacy and Rights
 **Learn:** Synthetic media and AI-assisted work raise issues of consent, source verification, personal data, licences, attribution and disclosure. Labels or detection tools alone are not definitive proof.
 
 **Activity:** Assess a fictional publication decision: verify provenance, permissions and consent, then decide whether to publish, label, correct or refuse.
 
 **Evidence of learning:** A decision record covering evidence, consent, privacy and responsible disclosure.
 
-### Unit 21. Societal Impact, Sustainability and Governance
+### Unit 19. Societal Impact, Sustainability and Governance
 **Learn:** AI can create value but also shift labour, concentrate power, consume energy and produce social harms. Governance includes accountability, appropriate human oversight, appeal and monitoring.
 
 **Activity:** Map stakeholders in a fictional public-interest AI proposal and weigh benefits, costs, excluded groups and routes for contesting mistakes.
@@ -177,13 +163,12 @@ Students analyse AI projects as systems that can be tested, challenged and gover
 
 ## Stage 5 — Capstone Research Challenge (Unit 20)
 
-### Unit 22. Capstone: Propose and Evaluate an AI Study
+### Unit 20. Capstone: Propose and Evaluate an AI Study
 **Learn:** Students define a researchable question, baseline, data plan, metrics, test cases, risks and a claim that available evidence could support. A proposal or paper simulation must not be represented as a deployed model.
 
 **Activity:** Teams design a low-risk AI study using fictional or teacher-provided material. Include the baseline, a test set, intended metric, two failure cases, privacy/fairness controls and a short report template.
 
 **Evidence of learning:** A research poster or report with method, expected evidence, limitations and a clear distinction between planned and observed results.
-
 
 ## Research basis
 
