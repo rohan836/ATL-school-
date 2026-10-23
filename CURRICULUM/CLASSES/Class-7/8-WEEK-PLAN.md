@@ -5,11 +5,12 @@ Plan only; this is not a record of teaching completed. The shared spine, outcome
 **Timetable:** Monday and Tuesday — 2 sessions per week, 16 in total. Sections C and D attend the same slots on the same day, so each lesson is delivered twice.
 **Target level:** 2 (Best — builder).
 **Capstone:** colour-sorting station (Arduino, TCS3200, servo).
+**Units:** 1–16 — see [AI-TEACHING-LIST.md](../../AI-TEACHING-LIST.md).
 
 | Week | Dates | Session 1 (Mon) | Session 2 (Tue) | Evidence |
 |---|---|---|---|---|
-| 1 | 26–27 Oct | Hook; rule vs learned pattern; AI or not | Data → pattern → prediction; label three examples | Definition + 3 examples |
-| 2 | 2–3 Nov | Plan a 3-category dataset; collect examples | Train, test on new examples, record accuracy | Dataset count, accuracy |
+| 1 | 26–27 Oct | Hook; rule vs learned pattern; AI or not | Data → pattern → prediction; classification vs generation; label three examples | Definition + 3 examples |
+| 2 | 2–3 Nov | Features and labels; plan a 3-category dataset; collect examples | Train, test on new examples, record accuracy | Dataset count, accuracy |
 | 3 | 9–10 Nov | Add variety and balance; retrain | Compare accuracy; bias hunt | Before/after accuracy |
 | 4 | 16–17 Nov | Training vs test split; 3×3 confusion table | Write the model card | Model card |
 | 5 | 23–24 Nov | Read sensor values; set a threshold; drive an output | Compare rule and learned decisions | Working circuit |

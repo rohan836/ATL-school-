@@ -5,11 +5,12 @@ Plan only; this is not a record of teaching completed. The shared spine, outcome
 **Timetable:** Thursday, Friday, Saturday — 3 sessions per week, 24 in total. Sections C and D attend the same slots on the same day, so each lesson is delivered twice.
 **Target level:** 1 (Good — user), with some teams reaching 2.
 **Capstone:** smart dustbin (Arduino, HC-SR04, servo).
+**Units:** 1–16 — see [AI-TEACHING-LIST.md](../../AI-TEACHING-LIST.md).
 
 | Week | Dates | Session 1 (Thu) | Session 2 (Fri) | Session 3 (Sat) | Evidence |
 |---|---|---|---|---|---|
-| 1 | 29–31 Oct | Hook, then sort cards by rule and by example | "AI or not?" sort; write data → pattern → prediction | Label three AI examples | Definition + 3 examples |
-| 2 | 5–7 Nov | Plan a 3-category dataset, 15 examples each | Collect and train (Teachable Machine, or human classifier) | Test on new examples; first accuracy | Dataset count, accuracy |
+| 1 | 29–31 Oct | Hook, then sort cards by rule and by example | "AI or not?" sort; classification vs generation; write data → pattern → prediction | Label three AI examples | Definition + 3 examples |
+| 2 | 5–7 Nov | Features and labels; plan a 3-category dataset, 15 examples each | Collect and train (Teachable Machine, or human classifier) | Test on new examples; first accuracy | Dataset count, accuracy |
 | 3 | 12–14 Nov | Add variety: angle, light, background | Retrain and compare with Week 2 | Bias hunt: one group the model gets wrong | Before/after accuracy |
 | 4 | 19–21 Nov | Training vs test examples | Simple 3×3 confusion table | Write a one-page model card | Model card |
 | 5 | 26–28 Nov | Read live ultrasonic or LDR values | Threshold switches an LED or buzzer | Rule vs learned decision | Working circuit |

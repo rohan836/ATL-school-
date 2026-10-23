@@ -5,11 +5,12 @@ Plan only; this is not a record of teaching completed. The shared spine, outcome
 **Timetable:** Wednesday and Thursday — 2 sessions per week, 16 in total. Sections C and D attend the same slots on the same day, so each lesson is delivered twice.
 **Target level:** 2 (Best — builder).
 **Capstone:** plant care assistant (Arduino, soil sensor, DHT11, relay or pump).
+**Units:** 1–16 — see [AI-TEACHING-LIST.md](../../AI-TEACHING-LIST.md).
 
 | Week | Dates | Session 1 (Wed) | Session 2 (Thu) | Evidence |
 |---|---|---|---|---|
-| 1 | 28–29 Oct | Hook; rule vs learned pattern; AI or not | Data → pattern → prediction; label three examples | Definition + 3 examples |
-| 2 | 4–5 Nov | Plan a 3-category dataset; collect examples | Train, test on new examples, record accuracy | Dataset count, accuracy |
+| 1 | 28–29 Oct | Hook; rule vs learned pattern; AI or not | Data → pattern → prediction; classification vs generation; label three examples | Definition + 3 examples |
+| 2 | 4–5 Nov | Features and labels; plan a 3-category dataset; collect examples | Train, test on new examples, record accuracy | Dataset count, accuracy |
 | 3 | 11–12 Nov | Add variety and balance; retrain | Compare accuracy; bias hunt | Before/after accuracy |
 | 4 | 18–19 Nov | Training vs test split; 3×3 confusion table | Write the model card | Model card |
 | 5 | 25–26 Nov | Read soil and temperature values; set thresholds | Drive a relay or pump; compare rule with learning | Working circuit |
