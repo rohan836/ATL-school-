@@ -13,12 +13,11 @@ This file is the evolving map of this repository. Update it when new record area
 | Topic | Current source | Notes |
 |---|---|---|
 | Classes and sections | [Class index](CURRICULUM/CLASSES/README.md) | Current navigation for class and section folders. |
-| AI teaching programme | [AI programme, 8 weeks](CURRICULUM/CLASSES/AI-8-WEEK-PROGRAM.md) | Plan for Classes 5–9: levels, weekly spine, capstones, rubric. Each class has a week-by-week `8-WEEK-PLAN.md`. Not a record of teaching completed. |
-| AI teaching list | [Units 1–20](CURRICULUM/AI-TEACHING-LIST.md) | Content-only syllabus in teaching order, without dates. |
+| AI course contents | [AI course — contents](CURRICULUM/AI-CONTENTS.md) | Units 1–20 in teaching order for Classes 5–9. Depth per class noted at the end. Not a record of teaching completed. |
 | Main timetable | [Main timetable — Markdown](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md) · [HTML view](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.html) | The Markdown file is the source of truth. The HTML view mirrors the timetable data but may omit narrative sections such as the project plan. |
 | Temporary 60-minute timetable | [Temporary timetable — Markdown](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.md) · [HTML view](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.html) | Separate temporary schedule; the Markdown file is the source of truth. |
 | ATL equipment reference | [Equipment list](LAB/REFERENCE/ATL_Equipment_List_90_students.md) | Reference document; does not by itself confirm current stock. |
-| Workshop tools and hardware | [Hardware list](LAB/REFERENCE/HARDWARE-LIST.md) | Derived from equipment list packages 2–4: 73 items, 45 equipment and 28 consumable. Not a counted stock record. |
+| Workshop tools and hardware | [Hardware list](LAB/REFERENCE/ATL-HARDWARE-LIST.md) | Derived from equipment list packages 2–4: 73 items, 45 equipment and 28 consumable. Not a counted stock record. |
 | Arduino components | [Arduino component reference](LAB/REFERENCE/ARDUINO-COMPONENTS.md) | Component information for teaching and planning. |
 | ESP modules | [ESP module reference](LAB/REFERENCE/ESP-MODULES.md) | Module information for teaching and planning. |
 | ATL project ideas | [Component-linked project ideas](PROJECTS/IDEAS/ATL_COMPONENT_PROJECT_IDEAS.md) | Ideas, not evidence of completed projects. |
