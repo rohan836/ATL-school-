@@ -4,6 +4,8 @@ An eight-week AI teaching programme for Classes 5–9, built on the timetable in
 
 **Status:** plan, not a record of teaching completed. Dates assume the programme starts on Monday 26 October 2026 and runs without interruption.
 
+For the content only, in teaching order without dates, see [AI-TEACHING-LIST.md](../AI-TEACHING-LIST.md).
+
 ## 1. Time available
 
 | Class | Days | Sessions per week | Total sessions | Approx. contact time |
