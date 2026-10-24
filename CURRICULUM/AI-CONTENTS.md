@@ -2,7 +2,7 @@
 
 > **Scope:** This sequence belongs to the Electronics and Robotics stream. It connects AI concepts to sensors, actuators, and physical builds where the lesson requires it. It is **not** the standalone AI-only curriculum. The filename `AI-CONTENTS.md` is retained to avoid breaking existing links.
 
-Class curriculum documents: [Class 5](ELECTRONICS-AND-ROBOTICS/CLASS-5/CURRICULUM.md) · [Class 6](ELECTRONICS-AND-ROBOTICS/CLASS-6/CURRICULUM.md) · [Class 7](ELECTRONICS-AND-ROBOTICS/CLASS-7/CURRICULUM.md) · [Class 8](ELECTRONICS-AND-ROBOTICS/CLASS-8/CURRICULUM.md) · [Class 9](ELECTRONICS-AND-ROBOTICS/CLASS-9/CURRICULUM.md)
+Class curriculum documents: [Class 5](CLASSES/ELECTRONICS-ROBOTICS/Class-5/Class-5-C/01-CURRICULUM.md) · [Class 6](CLASSES/ELECTRONICS-ROBOTICS/Class-6/Class-6-C/01-CURRICULUM.md) · [Class 7](CLASSES/ELECTRONICS-ROBOTICS/Class-7/Class-7-C/01-CURRICULUM.md) · [Class 8](CLASSES/ELECTRONICS-ROBOTICS/Class-8/Class-8-C/01-CURRICULUM.md) · [Class 9](CLASSES/ELECTRONICS-ROBOTICS/Class-9/Class-9-C/01-CURRICULUM.md)
 
 ## Core sequence
 

@@ -15,8 +15,8 @@ This file is the evolving map of this repository. It is not a complete inventory
 | Curriculum hub | [Curriculum navigation](CURRICULUM/README.md) | Separates AI-only, Electronics and Robotics, class/section records, and shared resources. |
 | Classes and sections | [Class and section index](CURRICULUM/CLASSES/README.md) | Existing class and C/D section records are preserved. |
 | AI course contents | [AI course — contents](CURRICULUM/AI-CONTENTS.md) | Shared sequence for the hardware-connected AI stream. |
-| AI-only curricula — Classes 5–9 | [AI-only curriculum hub](CURRICULUM/CLASSES/AI-ONLY/README.md) | Separate 20-unit AI-literacy plans without hardware or coding prerequisite. |
-| Electronics and Robotics curricula | [Electronics and Robotics hub](CURRICULUM/CLASSES/ELECTRONICS-AND-ROBOTICS/README.md) | Existing hardware-linked curricula relocated without lesson rewrites. |
+| AI-only curricula — Classes 5–9 | [AI-only curriculum hub](CURRICULUM/CLASSES/AI/README.md) | Separate 20-unit AI-literacy plans without hardware or coding prerequisite. |
+| Electronics and Robotics curricula | [Electronics and Robotics hub](CURRICULUM/CLASSES/ELECTRONICS-ROBOTICS/README.md) | Existing hardware-linked curricula relocated without lesson rewrites. |
 | Shared curriculum resources | [Shared resources](CURRICULUM/SHARED-RESOURCES/README.md) | Safety, glossary, methodology, references. |
 | Main timetable | [Main timetable — Markdown](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md) · [HTML view](SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.html) | Markdown is the source of truth. |
 | Temporary 60-minute timetable | [Temporary timetable — Markdown](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.md) · [HTML view](SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.html) | Markdown is the source of truth. |
