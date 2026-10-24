@@ -1,14 +1,14 @@
-# Electronics & Robotics — Classes 5–9
+# Electronics, Programming & Robotics — Classes 5–9
 
-This is the existing hardware-focused pathway. Its curriculum documents and project plans are separate from the AI & Computing pathway; the update to AI & Computing does not remove or replace these materials.
+**Atal Thinking Lab · Unified project-oriented curriculum**
 
-Each grade has C and D folders containing its curriculum and class README. Check the specific class folder for components, build instructions and classroom adaptations.
+The Electronics & Robotics pathway for Classes 5–9 is maintained as one shared curriculum. It combines computational thinking, programming, basic and applied electronics, sensors, actuators, robotics, communication, IoT, engineering design, and capstone projects in a progressive sequence.
 
-- [Full-Year Unified Curriculum (32 Weeks)](FULL-YEAR-CURRICULUM.md) · [HTML Single-Table View](FULL-YEAR-CURRICULUM.html)
-- [Class 5 C](Class-5/Class-5-C/01-CURRICULUM.md) · [Class 5 D](Class-5/Class-5-D/01-CURRICULUM.md)
-- [Class 6 C](Class-6/Class-6-C/01-CURRICULUM.md) · [Class 6 D](Class-6/Class-6-D/01-CURRICULUM.md)
-- [Class 7 C](Class-7/Class-7-C/01-CURRICULUM.md) · [Class 7 D](Class-7/Class-7-D/01-CURRICULUM.md)
-- [Class 8 C](Class-8/Class-8-C/01-CURRICULUM.md) · [Class 8 D](Class-8/Class-8-D/01-CURRICULUM.md)
-- [Class 9 C](Class-9/Class-9-C/01-CURRICULUM.md) · [Class 9 D](Class-9/Class-9-D/01-CURRICULUM.md)
+- [Open the unified full curriculum (Markdown)](FULL-YEAR-CURRICULUM.md)
+- [Open the unified full curriculum (HTML)](FULL-YEAR-CURRICULUM.html)
 
-Review lab stock and the exact board/sensor specifications before promising any build. Provide safe, low-voltage wiring instructions and a no-hardware substitute whenever the required parts are unavailable.
+Class C and D folders are retained for batch-specific classroom notes and materials; they do not define separate curriculum sequences. Use the shared curriculum as the source of truth.
+
+## Lab Safety
+
+Use low-voltage DC only for student builds; do not connect student projects directly to household mains. Check the exact board and module specifications, voltage compatibility, and available components before each practical. Supervise soldering and tool use.

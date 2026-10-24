@@ -1,477 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Annual Electronics & Robotics Curriculum — Basic to Advanced (32 Weeks)</title>
-  <style>
-    body {
-      background-color: #ffffff;
-      color: #111827;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      margin: 0;
-      padding: 30px 24px 60px;
-      line-height: 1.5;
-    }
-
-    .container {
-      max-width: 1240px;
-      margin: 0 auto;
-    }
-
-    header {
-      margin-bottom: 24px;
-      padding-bottom: 16px;
-      border-bottom: 2px solid #e5e7eb;
-    }
-
-    .header-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    h1 {
-      font-size: 24px;
-      font-weight: 700;
-      margin: 0 0 6px 0;
-      color: #0f172a;
-    }
-
-    p.subtitle {
-      margin: 0;
-      color: #4b5563;
-      font-size: 15px;
-    }
-
-    .print-btn {
-      background: #f3f4f6;
-      border: 1px solid #d1d5db;
-      padding: 6px 14px;
-      border-radius: 6px;
-      font-size: 14px;
-      cursor: pointer;
-      color: #111827;
-    }
-
-    .print-btn:hover {
-      background: #e5e7eb;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 14px;
-      margin-top: 12px;
-    }
-
-    th, td {
-      border: 1px solid #d1d5db;
-      padding: 10px 12px;
-      vertical-align: top;
-      text-align: left;
-    }
-
-    th {
-      background-color: #f1f5f9;
-      color: #0f172a;
-      font-weight: 600;
-      position: sticky;
-      top: 0;
-      z-index: 2;
-    }
-
-    tbody tr:nth-child(even) {
-      background-color: #f8fafc;
-    }
-
-    tbody tr:hover {
-      background-color: #f1f5f9;
-    }
-
-    /* Stage divider rows */
-    tr.stage-header td {
-      background-color: #e2e8f0;
-      font-weight: 700;
-      color: #0f172a;
-      font-size: 13.5px;
-      padding: 10px 12px;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-    }
-
-    .week-col {
-      width: 60px;
-      font-weight: 600;
-      text-align: center;
-      color: #1e293b;
-    }
-
-    .topic-col {
-      width: 190px;
-      font-weight: 600;
-      color: #0f172a;
-    }
-
-    .concept-col {
-      width: 290px;
-      color: #334155;
-    }
-
-    .activity-col {
-      color: #1e293b;
-    }
-
-    .hardware-col {
-      width: 200px;
-      color: #475569;
-      font-size: 13px;
-    }
-
-    .milestone {
-      display: inline-block;
-      margin-top: 4px;
-      background: #fee2e2;
-      color: #991b1b;
-      font-size: 11px;
-      font-weight: 700;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-
-    footer {
-      margin-top: 30px;
-      font-size: 13px;
-      color: #64748b;
-      text-align: center;
-    }
-
-    @media print {
-      body {
-        padding: 0;
-      }
-      .print-btn {
-        display: none;
-      }
-      th {
-        position: static;
-        background-color: #e2e8f0 !important;
-      }
-      tr.stage-header td {
-        background-color: #cbd5e1 !important;
-      }
-      table {
-        page-break-inside: auto;
-      }
-      tr {
-        page-break-inside: avoid;
-        page-break-after: auto;
-      }
-    }
-  </style>
-</head>
-<body>
-
-<div class="container">
-  
-  <header>
-    <div class="header-top">
-      <div>
-        <h1>Annual Electronics & Robotics Curriculum (Classes 6–10)</h1>
-        <p class="subtitle">Structured 32-Week Progression: Resistors & Circuits → AC/DC & Power → Transistors & ICs → Microcontrollers → Smart Sensors → Wireless IoT & Robotics</p>
-      </div>
-      <button class="print-btn" onclick="window.print()">Print / Save PDF</button>
-    </div>
-  </header>
-
-  <table>
-    <thead>
-      <tr>
-        <th class="week-col">Week</th>
-        <th class="topic-col">Unit / Topic</th>
-        <th class="concept-col">Core Concepts</th>
-        <th class="activity-col">Hands-on Lab Build</th>
-        <th class="hardware-col">Hardware Used</th>
-      </tr>
-    </thead>
-    <tbody>
-      
-      <!-- STAGE 1: BASIC PASSIVE ELECTRONICS & RESISTORS -->
-      <tr class="stage-header">
-        <td colspan="5">Stage 1: Basic Passive Electronics & Resistors (Weeks 1–6)</td>
-      </tr>
-      <tr>
-        <td class="week-col">01</td>
-        <td class="topic-col">Electricity Fundamentals & Lab Safety</td>
-        <td class="concept-col">Atomic structure, charge, Voltage (V), Current (I), Resistance (R), Ohm's Law (V = I × R), lab safety protocols.</td>
-        <td class="activity-col">Use a digital multimeter: measure cell voltages, continuity test jumper wires, and calculate basic V-I-R values.</td>
-        <td class="hardware-col">Digital Multimeter, 9V/AA batteries, test leads.</td>
-      </tr>
-      <tr>
-        <td class="week-col">02</td>
-        <td class="topic-col">Resistors & Current Limiting</td>
-        <td class="concept-col">Resistor color codes (4-band and 5-band), tolerance ratings, power dissipation, protecting LEDs from overcurrent.</td>
-        <td class="activity-col">Decode color bands, verify values using multimeter; calculate and test current-limiting resistors for standard 5mm LEDs.</td>
-        <td class="hardware-col">Assorted Resistors (100Ω–100kΩ), Multimeter, 5mm LEDs.</td>
-      </tr>
-      <tr>
-        <td class="week-col">03</td>
-        <td class="topic-col">Breadboard Prototyping & Closed Circuits</td>
-        <td class="concept-col">Solderless breadboard internal anatomy, power distribution rails, tie-point rows, closed circuits vs. open circuits vs. short circuits.</td>
-        <td class="activity-col">Assemble a properly wired breadboard circuit with battery power, current-limiting resistor, LED, and polarity check.</td>
-        <td class="hardware-col">Breadboard (400 or 800 tie), LEDs, 220Ω resistors, 9V snap/pack.</td>
-      </tr>
-      <tr>
-        <td class="week-col">04</td>
-        <td class="topic-col">Series & Parallel Circuits</td>
-        <td class="concept-col">Kirchhoff's Voltage Law (KVL) in series, Kirchhoff's Current Law (KCL) in parallel, equivalent resistance (R_total).</td>
-        <td class="activity-col">Build dual-LED series vs. parallel circuits side-by-side; measure voltage drops and compare LED intensities.</td>
-        <td class="hardware-col">Breadboard, LEDs, 220Ω/1kΩ resistors, Multimeter, jumpers.</td>
-      </tr>
-      <tr>
-        <td class="week-col">05</td>
-        <td class="topic-col">Switches, Buttons & Hardware Logic</td>
-        <td class="concept-col">Mechanical switches (SPST, SPDT, push buttons), Normally Open (NO) vs. Normally Closed (NC), contact bouncing.</td>
-        <td class="activity-col">Construct hardware logic circuits: 2 switches in series (AND gate behaviour) and 2 switches in parallel (OR gate behaviour).</td>
-        <td class="hardware-col">Tactile push buttons, slide switches, LEDs, breadboard.</td>
-      </tr>
-      <tr>
-        <td class="week-col">06</td>
-        <td class="topic-col">Capacitors & RC Timing</td>
-        <td class="concept-col">Dielectrics, capacitance (C = Q/V), electrolytic vs. ceramic capacitors, charging/discharging curves, RC time constant (τ = R × C).</td>
-        <td class="activity-col">RC soft-off timer: wire an LED circuit that gradually dims and turns off over several seconds after releasing the push button.</td>
-        <td class="hardware-col">Capacitors (10µF, 100µF, 470µF), 10kΩ resistors, push buttons.</td>
-      </tr>
-
-      <!-- STAGE 2: AC VS DC, DIODES & POWER CONVERSION -->
-      <tr class="stage-header">
-        <td colspan="5">Stage 2: AC vs. DC, Diodes & Power Conversion (Weeks 7–10)</td>
-      </tr>
-      <tr>
-        <td class="week-col">07</td>
-        <td class="topic-col">AC vs. DC Fundamentals</td>
-        <td class="concept-col">Alternating Current (AC) vs. Direct Current (DC), sinusoidal waves, frequency (Hz), peak vs. RMS voltage, mains safety.</td>
-        <td class="activity-col">Observe DC battery polarity vs. AC signal generation (low-voltage AC adapter / signal source), measure RMS voltage with DMM.</td>
-        <td class="hardware-col">Digital Multimeter, DC battery packs, low-voltage AC source (6V-12V).</td>
-      </tr>
-      <tr>
-        <td class="week-col">08</td>
-        <td class="topic-col">Semiconductor Diodes & Rectification</td>
-        <td class="concept-col">P-N junction physics, forward bias (0.7V threshold), reverse bias, breakdown voltage, standard diodes (1N4007) vs. Zener/Schottky.</td>
-        <td class="activity-col">Test diode one-way conductivity; wire a reverse-polarity protection circuit for sensitive electronics.</td>
-        <td class="hardware-col">1N4007 Diodes, 1N4148 Diodes, LEDs, Multimeter, breadboard.</td>
-      </tr>
-      <tr>
-        <td class="week-col">09</td>
-        <td class="topic-col">AC to DC Power Supply & Filtering</td>
-        <td class="concept-col">Half-wave rectification, full-wave Bridge Rectifier, smoothing ripple with filter capacitors, DC linear regulation (7805 IC).</td>
-        <td class="activity-col">Build a bridge rectifier with 4 diodes and a filter capacitor; regulate pulsating DC to a clean 5V output using an LM7805.</td>
-        <td class="hardware-col">4× 1N4007 diodes (or bridge package), 1000µF capacitor, LM7805 regulator.</td>
-      </tr>
-      <tr>
-        <td class="week-col">10</td>
-        <td class="topic-col">
-          Safe Soldering & Perfboard Assembly
-          <span class="milestone">Milestone 1</span>
-        </td>
-        <td class="concept-col">Solder alloy (60/40), rosin core flux, iron temperature, tinning, cold joints, safety goggles, perfboard component layout.</td>
-        <td class="activity-col">Transfer the 5V regulated DC power supply or dual-LED indicator circuit from breadboard onto permanent dotted perfboard.</td>
-        <td class="hardware-col">Soldering station, stand, solder wire, perfboard, safety goggles.</td>
-      </tr>
-
-      <!-- STAGE 3: TRANSISTORS, TIMERS & ACTIVE COMPONENTS -->
-      <tr class="stage-header">
-        <td colspan="5">Stage 3: Transistors, Timers & Active Components (Weeks 11–14)</td>
-      </tr>
-      <tr>
-        <td class="week-col">11</td>
-        <td class="topic-col">BJT Transistors as Electronic Switches</td>
-        <td class="concept-col">Bipolar Junction Transistors (NPN vs. PNP), Base-Collector-Emitter pins, base current control, saturation and cut-off regions.</td>
-        <td class="activity-col">Build a transistor switch: use an NPN BC547 to drive an audible buzzer or high-power LED from a weak finger-touch signal.</td>
-        <td class="hardware-col">BC547 / 2N2222 Transistors, 5V Buzzer, 1kΩ/10kΩ resistors.</td>
-      </tr>
-      <tr>
-        <td class="week-col">12</td>
-        <td class="topic-col">Variable Resistors & Light Sensing</td>
-        <td class="concept-col">Potentiometers as variable voltage dividers; Light Dependent Resistors (LDR) photo-conduction, voltage divider equation.</td>
-        <td class="activity-col">Automatic dark-detecting night lamp: wire an LDR and transistor circuit where an LED turns ON automatically as room lights turn OFF.</td>
-        <td class="hardware-col">LDR, 10kΩ Potentiometer, BC547 Transistor, LED, breadboard.</td>
-      </tr>
-      <tr>
-        <td class="week-col">13</td>
-        <td class="topic-col">Relays & Inductive Load Driving</td>
-        <td class="concept-col">Electromagnetism, relay coil energization, NO/NC contacts, back-EMF inductive spikes, flyback protective diodes.</td>
-        <td class="activity-col">Build a transistor-driven 5V relay module circuit with a flyback diode to safely switch an isolated auxiliary DC lamp.</td>
-        <td class="hardware-col">5V Relay Module, 1N4007 Diode, BC547, DC lamp / motor.</td>
-      </tr>
-      <tr>
-        <td class="week-col">14</td>
-        <td class="topic-col">Integrated Circuits: The 555 Timer</td>
-        <td class="concept-col">Internal block diagram of NE555 (comparators, flip-flop, discharge transistor), Astable multivibrator mode, duty cycle.</td>
-        <td class="activity-col">Build an adjustable dual-LED flasher (police strobe) using an NE555 timer and potentiometer without any programming.</td>
-        <td class="hardware-col">NE555 Timer IC, capacitors, resistors, 10kΩ pot, dual LEDs.</td>
-      </tr>
-
-      <!-- STAGE 4: PROGRAMMABLE MICROCONTROLLERS (ARDUINO) -->
-      <tr class="stage-header">
-        <td colspan="5">Stage 4: Programmable Microcontrollers (Weeks 15–20)</td>
-      </tr>
-      <tr>
-        <td class="week-col">15</td>
-        <td class="topic-col">Microcontroller Architecture & IDE</td>
-        <td class="concept-col">Microprocessor vs. Microcontroller, ATmega328P architecture, flash memory, SRAM, GPIO pins, USB-Serial bridge, Arduino IDE.</td>
-        <td class="activity-col">"Hello World": connect Arduino board, configure COM port, write and upload custom blink routines with modified timing.</td>
-        <td class="hardware-col">Arduino Uno or Nano, USB cable, PC with Arduino IDE.</td>
-      </tr>
-      <tr>
-        <td class="week-col">16</td>
-        <td class="topic-col">Digital Outputs & Sequencing</td>
-        <td class="concept-col">pinMode(), digitalWrite(), delay(), microcontroller execution cycle, multi-pin coordination without electrical shorting.</td>
-        <td class="activity-col">Build a 4-way Traffic Light intersection with Red, Yellow, Green cycles and a synchronized pedestrian crossing signal.</td>
-        <td class="hardware-col">Arduino Uno, Red/Yellow/Green LEDs, 220Ω resistors, breadboard.</td>
-      </tr>
-      <tr>
-        <td class="week-col">17</td>
-        <td class="topic-col">Digital Inputs & Pull-Up Logic</td>
-        <td class="concept-col">digitalRead(), floating input states, pull-up vs. pull-down resistors, internal INPUT_PULLUP register, mechanical switch debounce.</td>
-        <td class="activity-col">Push-button latch toggle: press once to turn lamp ON, press again to turn OFF (software state tracking).</td>
-        <td class="hardware-col">Push buttons, 10kΩ resistors, LED indicators, Arduino.</td>
-      </tr>
-      <tr>
-        <td class="week-col">18</td>
-        <td class="topic-col">Analog Outputs & PWM</td>
-        <td class="concept-col">Pulse Width Modulation (PWM), duty cycle, analogWrite(), 8-bit resolution (0–255), tone() and noTone() audio synthesis.</td>
-        <td class="activity-col">Build a breathing LED mood lamp; program a piezo buzzer to play custom melodies and alarm siren frequencies.</td>
-        <td class="hardware-col">PWM pins (~3, ~5, ~6, ~9), Piezo buzzer, LEDs, breadboard.</td>
-      </tr>
-      <tr>
-        <td class="week-col">19</td>
-        <td class="topic-col">Analog Inputs & ADC Conversion</td>
-        <td class="concept-col">10-bit Analog-to-Digital Converter (0–1023), reference voltage (5V/1024 ≈ 4.9mV), analogRead(), map() math scaling.</td>
-        <td class="activity-col">Rotary dimmer & light meter: read potentiometer and LDR values via analog pins; map them to adjust LED brightness smoothly.</td>
-        <td class="hardware-col">10kΩ Potentiometer, LDR, Analog pins (A0–A5), LEDs.</td>
-      </tr>
-      <tr>
-        <td class="week-col">20</td>
-        <td class="topic-col">
-          Actuators: Servomotors & DC Motor Drivers
-          <span class="milestone">Milestone 2</span>
-        </td>
-        <td class="concept-col">Servo PWM pulse timing (50Hz), Servo library, H-bridge motor driver theory (L298N/L293D), motor back-EMF and external battery power.</td>
-        <td class="activity-col">Position an SG90 micro-servo by angle knob; control DC motor forward, reverse, and speed regulation via L298N driver board.</td>
-        <td class="hardware-col">SG90 Servo, L298N Driver, BO Motor, external battery pack.</td>
-      </tr>
-
-      <!-- STAGE 5: SMART SENSORS, DISPLAYS & DATA TELEMETRY -->
-      <tr class="stage-header">
-        <td colspan="5">Stage 5: Smart Sensors, Displays & Data Telemetry (Weeks 21–25)</td>
-      </tr>
-      <tr>
-        <td class="week-col">21</td>
-        <td class="topic-col">Serial Communication & Telemetry</td>
-        <td class="concept-col">UART protocol, TX/RX registers, baud rates (9600 vs. 115200), Serial Monitor debugging, Serial Plotter waveform graphing.</td>
-        <td class="activity-col">Stream live sensor readings to PC terminal; send bidirectional ASCII commands ('1'=ON, '0'=OFF) to trigger lab hardware.</td>
-        <td class="hardware-col">Arduino Uno, PC Serial Monitor / Plotter, sensors.</td>
-      </tr>
-      <tr>
-        <td class="week-col">22</td>
-        <td class="topic-col">Acoustic Distance Sensing (HC-SR04)</td>
-        <td class="concept-col">Piezoelectric acoustic transceivers, speed of sound in air (343 m/s), time-of-flight equation (d = v × t / 2), pulseIn() timing.</td>
-        <td class="activity-col">Ultrasonic Parking Radar: accurately measure distance to obstacle; sound faster buzzer beeps as distance narrows.</td>
-        <td class="hardware-col">HC-SR04 ultrasonic sensor, buzzer, LED bar / indicator.</td>
-      </tr>
-      <tr>
-        <td class="week-col">23</td>
-        <td class="topic-col">Alphanumeric Displays (16×2 I²C LCD)</td>
-        <td class="concept-col">Character LCD matrix, I²C two-wire bus (SDA & SCL), hex slave addresses (0x27 / 0x3F), reducing 16 pins down to 4 wires.</td>
-        <td class="activity-col">Visual Sensor Console: display live distance readings, custom greeting banners, and animated status messages on a 16×2 LCD screen.</td>
-        <td class="hardware-col">16×2 LCD with I²C backpack module, HC-SR04 sensor, Arduino.</td>
-      </tr>
-      <tr>
-        <td class="week-col">24</td>
-        <td class="topic-col">Environmental & Motion Sensors</td>
-        <td class="concept-col">DHT11 single-bus digital protocol (temperature & relative humidity), HC-SR501 PIR pyroelectric infrared motion sensing, Fresnel lens.</td>
-        <td class="activity-col">Build a Classroom Security & Climate Monitor: read temperature/humidity and trigger alert countdown upon motion detection.</td>
-        <td class="hardware-col">DHT11 sensor, HC-SR501 PIR sensor, 16×2 LCD, buzzer.</td>
-      </tr>
-      <tr>
-        <td class="week-col">25</td>
-        <td class="topic-col">
-          Infrared Line Sensors & Robotics Drivetrain
-          <span class="milestone">Milestone 3</span>
-        </td>
-        <td class="concept-col">TCRT5000 IR reflectance sensors, black absorption vs. white reflection, differential drive kinematics, caster wheel balance.</td>
-        <td class="activity-col">Assemble 2WD mobile robot chassis; calibrate dual IR tracking sensors to track a black electrical tape line course autonomously.</td>
-        <td class="hardware-col">2WD chassis kit, 2× BO motors, dual IR line sensors, L298N driver.</td>
-      </tr>
-
-      <!-- STAGE 6: WIRELESS IOT, CLOUD SENSORS & CAPSTONE -->
-      <tr class="stage-header">
-        <td colspan="5">Stage 6: Wireless IoT, Cloud Sensors & Capstone (Weeks 26–32)</td>
-      </tr>
-      <tr>
-        <td class="week-col">26</td>
-        <td class="topic-col">Introduction to IoT & ESP Microcontrollers</td>
-        <td class="concept-col">ESP8266 NodeMCU / ESP32 architecture, 3.3V logic level constraints, Wi-Fi Station (STA) mode vs. Access Point (SoftAP) mode.</td>
-        <td class="activity-col">Connect ESP board to lab Wi-Fi network; scan available SSIDs, obtain assigned DHCP IP address, and print to Serial Monitor.</td>
-        <td class="hardware-col">ESP8266 / ESP32 Dev Board, micro-USB cable, PC.</td>
-      </tr>
-      <tr>
-        <td class="week-col">27</td>
-        <td class="topic-col">Local Web Server & Appliance Control</td>
-        <td class="concept-col">HTTP request-response cycle, embedded HTML/CSS web server in microcontroller flash, parsing query parameters for pin actuation.</td>
-        <td class="activity-col">Smartphone-controlled home automation: host a web dashboard on ESP; toggle 5V relay module and LEDs from any mobile phone browser.</td>
-        <td class="hardware-col">ESP32 / ESP8266, 5V single-channel relay module, smartphone browser.</td>
-      </tr>
-      <tr>
-        <td class="week-col">28</td>
-        <td class="topic-col">Bluetooth Telemetry & Remote Control</td>
-        <td class="concept-col">Bluetooth Serial Port Profile (SPP) vs. BLE, UART bridging, AT commands, mobile terminal pairing.</td>
-        <td class="activity-col">Build a Bluetooth-controlled remote smart lamp: transmit control commands from an Android Bluetooth serial terminal app.</td>
-        <td class="hardware-col">HC-05 module or onboard ESP32 Bluetooth, smartphone app.</td>
-      </tr>
-      <tr>
-        <td class="week-col">29</td>
-        <td class="topic-col">IoT Cloud Dashboards & Telemetry</td>
-        <td class="concept-col">Cloud IoT architectures, REST API endpoints, publishing sensor telemetry over HTTP/MQTT to cloud services (Blynk / ThingSpeak).</td>
-        <td class="activity-col">Cloud Weather Station: log live temperature and humidity data to a cloud dashboard; view real-time graphical charts remotely.</td>
-        <td class="hardware-col">ESP32/ESP8266, DHT11 sensor, ThingSpeak / Blynk cloud account.</td>
-      </tr>
-      <tr>
-        <td class="week-col">30</td>
-        <td class="topic-col">Autonomous Navigation: Obstacle Avoidance</td>
-        <td class="concept-col">Acoustic radar scanning, servo pan mounting, decision tree: stop → sweep sensor left/right → calculate clearest path → steer motors.</td>
-        <td class="activity-col">Mount ultrasonic sensor on a front SG90 servo; program autonomous robot to navigate a maze without colliding with obstacles.</td>
-        <td class="hardware-col">2WD mobile robot, HC-SR04 sensor, SG90 servo, mounting bracket.</td>
-      </tr>
-      <tr>
-        <td class="week-col">31</td>
-        <td class="topic-col">Capstone Engineering: Design & Prototyping</td>
-        <td class="concept-col">Engineering lifecycle: problem statement, block diagrams, schematic capture, breadboard prototyping, modular code integration.</td>
-        <td class="activity-col">Teams begin chosen capstone build: (1) Smart Automated Home, (2) Autonomous Rover with Telemetry, or (3) IoT Greenhouse.</td>
-        <td class="hardware-col">Full ATL component pool, chassis, sensors, breadboards.</td>
-      </tr>
-      <tr>
-        <td class="week-col">32</td>
-        <td class="topic-col">
-          Capstone Showcase & Technical Review
-          <span class="milestone">Final Capstone</span>
-        </td>
-        <td class="concept-col">Technical presentation, system block diagrams, user manuals, failure analysis, real-world constraints and future scope.</td>
-        <td class="activity-col">Grand Showcase: demonstrate completed projects to teachers, peers, and visitors; submit technical documentation and logbooks.</td>
-        <td class="hardware-col">Completed team projects, project logbooks, presentation posters.</td>
-      </tr>
-
-    </tbody>
-  </table>
-
-  <footer>
-    <p>Atal Tinkering Lab · Electronics & Robotics Annual Syllabus · 32 Total Units · Designed for Classes 6–10</p>
-  </footer>
-
-</div>
-
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Unified Electronics, Programming &amp; Robotics Curriculum</title>
+<style>
+:root{--ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;--navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1500px;margin:0 auto;padding:24px 18px 42px}header{background:var(--navy);color:#fff;border-radius:14px;padding:22px 26px;margin-bottom:18px}
+header p{margin:6px 0 0;color:#dbe8fb}main{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+h1{margin:0;font-size:1.6rem}h2{font-size:1.15rem;margin-top:26px}table{width:100%;border-collapse:collapse;margin:12px 0 24px;font-size:.92rem}
+th{background:var(--blue);text-align:left}th,td{border:1px solid var(--line);padding:9px 10px;vertical-align:top}tbody tr:nth-child(even){background:var(--soft)}
+th:first-child,td:first-child{width:4%;text-align:center}th:nth-child(2){width:22%}th:nth-child(3){width:39%}th:nth-child(4){width:35%}
+ul{padding-left:22px}footer{color:var(--muted);font-size:.85rem;margin:16px 4px}
+@media(max-width:750px){.wrap{padding:10px}main{padding:10px;overflow-x:auto}table{min-width:900px}header{padding:18px}}
+@media print{body{background:white}.wrap{max-width:none;padding:0}header{background:white;color:black;border:1px solid black}header p{color:#333}main{border:0;padding:0}table{font-size:9pt;break-inside:auto}tr{break-inside:avoid}thead{display:table-header-group}}
+</style></head><body><div class="wrap">
+<header><h1>Unified Electronics, Programming &amp; Robotics Curriculum</h1><p>Atal Thinking Lab · Classes 5–9 · Project-oriented learning</p></header>
+<main><table><thead><tr><th>No.</th><th>Curriculum Topic</th><th>What to Teach</th><th>Practical / Project</th></tr></thead><tbody>
+<tr><td>1</td><td>Introduction to the Atal Thinking Lab</td><td>Innovation, engineering, electronics, robotics, lab equipment, project-based learning</td><td>Identify lab components and tools; explore example projects</td></tr>
+<tr><td>2</td><td>Lab Safety &amp; Responsible Use</td><td>Electrical safety, component handling, battery safety, tool safety, safe working practices</td><td>Safety checklist and component-handling activity</td></tr>
+<tr><td>3</td><td>Computational Thinking</td><td>Problem decomposition, pattern recognition, sequencing, algorithms</td><td>Write step-by-step instructions for a real-world task</td></tr>
+<tr><td>4</td><td>Introduction to Programming</td><td>What is a program, programming languages, instructions, events, visual programming</td><td>Create a simple Scratch animation or interactive activity</td></tr>
+<tr><td>5</td><td>Electricity Fundamentals</td><td>Voltage, current, resistance, energy, open and closed circuits, conductors and insulators</td><td>Build a simple battery-powered circuit</td></tr>
+<tr><td>6</td><td>Electronic Components</td><td>Resistors, LEDs, switches, batteries, buzzers, capacitors, diodes, transistors</td><td>Component identification and testing</td></tr>
+<tr><td>7</td><td>Circuit Diagrams &amp; Breadboards</td><td>Circuit symbols, breadboard connections, polarity, circuit construction</td><td>Build an LED circuit from a circuit diagram</td></tr>
+<tr><td>8</td><td>Resistors &amp; Ohm’s Law</td><td>Resistance, current limiting, voltage, current, basic calculations</td><td>Calculate and test an LED current-limiting resistor</td></tr>
+<tr><td>9</td><td>Series &amp; Parallel Circuits</td><td>Current paths, voltage distribution, circuit behavior</td><td>Build and compare series and parallel LED circuits</td></tr>
+<tr><td>10</td><td>Measurement &amp; Testing Instruments</td><td>Multimeter, voltage measurement, continuity, resistance, troubleshooting</td><td>Diagnose faults in a circuit</td></tr>
+<tr><td>11</td><td>Programming Logic &amp; Flowcharts</td><td>Algorithms, flowcharts, pseudocode, sequencing, events</td><td>Create a flowchart for a traffic light</td></tr>
+<tr><td>12</td><td>Variables, Data Types &amp; Operators</td><td>Variables, numbers, Boolean values, arithmetic and comparison operators</td><td>Program a simple calculator or logic activity</td></tr>
+<tr><td>13</td><td>Conditions &amp; Decision-Making</td><td>if, else, nested conditions, logical operators</td><td>Create a decision-based program</td></tr>
+<tr><td>14</td><td>Loops &amp; Repetition</td><td>Repeat, for, while, loop control</td><td>Program LED patterns or a repeating animation</td></tr>
+<tr><td>15</td><td>Microcontrollers &amp; Programming Environment</td><td>Microcontroller concepts, Arduino board, IDE, program structure, uploading code</td><td>Upload a first program to an Arduino</td></tr>
+<tr><td>16</td><td>Digital Outputs</td><td>HIGH/LOW, digital output pins, LEDs, buzzers</td><td>Programmable LED patterns and buzzer alerts</td></tr>
+<tr><td>17</td><td>Digital Inputs</td><td>Buttons, switches, digital sensors, pull-up and pull-down logic</td><td>Button-controlled LED or buzzer</td></tr>
+<tr><td>18</td><td>Programming with Physical Inputs</td><td>Input processing, conditions, loops, event-based behavior</td><td>Electronic reaction game</td></tr>
+<tr><td>19</td><td>Capacitors &amp; Timing</td><td>Capacitors, charging and discharging, RC timing, basic time delay</td><td>Capacitor charging and discharging demonstration</td></tr>
+<tr><td>20</td><td>Diodes &amp; Power Supply Basics</td><td>Diode polarity, rectification concepts, AC/DC, filtering, regulated power</td><td>Low-voltage DC power supply demonstration</td></tr>
+<tr><td>21</td><td>Transistors &amp; Switching</td><td>BJT transistor, switching, base resistor, loads, flyback diode concept</td><td>Transistor-controlled LED or small DC load</td></tr>
+<tr><td>22</td><td>Relays &amp; Load Control</td><td>Relay operation, control circuits, inductive loads, electrical isolation concept</td><td>Low-voltage relay-controlled device</td></tr>
+<tr><td>23</td><td>Analog Inputs &amp; ADC</td><td>Analog signals, voltage variation, ADC, sensor readings</td><td>Read a potentiometer or light sensor</td></tr>
+<tr><td>24</td><td>PWM &amp; Analog-Like Outputs</td><td>PWM, duty cycle, brightness and speed control</td><td>LED dimmer or motor speed demonstration</td></tr>
+<tr><td>25</td><td>Functions &amp; Modular Programming</td><td>Functions, parameters, return values, code reuse, program organization</td><td>Create reusable LED and sensor functions</td></tr>
+<tr><td>26</td><td>Debugging &amp; Program Testing</td><td>Syntax errors, logic errors, serial monitor, systematic testing</td><td>Debug a deliberately faulty program</td></tr>
+<tr><td>27</td><td>Sensors &amp; Data Collection</td><td>Light, temperature, humidity, sound, distance, motion, sensor calibration</td><td>Environmental data collection activity</td></tr>
+<tr><td>28</td><td>Sensor-Based Automation</td><td>Thresholds, conditions, sensor data, automated responses</td><td>Automatic night light, temperature alert, or distance alarm</td></tr>
+<tr><td>29</td><td>Displays &amp; User Feedback</td><td>16×2 LCD, I²C, seven-segment display, LEDs, buzzer feedback</td><td>Sensor value display system</td></tr>
+<tr><td>30</td><td>Servo Motors &amp; Actuators</td><td>Servo position, control signals, actuator concepts</td><td>Programmable servo gate or robotic arm demonstration</td></tr>
+<tr><td>31</td><td>DC Motors &amp; Motor Drivers</td><td>Motor direction, speed, H-bridge, motor driver modules, separate motor power</td><td>Motor direction and speed controller</td></tr>
+<tr><td>32</td><td>Robotics Mechanical Design</td><td>Chassis, wheels, gears, torque, friction, mounting, mechanical design</td><td>Assemble a simple robot chassis</td></tr>
+<tr><td>33</td><td>Robot Control &amp; Sensor Integration</td><td>Motor control, sensor inputs, decision logic, movement</td><td>Obstacle-detection and response robot</td></tr>
+<tr><td>34</td><td>Infrared Sensors &amp; Line Detection</td><td>IR reflectance, line sensors, sensor arrays, motor control logic</td><td>Line-following robot</td></tr>
+<tr><td>35</td><td>Serial Communication</td><td>Serial monitor, UART concepts, transmitting and receiving data</td><td>Send sensor readings to a computer</td></tr>
+<tr><td>36</td><td>I²C &amp; Peripheral Communication</td><td>I²C basics, device addressing, connecting displays and sensors</td><td>Connect an I²C display and sensor</td></tr>
+<tr><td>37</td><td>Bluetooth Communication</td><td>Bluetooth concepts, wireless data, commands, remote control</td><td>Bluetooth-controlled LED or robot</td></tr>
+<tr><td>38</td><td>ESP Microcontrollers</td><td>ESP8266/ESP32, GPIO, Wi-Fi, board differences, programming setup</td><td>Read a sensor using an ESP board</td></tr>
+<tr><td>39</td><td>IoT Fundamentals</td><td>Internet of Things, connected devices, data flow, local and cloud systems</td><td>Build a connected sensor demonstration</td></tr>
+<tr><td>40</td><td>Web-Based Monitoring &amp; Control</td><td>Local web server, HTML basics, sensor data, control interface</td><td>ESP32 web page to monitor or control an output</td></tr>
+<tr><td>41</td><td>IoT Dashboards &amp; Telemetry</td><td>Data transmission, dashboards, charts, remote monitoring</td><td>Environmental monitoring dashboard</td></tr>
+<tr><td>42</td><td>Wireless System Design</td><td>Bluetooth versus Wi-Fi, range, reliability, communication limits</td><td>Compare wireless control approaches</td></tr>
+<tr><td>43</td><td>Data Collection &amp; Visualization</td><td>Sensor data, tables, graphs, trends, measurement errors</td><td>Collect and graph temperature or light data</td></tr>
+<tr><td>44</td><td>Introduction to AI &amp; Smart Systems</td><td>Rule-based automation, AI concepts, data, classification, limitations, responsible use</td><td>Compare a rule-based sensor system with an AI example</td></tr>
+<tr><td>45</td><td>Engineering Design Process</td><td>Identify a problem, criteria, constraints, sketching, prototyping, testing, iteration</td><td>Design and test a solution to a classroom problem</td></tr>
+<tr><td>46</td><td>Project Documentation</td><td>Circuit diagrams, component lists, algorithms, flowcharts, code comments, test records</td><td>Prepare a technical project notebook</td></tr>
+<tr><td>47</td><td>Integrated Engineering Projects</td><td>Combine electronics, programming, sensors, actuators, communication, mechanical design</td><td>Build a multi-component system</td></tr>
+<tr><td>48</td><td>Capstone Project Design</td><td>Problem selection, research, system architecture, component selection, planning</td><td>Prepare a project proposal and prototype plan</td></tr>
+<tr><td>49</td><td>Capstone Development &amp; Testing</td><td>Assembly, programming, debugging, measurement, testing, improvement</td><td>Build and refine the capstone project</td></tr>
+<tr><td>50</td><td>Capstone Showcase &amp; Technical Review</td><td>Technical communication, project explanation, design decisions, testing results, reflection</td><td>Present and demonstrate the final project</td></tr>
+</tbody></table>
+<h2>Lab Safety &amp; Project Constraints</h2><ul>
+<li>Use low-voltage DC supplies for student-built circuits. Direct student connection to household mains voltage is prohibited.</li>
+<li>Use appropriate current-limiting resistors and verify component polarity before powering a circuit.</li>
+<li>Do not power DC motors or high-current servos directly from a microcontroller GPIO or board supply pin. Use a suitable motor driver or external supply; connect grounds as required by the circuit.</li>
+<li>ESP8266/ESP32 GPIO operates at 3.3 V logic. Protect GPIO from 5 V signals using a compatible interface or level shifter.</li>
+<li>Soldering, cutting, drilling, and other tool-based work must be supervised and use appropriate protective equipment.</li>
+<li>Confirm actual lab stock, board variants, sensor pinouts, voltage limits, and module specifications before each build.</li>
+<li>For each project, use the engineering cycle: define → design → build → test → debug → improve → document.</li>
+</ul>
+<h2>Curriculum Alignment References</h2><ul>
+<li><a href="https://aim.gov.in/atal-tinkering-labs.php">Atal Innovation Mission — Atal Tinkering Labs</a></li>
+<li><a href="https://csteachers.org/k12standards/">CSTA K–12 Computer Science Standards</a></li>
+<li><a href="https://www.nextgenscience.org/topic-arrangement/hs-engineering-design">Next Generation Science Standards — Engineering Design</a></li>
+</ul></main><footer>Markdown source: <a href="FULL-YEAR-CURRICULUM.md">FULL-YEAR-CURRICULUM.md</a> · HTML reading copy.</footer>
+</div></body></html>

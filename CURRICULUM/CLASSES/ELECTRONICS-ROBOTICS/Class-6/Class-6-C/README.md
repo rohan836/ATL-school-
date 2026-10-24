@@ -1,8 +1,6 @@
-# Class 6 C
+# Class 6-C — Electronics & Robotics
 
-This folder is for Class 6 C ATL lesson plans, project work, and class records.
+This folder is retained for batch-specific notes and classroom materials. The curriculum is shared across Classes 5–9 and is maintained centrally.
 
-## Timetable references
-
-- [Main ATL timetable](../../../../../SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md)
-- [Temporary 60-minute timetable](../../../../../SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.md)
+- [Unified Curriculum (Markdown)](../../FULL-YEAR-CURRICULUM.md)
+- [Unified Curriculum (HTML)](../../FULL-YEAR-CURRICULUM.html)
