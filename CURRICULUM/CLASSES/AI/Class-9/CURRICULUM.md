@@ -207,3 +207,17 @@ Check devices, software, permissions and connectivity; prepare a known-good exam
 
 ### Student reflection
 What problem did we solve? How does it work? What did tests show? What failed or surprised us? What did we change and why? What should users not assume? What data/permissions need protection? Where must a person review the result?
+
+## Grade-specific implementation guidance
+
+### Technical expectations
+Use moderate datasets, simple local execution, and teacher-approved libraries. GPU and cloud use are optional, not prerequisites. Use a baseline before adding model complexity. Never use private student data, uncontrolled autonomous agents, or tools with access to accounts, shell commands, or sensitive files. Source-grounded systems must distinguish retrieved facts from generated wording.
+
+### Project pathway
+Possible projects include a data-quality checker, a small environmental-data predictor, a fictional-item classifier, or a question-answering prototype over teacher-approved school guidance that displays its source. A rule-based solution is acceptable when it fits the problem better than AI.
+
+### Teaching and safety
+Students should justify the problem and technique, report unsuccessful trials, and keep test data separate from training decisions. Review privacy, fairness, copyright, security, and human oversight before public demonstration. Outputs with real-world impact need adult review and are outside the course's autonomous scope.
+
+### Success standard
+Evaluate whether the student can reproduce the result, explain trade-offs, reason from test evidence, and state where the system may fail—not merely whether a model runs.
