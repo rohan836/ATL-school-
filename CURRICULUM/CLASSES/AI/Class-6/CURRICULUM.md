@@ -207,3 +207,17 @@ Check devices, software, permissions and connectivity; prepare a known-good exam
 
 ### Student reflection
 What problem did we solve? How does it work? What did tests show? What failed or surprised us? What did we change and why? What should users not assume? What data/permissions need protection? Where must a person review the result?
+
+## Grade-specific implementation guidance
+
+### Progression and boundaries
+Introduce loops before asking students to build multi-step programs; use small datasets before charts or classification. Students may use a prepared notebook, offline editor, or teacher-controlled tool. Do not require cloud compute, paid tools, webcam data, or training a large model. Generation tools are optional demonstrations, not the course's technical foundation.
+
+### Project pathway
+Suggested projects include a quiz with conditions, a simple study timer or checklist, a survey-summary chart, or a paper/teacher-guided classifier using fictional data.
+
+### Teaching and safety
+Demonstrate first, ask students to predict, let them modify one thing at a time, test normal and unusual inputs, and have them explain their reasoning. Use fictional or teacher-prepared data. Do not upload identifiable student information, photos, recordings, or school records to external AI services. Verify important claims against trusted sources and keep a human responsible for decisions.
+
+### Success standard
+Assess working logic, explanation, test evidence, iteration, and responsible choices. A small program a student can explain is stronger evidence than copied code they cannot describe.
