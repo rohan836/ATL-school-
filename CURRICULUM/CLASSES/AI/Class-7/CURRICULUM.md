@@ -207,3 +207,17 @@ Check devices, software, permissions and connectivity; prepare a known-good exam
 
 ### Student reflection
 What problem did we solve? How does it work? What did tests show? What failed or surprised us? What did we change and why? What should users not assume? What data/permissions need protection? Where must a person review the result?
+
+## Grade-specific implementation guidance
+
+### Technical expectations
+Students should write most core Python themselves with scaffolds as needed. A notebook or simple local editor is appropriate. If an ML library is unavailable, use a transparent paper model or teacher-prepared demonstration. Keep student reasoning central; avoid training large models, unbounded agents, or deploying projects on real people.
+
+### Project pathway
+Possible projects include a student-created quiz analyser, school-garden data chart, fictional library-category classifier, simple survey explorer, or fact-checking assistant grounded in a teacher-approved text.
+
+### Teaching and safety
+Use short explain-build-test cycles, ask for predictions before execution, and require each team member to explain part of the program. Test unfamiliar examples and compare changes. Use approved data and tools. Never upload identifiable student data to public AI tools. Distinguish a language-model suggestion from a verified fact.
+
+### Success standard
+A strong result uses readable code, clean-enough data, a fair test, a reasoned improvement, and an honest description of limitations.
