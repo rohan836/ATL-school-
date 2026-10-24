@@ -70,38 +70,3 @@ This is the single shared AI curriculum for Classes 5–9. Classes C and D follo
 |  |  | 8.8 | AI applications in healthcare, agriculture, education, and environment |
 |  |  | 8.9 | AI careers and future opportunities |
 |  |  | 8.10 | Final AI project exhibition |
-
-## Suggested progression across Classes 5–9
-
-| Class | Recommended learning depth |
-|---|---|
-| **5** | AI awareness, computational thinking, simple data activities, guided AI concepts, and safe use |
-| **6** | Algorithms, data handling, basic programming, and guided AI demonstrations |
-| **7** | Machine learning concepts, simple classifiers, and introductory computer vision activities |
-| **8** | NLP, generative AI, prompting, evaluation, and responsible AI |
-| **9** | More independent AI projects, data preparation, testing, limitations, and documentation |
-
-## Project examples
-
-| Project | Main AI concept |
-|---|---|
-| Sort objects using an image classifier | Computer Vision |
-| Recognize simple sounds | Audio classification |
-| Build a school FAQ chatbot | NLP and conversational AI |
-| Classify recyclable waste categories | Image classification |
-| Create a plant-health assistant using approved sample images | Image AI and data |
-| Examine AI-generated claims and verify them | Responsible AI and source checking |
-| Design an AI-assisted solution to a school problem | Project workflow and evaluation |
-
-## Lab safety and responsible use
-
-- Use teacher-approved tools, datasets, and age-appropriate activities; provide paper/offline alternatives.
-- Never upload identifiable student names, faces, voices, locations, records, or private work to public AI services.
-- Do not use AI to infer sensitive traits or make consequential decisions about students.
-- Check generated outputs against reliable sources; plausible output is not automatically correct.
-- Explain model errors, bias, privacy, permissions, and the role of human review.
-- No paid account, GPU, webcam, or external AI service is required for the core curriculum.
-
-## Relationship to grade-level plans
-
-This master table defines the shared topic framework. The detailed grade plans in `Class-5` through `Class-9` provide the grade-specific six-month, 72-session lesson sequence, project briefs, assessment guidance, and teaching adaptations. Batch folders (C and D) are retained for project work and class records.
