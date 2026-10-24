@@ -2,30 +2,32 @@
 
 ## Curriculum structure
 
-The AI curriculum uses one shared, numbered module framework for Classes 5–9, following the same master-curriculum approach as Electronics & Robotics.
+AI follows the Electronics & Robotics directory pattern: one shared, full-year curriculum for Classes 5–9, with separate C and D batch folders for class work.
 
 - [Full-year AI curriculum — Markdown](FULL-YEAR-CURRICULUM.md)
-- [Full-year AI curriculum — HTML table](FULL-YEAR-CURRICULUM.html)
+- [Full-year AI curriculum — HTML](FULL-YEAR-CURRICULUM.html)
 
-The master curriculum is the common topic framework. Grade-level curriculum documents retain the six-month, 72-session teaching plans, grade-appropriate project briefs, assessment guidance, and adaptations.
+**The full-year curriculum above is the canonical shared curriculum.** It defines the common modules and topic sequence for every class. Classes 5–9 use this same framework; teachers adjust depth, scaffolding, activities, and project expectations to suit learners.
 
-| Class | Grade-level plan | C batch | D batch |
-|---|---|---|---|
-| 5 | [Class 5 plan](Class-5/CURRICULUM.md) | [Class 5 C](Class-5/Class-5-C/README.md) | [Class 5 D](Class-5/Class-5-D/README.md) |
-| 6 | [Class 6 plan](Class-6/CURRICULUM.md) | [Class 6 C](Class-6/Class-6-C/README.md) | [Class 6 D](Class-6/Class-6-D/README.md) |
-| 7 | [Class 7 plan](Class-7/CURRICULUM.md) | [Class 7 C](Class-7/Class-7-C/README.md) | [Class 7 D](Class-7/Class-7-D/README.md) |
-| 8 | [Class 8 plan](Class-8/CURRICULUM.md) | [Class 8 C](Class-8/Class-8-C/README.md) | [Class 8 D](Class-8/Class-8-D/README.md) |
-| 9 | [Class 9 plan](Class-9/CURRICULUM.md) | [Class 9 C](Class-9/Class-9-C/README.md) | [Class 9 D](Class-9/Class-9-D/README.md) |
+| Class | C batch | D batch |
+|---|---|---|
+| 5 | [Class 5 C](Class-5/Class-5-C/README.md) | [Class 5 D](Class-5/Class-5-D/README.md) |
+| 6 | [Class 6 C](Class-6/Class-6-C/README.md) | [Class 6 D](Class-6/Class-6-D/README.md) |
+| 7 | [Class 7 C](Class-7/Class-7-C/README.md) | [Class 7 D](Class-7/Class-7-D/README.md) |
+| 8 | [Class 8 C](Class-8/Class-8-C/README.md) | [Class 8 D](Class-8/Class-8-D/README.md) |
+| 9 | [Class 9 C](Class-9/Class-9-C/README.md) | [Class 9 D](Class-9/Class-9-D/README.md) |
 
 ## Learning progression
 
-- **Class 5:** computer/digital basics, algorithms, first code, simple data, AI concepts, and guided capstone.
-- **Class 6:** computer systems, pseudocode, Python foundations, charts, model basics, and useful mini-app.
-- **Class 7:** Python fluency, functions/data structures, data cleaning, introductory ML, and output verification.
-- **Class 8:** modular Python, data analysis, baseline models, evaluation, neural-network concepts, and retrieval.
-- **Class 9:** software tests, reproducible data workflows, leakage-aware evaluation, source-grounded AI, and independent capstone.
+The common topic sequence is taught with increasing depth:
 
-C and D sections follow the same curriculum sequence. Their folders remain for batch-specific project work and class records.
+- **Class 5:** concrete examples, digital basics, simple algorithms, and guided activities.
+- **Class 6:** foundational programming, data representation, and introductory model reasoning.
+- **Class 7:** more independent coding, data handling, model evaluation, and critical AI literacy.
+- **Class 8:** modular programming, data analysis, model evaluation, and modern AI concepts.
+- **Class 9:** reproducible workflows, experiment design, error analysis, and independent project work.
+
+These are differentiation guidelines—not separate curriculum documents. C and D sections follow the same shared sequence.
 
 ## Delivery and safety
 
