@@ -1,11 +1,102 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Electronics &amp; Robotics Curriculum</title><style>body{font:15px/1.55 system-ui,sans-serif;margin:0;background:#f4f7fb;color:#182230}.wrap{max-width:1400px;margin:auto;padding:24px}header{background:#17365d;color:white;padding:20px;border-radius:10px}main{background:white;padding:18px;margin-top:16px;border:1px solid #dbe2ea;border-radius:10px}table{border-collapse:collapse;width:100%;table-layout:fixed}th,td{border:1px solid #dbe2ea;padding:12px;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#eaf1f9;color:#17365d}th:first-child{width:27%}@media(max-width:700px){.wrap{padding:8px}td,th{padding:7px;font-size:13px}}</style></head><body><div class="wrap"><header><h1>Electronics &amp; Robotics Curriculum</h1><p>One shared eight-module curriculum for Classes 5–9</p></header><main><table><thead><tr><th>Module</th><th>Topics and practical work</th></tr></thead><tbody>
-<tr><td><b>Module 1: Discovering Electricity</b></td><td>What is electricity?; atoms, electrons, and electric charge; conductors and insulators; open and closed circuits; batteries, wires, switches, and loads. <b>Practical:</b> Build a simple LED circuit.</td></tr>
-<tr><td><b>Module 2: Voltage, Current &amp; Resistance</b></td><td>Voltage: electrical push; current: flow of charge; resistance: opposition to current; AC and DC; series and parallel circuits; Ohm's Law: V = I × R; resistor color codes. <b>Practical:</b> Measure voltage, current, and resistance.</td></tr>
-<tr><td><b>Module 3: Electronic Components</b></td><td>Resistors; LEDs and diodes; capacitors; potentiometers; LDRs and thermistors; push buttons and switches. <b>Practical:</b> Component identification and testing.</td></tr>
-<tr><td><b>Module 4: Transistors &amp; Switching</b></td><td>What is a transistor?; NPN and PNP; base, collector, emitter; transistor as switch and amplifier; relay working principle. <b>Projects:</b> LED switch, touch switch, relay control.</td></tr>
-<tr><td><b>Module 5: Sensors &amp; Output Devices</b></td><td>What is a sensor?; LDR, IR, ultrasonic, and temperature sensors; buzzers and speakers; DC motors; servo motors; motor drivers. <b>Projects:</b> Night lamp, alarm, distance indicator.</td></tr>
-<tr><td><b>Module 6: Introduction to Microcontrollers</b></td><td>Microcontrollers; Arduino / ESP32; digital input/output; analog input; PWM and brightness control; reading sensors; programming basics. <b>Projects:</b> Traffic light, sensor alarm, servo control.</td></tr>
-<tr><td><b>Module 7: Robotics Foundations</b></td><td>What is a robot?; inputs, processing, outputs; wheels, chassis, mechanisms; DC motor control; servo mechanisms; obstacle detection. <b>Projects:</b> Mini robot, obstacle-avoiding robot.</td></tr>
-<tr><td><b>Module 8: Design &amp; Innovation</b></td><td>Identify a real-world problem; plan a circuit; select components; build a prototype; test and troubleshoot; improve the design. <b>Final project:</b> Exhibition.</td></tr>
-</tbody></table><h2>Lab Safety</h2><ul><li>Student-built circuits use low-voltage DC. No probing household mains or building exposed mains-powered circuits.</li><li>Teach AC with diagrams or teacher-prepared isolated low-voltage demonstrations.</li><li>Use current-limiting resistors and suitable motor drivers/power supplies. Never drive motors or high-current servos directly from GPIO pins.</li><li>Check board pinouts, logic levels, and component ratings; supervise tools and soldering.</li></ul></main></div></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Electronics &amp; Robotics Curriculum</title>
+<style>
+:root{color-scheme:light}
+body{font:15px/1.55 system-ui,sans-serif;margin:0;background:#f4f7fb;color:#182230}
+.wrap{max-width:1200px;margin:auto;padding:24px}
+header{background:#17365d;color:white;padding:20px;border-radius:10px}
+main{background:white;padding:18px;margin-top:16px;border:1px solid #dbe2ea;border-radius:10px}
+.table-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:700px}
+th,td{border:1px solid #cbd5e1;padding:10px 12px;text-align:left;vertical-align:top}
+th{background:#eaf1f9;color:#17365d}
+.module{font-weight:700;text-align:center;background:#f3f6fa}
+.module-name{font-weight:700;background:#f8fafc;min-width:190px}
+.topic-no{font-weight:600;white-space:nowrap;width:75px}
+h2{margin-top:28px}
+@media(max-width:700px){.wrap{padding:8px}main{padding:10px}td,th{padding:7px;font-size:13px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><h1>Electronics &amp; Robotics Curriculum</h1><p>One shared eight-module curriculum for Classes 5–9</p></header>
+<main>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Module No.</th><th>Module Name</th><th>Topic No.</th><th>Topic</th></tr></thead>
+<tbody>
+<tr><td class="module" rowspan="6">1</td><td class="module-name" rowspan="6">Module 1: Discovering Electricity</td><td class="topic-no">1.1</td><td>What is electricity?</td></tr>
+<tr><td class="topic-no">1.2</td><td>Atoms, electrons, and electric charge</td></tr>
+<tr><td class="topic-no">1.3</td><td>Conductors and insulators</td></tr>
+<tr><td class="topic-no">1.4</td><td>Open and closed circuits</td></tr>
+<tr><td class="topic-no">1.5</td><td>Batteries, wires, switches, and loads</td></tr>
+<tr><td class="topic-no">1.6</td><td>Practical: Build a simple LED circuit</td></tr>
+<tr><td class="module" rowspan="8">2</td><td class="module-name" rowspan="8">Module 2: Voltage, Current & Resistance</td><td class="topic-no">2.1</td><td>Voltage: electrical push</td></tr>
+<tr><td class="topic-no">2.2</td><td>Current: flow of charge</td></tr>
+<tr><td class="topic-no">2.3</td><td>Resistance: opposition to current</td></tr>
+<tr><td class="topic-no">2.4</td><td>AC and DC</td></tr>
+<tr><td class="topic-no">2.5</td><td>Series and parallel circuits</td></tr>
+<tr><td class="topic-no">2.6</td><td>Ohm's Law: V = I × R</td></tr>
+<tr><td class="topic-no">2.7</td><td>Resistor color codes</td></tr>
+<tr><td class="topic-no">2.8</td><td>Practical: Measure voltage, current, and resistance</td></tr>
+<tr><td class="module" rowspan="7">3</td><td class="module-name" rowspan="7">Module 3: Electronic Components</td><td class="topic-no">3.1</td><td>Resistors</td></tr>
+<tr><td class="topic-no">3.2</td><td>LEDs and diodes</td></tr>
+<tr><td class="topic-no">3.3</td><td>Capacitors</td></tr>
+<tr><td class="topic-no">3.4</td><td>Potentiometers</td></tr>
+<tr><td class="topic-no">3.5</td><td>LDRs and thermistors</td></tr>
+<tr><td class="topic-no">3.6</td><td>Push buttons and switches</td></tr>
+<tr><td class="topic-no">3.7</td><td>Practical: Component identification and testing</td></tr>
+<tr><td class="module" rowspan="7">4</td><td class="module-name" rowspan="7">Module 4: Transistors & Switching</td><td class="topic-no">4.1</td><td>What is a transistor?</td></tr>
+<tr><td class="topic-no">4.2</td><td>NPN and PNP transistors</td></tr>
+<tr><td class="topic-no">4.3</td><td>Base, collector, and emitter</td></tr>
+<tr><td class="topic-no">4.4</td><td>Transistor as an electronic switch</td></tr>
+<tr><td class="topic-no">4.5</td><td>Transistor as an amplifier</td></tr>
+<tr><td class="topic-no">4.6</td><td>Relay working principle</td></tr>
+<tr><td class="topic-no">4.7</td><td>Projects: LED switch, touch switch, and relay control</td></tr>
+<tr><td class="module" rowspan="7">5</td><td class="module-name" rowspan="7">Module 5: Sensors & Output Devices</td><td class="topic-no">5.1</td><td>What is a sensor?</td></tr>
+<tr><td class="topic-no">5.2</td><td>LDR, IR, ultrasonic, and temperature sensors</td></tr>
+<tr><td class="topic-no">5.3</td><td>Buzzers and speakers</td></tr>
+<tr><td class="topic-no">5.4</td><td>DC motors</td></tr>
+<tr><td class="topic-no">5.5</td><td>Servo motors</td></tr>
+<tr><td class="topic-no">5.6</td><td>Motor drivers</td></tr>
+<tr><td class="topic-no">5.7</td><td>Projects: Night lamp, alarm, and distance indicator</td></tr>
+<tr><td class="module" rowspan="8">6</td><td class="module-name" rowspan="8">Module 6: Introduction to Microcontrollers</td><td class="topic-no">6.1</td><td>What is a microcontroller?</td></tr>
+<tr><td class="topic-no">6.2</td><td>Arduino / ESP32 introduction</td></tr>
+<tr><td class="topic-no">6.3</td><td>Digital input and output</td></tr>
+<tr><td class="topic-no">6.4</td><td>Analog input</td></tr>
+<tr><td class="topic-no">6.5</td><td>PWM and brightness control</td></tr>
+<tr><td class="topic-no">6.6</td><td>Reading sensors</td></tr>
+<tr><td class="topic-no">6.7</td><td>Programming basics</td></tr>
+<tr><td class="topic-no">6.8</td><td>Projects: Traffic light, sensor alarm, and servo control</td></tr>
+<tr><td class="module" rowspan="7">7</td><td class="module-name" rowspan="7">Module 7: Robotics Foundations</td><td class="topic-no">7.1</td><td>What is a robot?</td></tr>
+<tr><td class="topic-no">7.2</td><td>Robot inputs, processing, and outputs</td></tr>
+<tr><td class="topic-no">7.3</td><td>Wheels, chassis, and mechanisms</td></tr>
+<tr><td class="topic-no">7.4</td><td>DC motor control</td></tr>
+<tr><td class="topic-no">7.5</td><td>Servo-based mechanisms</td></tr>
+<tr><td class="topic-no">7.6</td><td>Obstacle detection</td></tr>
+<tr><td class="topic-no">7.7</td><td>Projects: Mini robot and obstacle-avoiding robot</td></tr>
+<tr><td class="module" rowspan="7">8</td><td class="module-name" rowspan="7">Module 8: Design & Innovation</td><td class="topic-no">8.1</td><td>Identify a real-world problem</td></tr>
+<tr><td class="topic-no">8.2</td><td>Plan a circuit</td></tr>
+<tr><td class="topic-no">8.3</td><td>Select components</td></tr>
+<tr><td class="topic-no">8.4</td><td>Build a prototype</td></tr>
+<tr><td class="topic-no">8.5</td><td>Test and troubleshoot</td></tr>
+<tr><td class="topic-no">8.6</td><td>Improve the design</td></tr>
+<tr><td class="topic-no">8.7</td><td>Final project exhibition</td></tr>
+</tbody>
+</table>
+</div>
+<h2>Lab Safety</h2>
+<ul>
+<li>Student-built circuits use low-voltage DC. Students must not probe household mains or build exposed mains-powered circuits.</li>
+<li>Teach AC concepts with diagrams or teacher-prepared, isolated low-voltage demonstrations.</li>
+<li>Use current-limiting resistors. Do not drive motors or high-current servos directly from microcontroller GPIO pins; use suitable drivers and power supplies.</li>
+<li>Verify board/module pinouts, logic levels, and component ratings; supervise tools and soldering.</li>
+</ul>
+</main>
+</div>
+</body>
+</html>
