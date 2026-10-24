@@ -207,3 +207,17 @@ Check devices, software, permissions and connectivity; prepare a known-good exam
 
 ### Student reflection
 What problem did we solve? How does it work? What did tests show? What failed or surprised us? What did we change and why? What should users not assume? What data/permissions need protection? Where must a person review the result?
+
+## Grade-specific implementation guidance
+
+### Technical expectations
+Use small, teacher-approved datasets and standard local tools. Optional libraries may be introduced when available; activities must also work with CSV files and prepared outputs. GPU use and large neural-network training are not required. Restrict retrieval and tool demonstrations to an approved corpus and transparent tools.
+
+### Project pathway
+Examples include classifying fictional environmental samples, predicting from a small classroom dataset, analysing public weather or school-garden data, or answering questions from teacher-approved documents while citing source text.
+
+### Teaching and safety
+Keep experiments comparable. Record data source, features, test method, outcome, and a limitation. Separate training and test examples. Explain that sample accuracy does not guarantee real-world reliability. Protect sensitive student information, avoid consequential decisions about real people, and check AI answers against sources.
+
+### Success standard
+A strong project has a baseline, appropriate test split and metric, error analysis, reproducible steps, and a clear statement of limits.
