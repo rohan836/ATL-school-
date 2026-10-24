@@ -2,8 +2,9 @@
 
 This is the existing hardware-focused pathway. Its curriculum documents and project plans are separate from the AI & Computing pathway; the update to AI & Computing does not remove or replace these materials.
 
-Each grade has C and D folders containing its curriculum, project guide and class README. Check the specific class folder for components, build instructions and classroom adaptations.
+Each grade has C and D folders containing its curriculum and class README. Check the specific class folder for components, build instructions and classroom adaptations.
 
+- [Full-Year Unified Curriculum (32 Weeks)](FULL-YEAR-CURRICULUM.md) · [HTML Single-Table View](FULL-YEAR-CURRICULUM.html)
 - [Class 5 C](Class-5/Class-5-C/01-CURRICULUM.md) · [Class 5 D](Class-5/Class-5-D/01-CURRICULUM.md)
 - [Class 6 C](Class-6/Class-6-C/01-CURRICULUM.md) · [Class 6 D](Class-6/Class-6-D/01-CURRICULUM.md)
 - [Class 7 C](Class-7/Class-7-C/01-CURRICULUM.md) · [Class 7 D](Class-7/Class-7-D/01-CURRICULUM.md)
