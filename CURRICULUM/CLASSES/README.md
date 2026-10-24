@@ -9,12 +9,14 @@ Choose a curriculum pathway, then open the grade and batch folder you need.
 
 ## Grade and batch folders
 
-| Grade | C batch | D batch |
-|---|---|---|
-| Class 5 | [Class-5-C](AI/Class-5/Class-5-C/README.md) | [Class-5-D](AI/Class-5/Class-5-D/README.md) |
-| Class 6 | [Class-6-C](AI/Class-6/Class-6-C/README.md) | [Class-6-D](AI/Class-6/Class-6-D/README.md) |
-| Class 7 | [Class-7-C](AI/Class-7/Class-7-C/README.md) | [Class-7-D](AI/Class-7/Class-7-D/README.md) |
-| Class 8 | [Class-8-C](AI/Class-8/Class-8-C/README.md) | [Class-8-D](AI/Class-8/Class-8-D/README.md) |
-| Class 9 | [Class-9-C](AI/Class-9/Class-9-C/README.md) | [Class-9-D](AI/Class-9/Class-9-D/README.md) |
+Every grade has a **C** and a **D** batch folder in each pathway.
 
-The grade folders and C/D batch folders are retained. The batch folders are for classroom-specific records and resources; shared curriculum content should remain at the pathway or grade level rather than being duplicated in both batches.
+| Grade | AI & Computing | Electronics & Robotics |
+|---|---|---|
+| Class 5 | [Open grade folders](AI/Class-5/) | [Open grade folders](ELECTRONICS-ROBOTICS/Class-5/) |
+| Class 6 | [Open grade folders](AI/Class-6/) | [Open grade folders](ELECTRONICS-ROBOTICS/Class-6/) |
+| Class 7 | [Open grade folders](AI/Class-7/) | [Open grade folders](ELECTRONICS-ROBOTICS/Class-7/) |
+| Class 8 | [Open grade folders](AI/Class-8/) | [Open grade folders](ELECTRONICS-ROBOTICS/Class-8/) |
+| Class 9 | [Open grade folders](AI/Class-9/) | [Open grade folders](ELECTRONICS-ROBOTICS/Class-9/) |
+
+The grade folders and C/D batch folders are retained. Batch folders are for classroom-specific records and resources; shared curriculum content should remain at the pathway or grade level rather than being duplicated in both batches.
