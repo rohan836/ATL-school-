@@ -207,3 +207,22 @@ Check devices, software, permissions and connectivity; prepare a known-good exam
 
 ### Student reflection
 What problem did we solve? How does it work? What did tests show? What failed or surprised us? What did we change and why? What should users not assume? What data/permissions need protection? Where must a person review the result?
+
+## Grade-specific implementation guidance
+
+### Appropriate technical depth
+Use blocks or a browser-free Python setup for the main pathway. Keep Python small and readable: `print()`, simple variables, input where appropriate, and elementary `if/else` only after learners understand the logic. Do not require students to train large models, create public AI accounts, use webcams, or install advanced libraries.
+
+### Project pathway
+Use age-appropriate, low-risk builds such as a quiz with rules, a classroom helper based on a checklist, a plant-care decision tree, or a paper classifier using fictional examples. Describe paper simulations as simulations, not trained AI systems.
+
+### Delivery principles
+- Ask learners to predict what an instruction or model will do before running it.
+- Teach vocabulary when it helps explain a build; avoid definition-only lectures.
+- Normalise debugging: record expectation, observed result, and the change made.
+- Provide paired work and accessible no-device alternatives.
+- Never use student-identifying data in public AI tools; follow school policy and teacher supervision.
+- Check generated or predicted outputs; plausible output is not automatically correct.
+
+### Success standard
+A student succeeds by explaining the process, testing several cases, learning from a mistake, and describing limitations—not by producing the most complex app or having the newest device.
