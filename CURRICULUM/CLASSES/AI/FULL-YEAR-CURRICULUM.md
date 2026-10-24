@@ -2,7 +2,7 @@
 
 **Atal Thinking Lab | Shared curriculum for Classes 5–9**
 
-This is the common AI curriculum framework for Classes 5–9. Classes C and D follow the same module sequence; teachers adjust complexity, scaffolding, tools, and project expectations for each grade. Grade-specific detailed plans and batch project records remain in their class folders.
+This is the single shared AI curriculum for Classes 5–9. Classes C and D follow the same module sequence; teachers adjust complexity, scaffolding, tools, and project expectations by grade. Class folders are reserved for batch work and project records—not duplicate curriculum documents.
 
 | Module No. | Module Name | Topic No. | Topic |
 |---:|---|---:|---|
