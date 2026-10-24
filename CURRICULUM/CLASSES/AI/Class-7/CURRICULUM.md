@@ -6,13 +6,22 @@
 Develop Python fluency, data handling, model-evaluation reasoning and critical AI literacy through evidence-based projects.
 
 ## Learning outcomes
-- Write small Python programs using functions and data structures.\n- Clean and summarise simple datasets.\n- Explain classification/regression, test examples, baselines and generalisation.\n- Verify AI claims and present an evaluated project.
+- Write small Python programs using functions and data structures.
+- Clean and summarise simple datasets.
+- Explain classification/regression, test examples, baselines and generalisation.
+- Verify AI claims and present an evaluated project.
 
 ## Six-month overview
 
 | Month | Focus | Essential concepts | Project |
 |---|---|---|---|
-| 1 | Computing and algorithm design | Decomposition, flowcharts, tracing, test cases and systematic debugging | Algorithm and Debugger |\n| 2 | Python fluency | Types, conditions, loops, lists, dictionaries, functions and reusable code | Python Toolkit |\n| 3 | Data handling | CSV-style tables, missing/duplicate values, summaries, simple statistics and charts | Data Story Notebook |\n| 4 | Machine-learning workflow | Features/labels, classification vs regression, test split, baseline and overfitting intuition | Intro ML Experiment |\n| 5 | Modern AI literacy | Language-model prediction concept, prompt clarity, source checking, bias and privacy | AI Output Fact-Checker |\n| 6 | Evidence-based capstone | Scope, prototype, test design, iteration, limitations and communication | Evidence-Based Capstone |\n
+| 1 | Computing and algorithm design | Decomposition, flowcharts, tracing, test cases and systematic debugging | Algorithm and Debugger |
+| 2 | Python fluency | Types, conditions, loops, lists, dictionaries, functions and reusable code | Python Toolkit |
+| 3 | Data handling | CSV-style tables, missing/duplicate values, summaries, simple statistics and charts | Data Story Notebook |
+| 4 | Machine-learning workflow | Features/labels, classification vs regression, test split, baseline and overfitting intuition | Intro ML Experiment |
+| 5 | Modern AI literacy | Language-model prediction concept, prompt clarity, source checking, bias and privacy | AI Output Fact-Checker |
+| 6 | Evidence-based capstone | Scope, prototype, test design, iteration, limitations and communication | Evidence-Based Capstone |
+
 ## Month-by-month project briefs
 
 ### Month 1 — Computing and algorithm design
@@ -65,37 +74,109 @@ Each month follows a 12-session learning cycle. The activities below are the ses
 
 | Session | Activity | Student evidence |
 |---:|---|---|
-| 1 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |\n| 2 | **Concept map:** Explain the core ideas in Decomposition, flowcharts, tracing, test cases and systematic debugging using a visual, example or vocabulary map. | Concept map or vocabulary check |\n| 3 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |\n| 4 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |\n| 5 | **Build part 1:** Create the first small component of the Algorithm and Debugger project. | First build component |\n| 6 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |\n| 7 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |\n| 8 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |\n| 9 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |\n| 10 | **Integrate:** Combine the Algorithm and Debugger components into a working draft or complete paper model. | Integrated draft |\n| 11 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |\n| 12 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |\n
+| 1 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |
+| 2 | **Concept map:** Explain the core ideas in Decomposition, flowcharts, tracing, test cases and systematic debugging using a visual, example or vocabulary map. | Concept map or vocabulary check |
+| 3 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |
+| 4 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |
+| 5 | **Build part 1:** Create the first small component of the Algorithm and Debugger project. | First build component |
+| 6 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |
+| 7 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |
+| 8 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |
+| 9 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |
+| 10 | **Integrate:** Combine the Algorithm and Debugger components into a working draft or complete paper model. | Integrated draft |
+| 11 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |
+| 12 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |
+
 ### Month 2 — Python fluency
 **Monthly target:** Types, conditions, loops, lists, dictionaries, functions and reusable code. **Project:** Python Toolkit.
 
 | Session | Activity | Student evidence |
 |---:|---|---|
-| 13 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |\n| 14 | **Concept map:** Explain the core ideas in Types, conditions, loops, lists, dictionaries, functions and reusable code using a visual, example or vocabulary map. | Concept map or vocabulary check |\n| 15 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |\n| 16 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |\n| 17 | **Build part 1:** Create the first small component of the Python Toolkit project. | First build component |\n| 18 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |\n| 19 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |\n| 20 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |\n| 21 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |\n| 22 | **Integrate:** Combine the Python Toolkit components into a working draft or complete paper model. | Integrated draft |\n| 23 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |\n| 24 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |\n
+| 13 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |
+| 14 | **Concept map:** Explain the core ideas in Types, conditions, loops, lists, dictionaries, functions and reusable code using a visual, example or vocabulary map. | Concept map or vocabulary check |
+| 15 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |
+| 16 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |
+| 17 | **Build part 1:** Create the first small component of the Python Toolkit project. | First build component |
+| 18 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |
+| 19 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |
+| 20 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |
+| 21 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |
+| 22 | **Integrate:** Combine the Python Toolkit components into a working draft or complete paper model. | Integrated draft |
+| 23 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |
+| 24 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |
+
 ### Month 3 — Data handling
 **Monthly target:** CSV-style tables, missing/duplicate values, summaries, simple statistics and charts. **Project:** Data Story Notebook.
 
 | Session | Activity | Student evidence |
 |---:|---|---|
-| 25 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |\n| 26 | **Concept map:** Explain the core ideas in CSV-style tables, missing/duplicate values, summaries, simple statistics and charts using a visual, example or vocabulary map. | Concept map or vocabulary check |\n| 27 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |\n| 28 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |\n| 29 | **Build part 1:** Create the first small component of the Data Story Notebook project. | First build component |\n| 30 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |\n| 31 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |\n| 32 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |\n| 33 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |\n| 34 | **Integrate:** Combine the Data Story Notebook components into a working draft or complete paper model. | Integrated draft |\n| 35 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |\n| 36 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |\n
+| 25 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |
+| 26 | **Concept map:** Explain the core ideas in CSV-style tables, missing/duplicate values, summaries, simple statistics and charts using a visual, example or vocabulary map. | Concept map or vocabulary check |
+| 27 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |
+| 28 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |
+| 29 | **Build part 1:** Create the first small component of the Data Story Notebook project. | First build component |
+| 30 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |
+| 31 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |
+| 32 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |
+| 33 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |
+| 34 | **Integrate:** Combine the Data Story Notebook components into a working draft or complete paper model. | Integrated draft |
+| 35 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |
+| 36 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |
+
 ### Month 4 — Machine-learning workflow
 **Monthly target:** Features/labels, classification vs regression, test split, baseline and overfitting intuition. **Project:** Intro ML Experiment.
 
 | Session | Activity | Student evidence |
 |---:|---|---|
-| 37 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |\n| 38 | **Concept map:** Explain the core ideas in Features/labels, classification vs regression, test split, baseline and overfitting intuition using a visual, example or vocabulary map. | Concept map or vocabulary check |\n| 39 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |\n| 40 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |\n| 41 | **Build part 1:** Create the first small component of the Intro ML Experiment project. | First build component |\n| 42 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |\n| 43 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |\n| 44 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |\n| 45 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |\n| 46 | **Integrate:** Combine the Intro ML Experiment components into a working draft or complete paper model. | Integrated draft |\n| 47 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |\n| 48 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |\n
+| 37 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |
+| 38 | **Concept map:** Explain the core ideas in Features/labels, classification vs regression, test split, baseline and overfitting intuition using a visual, example or vocabulary map. | Concept map or vocabulary check |
+| 39 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |
+| 40 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |
+| 41 | **Build part 1:** Create the first small component of the Intro ML Experiment project. | First build component |
+| 42 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |
+| 43 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |
+| 44 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |
+| 45 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |
+| 46 | **Integrate:** Combine the Intro ML Experiment components into a working draft or complete paper model. | Integrated draft |
+| 47 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |
+| 48 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |
+
 ### Month 5 — Modern AI literacy
 **Monthly target:** Language-model prediction concept, prompt clarity, source checking, bias and privacy. **Project:** AI Output Fact-Checker.
 
 | Session | Activity | Student evidence |
 |---:|---|---|
-| 49 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |\n| 50 | **Concept map:** Explain the core ideas in Language-model prediction concept, prompt clarity, source checking, bias and privacy using a visual, example or vocabulary map. | Concept map or vocabulary check |\n| 51 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |\n| 52 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |\n| 53 | **Build part 1:** Create the first small component of the AI Output Fact-Checker project. | First build component |\n| 54 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |\n| 55 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |\n| 56 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |\n| 57 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |\n| 58 | **Integrate:** Combine the AI Output Fact-Checker components into a working draft or complete paper model. | Integrated draft |\n| 59 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |\n| 60 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |\n
+| 49 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |
+| 50 | **Concept map:** Explain the core ideas in Language-model prediction concept, prompt clarity, source checking, bias and privacy using a visual, example or vocabulary map. | Concept map or vocabulary check |
+| 51 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |
+| 52 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |
+| 53 | **Build part 1:** Create the first small component of the AI Output Fact-Checker project. | First build component |
+| 54 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |
+| 55 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |
+| 56 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |
+| 57 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |
+| 58 | **Integrate:** Combine the AI Output Fact-Checker components into a working draft or complete paper model. | Integrated draft |
+| 59 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |
+| 60 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |
+
 ### Month 6 — Evidence-based capstone
 **Monthly target:** Scope, prototype, test design, iteration, limitations and communication. **Project:** Evidence-Based Capstone.
 
 | Session | Activity | Student evidence |
 |---:|---|---|
-| 61 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |\n| 62 | **Concept map:** Explain the core ideas in Scope, prototype, test design, iteration, limitations and communication using a visual, example or vocabulary map. | Concept map or vocabulary check |\n| 63 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |\n| 64 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |\n| 65 | **Build part 1:** Create the first small component of the Evidence-Based Capstone project. | First build component |\n| 66 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |\n| 67 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |\n| 68 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |\n| 69 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |\n| 70 | **Integrate:** Combine the Evidence-Based Capstone components into a working draft or complete paper model. | Integrated draft |\n| 71 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |\n| 72 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |\n
+| 61 | **Challenge and prediction:** Introduce this month’s project challenge; learners state a prediction or initial approach. | Initial approach/prediction |
+| 62 | **Concept map:** Explain the core ideas in Scope, prototype, test design, iteration, limitations and communication using a visual, example or vocabulary map. | Concept map or vocabulary check |
+| 63 | **Teacher demonstration:** Model one small example, including decisions and likely mistakes. | Annotated worked example |
+| 64 | **Guided practice:** Complete a scaffolded example together, with students explaining each step. | Guided practice output |
+| 65 | **Build part 1:** Create the first small component of the Evidence-Based Capstone project. | First build component |
+| 66 | **Trace and explain:** Trace inputs, steps and outputs; students predict before checking. | Trace record |
+| 67 | **Test ordinary cases:** Run multiple expected cases and record results. | Test log |
+| 68 | **Test an edge case:** Try unusual, missing or ambiguous input; identify a weakness. | Edge-case finding |
+| 69 | **Debug and revise:** Make one evidence-based correction and explain why it helps. | Debug note |
+| 70 | **Integrate:** Combine the Evidence-Based Capstone components into a working draft or complete paper model. | Integrated draft |
+| 71 | **Peer review and documentation:** A partner tests the work; learners document design choices and a limitation. | Peer feedback and limitation note |
+| 72 | **Showcase and reflection:** Demonstrate evidence, reflect on a mistake and identify the next learning step. | Demonstration and reflection |
+
 ## Assessment and teacher guide
 
 ### Formative assessment
