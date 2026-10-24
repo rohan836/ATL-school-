@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 9 — Projects and Build Guides</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px 30px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:.94rem}
+th{background:var(--blue);text-align:left;font-weight:700}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="crumbs"><a href="../../../../INDEX.html">Curriculum</a> &rsaquo; <a href="../../../../CLASSES/AI/README.html">AI &amp; Computing</a> &rsaquo; Class 9 &middot; Section D</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Class 9 — Projects and Build Guides</h1>
+<p class="meta">Class 9 &middot; Section D</p>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#month-1-tested-python-utility">Month 1 — Tested Python Utility</a></li><li><a href="#month-2-data-audit-pipeline">Month 2 — Data Audit Pipeline</a></li><li><a href="#month-3-baseline-vs-model">Month 3 — Baseline vs Model</a></li><li><a href="#month-4-evaluation-report">Month 4 — Evaluation Report</a></li><li><a href="#month-5-source-grounded-ai-workflow">Month 5 — Source-Grounded AI Workflow</a></li><li><a href="#month-6-independent-capstone">Month 6 — Independent Capstone</a></li><li><a href="#minimum-submission-standard">Minimum submission standard</a></li></ul></nav>
+<p>Projects apply software-engineering habits, experiment design and responsible AI. Students justify why the selected method fits the task; a simple baseline may outperform or be safer than a complex model.</p>
+<table><thead><tr><th>Month</th><th>Project</th><th>Focus</th><th>Evidence</th></tr></thead><tbody><tr><td>1</td><td>Tested Python Package/Utility</td><td>Functions, modules, exceptions, tests, change log</td><td>Runnable code and repeatable tests</td></tr><tr><td>2</td><td>Data Audit Pipeline</td><td>Cleaning, features, data dictionary, reproducibility</td><td>Reproducible notebook/script</td></tr><tr><td>3</td><td>Baseline vs Model</td><td>Train/test separation, leakage prevention, controlled comparison</td><td>Experiment table</td></tr><tr><td>4</td><td>Evaluation Report</td><td>Metric choice, error analysis, bias and generalisation</td><td>Metric table with limitations</td></tr><tr><td>5</td><td>Source-Grounded AI Workflow</td><td>Retrieval, source display, bounded tools, untrusted input</td><td>Traceable answer and edge-case results</td></tr><tr><td>6</td><td>Independent Capstone</td><td>Scope, milestones, evaluation, documentation, human review</td><td>Demo, report, code and retrospective</td></tr></tbody></table>
+<h2 id="month-1-tested-python-utility">Month 1 — Tested Python Utility</h2>
+<p>Build a small command-line or notebook utility that reads input, validates it, applies reusable functions and produces a result. Include simple tests/assertions and error cases. Maintain a short change log; Git may be used if available, but concepts matter more than setup.</p>
+<h2 id="month-2-data-audit-pipeline">Month 2 — Data Audit Pipeline</h2>
+<p>Choose a modest, approved dataset. Write a data dictionary; detect missing, duplicated or inconsistent values; justify transformations; visualise relevant variables; and document assumptions. Keep the original data unchanged and make the cleaning process repeatable.</p>
+<h2 id="month-3-baseline-vs-model">Month 3 — Baseline vs Model</h2>
+<p>Define the task and target, choose a baseline, set aside test data before iterative modelling, and document features. Check for leakage—for example, columns that directly reveal the answer or values calculated using information unavailable at prediction time. Compare the baseline and model under the same test conditions.</p>
+<h2 id="month-4-evaluation-report">Month 4 — Evaluation Report</h2>
+<p>Choose appropriate metrics. For classification, use a confusion matrix and explain precision/recall where useful; for regression, consider an understandable error measure. Inspect mistakes and discuss who/what might be underserved. Report data limitations and avoid claiming broad real-world performance from a small dataset.</p>
+<h2 id="month-5-source-grounded-ai-workflow">Month 5 — Source-Grounded AI Workflow</h2>
+<p>Create a tiny retrieval-augmented question-answering prototype using only teacher-approved material. Display retrieved passages, distinguish quotes/source facts from generated wording, and decline when the evidence is absent. If a tool is used, expose the tool call and result, restrict permissions, and treat retrieved text as untrusted input—not as permission to ignore rules.</p>
+<h2 id="month-6-independent-capstone">Month 6 — Independent Capstone</h2>
+<p>Students independently or in small teams build a bounded solution. Required stages: problem brief; baseline; data/source review; implementation; test design; results; error-driven iteration; privacy/fairness/security review; documentation; demonstration; individual reflection. A non-AI approach is allowed where more appropriate.</p>
+<h2 id="minimum-submission-standard">Minimum submission standard</h2>
+<p>A reproducible README; code or labelled prototype; dataset/source and assumptions; baseline plus fair test; justified metric; observed failure and improvement; responsible-use review; and explanation of limitations. No uncontrolled autonomous actions, external use of private data, or consequential decisions about real people.</p>
+</main>
+<footer>
+  <p>Source: <a href="02-PROJECTS.md">02-PROJECTS.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

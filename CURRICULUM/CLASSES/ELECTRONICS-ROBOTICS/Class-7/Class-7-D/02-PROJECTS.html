@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 7 — Interactive Robotics Projects</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px 30px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:.94rem}
+th{background:var(--blue);text-align:left;font-weight:700}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="crumbs"><a href="../../../../INDEX.html">Curriculum</a> &rsaquo; <a href="../../../../CLASSES/ELECTRONICS-ROBOTICS/README.html">Electronics &amp; Robotics</a> &rsaquo; Class 7 &middot; Section D</p>
+<header class="page">
+  <p class="eyebrow">Electronics &amp; Robotics</p>
+  <h1>Class 7 — Interactive Robotics Projects</h1>
+<p class="meta">Class 7 &middot; Section D</p>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#1-distance-detective">1. Distance Detective</a></li><li><a href="#2-color-sorting-challenge">2. Color Sorting Challenge</a></li><li><a href="#3-mini-barrier-gate">3. Mini Barrier Gate</a></li><li><a href="#4-motor-control-explorer">4. Motor Control Explorer</a></li><li><a href="#safety">Safety</a></li></ul></nav>
+<p>Combine sensor data, mechanisms, and programmed sequences. Test each component separately first.</p>
+<h2 id="1-distance-detective">1. Distance Detective</h2>
+<p><strong>Curriculum:</strong> signals, calibration, thresholds, proximity alert.<br><strong>Materials:</strong> controller, distance sensor, RGB LED/LEDs, optional buzzer.</p>
+<ol><li>Record readings at known distances.</li><li>Define two or three distance zones.</li><li>Program different light colors or alert patterns for each zone.</li><li>Let classmates move an object and guess its zone.</li></ol>
+<p><strong>Success:</strong> explain calibration and why readings vary.</p>
+<h2 id="2-color-sorting-challenge">2. Color Sorting Challenge</h2>
+<p><strong>Curriculum:</strong> color sensor, actuator, mechanism, timing, multiple inputs.<br><strong>Materials:</strong> controller, available color sensor, servo, cardboard ramps/chutes, colored objects, suitable power.</p>
+<ol><li>Collect readings for each target color.</li><li>Write simple color rules.</li><li>Test the servo gate, then integrate it.</li><li>Sort objects one at a time and log accuracy.</li><li>Change lighting/object position and retest.</li></ol>
+<p><strong>Interactive twist:</strong> timed round followed by an accuracy-improvement round.<br><strong>Success:</strong> show sensor reading, rule, and mechanical action.<br><strong>Fallback:</strong> use line-following/obstacle avoidance if a sensor and chassis are available; otherwise build a tabletop servo gate.</p>
+<h2 id="3-mini-barrier-gate">3. Mini Barrier Gate</h2>
+<p><strong>Curriculum:</strong> servo/motor, sensor plus button, timed sequence, reliability.<br><strong>Materials:</strong> controller, distance sensor or button, servo, craft-stick/cardboard barrier, base.</p>
+<ol><li>Build a lightweight barrier.</li><li>Test input and servo separately.</li><li>Program open → wait → close.</li><li>Test with toy cars and adjust to avoid early closure.</li></ol>
+<p><strong>Success:</strong> explain the sequence and the effect of testing.</p>
+<h2 id="4-motor-control-explorer">4. Motor Control Explorer</h2>
+<p><strong>Curriculum:</strong> actuator comparison, motor driver, DC motor control.<br><strong>Materials:</strong> controller, DC motor, suitable driver and low-voltage supply, optional button/sensor.</p>
+<ol><li>Identify driver connections with teacher.</li><li>Test start/stop and direction/speed if supported.</li><li>Trigger motor with a button or sensor.</li><li>Make a short movement sequence.</li></ol>
+<p><strong>Success:</strong> explain why a driver is needed and how input changes motor behavior.</p>
+<h2 id="safety">Safety</h2>
+<p>Use suitable low-voltage drivers and supplies; never connect a DC motor to a controller pin. Keep fingers, hair, and loose objects away from moving parts. Select based on available components.</p>
+</main>
+<footer>
+  <p>Source: <a href="02-PROJECTS.md">02-PROJECTS.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

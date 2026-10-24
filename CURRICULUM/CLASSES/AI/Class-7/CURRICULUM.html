@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 7 — AI &amp; Computing Curriculum</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px 30px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:.94rem}
+th{background:var(--blue);text-align:left;font-weight:700}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; <a href="../../../CLASSES/AI/README.html">AI &amp; Computing</a> &rsaquo; Class 7</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Class 7 — AI &amp; Computing Curriculum</h1>
+<p class="meta">Class 7</p>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#course-goal">Course goal</a></li><li><a href="#learning-outcomes">Learning outcomes</a></li><li><a href="#six-month-overview">Six-month overview</a></li><li><a href="#month-by-month-project-briefs">Month-by-month project briefs</a></li><li><a href="#72-session-plan">72-session plan</a></li><li><a href="#assessment-and-teacher-guide">Assessment and teacher guide</a></li><li><a href="#grade-specific-implementation-guidance">Grade-specific implementation guidance</a></li></ul></nav>
+<p><strong>Duration:</strong> 6 months · 12 sessions per month · 72 sessions total. <strong>Core period:</strong> 60 minutes per session; optional 15-minute extension. <strong>Sections:</strong> C and D share this curriculum; this is the single common copy.</p>
+<h2 id="course-goal">Course goal</h2>
+<p>Develop Python fluency, data handling, model-evaluation reasoning and critical AI literacy through evidence-based projects.</p>
+<h2 id="learning-outcomes">Learning outcomes</h2>
+<ul><li>Write small Python programs using functions and data structures.</li><li>Clean and summarise simple datasets.</li><li>Explain classification/regression, test examples, baselines and generalisation.</li><li>Verify AI claims and present an evaluated project.</li></ul>
+<h2 id="six-month-overview">Six-month overview</h2>
+<table><thead><tr><th>Month</th><th>Focus</th><th>Essential concepts</th><th>Project</th></tr></thead><tbody><tr><td>1</td><td>Computing and algorithm design</td><td>Decomposition, flowcharts, tracing, test cases and systematic debugging</td><td>Algorithm and Debugger</td></tr><tr><td>2</td><td>Python fluency</td><td>Types, conditions, loops, lists, dictionaries, functions and reusable code</td><td>Python Toolkit</td></tr><tr><td>3</td><td>Data handling</td><td>CSV-style tables, missing/duplicate values, summaries, simple statistics and charts</td><td>Data Story Notebook</td></tr><tr><td>4</td><td>Machine-learning workflow</td><td>Features/labels, classification vs regression, test split, baseline and overfitting intuition</td><td>Intro ML Experiment</td></tr><tr><td>5</td><td>Modern AI literacy</td><td>Language-model prediction concept, prompt clarity, source checking, bias and privacy</td><td>AI Output Fact-Checker</td></tr><tr><td>6</td><td>Evidence-based capstone</td><td>Scope, prototype, test design, iteration, limitations and communication</td><td>Evidence-Based Capstone</td></tr></tbody></table>
+<h2 id="month-by-month-project-briefs">Month-by-month project briefs</h2>
+<h3 id="month-1-computing-and-algorithm-design">Month 1 — Computing and algorithm design</h3>
+<p><strong>Concepts:</strong> Decomposition, flowcharts, tracing, test cases and systematic debugging.</p>
+<p><strong>Build:</strong> Develop an algorithm, run traces, identify a failure and revise the steps. Explain why the change addresses the failure.</p>
+<p><strong>Evidence:</strong> project artefact, test record, explanation and one limitation. Use paper/offline alternatives where needed.</p>
+<h3 id="month-2-python-fluency">Month 2 — Python fluency</h3>
+<p><strong>Concepts:</strong> Types, conditions, loops, lists, dictionaries, functions and reusable code.</p>
+<p><strong>Build:</strong> Build a quiz, menu, task list or text analyser with functions and data structures. Test empty, expected and unexpected inputs.</p>
+<p><strong>Evidence:</strong> project artefact, test record, explanation and one limitation. Use paper/offline alternatives where needed.</p>
+<h3 id="month-3-data-handling">Month 3 — Data handling</h3>
+<p><strong>Concepts:</strong> CSV-style tables, missing/duplicate values, summaries, simple statistics and charts.</p>
+<p><strong>Build:</strong> Clean a small non-sensitive dataset, create a chart and support a claim with evidence. Record the data source and limitations.</p>
+<p><strong>Evidence:</strong> project artefact, test record, explanation and one limitation. Use paper/offline alternatives where needed.</p>
+<h3 id="month-4-machine-learning-workflow">Month 4 — Machine-learning workflow</h3>
+<p><strong>Concepts:</strong> Features/labels, classification vs regression, test split, baseline and overfitting intuition.</p>
+<p><strong>Build:</strong> Compare a paper or teacher-guided model with a simple baseline. Keep test examples separate, record errors and discuss generalisation.</p>
+<p><strong>Evidence:</strong> project artefact, test record, explanation and one limitation. Use paper/offline alternatives where needed.</p>
+<h3 id="month-5-modern-ai-literacy">Month 5 — Modern AI literacy</h3>
+<p><strong>Concepts:</strong> Language-model prediction concept, prompt clarity, source checking, bias and privacy.</p>
+<p><strong>Build:</strong> Compare teacher-prepared responses, improve a prompt and check claims against approved source material. Mark unsupported statements.</p>
+<p><strong>Evidence:</strong> project artefact, test record, explanation and one limitation. Use paper/offline alternatives where needed.</p>
+<h3 id="month-6-evidence-based-capstone">Month 6 — Evidence-based capstone</h3>
+<p><strong>Concepts:</strong> Scope, prototype, test design, iteration, limitations and communication.</p>
+<p><strong>Build:</strong> Build a data visualisation, fictional classifier, quiz or source-grounded text helper. Include tests, one improvement and responsible-use review.</p>
+<p><strong>Evidence:</strong> project artefact, test record, explanation and one limitation. Use paper/offline alternatives where needed.</p>
+<h2 id="72-session-plan">72-session plan</h2>
+<p>Each month follows a 12-session learning cycle. The activities below are the session-level plan; adapt pace to learner needs without dropping testing, explanation or safety.</p>
+<h3 id="month-1-computing-and-algorithm-design-1">Month 1 — Computing and algorithm design</h3>
+<p><strong>Monthly target:</strong> Decomposition, flowcharts, tracing, test cases and systematic debugging. <strong>Project:</strong> Algorithm and Debugger.</p>
+<table><thead><tr><th style="text-align:right">Session</th><th>Activity</th><th>Student evidence</th></tr></thead><tbody><tr><td style="text-align:right">1</td><td><strong>Challenge and prediction:</strong> Introduce this month’s project challenge; learners state a prediction or initial approach.</td><td>Initial approach/prediction</td></tr><tr><td style="text-align:right">2</td><td><strong>Concept map:</strong> Explain the core ideas in Decomposition, flowcharts, tracing, test cases and systematic debugging using a visual, example or vocabulary map.</td><td>Concept map or vocabulary check</td></tr><tr><td style="text-align:right">3</td><td><strong>Teacher demonstration:</strong> Model one small example, including decisions and likely mistakes.</td><td>Annotated worked example</td></tr><tr><td style="text-align:right">4</td><td><strong>Guided practice:</strong> Complete a scaffolded example together, with students explaining each step.</td><td>Guided practice output</td></tr><tr><td style="text-align:right">5</td><td><strong>Build part 1:</strong> Create the first small component of the Algorithm and Debugger project.</td><td>First build component</td></tr><tr><td style="text-align:right">6</td><td><strong>Trace and explain:</strong> Trace inputs, steps and outputs; students predict before checking.</td><td>Trace record</td></tr><tr><td style="text-align:right">7</td><td><strong>Test ordinary cases:</strong> Run multiple expected cases and record results.</td><td>Test log</td></tr><tr><td style="text-align:right">8</td><td><strong>Test an edge case:</strong> Try unusual, missing or ambiguous input; identify a weakness.</td><td>Edge-case finding</td></tr><tr><td style="text-align:right">9</td><td><strong>Debug and revise:</strong> Make one evidence-based correction and explain why it helps.</td><td>Debug note</td></tr><tr><td style="text-align:right">10</td><td><strong>Integrate:</strong> Combine the Algorithm and Debugger components into a working draft or complete paper model.</td><td>Integrated draft</td></tr><tr><td style="text-align:right">11</td><td><strong>Peer review and documentation:</strong> A partner tests the work; learners document design choices and a limitation.</td><td>Peer feedback and limitation note</td></tr><tr><td style="text-align:right">12</td><td><strong>Showcase and reflection:</strong> Demonstrate evidence, reflect on a mistake and identify the next learning step.</td><td>Demonstration and reflection</td></tr></tbody></table>
+<h3 id="month-2-python-fluency-1">Month 2 — Python fluency</h3>
+<p><strong>Monthly target:</strong> Types, conditions, loops, lists, dictionaries, functions and reusable code. <strong>Project:</strong> Python Toolkit.</p>
+<table><thead><tr><th style="text-align:right">Session</th><th>Activity</th><th>Student evidence</th></tr></thead><tbody><tr><td style="text-align:right">13</td><td><strong>Challenge and prediction:</strong> Introduce this month’s project challenge; learners state a prediction or initial approach.</td><td>Initial approach/prediction</td></tr><tr><td style="text-align:right">14</td><td><strong>Concept map:</strong> Explain the core ideas in Types, conditions, loops, lists, dictionaries, functions and reusable code using a visual, example or vocabulary map.</td><td>Concept map or vocabulary check</td></tr><tr><td style="text-align:right">15</td><td><strong>Teacher demonstration:</strong> Model one small example, including decisions and likely mistakes.</td><td>Annotated worked example</td></tr><tr><td style="text-align:right">16</td><td><strong>Guided practice:</strong> Complete a scaffolded example together, with students explaining each step.</td><td>Guided practice output</td></tr><tr><td style="text-align:right">17</td><td><strong>Build part 1:</strong> Create the first small component of the Python Toolkit project.</td><td>First build component</td></tr><tr><td style="text-align:right">18</td><td><strong>Trace and explain:</strong> Trace inputs, steps and outputs; students predict before checking.</td><td>Trace record</td></tr><tr><td style="text-align:right">19</td><td><strong>Test ordinary cases:</strong> Run multiple expected cases and record results.</td><td>Test log</td></tr><tr><td style="text-align:right">20</td><td><strong>Test an edge case:</strong> Try unusual, missing or ambiguous input; identify a weakness.</td><td>Edge-case finding</td></tr><tr><td style="text-align:right">21</td><td><strong>Debug and revise:</strong> Make one evidence-based correction and explain why it helps.</td><td>Debug note</td></tr><tr><td style="text-align:right">22</td><td><strong>Integrate:</strong> Combine the Python Toolkit components into a working draft or complete paper model.</td><td>Integrated draft</td></tr><tr><td style="text-align:right">23</td><td><strong>Peer review and documentation:</strong> A partner tests the work; learners document design choices and a limitation.</td><td>Peer feedback and limitation note</td></tr><tr><td style="text-align:right">24</td><td><strong>Showcase and reflection:</strong> Demonstrate evidence, reflect on a mistake and identify the next learning step.</td><td>Demonstration and reflection</td></tr></tbody></table>
+<h3 id="month-3-data-handling-1">Month 3 — Data handling</h3>
+<p><strong>Monthly target:</strong> CSV-style tables, missing/duplicate values, summaries, simple statistics and charts. <strong>Project:</strong> Data Story Notebook.</p>
+<table><thead><tr><th style="text-align:right">Session</th><th>Activity</th><th>Student evidence</th></tr></thead><tbody><tr><td style="text-align:right">25</td><td><strong>Challenge and prediction:</strong> Introduce this month’s project challenge; learners state a prediction or initial approach.</td><td>Initial approach/prediction</td></tr><tr><td style="text-align:right">26</td><td><strong>Concept map:</strong> Explain the core ideas in CSV-style tables, missing/duplicate values, summaries, simple statistics and charts using a visual, example or vocabulary map.</td><td>Concept map or vocabulary check</td></tr><tr><td style="text-align:right">27</td><td><strong>Teacher demonstration:</strong> Model one small example, including decisions and likely mistakes.</td><td>Annotated worked example</td></tr><tr><td style="text-align:right">28</td><td><strong>Guided practice:</strong> Complete a scaffolded example together, with students explaining each step.</td><td>Guided practice output</td></tr><tr><td style="text-align:right">29</td><td><strong>Build part 1:</strong> Create the first small component of the Data Story Notebook project.</td><td>First build component</td></tr><tr><td style="text-align:right">30</td><td><strong>Trace and explain:</strong> Trace inputs, steps and outputs; students predict before checking.</td><td>Trace record</td></tr><tr><td style="text-align:right">31</td><td><strong>Test ordinary cases:</strong> Run multiple expected cases and record results.</td><td>Test log</td></tr><tr><td style="text-align:right">32</td><td><strong>Test an edge case:</strong> Try unusual, missing or ambiguous input; identify a weakness.</td><td>Edge-case finding</td></tr><tr><td style="text-align:right">33</td><td><strong>Debug and revise:</strong> Make one evidence-based correction and explain why it helps.</td><td>Debug note</td></tr><tr><td style="text-align:right">34</td><td><strong>Integrate:</strong> Combine the Data Story Notebook components into a working draft or complete paper model.</td><td>Integrated draft</td></tr><tr><td style="text-align:right">35</td><td><strong>Peer review and documentation:</strong> A partner tests the work; learners document design choices and a limitation.</td><td>Peer feedback and limitation note</td></tr><tr><td style="text-align:right">36</td><td><strong>Showcase and reflection:</strong> Demonstrate evidence, reflect on a mistake and identify the next learning step.</td><td>Demonstration and reflection</td></tr></tbody></table>
+<h3 id="month-4-machine-learning-workflow-1">Month 4 — Machine-learning workflow</h3>
+<p><strong>Monthly target:</strong> Features/labels, classification vs regression, test split, baseline and overfitting intuition. <strong>Project:</strong> Intro ML Experiment.</p>
+<table><thead><tr><th style="text-align:right">Session</th><th>Activity</th><th>Student evidence</th></tr></thead><tbody><tr><td style="text-align:right">37</td><td><strong>Challenge and prediction:</strong> Introduce this month’s project challenge; learners state a prediction or initial approach.</td><td>Initial approach/prediction</td></tr><tr><td style="text-align:right">38</td><td><strong>Concept map:</strong> Explain the core ideas in Features/labels, classification vs regression, test split, baseline and overfitting intuition using a visual, example or vocabulary map.</td><td>Concept map or vocabulary check</td></tr><tr><td style="text-align:right">39</td><td><strong>Teacher demonstration:</strong> Model one small example, including decisions and likely mistakes.</td><td>Annotated worked example</td></tr><tr><td style="text-align:right">40</td><td><strong>Guided practice:</strong> Complete a scaffolded example together, with students explaining each step.</td><td>Guided practice output</td></tr><tr><td style="text-align:right">41</td><td><strong>Build part 1:</strong> Create the first small component of the Intro ML Experiment project.</td><td>First build component</td></tr><tr><td style="text-align:right">42</td><td><strong>Trace and explain:</strong> Trace inputs, steps and outputs; students predict before checking.</td><td>Trace record</td></tr><tr><td style="text-align:right">43</td><td><strong>Test ordinary cases:</strong> Run multiple expected cases and record results.</td><td>Test log</td></tr><tr><td style="text-align:right">44</td><td><strong>Test an edge case:</strong> Try unusual, missing or ambiguous input; identify a weakness.</td><td>Edge-case finding</td></tr><tr><td style="text-align:right">45</td><td><strong>Debug and revise:</strong> Make one evidence-based correction and explain why it helps.</td><td>Debug note</td></tr><tr><td style="text-align:right">46</td><td><strong>Integrate:</strong> Combine the Intro ML Experiment components into a working draft or complete paper model.</td><td>Integrated draft</td></tr><tr><td style="text-align:right">47</td><td><strong>Peer review and documentation:</strong> A partner tests the work; learners document design choices and a limitation.</td><td>Peer feedback and limitation note</td></tr><tr><td style="text-align:right">48</td><td><strong>Showcase and reflection:</strong> Demonstrate evidence, reflect on a mistake and identify the next learning step.</td><td>Demonstration and reflection</td></tr></tbody></table>
+<h3 id="month-5-modern-ai-literacy-1">Month 5 — Modern AI literacy</h3>
+<p><strong>Monthly target:</strong> Language-model prediction concept, prompt clarity, source checking, bias and privacy. <strong>Project:</strong> AI Output Fact-Checker.</p>
+<table><thead><tr><th style="text-align:right">Session</th><th>Activity</th><th>Student evidence</th></tr></thead><tbody><tr><td style="text-align:right">49</td><td><strong>Challenge and prediction:</strong> Introduce this month’s project challenge; learners state a prediction or initial approach.</td><td>Initial approach/prediction</td></tr><tr><td style="text-align:right">50</td><td><strong>Concept map:</strong> Explain the core ideas in Language-model prediction concept, prompt clarity, source checking, bias and privacy using a visual, example or vocabulary map.</td><td>Concept map or vocabulary check</td></tr><tr><td style="text-align:right">51</td><td><strong>Teacher demonstration:</strong> Model one small example, including decisions and likely mistakes.</td><td>Annotated worked example</td></tr><tr><td style="text-align:right">52</td><td><strong>Guided practice:</strong> Complete a scaffolded example together, with students explaining each step.</td><td>Guided practice output</td></tr><tr><td style="text-align:right">53</td><td><strong>Build part 1:</strong> Create the first small component of the AI Output Fact-Checker project.</td><td>First build component</td></tr><tr><td style="text-align:right">54</td><td><strong>Trace and explain:</strong> Trace inputs, steps and outputs; students predict before checking.</td><td>Trace record</td></tr><tr><td style="text-align:right">55</td><td><strong>Test ordinary cases:</strong> Run multiple expected cases and record results.</td><td>Test log</td></tr><tr><td style="text-align:right">56</td><td><strong>Test an edge case:</strong> Try unusual, missing or ambiguous input; identify a weakness.</td><td>Edge-case finding</td></tr><tr><td style="text-align:right">57</td><td><strong>Debug and revise:</strong> Make one evidence-based correction and explain why it helps.</td><td>Debug note</td></tr><tr><td style="text-align:right">58</td><td><strong>Integrate:</strong> Combine the AI Output Fact-Checker components into a working draft or complete paper model.</td><td>Integrated draft</td></tr><tr><td style="text-align:right">59</td><td><strong>Peer review and documentation:</strong> A partner tests the work; learners document design choices and a limitation.</td><td>Peer feedback and limitation note</td></tr><tr><td style="text-align:right">60</td><td><strong>Showcase and reflection:</strong> Demonstrate evidence, reflect on a mistake and identify the next learning step.</td><td>Demonstration and reflection</td></tr></tbody></table>
+<h3 id="month-6-evidence-based-capstone-1">Month 6 — Evidence-based capstone</h3>
+<p><strong>Monthly target:</strong> Scope, prototype, test design, iteration, limitations and communication. <strong>Project:</strong> Evidence-Based Capstone.</p>
+<table><thead><tr><th style="text-align:right">Session</th><th>Activity</th><th>Student evidence</th></tr></thead><tbody><tr><td style="text-align:right">61</td><td><strong>Challenge and prediction:</strong> Introduce this month’s project challenge; learners state a prediction or initial approach.</td><td>Initial approach/prediction</td></tr><tr><td style="text-align:right">62</td><td><strong>Concept map:</strong> Explain the core ideas in Scope, prototype, test design, iteration, limitations and communication using a visual, example or vocabulary map.</td><td>Concept map or vocabulary check</td></tr><tr><td style="text-align:right">63</td><td><strong>Teacher demonstration:</strong> Model one small example, including decisions and likely mistakes.</td><td>Annotated worked example</td></tr><tr><td style="text-align:right">64</td><td><strong>Guided practice:</strong> Complete a scaffolded example together, with students explaining each step.</td><td>Guided practice output</td></tr><tr><td style="text-align:right">65</td><td><strong>Build part 1:</strong> Create the first small component of the Evidence-Based Capstone project.</td><td>First build component</td></tr><tr><td style="text-align:right">66</td><td><strong>Trace and explain:</strong> Trace inputs, steps and outputs; students predict before checking.</td><td>Trace record</td></tr><tr><td style="text-align:right">67</td><td><strong>Test ordinary cases:</strong> Run multiple expected cases and record results.</td><td>Test log</td></tr><tr><td style="text-align:right">68</td><td><strong>Test an edge case:</strong> Try unusual, missing or ambiguous input; identify a weakness.</td><td>Edge-case finding</td></tr><tr><td style="text-align:right">69</td><td><strong>Debug and revise:</strong> Make one evidence-based correction and explain why it helps.</td><td>Debug note</td></tr><tr><td style="text-align:right">70</td><td><strong>Integrate:</strong> Combine the Evidence-Based Capstone components into a working draft or complete paper model.</td><td>Integrated draft</td></tr><tr><td style="text-align:right">71</td><td><strong>Peer review and documentation:</strong> A partner tests the work; learners document design choices and a limitation.</td><td>Peer feedback and limitation note</td></tr><tr><td style="text-align:right">72</td><td><strong>Showcase and reflection:</strong> Demonstrate evidence, reflect on a mistake and identify the next learning step.</td><td>Demonstration and reflection</td></tr></tbody></table>
+<h2 id="assessment-and-teacher-guide">Assessment and teacher guide</h2>
+<h3 id="formative-assessment">Formative assessment</h3>
+<p>Use prediction questions, concept checks, code/algorithm tracing, test logs, observation and short exit tickets. Evaluate understanding—not speed, polish, device access or whether a model always gives a correct answer.</p>
+<h3 id="capstone-rubric-20-points">Capstone rubric (20 points)</h3>
+<p>Score each category 0–4: problem/plan; understanding; build and individual contribution; testing and evidence-based improvement; responsible use and communication. A 0 means no evidence yet; 2 means developing with partial evidence; 4 means clear, accurate and independently justified evidence. Use the rubric formatively and adapt for accessibility.</p>
+<h3 id="minimum-project-evidence">Minimum project evidence</h3>
+<ul><li>A clear problem and chosen approach.</li><li>Program, notebook, physical artefact or explicitly labelled paper simulation.</li><li>Test cases/results appropriate to the grade.</li><li>One issue or limitation identified and one change made because of evidence.</li><li>A short explanation of privacy, fairness or reliability, including where a person checks the result.</li><li>Each learner explains their own contribution.</li></ul>
+<h3 id="60-minute-lesson-rhythm">60-minute lesson rhythm</h3>
+<p>5 min retrieval/challenge · 10 min explanation/demo · 25 min build/investigation · 10 min testing/debugging · 10 min explanation/exit ticket. Adjust pace; do not skip testing or safety to finish a build. An optional 15-minute extension may support additional practice or stretch work.</p>
+<h3 id="differentiation">Differentiation</h3>
+<p>Support: starter templates, worked examples, fewer features, sentence frames, paired tracing. Core: build/modify, test multiple cases, record and fix an issue. Extension: compare approaches, add edge cases or justify a metric. Accept spoken, written, diagram-based and accessible demonstrations.</p>
+<h3 id="safety-and-responsible-ai">Safety and responsible AI</h3>
+<p>Use school-approved tools and teacher-prepared, fictional, public or approved data. Never upload identifiable student names, faces, voices, locations, records or private work to public AI tools. Do not use models to classify real students by sensitive traits or make consequential decisions. Check factual claims against approved sources. No GPU, paid account, webcam, cloud service or public AI account is a prerequisite. Provide paper/offline alternatives. Keep any tool use transparent, permission-limited and under human supervision.</p>
+<h3 id="teacher-preparation">Teacher preparation</h3>
+<p>Check devices, software, permissions and connectivity; prepare a known-good example and an offline alternative. Ask students to predict, test unusual inputs, record errors and explain changes. Follow school safeguarding, privacy, copyright and acceptable-use policies.</p>
+<h3 id="student-reflection">Student reflection</h3>
+<p>What problem did we solve? How does it work? What did tests show? What failed or surprised us? What did we change and why? What should users not assume? What data/permissions need protection? Where must a person review the result?</p>
+<h2 id="grade-specific-implementation-guidance">Grade-specific implementation guidance</h2>
+<h3 id="technical-expectations">Technical expectations</h3>
+<p>Students should write most core Python themselves with scaffolds as needed. A notebook or simple local editor is appropriate. If an ML library is unavailable, use a transparent paper model or teacher-prepared demonstration. Keep student reasoning central; avoid training large models, unbounded agents, or deploying projects on real people.</p>
+<h3 id="project-pathway">Project pathway</h3>
+<p>Possible projects include a student-created quiz analyser, school-garden data chart, fictional library-category classifier, simple survey explorer, or fact-checking assistant grounded in a teacher-approved text.</p>
+<h3 id="teaching-and-safety">Teaching and safety</h3>
+<p>Use short explain-build-test cycles, ask for predictions before execution, and require each team member to explain part of the program. Test unfamiliar examples and compare changes. Use approved data and tools. Never upload identifiable student data to public AI tools. Distinguish a language-model suggestion from a verified fact.</p>
+<h3 id="success-standard">Success standard</h3>
+<p>A strong result uses readable code, clean-enough data, a fair test, a reasoned improvement, and an honest description of limitations.</p>
+</main>
+<footer>
+  <p>Source: <a href="CURRICULUM.md">CURRICULUM.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

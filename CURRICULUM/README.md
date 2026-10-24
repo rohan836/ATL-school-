@@ -2,6 +2,8 @@
 
 This hub contains two distinct teaching pathways. Keep the AI & Computing pathway separate from the existing Electronics & Robotics pathway.
 
+- [HTML reading copy](INDEX.html) - every curriculum page as a standalone page for offline viewing; Markdown remains the source of truth.
+
 ## Pathways
 - [AI & Computing](CLASSES/AI/README.md) — a six-month, 72-session progression from computer fundamentals through Python, data, AI/ML, evaluation, responsible use and a class-appropriate capstone.
 - [Electronics & Robotics](CLASSES/ELECTRONICS-ROBOTICS/README.md) — the separate hardware pathway for circuits, sensors, actuators and robotics. Its lesson content is preserved.
