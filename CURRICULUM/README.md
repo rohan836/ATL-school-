@@ -1,15 +1,22 @@
 # Curriculum Hub — Classes 5–9
 
-This hub contains two distinct teaching pathways. Keep the AI & Computing pathway separate from the existing Electronics & Robotics pathway.
+Start here to navigate the ATL curriculum. There are two separate learning pathways; each has its own curriculum documents and classroom folders.
 
-- [HTML reading copy](INDEX.html) - every curriculum page as a standalone page for offline viewing; Markdown remains the source of truth.
+## Choose a pathway
 
-## Pathways
-- [AI & Computing](CLASSES/AI/README.md) — a six-month, 72-session progression from computer fundamentals through Python, data, AI/ML, evaluation, responsible use and a class-appropriate capstone.
-- [Electronics & Robotics](CLASSES/ELECTRONICS-ROBOTICS/README.md) — the separate hardware pathway for circuits, sensors, actuators and robotics. Its lesson content is preserved.
-- [Class and section index](CLASSES/README.md) — navigation across grade folders and C/D sections.
+- **[AI & Computing](CLASSES/AI/README.md)** — computing foundations, Python, data, AI/ML, evaluation, responsible use, and capstone projects.
+- **[Electronics, Programming & Robotics](CLASSES/ELECTRONICS-ROBOTICS/README.md)** — computational thinking, programming, circuits, sensors, actuators, robotics, IoT, engineering design, and projects.
+- **[Class and batch index](CLASSES/README.md)** — browse Classes 5–9 and their C/D sections.
 
-## AI & Computing course structure
-Each grade has a curriculum overview, project guide, 72-session plan and assessment/teacher guide. Classes 5–9 share the same six-month shape but differ in depth, independence and expected technical skills. C and D sections use the same learning sequence; their existing class records and timetable references are retained.
+## How the folders work
 
-**Planning assumption:** 12 sessions each month, 60 minutes per core session (an optional extension can use up to 75 minutes). Adjust delivery to the actual school calendar without skipping tests, reflection or safety.
+- The pathway-level curriculum is the shared source of truth.
+- Grade folders organize materials for each class.
+- Each grade retains its **C** and **D** batch folders for batch-specific notes, records, and classroom resources.
+- Do not create duplicate curriculum sequences for C and D unless the learning outcomes genuinely differ.
+
+## HTML reading copies
+
+HTML files are reading copies for offline viewing. Markdown files are the source of truth. Regenerate the HTML pages with:
+
+`python CURRICULUM/build_html.py`
