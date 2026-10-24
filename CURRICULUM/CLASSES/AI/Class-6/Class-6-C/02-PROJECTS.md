@@ -1,60 +1,39 @@
-# Class 6 — Smart Room Helper
+# Class 6 — Projects and Build Guides
 
-## Project guide: electronics-integrated AI
+The six projects align to the six-month computing-to-AI progression. Prefer a local/offline environment and small inputs; tools are optional means, not the learning objective.
 
-This guide is a practical extension to the class AI curriculum. It connects an AI idea to a physical input/output, while keeping the existing AI-only learning path usable without electronics.
+| Month | Project | Key skills | Evidence |
+|---|---|---|---|
+| 1 | Digital Systems Map | Hardware/software, files, storage, lab safety | System diagram and sample folder |
+| 2 | Algorithm Challenge | Decomposition, pseudocode, flowcharts, testing | Algorithm plus test cases |
+| 3 | Python Quiz or Timer | Variables, input/output, conditionals, loops | Working program and walkthrough |
+| 4 | Survey Data Explorer | Tables, cleaning, counts, simple charts | Data summary with a chart |
+| 5 | Paper ML Lab | Features, labels, classification, errors | Separate test examples and error review |
+| 6 | Useful Mini-App | Small Python/data problem and responsible design | Demo, test record and reflection |
 
-**Important architecture note:** Arduino Uno/Nano-class boards are suitable for reading sensors and controlling LEDs, buzzers, servos, or motors. Do not imply that these boards train typical machine-learning models. Unless a specific supported TinyML workflow is set up, train/run the model on a laptop or Raspberry Pi (if available) and use the microcontroller as the hardware interface. Confirm actual component stock before committing to a hardware-dependent build.
+## Month 1 — Digital Systems Map
+Trace a familiar task through input, processing, output and storage. Label hardware and software separately. Create a folder/file naming convention for one class project and explain why backup and privacy matter. Use a paper diagram if a computer is unavailable.
 
-### Project challenge
-Train a small model to classify a room’s light level (for example, dark / comfortable / bright) and show the class with LEDs or a buzzer.
-### AI learning connection
+## Month 2 — Algorithm Challenge
+Students express a school-safe task as plain-language steps, pseudocode or a flowchart. A partner follows the instructions exactly and records where they become ambiguous. Students revise the algorithm and test at least two cases, including one edge case.
 
-Data features, labels, classification, decision boundaries, and comparison of learned predictions with a fixed threshold rule.
+## Month 3 — Python Quiz or Timer
+Start from a short, teacher-tested template. Learners modify messages, values, conditions and a loop. Possible builds include a three-question quiz, a simple countdown simulation or a choice-based story. Students must trace the program, explain variables, and test a valid and unexpected input. Do not reward copied code that cannot be explained.
 
-### Suggested components and alternatives
+## Month 4 — Survey Data Explorer
+Use fictional data or a teacher-approved anonymous class survey. Check headings, missing values and inconsistent categories; count results; make a bar chart; and write two statements supported by the data. Explain that the result describes only this sample and cannot justify claims beyond it.
 
-Arduino Uno/Nano; LDR/light sensor module; LEDs with resistors and/or a low-voltage buzzer; breadboard and jumper wires. A temperature/humidity sensor can be an optional second feature if available.
+## Month 5 — Paper ML Lab
+Teams classify fictional leaf, weather-symbol or object cards using visible features. Split examples into “build” and “test” sets before evaluating. Count mistakes, ask which examples were hard, and make one evidence-based revision. If a beginner ML tool is used, the teacher supplies prepared data and checks privacy. Label paper rules as a simulation rather than real model training.
 
-### Build and investigation steps
+## Month 6 — Useful Mini-App
+Choose a limited problem such as a revision quiz, study checklist, fictional library organiser or chart generator. Define the input and output before coding. Build the smallest workable version, test at least three cases, improve one issue, and provide a short README or poster.
 
-1. Collect labelled light readings in several room conditions. Agree on class definitions before collecting data.
-2. Split examples into training and test sets. Avoid collecting all examples for one class in one location only.
-3. Train a beginner-friendly classifier on a laptop or supported device. Record model predictions on held-out readings.
-4. Implement a simple threshold baseline and compare its results with the learned model.
-5. Connect the output to LEDs or a buzzer; keep sound brief and classroom-appropriate.
+## Submission checklist
+- Problem statement and chosen approach.
+- Program, paper prototype or clearly labelled simulation.
+- At least three test cases and their results.
+- One change made because of testing.
+- Explanation of one limitation and one responsible-use rule.
 
-### Testing and success criteria
-
-Compare accuracy for the model and threshold baseline on the same held-out samples. Include a small confusion table or count of mistakes.
-
-### Optional extension
-
-Add temperature as a second feature and test whether it improves the result; explain when extra data does not help.
-
-### No-hardware / AI-only alternative
-
-Use a provided table of light readings and labels; classify by hand, compare to a threshold rule, and sketch the LED output.
-
-### Safety and responsible use
-
-Use only low-voltage circuits. Do not connect a classroom project to mains lighting or mains power. Keep buzzer volume and duration modest.
-
-### Student reflection
-
-1. What examples did the model learn from, and what did you keep for testing?
-2. What kinds of input caused a wrong or uncertain prediction?
-3. How did the electronic output depend on the model’s prediction?
-4. What would you change to make the project more reliable?
-
-### Suggested assessment rubric (10 points)
-
-| Criterion | Points |
-|---|---:|
-| Dataset, labels, and explanation of the AI concept | 2 |
-| Correct and safe sensor/output integration (or quality of no-hardware equivalent) | 2 |
-| Testing with unseen examples and recorded results | 2 |
-| Analysis of errors, limitations, and comparison/baseline | 2 |
-| Clear demonstration and reflection | 2 |
-
-Teacher note: adapt the number of samples and coding complexity to the class timetable and available equipment. The project is an instructional prototype, not a safety-critical system.
+No project should require paid services, cloud GPUs, real student photos/voices, or unrestricted internet access.

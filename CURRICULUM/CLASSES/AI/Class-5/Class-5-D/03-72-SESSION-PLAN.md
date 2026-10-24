@@ -1,119 +1,123 @@
-# Class 5 AI Builders — 72-Session Project Plan
+# Class 5 — 72-Session Plan
 
-**Course length:** 6 monthly projects × 12 sessions = 72 sessions  
-**Session time:** 60–75 minutes. Follow the core activity and shorten discussion/extension for 60-minute periods.  
-**Related files:** [01 Curriculum](01-CURRICULUM.md) · [02 Project Guides](02-PROJECTS.md) · [04 Assessment and Teacher Guide](04-ASSESSMENT-AND-TEACHER-GUIDE.md)
+**Duration:** 6 months × 12 sessions = 72 sessions. **Core period:** 60 minutes; use an optional 15-minute extension for learners who need more practice or a stretch challenge.
 
-Each session is hands-on. The concept listed is a just-in-time learning target, not a long lecture topic.
+## Suggested 60-minute rhythm
+- 5 minutes: retrieve prior learning and set the challenge.
+- 10 minutes: teacher demonstration or short explanation.
+- 25 minutes: guided/independent build or investigation.
+- 10 minutes: test, compare and debug.
+- 10 minutes: explain, document and exit ticket.
 
-## Month 1 — AI Waste Detective
+Adjust for student needs and local timetable; the curriculum is a teaching plan, not a requirement to rush every activity. Every session should include student action and some observable evidence.
 
-| Session | Challenge / activity | Just-in-time concept | Student evidence |
-|---|---|---|---|
-| 1 | Launch the waste-sorting challenge; students sort sample images and try a demo | Classification as assigning a category | Problem statement and first predictions |
-| 2 | Compare easy and confusing waste images; decide useful categories | Labels, ambiguity, category design | Agreed class labels |
-| 3 | Collect/select and label examples; start the classifier | Dataset and training examples | Labelled examples and first model |
-| 4 | Run new images through the model | Prediction/inference | Prediction log |
-| 5 | Test images not used in training | Train/test separation | Test set and results |
-| 6 | Count correct and incorrect predictions | Accuracy intuition and error | Correct/total count |
-| 7 | Change angle, background, or lighting | Input variation | Conditions that cause errors |
-| 8 | Add or improve examples and retrain/configure | Iteration and data quality | Before/after comparison |
-| 9 | Build a simple category/result interface | Events, variables, output | Interface draft |
-| 10 | Add clear labels and a cautious disposal hint | User-centered design and limitations | Improved prototype |
-| 11 | Peer test, debug, and prepare demonstration | Debugging and communication | Final test checklist |
-| 12 | Demo the Waste Detective and reflect | Explain model behavior honestly | Demonstration and reflection |
+### Month 1 — Computer and digital foundations: My Computer Map
+**Focus:** hardware/software, input-processing-output, files, safe practice.
 
-## Month 2 — Image Segmentation Explorer
+| Session | Activity stage | Teaching activity | Student evidence |
+|---:|---|---|---|
+| 1 | Launch challenge | Introduce My Computer Map through a practical challenge connected to computer and digital foundations. | Challenge question and initial prediction |
+| 2 | Identify key ideas | Name and explain the key ideas in hardware/software, input-processing-output, files, safe practice. | Short concept check |
+| 3 | Teacher demonstration | Teacher models one small example of hardware/software, input-processing-output, files, safe practice, thinking aloud while making decisions. | Annotated worked example |
+| 4 | Guided practice | Complete a guided task using hardware/software, input-processing-output, files, safe practice with prompts and worked steps. | Guided practice output |
+| 5 | Build a first version | Build a first version of the My Computer Map artefact or a small component of it. | First build |
+| 6 | Trace the process | Trace the process step by step; predict the result before checking it. | Trace sheet |
+| 7 | Test normal cases | Run at least three ordinary test cases and record what happened. | Test log |
+| 8 | Test an edge case | Choose an unusual, ambiguous or missing-input case and inspect how the solution behaves. | Edge-case note |
+| 9 | Debug and revise | Debug one issue and explain how the change improves the result. | Debug record |
+| 10 | Combine skills | Combine this month's skill with earlier learning to improve My Computer Map. | Integrated draft |
+| 11 | Peer test and document | Peer-test the work, document decisions and add an explanation of its limitation. | Peer feedback and notes |
+| 12 | Showcase and reflect | Present the current month's evidence, reflect on one mistake and state the next step. | Demonstration and reflection |
 
-| Session | Challenge / activity | Just-in-time concept | Student evidence |
-|---|---|---|---|
-| 1 | Compare image label, bounding box, and mask | Classification vs detection vs segmentation | Comparison sketch |
-| 2 | Explore a printed image grid | Pixels and image grids | Marked grid |
-| 3 | Use prepared image/mask examples | Segmentation output | Annotated example |
-| 4 | Run or inspect a pretrained segmentation demo | Pretrained model and inference | First displayed mask |
-| 5 | Select another image/object, where supported | Input and region selection | Second example |
-| 6 | Compare object boundaries with the mask | Mask quality | Boundary notes |
-| 7 | Inspect difficult cases (overlap, similar colors, clutter) | Model limitations | Error case |
-| 8 | Try an alternate image or prepared mask | Testing and comparison | Comparison table |
-| 9 | Add a simple label, legend, or overlay | Interface and visualization | Explorer interface |
-| 10 | Improve explanation and visual clarity | Communicating model output | Revised explorer |
-| 11 | Peer review and rehearse | Feedback and debugging | Feedback notes |
-| 12 | Demonstrate and explain what pixels/masks mean | Concept synthesis | Demo and reflection |
+### Month 2 — Computational thinking: Algorithm Playbook
+**Focus:** sequencing, decomposition, patterns, algorithms, debugging.
 
-## Month 3 — Gesture-Controlled Game
+| Session | Activity stage | Teaching activity | Student evidence |
+|---:|---|---|---|
+| 13 | Launch challenge | Introduce Algorithm Playbook through a practical challenge connected to computational thinking. | Challenge question and initial prediction |
+| 14 | Identify key ideas | Name and explain the key ideas in sequencing, decomposition, patterns, algorithms, debugging. | Short concept check |
+| 15 | Teacher demonstration | Teacher models one small example of sequencing, decomposition, patterns, algorithms, debugging, thinking aloud while making decisions. | Annotated worked example |
+| 16 | Guided practice | Complete a guided task using sequencing, decomposition, patterns, algorithms, debugging with prompts and worked steps. | Guided practice output |
+| 17 | Build a first version | Build a first version of the Algorithm Playbook artefact or a small component of it. | First build |
+| 18 | Trace the process | Trace the process step by step; predict the result before checking it. | Trace sheet |
+| 19 | Test normal cases | Run at least three ordinary test cases and record what happened. | Test log |
+| 20 | Test an edge case | Choose an unusual, ambiguous or missing-input case and inspect how the solution behaves. | Edge-case note |
+| 21 | Debug and revise | Debug one issue and explain how the change improves the result. | Debug record |
+| 22 | Combine skills | Combine this month's skill with earlier learning to improve Algorithm Playbook. | Integrated draft |
+| 23 | Peer test and document | Peer-test the work, document decisions and add an explanation of its limitation. | Peer feedback and notes |
+| 24 | Showcase and reflect | Present the current month's evidence, reflect on one mistake and state the next step. | Demonstration and reflection |
 
-| Session | Challenge / activity | Just-in-time concept | Student evidence |
-|---|---|---|---|
-| 1 | Play a simple game; propose gestures for controls | Input/action mapping | Gesture map |
-| 2 | Explore a small set of gesture examples | Class labels and variation | Gesture labels |
-| 3 | Configure or train a safe gesture classifier; use simulated inputs if needed | Classification | First gesture predictions |
-| 4 | Connect a gesture to one game action | Events and conditions | One working control |
-| 5 | Add a second or third gesture | Variables and multiple classes | Expanded controls |
-| 6 | Add score, obstacle, or win/lose condition | Game state and logic | Playable game |
-| 7 | Test in varied lighting/background/distance | Robustness and testing | Test record |
-| 8 | Investigate false activation or missed gesture | Error diagnosis | Error and possible cause |
-| 9 | Improve mapping, threshold, or confirmation behavior | Iteration | Updated game |
-| 10 | Add clear instructions and accessible alternative | User-centered design | Game interface |
-| 11 | Peer test and prepare demonstration | Debugging and communication | Test checklist |
-| 12 | Demonstrate; explain camera/privacy boundaries | Responsible interaction | Demo and reflection |
+### Month 3 — First programming steps: Tiny Interactive Program
+**Focus:** commands, output, variables, simple input and conditions.
 
-## Month 4 — Mini Text Generator
+| Session | Activity stage | Teaching activity | Student evidence |
+|---:|---|---|---|
+| 25 | Launch challenge | Introduce Tiny Interactive Program through a practical challenge connected to first programming steps. | Challenge question and initial prediction |
+| 26 | Identify key ideas | Name and explain the key ideas in commands, output, variables, simple input and conditions. | Short concept check |
+| 27 | Teacher demonstration | Teacher models one small example of commands, output, variables, simple input and conditions, thinking aloud while making decisions. | Annotated worked example |
+| 28 | Guided practice | Complete a guided task using commands, output, variables, simple input and conditions with prompts and worked steps. | Guided practice output |
+| 29 | Build a first version | Build a first version of the Tiny Interactive Program artefact or a small component of it. | First build |
+| 30 | Trace the process | Trace the process step by step; predict the result before checking it. | Trace sheet |
+| 31 | Test normal cases | Run at least three ordinary test cases and record what happened. | Test log |
+| 32 | Test an edge case | Choose an unusual, ambiguous or missing-input case and inspect how the solution behaves. | Edge-case note |
+| 33 | Debug and revise | Debug one issue and explain how the change improves the result. | Debug record |
+| 34 | Combine skills | Combine this month's skill with earlier learning to improve Tiny Interactive Program. | Integrated draft |
+| 35 | Peer test and document | Peer-test the work, document decisions and add an explanation of its limitation. | Peer feedback and notes |
+| 36 | Showcase and reflect | Present the current month's evidence, reflect on one mistake and state the next step. | Demonstration and reflection |
 
-| Session | Challenge / activity | Just-in-time concept | Student evidence |
-|---|---|---|---|
-| 1 | Play a next-word prediction activity with teacher-written text | Pattern continuation | Predicted continuations |
-| 2 | Compare how examples change possible next words | Data and sequence patterns | Comparison notes |
-| 3 | Break a sentence into characters, words, or tokens | Tokenization (simple view) | Token/sequence card |
-| 4 | Run a small guided text-generation model or simulation | Language model and generation | First generated text |
-| 5 | Change the starting text and compare output | Conditioning/input | Output pair |
-| 6 | Examine repetitive or nonsensical continuations | Model limitations | Example and explanation |
-| 7 | Test different safe prompts/seeds | Experiment design | Small experiment log |
-| 8 | Compare outputs using clarity/relevance criteria | Evaluation | Simple score/comments |
-| 9 | Build or customize an input/output interface | Strings and events | Interface draft |
-| 10 | Add a note that output requires checking | Responsible generation | Improved prototype |
-| 11 | Peer review and debug | Revision | Feedback and fix |
-| 12 | Demonstrate; explain next-token prediction at an age-appropriate level | Synthesis | Demo and reflection |
+### Month 4 — Data in everyday life: Classroom Data Story
+**Focus:** tables, labels, counts, charts and data quality.
 
-## Month 5 — Classroom AI Agent
+| Session | Activity stage | Teaching activity | Student evidence |
+|---:|---|---|---|
+| 37 | Launch challenge | Introduce Classroom Data Story through a practical challenge connected to data in everyday life. | Challenge question and initial prediction |
+| 38 | Identify key ideas | Name and explain the key ideas in tables, labels, counts, charts and data quality. | Short concept check |
+| 39 | Teacher demonstration | Teacher models one small example of tables, labels, counts, charts and data quality, thinking aloud while making decisions. | Annotated worked example |
+| 40 | Guided practice | Complete a guided task using tables, labels, counts, charts and data quality with prompts and worked steps. | Guided practice output |
+| 41 | Build a first version | Build a first version of the Classroom Data Story artefact or a small component of it. | First build |
+| 42 | Trace the process | Trace the process step by step; predict the result before checking it. | Trace sheet |
+| 43 | Test normal cases | Run at least three ordinary test cases and record what happened. | Test log |
+| 44 | Test an edge case | Choose an unusual, ambiguous or missing-input case and inspect how the solution behaves. | Edge-case note |
+| 45 | Debug and revise | Debug one issue and explain how the change improves the result. | Debug record |
+| 46 | Combine skills | Combine this month's skill with earlier learning to improve Classroom Data Story. | Integrated draft |
+| 47 | Peer test and document | Peer-test the work, document decisions and add an explanation of its limitation. | Peer feedback and notes |
+| 48 | Showcase and reflect | Present the current month's evidence, reflect on one mistake and state the next step. | Demonstration and reflection |
 
-| Session | Challenge / activity | Just-in-time concept | Student evidence |
-|---|---|---|---|
-| 1 | Choose a bounded classroom task and define “done” | Goal | Goal statement |
-| 2 | Map inputs, approved knowledge, and safe tools | Observation/action/tool | Agent flow sketch |
-| 3 | Walk through a paper agent simulation | Tool use and decision sequence | Tool-choice record |
-| 4 | Build a guided agent or restricted workflow | Tool call | First successful task |
-| 5 | Add a second safe tool (e.g. calculator/checklist) | Functions and tool selection | Tool demonstration |
-| 6 | Show tool name/result in a visible log | Transparency | Trace/log |
-| 7 | Test missing information | Ask-for-help boundary | Safe fallback |
-| 8 | Test a wrong or irrelevant tool choice | Error handling | Error-case note |
-| 9 | Add a human confirmation or stop condition | Permission and oversight | Human-review step |
-| 10 | Refine instructions and task flow | Iteration | Revised agent |
-| 11 | Peer test within teacher-defined limits | Evaluation and safety | Test checklist |
-| 12 | Demonstrate and explain tool-use boundaries | Agent literacy | Demo and reflection |
+### Month 5 — AI fundamentals: Rules or AI? Explorer
+**Focus:** fixed rules vs learned predictions, examples, labels, classification and errors.
 
-## Month 6 — AI School Helper Capstone
+| Session | Activity stage | Teaching activity | Student evidence |
+|---:|---|---|---|
+| 49 | Launch challenge | Introduce Rules or AI? Explorer through a practical challenge connected to ai fundamentals. | Challenge question and initial prediction |
+| 50 | Identify key ideas | Name and explain the key ideas in fixed rules vs learned predictions, examples, labels, classification and errors. | Short concept check |
+| 51 | Teacher demonstration | Teacher models one small example of fixed rules vs learned predictions, examples, labels, classification and errors, thinking aloud while making decisions. | Annotated worked example |
+| 52 | Guided practice | Complete a guided task using fixed rules vs learned predictions, examples, labels, classification and errors with prompts and worked steps. | Guided practice output |
+| 53 | Build a first version | Build a first version of the Rules or AI? Explorer artefact or a small component of it. | First build |
+| 54 | Trace the process | Trace the process step by step; predict the result before checking it. | Trace sheet |
+| 55 | Test normal cases | Run at least three ordinary test cases and record what happened. | Test log |
+| 56 | Test an edge case | Choose an unusual, ambiguous or missing-input case and inspect how the solution behaves. | Edge-case note |
+| 57 | Debug and revise | Debug one issue and explain how the change improves the result. | Debug record |
+| 58 | Combine skills | Combine this month's skill with earlier learning to improve Rules or AI? Explorer. | Integrated draft |
+| 59 | Peer test and document | Peer-test the work, document decisions and add an explanation of its limitation. | Peer feedback and notes |
+| 60 | Showcase and reflect | Present the current month's evidence, reflect on one mistake and state the next step. | Demonstration and reflection |
 
-| Session | Challenge / activity | Just-in-time concept | Student evidence |
-|---|---|---|---|
-| 1 | Brainstorm school needs; select a low-risk problem | Problem framing | Team problem statement |
-| 2 | Decide whether AI is appropriate versus a simpler solution | AI suitability | Rationale |
-| 3 | Select technique, input, output, and data source | System design | Project plan |
-| 4 | Build the minimum working prototype | Prototyping | MVP |
-| 5 | Add one useful feature | Coding and integration | Feature milestone |
-| 6 | Create three or more test cases | Test design | Test plan |
-| 7 | Run tests and record results | Evaluation | Test record |
-| 8 | Identify a failure, limitation, or unfair outcome | Error/bias awareness | Issue and cause |
-| 9 | Make and verify an improvement | Iteration | Before/after evidence |
-| 10 | Prepare explanation, demo, and safety statement | Communication and responsible AI | Presentation draft |
-| 11 | Peer review, debug, and rehearse | Feedback | Final checklist |
-| 12 | Showcase prototypes; reflect individually | Transfer and reflection | Demo, rubric, reflection |
+### Month 6 — Capstone and responsible use: Helpful Classroom Prototype
+**Focus:** problem definition, prototype, testing, privacy and explanation.
 
-## Session delivery pattern
+| Session | Activity stage | Teaching activity | Student evidence |
+|---:|---|---|---|
+| 61 | Launch challenge | Introduce Helpful Classroom Prototype through a practical challenge connected to capstone and responsible use. | Challenge question and initial prediction |
+| 62 | Identify key ideas | Name and explain the key ideas in problem definition, prototype, testing, privacy and explanation. | Short concept check |
+| 63 | Teacher demonstration | Teacher models one small example of problem definition, prototype, testing, privacy and explanation, thinking aloud while making decisions. | Annotated worked example |
+| 64 | Guided practice | Complete a guided task using problem definition, prototype, testing, privacy and explanation with prompts and worked steps. | Guided practice output |
+| 65 | Build a first version | Build a first version of the Helpful Classroom Prototype artefact or a small component of it. | First build |
+| 66 | Trace the process | Trace the process step by step; predict the result before checking it. | Trace sheet |
+| 67 | Test normal cases | Run at least three ordinary test cases and record what happened. | Test log |
+| 68 | Test an edge case | Choose an unusual, ambiguous or missing-input case and inspect how the solution behaves. | Edge-case note |
+| 69 | Debug and revise | Debug one issue and explain how the change improves the result. | Debug record |
+| 70 | Combine skills | Combine this month's skill with earlier learning to improve Helpful Classroom Prototype. | Integrated draft |
+| 71 | Peer test and document | Peer-test the work, document decisions and add an explanation of its limitation. | Peer feedback and notes |
+| 72 | Showcase and reflect | Present the current month's evidence, reflect on one mistake and state the next step. | Demonstration and reflection |
 
-Use a consistent rhythm without forcing a lecture-first structure.
-
-**75-minute session:** 5 min challenge/demo; 5 min prediction; 5–8 min concept; 20–25 min guided build; 15–20 min experiment; 10–12 min improve/share/reflect.
-
-**60-minute session:** 5 min challenge; 5 min concept; 20 min build; 20 min experiment/improve; 10 min share/reflect.
-
-For sessions requiring long model loading or internet access, prepare the environment beforehand and have screenshots, prepared outputs, or a paper alternative ready. Keep student data out of external services.
+## Delivery notes
+Use teacher-prepared examples, pair work and low-cost/offline alternatives. Do not require student accounts, public AI tools, private data, webcam access or GPU/cloud compute. The teacher can split a complex activity across sessions rather than sacrificing testing and reflection. A paper simulation must be labelled as a simulation and not represented as a trained model.

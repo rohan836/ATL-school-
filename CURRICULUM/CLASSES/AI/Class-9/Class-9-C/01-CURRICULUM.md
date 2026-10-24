@@ -1,196 +1,47 @@
-# Class 9 — AI-Only Curriculum
+# Class 9 — Six-Month AI & Computing Curriculum
 
-**Status:** Proposed curriculum for planning and review  
-**Audience:** Typical Class 9 learners (approximately 14–15)  
-**Scope:** Artificial intelligence literacy only. No electronics, robotics builds, or hardware. No coding prerequisite.  
-**Progression:** 20 units from foundational concepts to advanced topics for this class. No fixed dates or weeks.
+**Course:** Applied Python, Machine Learning and Responsible AI Projects  
+**Duration:** 6 months · 12 sessions per month · 72 sessions total  
+**Session length:** 60 minutes (optional extension to 75 minutes)  
+**Level:** Intermediate; learners should practise independent planning with teacher checkpoints.
 
-## Purpose
-
-Students analyse AI projects as systems that can be tested, challenged and governed. They learn core ML task types, more formal evaluation, neural networks and language models, retrieval, robustness, bias, provenance and responsible deployment—without requiring electronics.
+## Course goal
+Students follow a complete, small-scale software/data/AI workflow: specify a problem, build a baseline, organise data, evaluate a model or rule-based solution, improve it based on evidence, and communicate limitations. The course emphasises dependable engineering over flashy demos.
 
 ## Learning outcomes
-
-- Frame an AI problem, define a baseline and explain why AI may or may not be appropriate.
-- Differentiate AI, machine learning, deep learning and generative AI accurately.
-- Plan datasets with provenance, permitted use, quality checks and representativeness.
-- Compare classification, regression and clustering tasks.
-- Explain data splitting, leakage, overfitting and generalisation.
-- Interpret confusion matrices, precision, recall, F1 and accuracy at an introductory level.
-- Describe neural networks, transformers, tokens, embeddings and retrieval-grounded generation conceptually.
-- Design a reproducible, low-risk evaluation with safety, fairness and privacy criteria.
-
-## Stage 1 — Frame the Task and the Evidence (Units 1–4)
-
-### Unit 1. Capabilities, Limits and the AI Landscape
-**Learn:** Differentiate rule-based systems, machine learning, deep learning and generative AI. Identify task-specific strengths, uncertainty and cases where a human or simpler method is better.
-
-**Activity:** Analyse case studies and classify the system type, intended use and consequence of a mistaken output.
-
-**Evidence of learning:** A system map with capability, limitation and a reasoned AI-fit decision.
-
-### Unit 2. Problem Framing and Baselines
-**Learn:** Define the target, users, input, output, constraints and error costs. Compare against a simple rule, current human process or majority-class baseline before claiming AI is useful.
-
-**Activity:** Write a problem statement for a fictional low-risk setting and propose a baseline with a measurable success criterion.
-
-**Evidence of learning:** A one-page problem brief with a baseline and a measurable objective.
-
-### Unit 3. Data Provenance, Quality and Permission
-**Learn:** Record data origin, collection purpose, rights/permissions, coverage, label quality, sensitive attributes and known gaps.
-
-**Activity:** Inspect a fictional dataset card and recommend whether the dataset is suitable, what must be corrected, or why it should not be used.
-
-**Evidence of learning:** A completed data card and justified go/no-go decision.
-
-### Unit 4. Feature Design, Labels and Leakage Risks
-**Learn:** Features encode useful information; labels define intended answers. Leakage occurs when information unavailable at real prediction time or target-revealing details contaminate the data.
-
-**Activity:** Examine a fictional dataset description and identify misleading features, label ambiguity and potential leakage.
-
-**Evidence of learning:** A revised feature/label plan with leakage risks documented.
-
-## Stage 2 — Machine Learning Task Types (Units 5–8)
-
-### Unit 5. Supervised Learning and Classification
-**Learn:** Learn from labelled examples to predict classes; label definitions and class imbalance influence what a model appears to learn.
-
-**Activity:** Analyse a supplied set of labelled examples and prediction errors for a fictional sorting problem.
-
-**Evidence of learning:** A task description and class-wise error summary.
-
-### Unit 6. Regression and Numeric Targets
-**Learn:** Regression predicts quantities; the choice of metric and acceptable error depends on the scale and purpose of the problem.
-
-**Activity:** Compare predictions and actual values from a fictional demand or temperature dataset; compute absolute errors for selected records.
-
-**Evidence of learning:** A table of errors and a defensible statement about acceptable error.
-
-### Unit 7. Unsupervised Learning and Clustering
-**Learn:** Clustering finds groups by similarity without target labels. Cluster names are interpretations, not ground-truth discoveries, and may reinforce poor assumptions.
-
-**Activity:** Compare two alternative feature sets and describe how cluster membership changes.
-
-**Evidence of learning:** A comparison that distinguishes algorithmic groupings from justified conclusions.
-
-### Unit 8. Train/Validation/Test Splits and Data Leakage
-**Learn:** Training fits parameters; validation supports model or hyperparameter choices; test evaluates final performance. Duplicates, temporal mixing or target clues can leak information.
-
-**Activity:** Audit split scenarios and redesign a flawed split for a fictional dataset.
-
-**Evidence of learning:** A split diagram with a defence against at least two leakage routes.
-
-## Stage 3 — Evaluate and Explain Models (Units 9–12)
-
-### Unit 9. Confusion Matrix and Accuracy
-**Learn:** A confusion matrix separates types of correct and incorrect classification. Accuracy is the fraction correct and can be misleading under class imbalance.
-
-**Activity:** Construct a confusion matrix from provided predictions and compare accuracy on balanced and imbalanced examples.
-
-**Evidence of learning:** Correct counts and an explanation of when accuracy is insufficient.
-
-### Unit 10. Precision, Recall and F1
-**Learn:** Precision measures the reliability of positive predictions; recall measures the share of actual positives detected; F1 balances precision and recall. Metric priorities depend on error costs.
-
-**Activity:** Calculate precision, recall and F1 from small supplied counts and compare two hypothetical models.
-
-**Evidence of learning:** Correct calculations and a reasoned metric choice for a stated task.
-
-### Unit 11. Overfitting, Generalisation and Robustness
-**Learn:** Training performance does not guarantee performance on unseen or shifted data. Robustness means behaviour remains acceptable under realistic variations; it does not mean never failing.
-
-**Activity:** Compare training and test scores, then construct a stress-test set with altered but plausible examples.
-
-**Evidence of learning:** A conclusion that distinguishes memorisation, generalisation and robustness.
-
-### Unit 12. Neural Networks and Representation Learning
-**Learn:** Neural networks learn layered representations by adjusting weights during training. Performance depends on architecture, data, objectives and evaluation; more layers do not automatically mean better results.
-
-**Activity:** Explain a network diagram from input through hidden layers to output and match training, validation and inference to their roles.
-
-**Evidence of learning:** A labelled model diagram and a concise explanation of weight adjustment.
-
-## Stage 4 — Generative AI and Responsible Systems (Units 13–19)
-
-### Unit 13. Transformers, Tokens, Embeddings and Language Generation
-**Learn:** Modern language models often use transformer architectures. Text is processed as tokens; embeddings represent items as numerical vectors that can capture learned relationships. The model uses context and learned patterns to generate a sequence of likely text. These mechanisms do not guarantee factual understanding or correctness.
-
-**Activity:** Use a teacher-provided semantic-similarity worksheet to compare token pieces and related words, then critique a fluent but unsupported response. Identify what the context may have influenced and which claims require corroboration.
-
-**Evidence of learning:** A concept map linking tokens, embeddings, context and generated text, plus a critique separating fluency, plausibility and evidence.
-
-### Unit 14. Prompt Design, Evaluation and Reproducibility
-**Learn:** Prompts can specify a task, context, constraints, examples and output format. A consistent format does not guarantee correct content. To evaluate an AI system fairly, define criteria before comparing outputs, use the same test cases, record the procedure and note limitations.
-
-**Activity:** Write a prompt and rubric for a neutral task, compare multiple teacher-prepared outputs using identical cases, and draft a miniature evaluation record including the tool or model details available, test method, results and failure cases.
-
-**Evidence of learning:** A documented prompt, pre-set rubric, comparison table and brief report distinguishing observed results from assumptions.
-
-### Unit 15. Retrieval-Augmented Generation and Source Grounding
-**Learn:** Retrieval-augmented generation (RAG) fetches source material to inform an answer. It may improve traceability but can fail when retrieval is incomplete or the model misreads evidence.
-
-**Activity:** Use a small teacher-provided document set to answer questions, then check whether each output statement is supported by the retrieved source.
-
-**Evidence of learning:** A traceability table linking claims to exact supporting material or marking them unsupported.
-
-### Unit 16. AI Security and Adversarial Inputs
-**Learn:** Models may be manipulated by misleading inputs, prompt injection, poisoned examples or unsafe tool permissions. Risks depend on the system's access and intended use.
-
-**Activity:** Run a harmless paper tabletop scenario where a retrieved document contains an instruction to break the task rules; design a safe response and permissions boundary.
-
-**Evidence of learning:** A threat sketch with mitigation, limits and a human escalation point.
-
-### Unit 17. Fairness, Accessibility and Unequal Errors
-**Learn:** Aggregate results can conceal unequal performance. Fair evaluation considers relevant subgroups, accessibility, context, error costs and the limits of available evidence.
-
-**Activity:** Review fictional performance tables across different conditions and propose additional tests without using sensitive real student data.
-
-**Evidence of learning:** A fairness test plan with a proposed metric, impact analysis and mitigation.
-
-### Unit 18. Deepfakes, Provenance, Privacy and Rights
-**Learn:** Synthetic media and AI-assisted work raise issues of consent, source verification, personal data, licences, attribution and disclosure. Labels or detection tools alone are not definitive proof.
-
-**Activity:** Assess a fictional publication decision: verify provenance, permissions and consent, then decide whether to publish, label, correct or refuse.
-
-**Evidence of learning:** A decision record covering evidence, consent, privacy and responsible disclosure.
-
-### Unit 19. Societal Impact, Sustainability and Governance
-**Learn:** AI can create value but also shift labour, concentrate power, consume energy and produce social harms. Governance includes accountability, appropriate human oversight, appeal and monitoring.
-
-**Activity:** Map stakeholders in a fictional public-interest AI proposal and weigh benefits, costs, excluded groups and routes for contesting mistakes.
-
-**Evidence of learning:** A balanced impact assessment and a set of conditions for responsible use.
-
-## Stage 5 — Capstone Research Challenge (Unit 20)
-
-### Unit 20. Capstone: Propose and Evaluate an AI Study
-**Learn:** Students define a researchable question, baseline, data plan, metrics, test cases, risks and a claim that available evidence could support. A proposal or paper simulation must not be represented as a deployed model.
-
-**Activity:** Teams design a low-risk AI study using fictional or teacher-provided material. Include the baseline, a test set, intended metric, two failure cases, privacy/fairness controls and a short report template.
-
-**Evidence of learning:** A research poster or report with method, expected evidence, limitations and a clear distinction between planned and observed results.
-
-## Research basis
-
-This curriculum is a proposed, AI-only learning plan—not an official CBSE syllabus. It uses the AI4K12 grade-band progression (especially Grades 6–8 and 9–12), UNESCO's student competencies across human-centred thinking, ethics, AI techniques and system design, CBSE's 2026–27 CT&AI materials as an Indian age-context reference, and Common Sense Education's grade-banded AI-literacy lessons.
-
-- [AI4K12 — Grade Band Progression Charts](https://ai4k12.org/gradeband-progression-charts/)
-- [UNESCO — AI Competency Framework for Students](https://www.unesco.org/en/articles/ai-competency-framework-students)
-- [CBSE — Computational Thinking and Artificial Intelligence (Classes 3–8, 2026–27)](https://cbseacademic.nic.in/ct-ai.html)
-- [Common Sense Education — AI Literacy Lessons for Grades K–12](https://www.commonsense.org/education/collections/ai-literacy-lessons-for-grades-k-12)
-
-## Safety and delivery
-
-- This is AI literacy, not an electronics, robotics, or hardware curriculum. No hardware or coding prerequisite is assumed.
-- Use paper-based simulations and fictional datasets wherever possible. Any live AI demo must be teacher-controlled, school-approved, and consistent with school policy.
-- Do not upload students' names, faces, voices, locations, contact details, school records, passwords, or identifiable work to public AI services.
-- Students should verify factual output, identify uncertainty, disclose AI assistance when required, and retain responsibility for submitted work.
-- Avoid uses involving consequential decisions about real people. Use synthetic examples for bias, classification, media, and evaluation exercises.
-
-## Assessment approach
-
-Assess explanation and reasoning rather than tool access. Collect evidence from concept maps, paper simulations, test records, critique of AI responses, scenario discussions, and the capstone. A useful rule is: students must be able to explain the result without relying on the AI tool.
-
-## Capstone scoring guide (10 points)
-
-Score each criterion 0–2: (1) problem and AI fit, (2) data/examples and testing, (3) evaluation and errors, (4) privacy/fairness/human review, and (5) clarity, evidence, and honest limitations. A high score requires a reasoned design—not a claim that a paper prototype is a working AI system.
+Students can:
+- Decompose a problem and write readable, modular Python with functions, file handling and basic tests.
+- Work in notebooks or scripts, document assumptions, and use simple version-control concepts to track changes.
+- Clean data, reason about features, avoid train/test leakage and compare a model against a baseline.
+- Select and interpret suitable evaluation measures, inspect errors and discuss generalisation and bias.
+- Explain neural networks and transformer language models at a conceptual level without claiming to train foundation models.
+- Describe retrieval-augmented generation and bounded tool calls, including source grounding and permissions.
+- Deliver a project with a README/report, reproducible test cases, a safety review and a live or recorded teacher-approved demonstration.
+
+## Six-month sequence
+
+| Month | Focus | Essential concepts | Student evidence |
+|---|---|---|---|
+| 1 | Programming practices | Functions, modules, data structures, file I/O, exceptions, debugging, simple assertions/tests, version-control concepts | Modular program, tests and change log |
+| 2 | Data preparation and analysis | Missing/outlier/duplicate values, transformations, feature design, charts, reproducible notebooks | Data dictionary and repeatable analysis |
+| 3 | Model building and experimental design | Baselines, features/labels, train/validation/test idea, leakage, controlled comparisons | Experiment plan and baseline results |
+| 4 | Evaluation and error analysis | Confusion matrix, precision/recall, regression error where relevant, class imbalance, overfitting and limitations | Metric table and error analysis |
+| 5 | Modern AI systems | Neural-network and transformer concepts, tokens/embeddings/attention, RAG, tool permissions, prompt injection as an untrusted-input risk | Small source-grounded or bounded-tool prototype |
+| 6 | Independent capstone | Scope, milestones, versioned iterations, test evidence, peer review, privacy/fairness/safety and communication | Working or labelled prototype, report and presentation |
+
+## Technical expectations
+Use moderate datasets, simple local execution, and teacher-approved libraries. GPU and cloud use are optional, not prerequisites. Use a baseline before adding model complexity. Never use private student data, uncontrolled autonomous agents, or tools with access to accounts, shell commands, or sensitive files. Source-grounded systems must distinguish retrieved facts from generated wording.
+
+## Project pathway
+Possible projects include a data-quality checker, a small environmental-data predictor, a fictional-item classifier, or a question-answering prototype over teacher-approved school guidance that displays its source. A rule-based solution is acceptable when it fits the problem better than AI. See [Project Guides](02-PROJECTS.md).
+
+## Teaching and safety
+Students should justify the problem and technique, report unsuccessful trials, and keep test data separate from training decisions. Review privacy, fairness, copyright, security and human oversight before public demonstration. Outputs with real-world impact need adult review and are outside the course's autonomous scope.
+
+## Success standard
+Evaluate whether the student can reproduce the result, explain the trade-offs, reason from test evidence, and state where the system may fail—not merely whether a model runs.
+
+## Related documents
+- [Project Guides](02-PROJECTS.md)
+- [72-Session Plan](03-72-SESSION-PLAN.md)
+- [Assessment and Teacher Guide](04-ASSESSMENT-AND-TEACHER-GUIDE.md)

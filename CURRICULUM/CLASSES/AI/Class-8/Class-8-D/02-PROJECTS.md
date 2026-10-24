@@ -1,60 +1,33 @@
-# Class 8 — AI Plant Care Assistant
+# Class 8 — Projects and Build Guides
 
-## Project guide: electronics-integrated AI
+Projects focus on the full data/ML workflow, thoughtful evaluation and introductory modern-AI system design. GPU access, web cameras and paid services are not prerequisites.
 
-This guide is a practical extension to the class AI curriculum. It connects an AI idea to a physical input/output, while keeping the existing AI-only learning path usable without electronics.
+| Month | Project | Focus | Evidence |
+|---|---|---|---|
+| 1 | Modular Python Utility | Functions, modules, files, exceptions and tests | Readable code and test cases |
+| 2 | Data Quality and Visualisation | Cleaning, summaries, charts, notebooks | Reproducible analysis |
+| 3 | Baseline ML Model | Data split, leakage, baseline comparison | Evaluation log |
+| 4 | Model Error Lab | Confusion matrix, precision/recall concept, generalisation | Error analysis and metric choice |
+| 5 | Small Retrieval Demo | Search approved passages and ground answers in source text | Source-linked answers and failure cases |
+| 6 | Applied AI/Data Capstone | End-to-end prototype and report | Code/notebook, evaluation, risk review and demo |
 
-**Important architecture note:** Arduino Uno/Nano-class boards are suitable for reading sensors and controlling LEDs, buzzers, servos, or motors. Do not imply that these boards train typical machine-learning models. Unless a specific supported TinyML workflow is set up, train/run the model on a laptop or Raspberry Pi (if available) and use the microcontroller as the hardware interface. Confirm actual component stock before committing to a hardware-dependent build.
+## Month 1 — Modular Python Utility
+Build a small file-backed task tracker, data validator or quiz utility. Use at least two functions, clear input validation, and either exceptions or explicit error messages. Write a short set of tests for valid and invalid inputs. Explain how modularity aids debugging.
 
-### Project challenge
-Use soil-moisture readings (and optionally environmental readings) to classify plant-care status and show an advisory output.
-### AI learning connection
+## Month 2 — Data Quality and Visualisation
+Use a small, non-sensitive dataset. Document its source, columns and meaning; inspect missing values, duplicates, inconsistent categories and outliers; choose and justify cleaning steps; and make one or two plots. Include a reproducible sequence and avoid claims unsupported by the sample.
 
-Sensor data, features and labels, classification or simple prediction, data quality, false alarms, and responsible interpretation.
+## Month 3 — Baseline ML Model
+Choose a classroom-size classification or regression task. Before using a model, define a simple baseline. Identify features and target, split data before model selection where possible, fit a beginner model if the environment supports it, and compare results with the baseline. If tools are unavailable, analyse prepared output or use a paper model.
 
-### Suggested components and alternatives
+## Month 4 — Model Error Lab
+Build a confusion matrix from predictions and interpret which classes are confused. Discuss accuracy and, as appropriate, precision/recall in plain language. Inspect incorrect cases and consider class imbalance, leakage and overfitting. Do not report a single metric without the test-set context.
 
-Arduino Uno/Nano; soil-moisture sensor; LEDs or a small display; optional temperature/humidity sensor. A low-voltage pump is an optional extension only if available and teacher-supervised; the core project is an advisory indicator, not automatic watering.
+## Month 5 — Small Retrieval Demo
+Use a teacher-approved text collection. Split it into short passages, retrieve relevant passages for a question, and answer only from those passages. Display which passage supports each answer and use “not found in the supplied material” when evidence is missing. Compare a supported answer with an unanswerable query. A manual paper search is acceptable.
 
-### Build and investigation steps
+## Month 6 — Applied AI/Data Capstone
+Choose one manageable problem and produce an end-to-end artefact with a clear user, inputs, output, baseline, tests and limitations. Include reproducible instructions, sources, an error analysis, and a short privacy/fairness note. Keep live tools bounded and teacher approved.
 
-1. Collect readings from dry, moderately moist, and moist soil samples. Use consistent sensor placement and label the samples with a teacher-approved method.
-2. Record multiple readings and note that soil type and sensor placement affect values.
-3. Train a small model on a computer or use a simple baseline; test on separate readings from repeated samples.
-4. Display the predicted care category with LEDs or a display. Treat it as advice, not a guaranteed diagnosis of plant health.
-5. Compare model predictions with the baseline and document sensor noise or unexpected readings.
-
-### Testing and success criteria
-
-Test repeated readings across the categories. Report accuracy or class-wise correct counts and explain at least one source of measurement variation.
-
-### Optional extension
-
-Add temperature/humidity as an additional feature, or design a safe alert that asks a person to check the plant before watering.
-
-### No-hardware / AI-only alternative
-
-Analyze a provided soil-moisture dataset, label cases, compare a model or hand-built rule, and design a paper dashboard.
-
-### Safety and responsible use
-
-Keep water away from the controller, USB connection, and exposed electrical contacts. Use low voltage only. Pump operation is optional and requires adult supervision; never leave it running unattended.
-
-### Student reflection
-
-1. What examples did the model learn from, and what did you keep for testing?
-2. What kinds of input caused a wrong or uncertain prediction?
-3. How did the electronic output depend on the model’s prediction?
-4. What would you change to make the project more reliable?
-
-### Suggested assessment rubric (10 points)
-
-| Criterion | Points |
-|---|---:|
-| Dataset, labels, and explanation of the AI concept | 2 |
-| Correct and safe sensor/output integration (or quality of no-hardware equivalent) | 2 |
-| Testing with unseen examples and recorded results | 2 |
-| Analysis of errors, limitations, and comparison/baseline | 2 |
-| Clear demonstration and reflection | 2 |
-
-Teacher note: adapt the number of samples and coding complexity to the class timetable and available equipment. The project is an instructional prototype, not a safety-critical system.
+## Minimum submission standard
+Code/notebook or labelled simulation; data/source note; train/test or test-case description; metric or qualitative evidence; at least one error-driven revision; and honest limitations. Never expose personal student data or allow a project to take consequential actions on real users.

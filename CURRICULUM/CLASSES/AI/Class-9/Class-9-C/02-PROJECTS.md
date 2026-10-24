@@ -1,60 +1,33 @@
-# Class 9 — AI-Assisted Autonomous Robot
+# Class 9 — Projects and Build Guides
 
-## Project guide: electronics-integrated AI
+Projects apply software-engineering habits, experiment design and responsible AI. Students justify why the selected method fits the task; a simple baseline may outperform or be safer than a complex model.
 
-This guide is a practical extension to the class AI curriculum. It connects an AI idea to a physical input/output, while keeping the existing AI-only learning path usable without electronics.
+| Month | Project | Focus | Evidence |
+|---|---|---|---|
+| 1 | Tested Python Package/Utility | Functions, modules, exceptions, tests, change log | Runnable code and repeatable tests |
+| 2 | Data Audit Pipeline | Cleaning, features, data dictionary, reproducibility | Reproducible notebook/script |
+| 3 | Baseline vs Model | Train/test separation, leakage prevention, controlled comparison | Experiment table |
+| 4 | Evaluation Report | Metric choice, error analysis, bias and generalisation | Metric table with limitations |
+| 5 | Source-Grounded AI Workflow | Retrieval, source display, bounded tools, untrusted input | Traceable answer and edge-case results |
+| 6 | Independent Capstone | Scope, milestones, evaluation, documentation, human review | Demo, report, code and retrospective |
 
-**Important architecture note:** Arduino Uno/Nano-class boards are suitable for reading sensors and controlling LEDs, buzzers, servos, or motors. Do not imply that these boards train typical machine-learning models. Unless a specific supported TinyML workflow is set up, train/run the model on a laptop or Raspberry Pi (if available) and use the microcontroller as the hardware interface. Confirm actual component stock before committing to a hardware-dependent build.
+## Month 1 — Tested Python Utility
+Build a small command-line or notebook utility that reads input, validates it, applies reusable functions and produces a result. Include simple tests/assertions and error cases. Maintain a short change log; Git may be used if available, but concepts matter more than setup.
 
-### Project challenge
-Build a small robot that uses sensor readings and a trained model to choose among a limited set of actions, such as stop, turn, or move forward.
-### AI learning connection
+## Month 2 — Data Audit Pipeline
+Choose a modest, approved dataset. Write a data dictionary; detect missing, duplicated or inconsistent values; justify transformations; visualise relevant variables; and document assumptions. Keep the original data unchanged and make the cleaning process repeatable.
 
-Features from sensors, supervised classification, action selection, train/test separation, robustness, and comparing AI with a rule-based controller.
+## Month 3 — Baseline vs Model
+Define the task and target, choose a baseline, set aside test data before iterative modelling, and document features. Check for leakage—for example, columns that directly reveal the answer or values calculated using information unavailable at prediction time. Compare the baseline and model under the same test conditions.
 
-### Suggested components and alternatives
+## Month 4 — Evaluation Report
+Choose appropriate metrics. For classification, use a confusion matrix and explain precision/recall where useful; for regression, consider an understandable error measure. Inspect mistakes and discuss who/what might be underserved. Report data limitations and avoid claiming broad real-world performance from a small dataset.
 
-Arduino-compatible board; IR line or obstacle sensor and/or ultrasonic sensor; motor driver; low-voltage DC motors and chassis; battery pack appropriate for the kit. Train/run the model on a laptop or Raspberry Pi if available; Arduino handles sensor I/O and motor control. Do not assume an onboard model or Raspberry Pi/camera is stocked.
+## Month 5 — Source-Grounded AI Workflow
+Create a tiny retrieval-augmented question-answering prototype using only teacher-approved material. Display retrieved passages, distinguish quotes/source facts from generated wording, and decline when the evidence is absent. If a tool is used, expose the tool call and result, restrict permissions, and treat retrieved text as untrusted input—not as permission to ignore rules.
 
-### Build and investigation steps
+## Month 6 — Independent Capstone
+Students independently or in small teams build a bounded solution. Required stages: problem brief; baseline; data/source review; implementation; test design; results; error-driven iteration; privacy/fairness/security review; documentation; demonstration; individual reflection. A non-AI approach is allowed where more appropriate.
 
-1. Define a small, safe action set and collect labelled sensor snapshots for each action. Include boundary cases, not only easy examples.
-2. Train a simple classifier on a computer or supported platform and reserve unseen runs for testing.
-3. Use a serial or supported interface to send the predicted action to the Arduino. Apply motor commands through a suitable motor driver, never directly from GPIO pins.
-4. Implement a stop state and test the robot at low speed in a clear, bounded area.
-5. Build a rule-based baseline and compare both approaches on the same course; inspect failures before changing the data/model.
-
-### Testing and success criteria
-
-Run at least 10 trials on a defined course. Report successful completions, collisions or stops, and comparison with the rule-based baseline.
-
-### Optional extension
-
-Add an uncertainty threshold that causes the robot to stop, or evaluate changes in sensor placement and surface conditions.
-
-### No-hardware / AI-only alternative
-
-Use a simulated sensor/action table or paper robot course. Students classify readings, select actions, compare against rules, and diagram a safe controller.
-
-### Safety and responsible use
-
-Use low-voltage kit batteries and a motor driver. Keep wheels off the ground during initial tests; operate slowly in a clear area. Include an accessible stop/disconnect and supervise battery handling.
-
-### Student reflection
-
-1. What examples did the model learn from, and what did you keep for testing?
-2. What kinds of input caused a wrong or uncertain prediction?
-3. How did the electronic output depend on the model’s prediction?
-4. What would you change to make the project more reliable?
-
-### Suggested assessment rubric (10 points)
-
-| Criterion | Points |
-|---|---:|
-| Dataset, labels, and explanation of the AI concept | 2 |
-| Correct and safe sensor/output integration (or quality of no-hardware equivalent) | 2 |
-| Testing with unseen examples and recorded results | 2 |
-| Analysis of errors, limitations, and comparison/baseline | 2 |
-| Clear demonstration and reflection | 2 |
-
-Teacher note: adapt the number of samples and coding complexity to the class timetable and available equipment. The project is an instructional prototype, not a safety-critical system.
+## Minimum submission standard
+A reproducible README; code or labelled prototype; dataset/source and assumptions; baseline plus fair test; justified metric; observed failure and improvement; responsible-use review; and explanation of limitations. No uncontrolled autonomous actions, external use of private data, or consequential decisions about real people.

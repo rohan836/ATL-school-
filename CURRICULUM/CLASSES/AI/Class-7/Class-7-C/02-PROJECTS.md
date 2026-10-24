@@ -1,60 +1,33 @@
-# Class 7 — AI Object Sorter
+# Class 7 — Projects and Build Guides
 
-## Project guide: electronics-integrated AI
+Each project should combine Python practice, data reasoning and evidence-based iteration. Use the smallest technique that solves the task; AI is not compulsory when a rule or chart is sufficient.
 
-This guide is a practical extension to the class AI curriculum. It connects an AI idea to a physical input/output, while keeping the existing AI-only learning path usable without electronics.
+| Month | Project | Focus | Evidence |
+|---|---|---|---|
+| 1 | Algorithm and Debugger | Flowcharts, tracing and systematic debugging | Test log and corrected algorithm |
+| 2 | Python Toolkit | Lists/dictionaries/functions | Reusable, explained program |
+| 3 | Data Story Notebook | Cleaning, summaries and charts | Reproducible data summary |
+| 4 | Intro ML Experiment | Features/labels, classification/regression, test set | Baseline and error report |
+| 5 | AI Output Fact-Checker | Prompt clarity, source checking, bias and limits | Output comparison with citations/notes to teacher-provided sources |
+| 6 | Evidence-Based Capstone | Project scoping, testing, iteration and safety | Prototype, test matrix and presentation |
 
-**Important architecture note:** Arduino Uno/Nano-class boards are suitable for reading sensors and controlling LEDs, buzzers, servos, or motors. Do not imply that these boards train typical machine-learning models. Unless a specific supported TinyML workflow is set up, train/run the model on a laptop or Raspberry Pi (if available) and use the microcontroller as the hardware interface. Confirm actual component stock before committing to a hardware-dependent build.
+## Month 1 — Algorithm and Debugger
+Select a small puzzle or process, describe it as steps or pseudocode, trace sample inputs, and identify a failure. Revise the algorithm and explain why the change fixes the issue. A code-based version can use a short script.
 
-### Project challenge
-A computer-vision model identifies a small set of safe classroom objects; a servo-operated cardboard gate directs each predicted class to a matching area.
-### AI learning connection
+## Month 2 — Python Toolkit
+Build a menu, quiz, task list or simple text analyser with lists/dictionaries and at least one function. Separate input, processing and output. Add clear names and comments where needed. Test empty, expected and unexpected inputs.
 
-Image classification, labelled datasets, training versus testing, generalization, bias from backgrounds/lighting, and uncertainty.
+## Month 3 — Data Story Notebook
+Use a small public or teacher-created CSV-like dataset with no personal records. Check for missing, duplicated or inconsistent values; calculate a count or simple summary; create a chart; and state which claims the data supports. Record limitations such as small sample size.
 
-### Suggested components and alternatives
+## Month 4 — Intro ML Experiment
+Set up a paper classifier or teacher-guided, beginner ML model. Define a small category/regression task and relevant features. Keep test cases separate from examples used to design or train the model. Compare with a simple baseline, record errors, and discuss whether the model generalises.
 
-Laptop with webcam (or another supported camera); Arduino Uno/Nano; small hobby servo; cardboard gate and lightweight objects; jumper wires. The camera and model may run on the laptop; Arduino receives a simple class command and controls the servo. Verify servo availability before choosing the build.
+## Month 5 — AI Output Fact-Checker
+Given a teacher-prepared prompt and two age-appropriate responses, improve the prompt by specifying task, context, audience and output format. Check factual claims using approved source material, mark unsupported claims, and discuss how missing or biased examples could affect an answer. Students need not create accounts or share personal data.
 
-### Build and investigation steps
+## Month 6 — Evidence-Based Capstone
+Examples: clean and visualise an environmental dataset; classify fictional items; produce a study quiz; or answer questions from an approved text with source passages displayed. Teams submit the problem, approach, test set, results, one improvement, known limits and privacy/fairness review. A non-AI solution may be best.
 
-1. Select 2–3 safe, non-personal object classes. Do not use student faces or personal belongings as training data.
-2. Collect varied images with different angles, backgrounds, and lighting. Keep a separate test set.
-3. Train a teacher-approved image classifier and test on images it has not seen.
-4. Send the predicted category to the Arduino through a supported serial interface; map each category to a servo position.
-5. Test the gate with a slow, lightweight cardboard mechanism and log incorrect classifications.
-
-### Testing and success criteria
-
-Test at least 10 unseen images per class. Report per-class correct counts and identify one condition that reduces performance.
-
-### Optional extension
-
-Add a ‘not sure’ / reject option, or compare plain-background images with varied-background images.
-
-### No-hardware / AI-only alternative
-
-Use printed object cards and a supplied prediction table. Students sort cards, calculate accuracy, and design a paper servo-gate state diagram.
-
-### Safety and responsible use
-
-Use a lightweight cardboard mechanism; keep fingers clear of moving parts. Do not use sharp blades in student handling. An adult supervises cutting and wiring.
-
-### Student reflection
-
-1. What examples did the model learn from, and what did you keep for testing?
-2. What kinds of input caused a wrong or uncertain prediction?
-3. How did the electronic output depend on the model’s prediction?
-4. What would you change to make the project more reliable?
-
-### Suggested assessment rubric (10 points)
-
-| Criterion | Points |
-|---|---:|
-| Dataset, labels, and explanation of the AI concept | 2 |
-| Correct and safe sensor/output integration (or quality of no-hardware equivalent) | 2 |
-| Testing with unseen examples and recorded results | 2 |
-| Analysis of errors, limitations, and comparison/baseline | 2 |
-| Clear demonstration and reflection | 2 |
-
-Teacher note: adapt the number of samples and coding complexity to the class timetable and available equipment. The project is an instructional prototype, not a safety-critical system.
+## Minimum submission standard
+A clearly stated task; readable code or labelled prototype; at least five test cases where feasible; evidence of a comparison or improvement; an explanation of one failure; and a brief user/safety note. Each student should explain their contribution.

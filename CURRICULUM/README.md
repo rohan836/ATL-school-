@@ -1,9 +1,15 @@
 # Curriculum Hub — Classes 5–9
 
-- [AI-only curriculum](CLASSES/AI-ONLY/README.md) — AI literacy and concepts without electronics, robotics, or hardware prerequisites. Includes a [grade-level alignment and quality guide](CLASSES/AI-ONLY/GRADE-LEVEL-ALIGNMENT.md).
-- [Electronics and Robotics](CLASSES/ELECTRONICS-AND-ROBOTICS/README.md) — electronics fundamentals, sensors, actuators, robotics, and physical builds. This stream is distinct from the AI-only pathway; AI is included only where the specific lesson calls for it.
-- [Class and section records](CLASSES/README.md) — class-level and C/D section planning.
-- [Shared resources](SHARED-RESOURCES/README.md) — safety, glossary, teaching methods, references.
-- [Electronics and Robotics course contents](AI-CONTENTS.md) — sequence for the Electronics and Robotics stream (the legacy filename is retained for existing links).
+This hub contains two distinct teaching pathways. Keep the AI & Computing pathway separate from the existing Electronics & Robotics pathway.
 
-Each stream has separate class folders. This changes organization and navigation, not lesson substance.
+## Pathways
+- [AI & Computing](CLASSES/AI/README.md) — a six-month, 72-session progression from computer fundamentals through Python, data, AI/ML, evaluation, responsible use and a class-appropriate capstone.
+- [Electronics & Robotics](CLASSES/ELECTRONICS-ROBOTICS/README.md) — the separate hardware pathway for circuits, sensors, actuators and robotics. Its lesson content is preserved.
+- [Class and section index](CLASSES/README.md) — navigation across grade folders and C/D sections.
+- [Shared resources](SHARED-RESOURCES/README.md) — teaching methodology, safety guidelines, glossary and references.
+- [Electronics & Robotics course contents](AI-CONTENTS.md) — legacy filename retained so existing links continue to work.
+
+## AI & Computing course structure
+Each grade has a curriculum overview, project guide, 72-session plan and assessment/teacher guide. Classes 5–9 share the same six-month shape but differ in depth, independence and expected technical skills. C and D sections use the same learning sequence; their existing class records and timetable references are retained.
+
+**Planning assumption:** 12 sessions each month, 60 minutes per core session (an optional extension can use up to 75 minutes). Adjust delivery to the actual school calendar without skipping tests, reflection or safety.

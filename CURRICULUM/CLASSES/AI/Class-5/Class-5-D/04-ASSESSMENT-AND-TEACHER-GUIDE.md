@@ -1,128 +1,77 @@
-# Class 5 AI Builders — Assessment and Teacher Guide
+# Class 5 — Assessment and Teacher Guide
 
-This guide aligns assessment, facilitation, classroom safety, accessibility, and project evidence across the six-month course.
+## 1. Assessment principle
+Assess the learner's reasoning and process as well as the outcome. The model or program may be wrong; finding, explaining and addressing an error is evidence of learning. Tool access, expensive hardware and visual polish are not learning outcomes.
 
-## 1. Assessment principles
+**Level focus:** Age-appropriate explanations, concrete models, safe habits, simple block/Python examples.
 
-Assess student understanding and the process of building—not memorized definitions, tool access, or whether a model happens to be highly accurate.
+## 2. Common project rubric (20 points)
+Score each category from 0–4. Use age-appropriate expectations and allow written, spoken, diagram-based or accessible demonstrations.
 
-Look for evidence that a student can:
-- Explain the problem and the role of the AI component.
-- Describe the inputs and outputs in simple terms.
-- Test with varied or unseen examples.
-- Record a result and notice an error or limitation.
-- Make a reasoned improvement.
-- Work with others and explain their contribution.
-- Identify a privacy, fairness, or safety concern and a human review point.
-
-A paper prototype or teacher-guided simulation may demonstrate learning where devices, camera access, connectivity, or model execution are unavailable.
-
-## 2. Common monthly project rubric (20 points)
-
-Score each dimension from 0 to 4. Apply age-appropriate judgment; do not penalize a student simply because a model makes errors.
-
-| Dimension | 0 — Not shown yet | 1 — Beginning | 2 — Developing | 3 — Secure | 4 — Strong |
+| Dimension | 0 — Not yet shown | 1 — Beginning | 2 — Developing | 3 — Secure | 4 — Strong |
 |---|---|---|---|---|---|
-| Problem and solution | Cannot identify task | Task partly stated | Task and proposed solution stated | Clear problem and suitable prototype | Clear, user-centered rationale and sensible AI fit |
-| AI understanding | Cannot explain AI role | Names a term with help | Basic explanation | Explains input/model/output in own words | Explains technique and limits accurately for age |
-| Build and contribution | No evidence of contribution | Needs continuous support | Contributes a guided part | Completes and explains own part | Independently improves or integrates a feature |
-| Testing and iteration | No testing | One simple test | Tests more than one input | Records results and makes an improvement | Compares before/after and reasons from evidence |
-| Responsible use and communication | No safety or explanation | Identifies concern with help | Explains one limit or rule | Clear demo, limit, and human check | Communicates evidence, limits, and safety thoughtfully |
+| Problem and plan | No clear task | Task partly identified | Task and basic plan given | Clear task and suitable approach | Explains users, constraints and why the approach fits |
+| Computing/AI understanding | Cannot explain key part | Names a term with help | Gives a partial explanation | Explains input, process and output in own words | Explains trade-off, uncertainty or limitation accurately |
+| Build and contribution | No evidence of contribution | Requires continuous step-by-step help | Completes a guided part | Builds and explains an individual contribution | Integrates or improves a feature independently |
+| Testing and improvement | No testing | One informal check | Several checks or an identified issue | Records results and makes a reasoned change | Compares before/after and uses evidence to justify changes |
+| Responsibility and communication | No explanation or safety awareness | Identifies a concern with prompting | States one limitation or safety rule | Clear demo and a human-check point | Communicates evidence, limits, privacy/fairness and next steps thoughtfully |
 
-**Suggested interpretation:** 0–7: more guided practice; 8–12: developing; 13–16: secure; 17–20: strong. Use this as a teacher aid, not a high-stakes grade.
+**Suggested interpretation:** 0–7 = needs guided practice; 8–12 = developing; 13–16 = secure; 17–20 = strong. This is a formative aid, not a high-stakes grading tool.
 
-## 3. Evidence checkpoints
+## 3. Minimum project evidence
+Every final project should contain:
+- A problem statement and a reason for choosing this approach.
+- The program, notebook, physical artefact or clearly labelled paper simulation.
+- A brief record of inputs and test results.
+- One problem or limitation identified during testing.
+- One change made in response to evidence.
+- A short statement about privacy, fairness or reliability, and where a person reviews the outcome.
+- A short explanation by each learner of their contribution.
 
-| Checkpoint | Evidence to collect |
+**Class 5 expectation:** one clear artefact or paper simulation; explain input and output; test at least 3 cases; name one limitation.
+
+## 4. Suggested evidence checkpoints
+
+| Checkpoint | Evidence |
 |---|---|
-| End of Month 1 | Labelled examples, separate test set, prediction record, error and improvement |
-| End of Month 2 | Classification/detection/segmentation comparison and annotated mask |
-| End of Month 3 | Gesture-action map, game demo, varied-condition test |
-| End of Month 4 | Two generated outputs, comparison criteria, explanation of generated-text limits |
-| End of Month 5 | Agent goal/flow, visible tool trace, normal and edge-case tests, human boundary |
-| End of Month 6 | Project brief, prototype, test evidence, improvement, responsible-use statement, reflection |
+| Month 1 | Diagram, algorithm, file/project organisation or small tested artefact appropriate to the class |
+| Month 2 | Algorithm or code trace, plus a debug record |
+| Month 3 | Program/data-processing evidence and test examples |
+| Month 4 | Data/model result, chart or metric plus limitations |
+| Month 5 | Critical review of an AI/model concept or output; source check or error analysis |
+| Month 6 | Project brief, prototype, tests, improvement, responsible-use note and reflection |
 
-## 4. Student reflection template
+## 5. Session routine
+A useful 60-minute session includes: 5 minutes retrieval/challenge; 10 minutes explanation/demonstration; 25 minutes building/investigating; 10 minutes testing/debugging; 10 minutes explanation/exit ticket. Adjust the balance for the class and allow additional time for difficult builds. Never sacrifice safe handling or evidence collection for a rushed showcase.
 
-Students can answer verbally, in a notebook, or with a short worksheet.
+## 6. Teacher preparation
+Before class, check the device/software path, prepare a working example and known failure case, test permissions/connectivity, and prepare an offline option. Avoid tool dependencies until availability and school approval are confirmed. Use fictional, public, teacher-created or appropriately approved datasets and keep the project small enough for the available periods.
 
-1. What problem did our team try to solve?
-2. What did we build? What part uses AI?
-3. What inputs or examples did we try?
-4. What worked? What did not work?
-5. What did we change after testing?
-6. What can our project not do reliably?
-7. What information should we protect?
-8. Where should a person check, decide, or approve?
-9. What would we try next?
-
-## 5. Teacher facilitation
-
-### Before a project
-- Confirm devices, software, network access, camera permissions, and school policy.
-- Prepare sample inputs and a working teacher demonstration.
-- Check that the project can be completed with the available session length.
-- Prepare an offline/low-connectivity alternative.
-- Use fictional or teacher-prepared data and avoid personal student data.
-
-### During a project
-- Begin with a challenge or demonstration, then ask students to predict.
-- Explain one concept briefly when it becomes useful.
-- Let students explore and build; circulate with questions rather than taking over.
-- Ask students to keep a small record of tests and changes.
-- Make errors visible and useful: “What did we expect? What happened? What could explain the difference?”
-- Encourage group roles, rotating them so all students have a hands-on contribution.
-
-### After a project
-- Require a demonstration and explanation, not only a finished artifact.
-- Ask what the system does well and where it can fail.
-- Capture one improvement and one next-step idea.
-- Use the evidence checkpoint to inform the next project.
-
-## 6. Suggested team roles
-
-Rotate roles between sessions or projects.
-
-| Role | Responsibility |
-|---|---|
-| Builder | Operates the project and implements a feature |
-| Data investigator | Organizes examples and test cases |
-| Tester | Tries unusual inputs and records results |
-| Explainer/documenter | Captures decisions and prepares the demonstration |
-
-For pairs or smaller groups, combine roles. Every student should explain and contribute to the build.
+During class, ask learners to predict results, show their intermediate steps, test unusual inputs, and describe what changed. Use errors as evidence. Rotate team roles and ensure every learner has a meaningful hands-on contribution.
 
 ## 7. Responsible AI and safeguarding checklist
+- Use only school-approved tools and accounts.
+- Do not upload student names, faces, voices, locations, contact details, passwords, school records or other identifying work to public AI services.
+- Use fictional or teacher-prepared datasets when exploring classification, bias or generated media.
+- Check important factual claims against approved sources; fluency does not prove truth.
+- Do not classify real students by sensitive traits or use models to make consequential decisions about people.
+- Keep any agent restricted to approved content and safe, transparent tools; no unrestricted browsing, shell/code execution, private-file access or autonomous consequential actions.
+- Provide non-camera, paper and offline alternatives.
+- Follow school safeguarding, privacy, copyright and acceptable-use policies.
 
-- [ ] Use only school-approved tools, accounts, and workflows.
-- [ ] Do not upload student names, faces, voices, locations, contact details, passwords, records, or identifiable work to external AI services.
-- [ ] Do not create deceptive, humiliating, or impersonating media of real students or staff.
-- [ ] Use fictional, teacher-created, or appropriately licensed examples.
-- [ ] Do not ask students to label classmates by sensitive personal traits.
-- [ ] Treat model outputs as suggestions that need checking, not as guaranteed truth.
-- [ ] Keep agents restricted to teacher-approved knowledge and tools.
-- [ ] Do not allow unrestricted browsing, shell/code execution, private file access, or autonomous consequential actions in the agent project.
-- [ ] Provide a paper, prepared-data, or non-camera alternative.
-- [ ] Follow school safeguarding, privacy, and acceptable-use policies.
+## 8. Differentiation
+**More support:** starter code, example inputs, partially completed worksheets, fewer categories, sentence frames and paired tracing.  
+**Core:** modify a guided artefact, test multiple cases, record an issue and improve it.  
+**Extension:** add an edge case, compare approaches, justify a metric, or document a trade-off—without skipping the core test and safety requirements.  
+**Accessibility:** accept verbal explanations, diagrams, large-print/paper inputs, keyboard alternatives, and rotating roles.
 
-## 8. Device and tool readiness
-
-| Project | Minimum practical setup | Fallback |
-|---|---|---|
-| Waste classifier | Computer and approved image-classification tool | Printed images and paper classifier simulation |
-| Segmentation explorer | Computer with prepared/pretrained segmentation outputs | Printed grid and overlay masks |
-| Gesture game | Computer; webcam only if approved | Keyboard/button-controlled game or gesture cards |
-| Mini text generator | Computer and guided small model/demo | Teacher-prepared next-word prediction activity |
-| Classroom agent | Teacher-controlled tool workflow or simulation | Paper agent flow and tool cards |
-| School helper | Suitable computer/tools for selected problem | Paper prototype with test cases |
-
-Do not promise a particular model, website, hardware component, or internet capability until it has been tested in the school environment.
-
-## 9. Differentiation
-
-- **More support:** Provide starter projects, partially completed code, labeled example sets, sentence frames, and fewer categories or actions.
-- **Core pathway:** Students modify a guided prototype, test several inputs, and make one evidence-based improvement.
-- **Extension:** Students compare approaches, design more difficult test cases, add a feature, or explain a trade-off.
-- **Accessibility:** Allow spoken explanations, diagrams, paper models, keyboard alternatives, and rotating team roles.
-
-The learning target is understanding and responsible engineering, not typing speed or access to advanced hardware.
+## 9. Student reflection
+1. What were we trying to solve?
+2. How does our program/model/prototype work?
+3. What evidence did we collect from tests?
+4. What failed or surprised us?
+5. What did we change, and why?
+6. What should a user not assume about the result?
+7. What data or permission must be protected?
+8. Where does a person need to check or decide?
+9. What would we improve next?
