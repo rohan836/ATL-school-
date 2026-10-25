@@ -205,3 +205,58 @@
 | | | 27.5 | Project 5: Touchless smart dustbin / automatic parking barrier using HC-SR04 ultrasonic sensor and SG90 servo motor |
 | | | 27.6 | Project 6: Wireless smartphone-controlled DC motor vehicle using Arduino, L293D motor driver, and HC-05 Bluetooth |
 | | | 27.7 | Project 7: Standalone lab bench regulated 5V/12V DC power supply on Zero-PCB with 7805/7812 regulators and status LED |
+
+---
+
+## Rapid Prototyping, Mechanical Tools & STEM Exploration Curriculum
+
+| Module No. | Module Name | Topic No. | Content |
+|:---:|---|:---:|---|
+| **28** | **Rapid Prototyping & 3D Printing** | 28.1 | What is 3D printing: how Fused Deposition Modeling (FDM) builds physical objects layer by layer |
+| | | 28.2 | Exploring the ATL 3D Printer: heated print bed, 0.4mm nozzle, LCD display, and axis movements (X, Y, Z) |
+| | | 28.3 | PLA filament: understanding biodegradable corn-based plastic, proper spool storage, and loading/unloading |
+| | | 28.4 | Slicing software basics: importing 3D models (STL files), layer height, infill percentage, and generating G-code |
+| | | 28.5 | Printing your first object: manual bed leveling, watching the first layer stick, and safe part removal using scrapers |
+| | | 28.6 | 3D printing custom electronic enclosures: designing and printing sensor brackets, battery mounts, and project cases |
+| **29** | **Craft Prototyping & Quick Enclosures** | 29.1 | Low-fidelity rapid prototyping: why building fast cardboard mockups tests ideas before 3D printing |
+| | | 29.2 | Cutting foam core boards and heavy cardboard using steel rulers and flexible A3 grid cutting mats |
+| | | 29.3 | Hot glue gun safety: heating up, applying melted glue, bonding materials in seconds, and avoiding burns |
+| | | 29.4 | Building mechanical structures and linkages using popsicle sticks, rubber bands, thick string, and wood glue |
+| | | 29.5 | Crafting neat project boxes and securely mounting breadboards, displays, and switches |
+| **30** | **Measuring, Marking & Precision Layout Tools** | 30.1 | The importance of precision in engineering: "Measure twice, cut once" principle |
+| | | 30.2 | Stainless steel rule (150mm / 12-inch): reading millimeters and inches accurately |
+| | | 30.3 | Return measuring tape (5m): measuring large project dimensions and lab spaces |
+| | | 30.4 | Digital Vernier Caliper: turning on, zeroing, and measuring external thickness, internal holes, and depth to 0.1mm |
+| | | 30.5 | Spirit level: checking horizontal and vertical levelness of project frames and workbenches |
+| **31** | **Hand Tools: Pliers, Screwdrivers & Fasteners** | 31.1 | Holding and bending tools: long-nose, bent-nose, needle-nose, and combination mini pliers |
+| | | 31.2 | External straight-nose circlip pliers: installing and removing retaining rings on motor shafts |
+| | | 31.3 | Screwdriver mastery: multi-purpose screwdriver set, choosing the right tip (flathead vs Phillips PH0/PH1) |
+| | | 31.4 | Electric cordless screwdriver: speed, torque adjustment, and driving screws quickly without stripping heads |
+| | | 31.5 | Nuts, bolts, and washers (M4, M5, M6): thread sizes, selecting proper lengths, and locking with spring washers |
+| | | 31.6 | Spanners and universal adjustable wrench: tightening hexagonal nuts firmly without slipping |
+| | | 31.7 | Imperial Allen hex-key set: tightening socket head cap screws on wheels, couplings, and 3D printer parts |
+| | | 31.8 | Cable management: using small, medium, and big cable ties to bundle messy circuit wires neatly |
+| **32** | **Workshop Cutting, Sawing & Material Shaping** | 32.1 | Workshop safety: securing long hair, rolling up sleeves, and clamping workpieces firmly in the bench vice |
+| | | 32.2 | Using the table-top vice and 3-inch C-clamps to hold wood, plastic, and metal securely |
+| | | 32.3 | 12-inch Hacksaw and 6-inch Mini Hacksaw: blade teeth direction (cutting on push stroke) and steady sawing rhythm |
+| | | 32.4 | Hand files (flat, round, half-round, triangular): removing sharp burrs and smoothing cut metal/plastic edges |
+| | | 32.5 | Sandpaper grits (80 coarse to 300 ultra-fine): progressive smoothing of 3D prints, wood, and acrylic |
+| | | 32.6 | Ball pein and claw hammers: tapping pins, shaping sheet metal, and driving or pulling nails safely |
+| **33** | **Power Tools: Drilling & Rotary Multitool** | 33.1 | Power tool safety: mandatory safety goggles, tied-back hair, no loose clothing, and safe cord handling |
+| | | 33.2 | Electric drill machine: chuck operation (keyless / chuck key), clockwise vs counter-clockwise forward/reverse |
+| | | 33.3 | High-Speed Steel (HSS) drill bits: selecting bit diameters (1mm to 10mm) for wood, plastic, acrylic, and thin metal |
+| | | 33.4 | Drilling workstation: using the drill press stand for straight, accurate, 90-degree perpendicular holes |
+| | | 33.5 | Cordless rotary multitool (Dremel style): speed adjustment up to 30,000 RPM, changing collets and accessories |
+| | | 33.6 | Rotary multitool applications: cutting slots in plastic boxes, grinding rough corners, and polishing finished parts |
+| | | 33.7 | Dual-temperature heat gun (1800W): shrinking heat-shrink insulation tubing around solder joints and bending acrylic |
+| | | 33.8 | Variable-speed air blower: blowing away drill dust and keeping workbenches clean |
+| **34** | **Mechanical Construction & Robotics Chassis Kits** | 34.1 | Mechanical modular construction kit: metal and plastic beams, brackets, axles, collars, and spacers |
+| | | 34.2 | Gears, pulleys, and mechanical advantage: understanding speed reduction, torque increase, and gear ratios |
+| | | 34.3 | Robotics DIY Kit: assembling a mobile chassis with DC motors, caster wheels, and mounting the electronics |
+| | | 34.4 | Automobile Kit: understanding rack-and-pinion steering, front-wheel alignment, and differential drives |
+| **35** | **Specialized STEM Exploration Kits** | 35.1 | DIY Paper Microscope: folding the origami paper body, positioning glass ball lenses, and viewing cell specimens at 100x–2000x |
+| | | 35.2 | Astronomical Telescope: assembling the altazimuth tripod, eyepiece magnification, and focusing on terrestrial landmarks and the moon |
+| | | 35.3 | Educational Drone & Aerospace Kit: principles of lift, thrust, propellers, quadcopter aerodynamics, and safe flight |
+| | | 35.4 | Agritech, Water/Sanitation & Bio-Medical Kits: exploring automated drip kits, water filtration stages, and health probes |
+| | | 35.5 | Sewing machine kit: basic straight stitch, fabric handling, and crafting wearable smart electronic sensor patches |
+
