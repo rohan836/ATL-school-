@@ -171,7 +171,7 @@
 | | | 23.3 | Adjusting LCD screen contrast with the blue potentiometer dial on the back |
 | | | 23.4 | 4-digit 7-segment LED display module: displaying numbers, clock times, and sensor counts |
 | | | 23.5 | 8×8 LED Dot Matrix Module (MAX7219): controlling 64 individual LEDs to display arrows, icons, and text |
-| **24** | **Microcontrollers — Arduino Hardware & Code Basics** | 24.1 | What is a microcontroller: the computer-on-a-chip that brings circuits to life |
+| **24** | **Microcontrollers & Single-Board Computers (Arduino & Raspberry Pi)** | 24.1 | What is a microcontroller: the computer-on-a-chip that brings circuits to life |
 | | | 24.2 | Exploring the Arduino board family: Arduino Uno, compact Arduino Nano, and giant Arduino Mega (54 pins) |
 | | | 24.3 | Arduino hardware tour: USB port, DC power jack, ATmega328P chip, reset button, and status LEDs |
 | | | 24.4 | Understanding Arduino pins: Power pins (5V, 3.3V, GND), Digital pins ($0 - 13$), and Analog inputs ($A_0 - A_5$) |
@@ -181,7 +181,10 @@
 | | | 24.8 | Digital Input: reading push buttons and digital sensors with `digitalRead()` |
 | | | 24.9 | Analog Input: reading continuous sensor values ($0 - 1023$) with `analogRead()` |
 | | | 24.10 | Pulse Width Modulation (PWM): simulated analog output ($0 - 255$) using `analogWrite()` to dim LEDs and vary motor speed |
-| | | 24.11 | Raspberry Pi 3 Model B+ overview: comparing a microcomputer with a microcontroller |
+| | | 24.11 | Raspberry Pi 3 Model B+ hardware tour: Broadcom CPU, USB ports, HDMI display, power port, and 32GB microSD card |
+| | | 24.12 | Microcomputer vs Microcontroller: understanding when to use a Raspberry Pi vs an Arduino |
+| | | 24.13 | Raspberry Pi 40-pin GPIO header: identifying $3.3\text{V}$, $5\text{V}$, Ground, and general-purpose input/output pins |
+| | | 24.14 | Hands-on physical computing: connecting an external LED and push button to Raspberry Pi GPIO pins |
 | **25** | **Wireless Communication & Internet of Things (IoT)** | 25.1 | How wireless modules transmit data through the air without cables |
 | | | 25.2 | HC-05 Bluetooth module: connecting your circuit to a smartphone app wirelessly |
 | | | 25.3 | 433MHz / 315MHz RF Transmitter and Receiver modules: simple long-distance remote control |
