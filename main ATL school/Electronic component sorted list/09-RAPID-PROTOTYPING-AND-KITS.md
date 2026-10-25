@@ -17,16 +17,7 @@
 | 10 | **Robotics DIY Kit** | Complete robotics educational kit with programmable intelligent brick/brain, chassis, sensors, and motors | 4 | Equipment | Package 1 |
 | 11 | **Mechanical Modular Construction Kit** | Metal and plastic engineering construction set (beams, brackets, gears, axles, wheels, compatible with electronics) | 6 | Equipment | Package 1 |
 | 12 | **Educational DIY Drone Assembly Kit** | 100% unassembled DIY quadcopter assembly kit (NOT pre-built); includes crash-resistant airframe, 6 motors (4 active + 2 spare), 12 propellers with crash guards, STM32-based flight controller with 6-axis gyro/barometer, 2x LiPo batteries, balance charger, 2.4 GHz digital radio transmitter, and DIY assembly manual | 1 Kit | Equipment | Package 1 |
-| 13 | **Aerospace Kit** | Hands-on aerospace learning kit exploring flight dynamics, airfoils, and rocketry | 1 | Equipment | Package 1 |
-| 14 | **Automobile Kit** | Mechanical automotive mechanism kit (chassis, differential, steering rack, suspension) | 1 | Equipment | Package 1 |
-| 15 | **Bio-Medical Kit** | Educational bio-medical engineering application kit | 1 | Equipment | Package 1 |
-| 16 | **Agritech Kit** | Smart agriculture application kit (automated irrigation, soil monitoring) | 1 | Equipment | Package 1 |
-| 17 | **Water & Sanitation Kit** | Water testing, filtration, and sanitation STEM kit | 1 | Equipment | Package 1 |
-| 18 | **Bio Tech Kit** | Educational biotechnology application kit | 1 | Equipment | Package 1 |
-| 19 | **Other Potential STEM Application Kit** | Advanced multi-disciplinary STEM application kit | 1 | Equipment | Package 1 |
-| 20 | **DIY Paper Microscope** | Foldable origami-style paper microscope ($100\times - 2000\times$ magnification) with all-glass optical ball lenses | 5 | Consumable | Package 3 |
-| 21 | **Astronomical Telescope** | Altazimuth mount telescope for terrestrial and astronomical observation (minimum focal length 700mm) | 1 | Equipment | Package 3 |
-| 22 | **Sewing Machine Kit** | Semi-automatic straight-stitch sewing machine; includes 2 sets of assorted needles and 10-colour spool set | 1 Set | Equipment | Package 3 |
+| 13 | **Automobile Kit** | Mechanical automotive mechanism kit (chassis, differential, steering rack, suspension) | 1 | Equipment | Package 1 |
 
 ---
 

@@ -254,13 +254,9 @@
 | | | 34.2 | Gears, pulleys, and mechanical advantage: understanding speed reduction, torque increase, and gear ratios |
 | | | 34.3 | Robotics DIY Kit: assembling a mobile chassis with DC motors, caster wheels, and mounting the electronics |
 | | | 34.4 | Automobile Kit: understanding rack-and-pinion steering, front-wheel alignment, and differential drives |
-| **35** | **Specialized STEM Exploration Kits** | 35.1 | DIY Paper Microscope: folding the origami paper body, positioning glass ball lenses, and viewing cell specimens at 100x–2000x |
-| | | 35.2 | Astronomical Telescope: assembling the altazimuth tripod, eyepiece magnification, and focusing on terrestrial landmarks and the moon |
-| | | 35.3 | Educational DIY Drone Kit Assembly: assembling the quadcopter frame, installing CW and CCW motors, and attaching 360° crash guards |
-| | | 35.4 | Drone Flight Controller & Sensor Brain: mounting the STM32 flight controller chip, 6-axis gyro/accelerometer, and altitude barometer |
-| | | 35.5 | Drone Battery Safety & Flight Testing: LiPo balance charging, transmitter binding, software sensor calibration, and safe indoor hover tests |
-| | | 35.6 | Aerospace Kit: principles of flight, airfoils, lift, thrust, drag, and model rocket aerodynamics |
-| | | 35.7 | Agritech, Water/Sanitation & Bio-Medical Kits: exploring automated drip kits, water filtration stages, and health probes |
-| | | 35.8 | Sewing machine kit: basic straight stitch, fabric handling, and crafting wearable smart electronic sensor patches |
+| **35** | **Educational Drone Assembly & Flight System** | 35.1 | Educational DIY Drone Kit Assembly: assembling the quadcopter frame, installing CW and CCW motors, and attaching 360° crash guards |
+| | | 35.2 | Drone Flight Controller & Sensor Brain: mounting the STM32 flight controller chip, 6-axis gyro/accelerometer, and altitude barometer |
+| | | 35.3 | Drone Battery Safety & Flight Testing: LiPo balance charging, transmitter binding, software sensor calibration, and safe indoor hover tests |
+| | | 35.4 | Flight Maneuvers & Aerodynamics: pitch, roll, yaw, throttle control, and pilot obstacle navigation |
 
 
