@@ -26,6 +26,7 @@ This file is the evolving map of this repository. It is not a complete inventory
 | ESP modules | [ESP module reference](LAB/REFERENCE/ESP-MODULES.md) | Module information. |
 | ATL project ideas | [Component-linked project ideas](PROJECTS/IDEAS/ATL_COMPONENT_PROJECT_IDEAS.md) | Ideas, not completed-project records. |
 | Atal Tinkering Lab curriculum | [Atal Tinkering Lab Curriculum](main%20ATL%20school/ATAL-TINKERING-LAB-CURRICULUM.md) | Comprehensive electronics and lab tinkering curriculum based on ATL equipment and reference books. |
+| ATL sorted equipment catalog | [Sorted Component Lists](main%20ATL%20school/Electronic%20component%20sorted%20list/README.md) | Clean, deduplicated, sorted inventory across 10 operational categories. |
 
 ## Conventions
 - C and D are class sections. Use folder names such as `Class-5-C` and `Class-5-D`; timetable files may call these groups batches.
