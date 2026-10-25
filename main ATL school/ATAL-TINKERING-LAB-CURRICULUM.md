@@ -1,4 +1,4 @@
-# Electronics Curriculum
+# Atal Tinkering Lab (ATL) Electronics Curriculum
 
 | Module No. | Module Name | Topic No. | Content |
 |:---:|---|:---:|---|
