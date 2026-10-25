@@ -1,9 +1,3 @@
-# Electronics & Robotics Curriculum
-
-**Atal Thinking Lab | One shared curriculum for Classes 5–9**
-
-This is one common eight-module curriculum for all Classes 5–9, not a separate curriculum for each class. Teachers adjust depth and project complexity for students' age and experience.
-
 | Module No. | Module Name | Topic No. | Topic |
 |---:|---|---:|---|
 | **1** | **Discovering Electricity** | 1.1 | What is electricity? |
@@ -63,10 +57,3 @@ This is one common eight-module curriculum for all Classes 5–9, not a separate
 |  |  | 8.5 | Test and troubleshoot |
 |  |  | 8.6 | Improve the design |
 |  |  | 8.7 | Final project exhibition |
-
-## Lab Safety
-
-- Student-built circuits use low-voltage DC. Students must not probe household mains or build exposed mains-powered circuits.
-- Teach AC concepts with diagrams or teacher-prepared, isolated low-voltage demonstrations.
-- Use current-limiting resistors. Do not drive motors or high-current servos directly from microcontroller GPIO pins; use suitable drivers and power supplies.
-- Verify board/module pinouts, logic levels, and component ratings; supervise tools and soldering.
