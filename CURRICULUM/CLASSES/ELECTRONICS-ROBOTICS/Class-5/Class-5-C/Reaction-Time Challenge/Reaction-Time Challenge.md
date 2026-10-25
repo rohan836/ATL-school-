@@ -42,37 +42,6 @@
 | Project Evidence | Add the labelled diagram and a teacher-approved photo or drawing of the model, if available. |
 | Teacher Feedback | Space for teacher comments and suggestions. |
 
-
-## Group 8 — Clap-Activated Light
-
-| Project Assignment Section | Instructions / Information to Record |
-|---|---|
-| Project Title | Clap-Activated Light |
-| Group Assignment | Group 8; this group works on this project. |
-| Project Category | Sound sensing |
-| Difficulty Level | Beginner–Intermediate |
-| Aim | Build a light that responds to a clap or a loud sound in a controlled demonstration. |
-| Project Problem / Introduction | Describe how sound-activated devices respond to a sound event and why background noise can affect them. |
-| Learning Objectives — What We Will Learn | Sound as a signal, microphone sensor, threshold, input/output behavior, and false triggering. |
-| Components Required | Sound sensor/microphone module; LED; suitable resistor; breadboard; jumper wires; low-voltage supply; optional Arduino Uno. |
-| Component Description | Identify each component and write its purpose in the project. |
-| Basic Concepts | Explain the electronics ideas used in this project: Sound as a signal, microphone sensor, threshold, input/output behavior, and false triggering. |
-| Working Principle | The microphone module detects sound and produces an electrical signal. A threshold circuit or controller uses that signal to switch the LED. |
-| Circuit / System Diagram | Draw and label the circuit or system diagram. Include power, ground, input, output, and component connections where applicable. |
-| Construction Procedure | 1. Identify the sensor's power, ground, and signal pins. 2. Connect the LED through a resistor. 3. Set a starting sensitivity. 4. Test with a clap at a safe distance. 5. Adjust sensitivity to reduce unwanted triggers. |
-| Programming / Code | If a controller is used, attach or write the code and explain the main input and output steps. If no controller is used, write “Not required” and explain the circuit operation. |
-| Testing Procedure | Try a clap, quiet speech, and background noise. Record which sounds activate the light and any false triggers. |
-| Observation Record | Create a small observation record with columns for test/input, expected response, actual response, and notes. |
-| Result / Expected Output | A sound-responsive LED demonstration. |
-| Problems Faced | Record any difficulty encountered while assembling, programming, or testing the project. |
-| Troubleshooting | Describe the checks or changes used to solve the problem. |
-| What We Learned | Write 3–5 points about the concepts and practical skills learned. |
-| Real-Life Applications | Identify one or two real-world uses or related examples. |
-| Conclusion | Summarize what the group built, how it worked, and what was learned. |
-| Future Improvement | Make the LED toggle on each detected clap or compare sensor sensitivity settings. |
-| Project Evidence | Add the labelled diagram and a teacher-approved photo or drawing of the model, if available. |
-| Teacher Feedback | Space for teacher comments and suggestions. |
-
 ## Common Project File Checklist
 
 | Required Item | Done |
