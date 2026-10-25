@@ -177,8 +177,6 @@
 | Measurement Tools | Spirit Level | 12 inches | 1 | Equipment |
 | Measurement Tools | Digital Pen Electric Tester | Voltage tester | 1 | Equipment |
 | Measurement Tools | Digital Multi Meter | 7 functions and 19 ranges; DC voltage 200 mV–1 kV; AC voltage 200–750 V; DC current 200 µA–10 A; resistance 200 Ω–2 MΩ; transistor and diode test | 5 | Equipment |
-| Biology Kit | DIY Paper Microscope | DIY paper microscope; magnification 100×–2000×; all-glass optical components | 5 | Consumable |
-| Astronomy Equipment | Telescope | Altazimuth mount suitable for terrestrial and astronomical use; minimum focal length 700 mm | 1 | Equipment |
 | Textile Equipment | Sewing Kit | Semi-automatic sewing machine; straight stitch; consumables: 2 sets of assorted needles and 10-colour spool set | 1 | Equipment |
 
 ## Package 4 — Power Supply, Accessories and Safety Equipment
