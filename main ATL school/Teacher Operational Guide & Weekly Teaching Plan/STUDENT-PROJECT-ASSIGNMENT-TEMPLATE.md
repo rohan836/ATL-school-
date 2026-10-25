@@ -1,37 +1,40 @@
-# ATAL TINKERING LAB — WEEKLY PROJECT ASSIGNMENT SHEET
+# ATAL TINKERING LAB — WEEKLY PROJECT SHEET
 
-**Student Name**: ___________________________ &nbsp;&nbsp;&nbsp;&nbsp; **Roll No**: ________ &nbsp;&nbsp;&nbsp;&nbsp; **Class & Section**: ________  
-**Team / Group No**: _______ &nbsp;&nbsp;&nbsp;&nbsp; **Date of Practical**: _______________  
-**Project Title**: __________________________________________________________________  
-
----
-
-### 1. Project Team Members & Roles (5 Students per Group)
-
-| Role | Student Name | Assigned Responsibility |
-|---|---|---|
-| **Mechanical Lead** | | Chassis, mounting, wheels & frame assembly |
-| **Circuit & Wiring Lead** | | Breadboard wiring & component polarity check |
-| **Programmer / Coder** | | Code writing, block logic & board upload |
-| **Sensor Specialist** | | Sensor alignment, calibration & testing |
-| **QA & Logbook Lead** | | Voltage measurements, testing & documentation |
+**Student Name**: ___________________________ &nbsp;&nbsp;&nbsp;&nbsp; **Roll Number**: ________  
+**Class & Section**: ________ &nbsp;&nbsp;&nbsp;&nbsp; **Date of Practical**: _______________  
+**Project Title**: ________________________________________________________________  
 
 ---
 
-### 2. Bill of Materials (Components Used in Our Project)
-
-| S.No. | Component / Module Name | Technical Rating / Value | Quantity Used | Purpose in Circuit |
-|:---:|---|---|:---:|---|
-| 01 | | | | |
-| 02 | | | | |
-| 03 | | | | |
-| 04 | | | | |
-| 05 | | | | |
-| 06 | | | | |
+### 1. My Group Members (Students who built this project with me)
+1. ________________________________________________________
+2. ________________________________________________________
+3. ________________________________________________________
+4. ________________________________________________________
+5. ________________________________________________________
 
 ---
 
-### 3. Circuit Schematic Diagram *(Draw By Hand Using Standard Symbols)*
+### 2. What I Did in This Project (What did you help make?)
+_________________________________________________________________________________  
+_________________________________________________________________________________  
+
+---
+
+### 3. Components & Parts We Used
+
+| S.No. | Component Name | How Many? (Quantity) | What Does It Do? |
+|:---:|---|:---:|---|
+| 01 | | | |
+| 02 | | | |
+| 03 | | | |
+| 04 | | | |
+| 05 | | | |
+| 06 | | | |
+
+---
+
+### 4. Circuit Diagram *(Draw your circuit with pencil here)*
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -39,8 +42,9 @@
 │                                                                        │
 │                                                                        │
 │                                                                        │
-│                    [ DRAW HAND-SKETCHED CIRCUIT HERE ]                 │
-│                 (Label: Resistors, LEDs, Battery, ICs/Pins)            │
+│                                                                        │
+│                    [ DRAW YOUR CIRCUIT DRAWING HERE ]                  │
+│                                                                        │
 │                                                                        │
 │                                                                        │
 │                                                                        │
@@ -50,7 +54,9 @@
 
 ---
 
-### 4. How It Works (Describe in 3–4 Simple Sentences)
+### 5. How Does It Work? *(Explain in your own words in 4 to 6 lines)*
+_________________________________________________________________________________  
+_________________________________________________________________________________  
 _________________________________________________________________________________  
 _________________________________________________________________________________  
 _________________________________________________________________________________  
@@ -58,10 +64,14 @@ ________________________________________________________________________________
 
 ---
 
-### 5. Troubleshooting Log: What Went Wrong & How We Fixed It?
-- **Problem Faced**: _____________________________________________________________  
-- **How We Solved It**: ___________________________________________________________  
+### 6. Problem We Faced & How We Fixed It
+* **What went wrong or did not work at first?**:  
+  _______________________________________________________________________________  
+* **How did we solve and fix the problem?**:  
+  _______________________________________________________________________________  
 
 ---
 
-**Evaluator / Teacher Signature**: ________________________ &nbsp;&nbsp;&nbsp;&nbsp; **Grade / Score**: ________ / 10
+### 7. What New Thing Did I Learn Today?
+_________________________________________________________________________________  
+_________________________________________________________________________________  
