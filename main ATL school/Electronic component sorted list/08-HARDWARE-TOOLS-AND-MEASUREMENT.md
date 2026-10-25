@@ -46,11 +46,6 @@ These items are **permanent lab assets**. They do not get consumed or depleted d
 | **33** | **Cordless Rotary Multitool Set** | High-speed Li-ion rotary tool (adjustable up to 30,000 RPM) with collets, cutting discs, grinding stones, polishing buffs | 1 Set | Power Tools | Prototyping & Carving Bench |
 | **34** | **Variable-Speed Air Blower** | 500W electric high-velocity air blower with rubber nozzle for bench cleaning and clearing shavings | 1 Unit | Maintenance Equipment | Lab Cleaning & Maintenance |
 | **35** | **Flexible Self-Healing Cutting Mat** | A3 size ($18\times 12\,\text{inches}$) 5-ply self-healing cutting mat with printed metric grid lines and angle guides | 1 Unit | Bench Protection | Craft & Prototyping Table |
-| **36** | **Servo Motor Tester (CCPM)** | 3-channel handheld digital servo and ESC tester with manual potentiometer, neutral auto-center, and automatic sweep test modes | 6 Units | Testing & Diagnostics | Robotics & Motor Testing Benches |
-| **37** | **3D Printer (FDM) Kit & Toolkit** | Fused Deposition Modelling (FDM) 3D printer ($160\times 160\times 160\,\text{mm}$ build volume, heated bed, LCD screen, 0.4mm nozzle) with repair toolkit, keys, tweezers, and scraper | 1 Unit | Digital Fabrication | 3D Printing Station |
-| **38** | **Dedicated UPS Power Backup** | 2-hour heavy-duty uninterruptible power backup system for 3D printer protection against power outages | 1 Unit | Power Infrastructure | 3D Printing Station |
-| **39** | **Modular Component Storage Cabinets** | High-impact plastic storage cabinets with 60 transparent drawers each ($2\times 2\times 5\,\text{inches}$) for sorting small electronics | 2 Units (120 Drawers) | Lab Organization | Wall Storage Zone |
-| **40** | **Wall-Mounted Pegboard Tool Systems** | $3\times 2$ feet heavy-duty tool pegboards with modular metal hanging hooks, spanner racks, plier clips, and tool shelves | 2 Boards | Lab Organization | Main Tool Storage Wall |
 
 ---
 

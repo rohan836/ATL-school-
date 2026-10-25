@@ -13,7 +13,7 @@
 
 This purchase order is structured specifically for electronic component distributors and hardware suppliers. All items have been deduplicated, technically specified, and categorized into:
 1. **Permanent Assets (Fixed Capital Assets)**: Non-depleting machinery, durable tools, testing instruments, and storage infrastructure that remain permanently in the ATL workshop.
-2. **Consumables (Recurring Replenishment Materials)**: Discrete electronics, sensors, wires, ICs, mechanical fasteners, and materials that get utilized in student projects and require restocking as projects are completed.
+2. **Consumables (Recurring Replenishment Materials)**: Microcontroller boards, discrete electronics, sensors, wires, ICs, mechanical fasteners, and materials that get utilized, built into student projects, and require restocking.
 
 ---
 
@@ -21,12 +21,12 @@ This purchase order is structured specifically for electronic component distribu
 
 | Item # | Component / Board Name | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 01 | **Arduino Uno R3 (or equivalent)** | ATmega328P 8-bit AVR microcontroller; 5V operating voltage; 14 Digital I/O (6 PWM); 6 Analog inputs; 16 MHz crystal; includes clear protective case and USB Type-A to Type-B programming cable | 45 Units | **Permanent Asset** | | |
-| 02 | **Arduino Nano (or equivalent)** | ATmega328P 8-bit AVR; 5V; breadboard-compatible 30-pin DIP form factor; 14 Digital I/O (6 PWM); 8 Analog inputs; Mini-USB cable included | 15 Units | **Permanent Asset** | | |
-| 03 | **Arduino Mega 2560 (or equivalent)** | ATmega2560 8-bit AVR; 5V; 54 Digital I/O (15 PWM); 16 Analog inputs; 4 UART hardware serial ports; includes protective casing and USB cable | 15 Units | **Permanent Asset** | | |
-| 04 | **Raspberry Pi 3 Model B+** | Quad Core 64-bit Broadcom ARM Cortex-A53 @ 1.4 GHz; 1 GB LPDDR2 RAM; Dual-band 2.4/5 GHz Wi-Fi & Bluetooth 4.2; 40-pin GPIO; 4x USB 2.0; Full HDMI; includes 32 GB Class-10 microSD card, HDMI-to-VGA converter, 5V 2.5A power supply, and protective enclosure | 8 Units | **Permanent Asset** | | |
-| 05 | **NodeMCU v3 (ESP8266)** | ESP8266 Wi-Fi SoC with onboard CP2102/CH340 USB-UART; 3.3V logic (5V Micro-USB power input); integrated TCP/IP stack; PCB trace antenna | 8 Units | **Permanent Asset** | | |
-| 06 | **WeMos D1 R2 (ESP8266)** | Arduino Uno form-factor Wi-Fi development board powered by ESP8266; 5V–12V barrel jack input; 11 Digital I/O; 1 Analog input; Arduino IDE compatible | 8 Units | **Permanent Asset** | | |
+| 01 | **Arduino Uno R3 (or equivalent)** | ATmega328P 8-bit AVR microcontroller; 5V operating voltage; 14 Digital I/O (6 PWM); 6 Analog inputs; 16 MHz crystal; includes clear protective case and USB Type-A to Type-B programming cable | 45 Units | **Consumable** | | |
+| 02 | **Arduino Nano (or equivalent)** | ATmega328P 8-bit AVR; 5V; breadboard-compatible 30-pin DIP form factor; 14 Digital I/O (6 PWM); 8 Analog inputs; Mini-USB cable included | 15 Units | **Consumable** | | |
+| 03 | **Arduino Mega 2560 (or equivalent)** | ATmega2560 8-bit AVR; 5V; 54 Digital I/O (15 PWM); 16 Analog inputs; 4 UART hardware serial ports; includes protective casing and USB cable | 15 Units | **Consumable** | | |
+| 04 | **Raspberry Pi 3 Model B+** | Quad Core 64-bit Broadcom ARM Cortex-A53 @ 1.4 GHz; 1 GB LPDDR2 RAM; Dual-band 2.4/5 GHz Wi-Fi & Bluetooth 4.2; 40-pin GPIO; 4x USB 2.0; Full HDMI; includes 32 GB Class-10 microSD card, HDMI-to-VGA converter, 5V 2.5A power supply, and protective enclosure | 8 Units | **Consumable** | | |
+| 05 | **NodeMCU v3 (ESP8266)** | ESP8266 Wi-Fi SoC with onboard CP2102/CH340 USB-UART; 3.3V logic (5V Micro-USB power input); integrated TCP/IP stack; PCB trace antenna | 8 Units | **Consumable** | | |
+| 06 | **WeMos D1 R2 (ESP8266)** | Arduino Uno form-factor Wi-Fi development board powered by ESP8266; 5V–12V barrel jack input; 11 Digital I/O; 1 Analog input; Arduino IDE compatible | 8 Units | **Consumable** | | |
 | 07 | **ATmega16U2 Standalone IC** | 8-bit AVR microcontroller in DIP/SOIC package; 16 KB flash; USB controller capability; operating voltage $2.7\text{V} - 5.5\text{V}$ | 15 Units | **Consumable** | | |
 
 ---
@@ -94,14 +94,14 @@ This purchase order is structured specifically for electronic component distribu
 
 | Item # | Item Description | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 53 | **16×2 Character LCD with I2C Backpack** | 16 characters $\times$ 2 lines alphanumeric LCD; blue backlight with white text; pre-soldered PCF8574 I2C adapter board; supply 5V DC | 30 Units | **Permanent Asset** | | |
-| 54 | **4-Digit 7-Segment Display (TM1637)** | 0.36-inch 4-digit red 7-segment LED display with colon dots; onboard TM1637 driver IC; simple 2-wire serial bus (CLK, DIO); 5V | 30 Units | **Permanent Asset** | | |
-| 55 | **8×8 LED Dot Matrix Module (MAX7219)** | 64 bright red LEDs arranged in an $8\times 8$ matrix; MAX7219 serial driver; 5-pin SPI interface; multi-module daisy-chainable | 10 Units | **Permanent Asset** | | |
+| 53 | **16×2 Character LCD with I2C Backpack** | 16 characters $\times$ 2 lines alphanumeric LCD; blue backlight with white text; pre-soldered PCF8574 I2C adapter board; supply 5V DC | 30 Units | **Consumable** | | |
+| 54 | **4-Digit 7-Segment Display (TM1637)** | 0.36-inch 4-digit red 7-segment LED display with colon dots; onboard TM1637 driver IC; simple 2-wire serial bus (CLK, DIO); 5V | 30 Units | **Consumable** | | |
+| 55 | **8×8 LED Dot Matrix Module (MAX7219)** | 64 bright red LEDs arranged in an $8\times 8$ matrix; MAX7219 serial driver; 5-pin SPI interface; multi-module daisy-chainable | 10 Units | **Consumable** | | |
 | 56 | **Miniature Active Buzzer — Small** | 5V DC active piezoelectric buzzer with internal sound oscillator; produces continuous 2.5 kHz tone upon DC power application | 60 Units | **Consumable** | | |
 | 57 | **Loud Active Buzzer — Big** | 5V–12V DC high-decibel active buzzer (85+ dB output) for emergency alarms and sirens | 60 Units | **Consumable** | | |
-| 58 | **Voice Recording & Playback (ISD1820)** | ISD1820 chip board; 10-second voice recording; onboard electret microphone; playback pushbuttons; includes miniature 8$\Omega$ 0.5W speaker | 15 Units | **Permanent Asset** | | |
-| 59 | **$4\times 4$ Matrix Membrane Keypad** | 16-key matrix keypad (keys 0–9, *, #, A–D); flexible flat ribbon cable with 8-pin 2.54mm pitch female socket | 15 Units | **Permanent Asset** | | |
-| 60 | **Dual-Axis Analog Joystick Module** | Dual $10\,\text{k}\Omega$ potentiometers for X and Y axes with integrated momentary pushbutton switch; spring auto-return to center | 15 Units | **Permanent Asset** | | |
+| 58 | **Voice Recording & Playback (ISD1820)** | ISD1820 chip board; 10-second voice recording; onboard electret microphone; playback pushbuttons; includes miniature 8$\Omega$ 0.5W speaker | 15 Units | **Consumable** | | |
+| 59 | **$4\times 4$ Matrix Membrane Keypad** | 16-key matrix keypad (keys 0–9, *, #, A–D); flexible flat ribbon cable with 8-pin 2.54mm pitch female socket | 15 Units | **Consumable** | | |
+| 60 | **Dual-Axis Analog Joystick Module** | Dual $10\,\text{k}\Omega$ potentiometers for X and Y axes with integrated momentary pushbutton switch; spring auto-return to center | 15 Units | **Consumable** | | |
 
 ---
 
@@ -111,17 +111,17 @@ This purchase order is structured specifically for electronic component distribu
 |:---:|---|---|---:|:---:|:---:|:---:|
 | 61 | **150 RPM Plastic BO Gear Motor with Wheel** | 3V–9V DC dual-shaft straight gearbox motor (150 RPM output speed @ 6V) complete with matching 65mm rubber-tread wheel | 60 Pairs | **Consumable** | | |
 | 62 | **150 RPM BO Motor (Standalone)** | 3V–9V DC battery-operated single-shaft plastic gear motor (150 RPM) | 15 Units | **Consumable** | | |
-| 63 | **12V High-Torque DC Geared Motor** | 12V DC heavy-duty metal-gear motor; 150 RPM output; 6mm D-shaped center output shaft | 30 Units | **Permanent Asset** | | |
+| 63 | **12V High-Torque DC Geared Motor** | 12V DC heavy-duty metal-gear motor; 150 RPM output; 6mm D-shaped center output shaft | 30 Units | **Consumable** | | |
 | 64 | **Miniature Haptic Vibrating Motor** | 10g coin/cylindrical vibration motor with eccentric mass; operating voltage $1.5\text{V} - 3.7\text{V}$ DC | 30 Units | **Consumable** | | |
-| 65 | **Submersible Mini Water Pump** | 12V DC, 3W submersible centrifugal brushless water pump with outlet nozzle; max head 1.5 metres | 6 Units | **Permanent Asset** | | |
+| 65 | **Submersible Mini Water Pump** | 12V DC, 3W submersible centrifugal brushless water pump with outlet nozzle; max head 1.5 metres | 6 Units | **Consumable** | | |
 | 66 | **Micro Positional Servo — Plastic Gear (SG90)** | 9g micro positional servo motor; $0^\circ - 180^\circ$ pulse angle rotation; operating voltage $4.8\text{V} - 6.0\text{V}$; stall torque 1.8 kg-cm; horns included | 60 Units | **Consumable** | | |
-| 67 | **Metal-Gear Micro Servo (MG90S)** | High-durability micro servo with brass and aluminum gears; $0^\circ - 180^\circ$ rotation; stall torque 2.2 kg-cm | 15 Units | **Permanent Asset** | | |
-| 68 | **Standard High-Torque Positional Servo** | Full-size metal-gear positional servo (MG995 / MG996R); torque 10–12 kg-cm; double ball bearings; $0^\circ - 180^\circ$ control | 15 Units | **Permanent Asset** | | |
-| 69 | **Continuous Rotation Metal Servo (360°)** | Full-size continuous rotation servo ($360^\circ$ speed/direction control); high-torque metal gear train | 15 Units | **Permanent Asset** | | |
-| 70 | **3-Channel Servo & ESC Tester (CCPM)** | Standalone digital servo tester with 3 modes (Manual speed dial, Neutral auto-center, Automatic window sweep); tests up to 3 servos simultaneously | 6 Units | **Permanent Asset** | | |
-| 71 | **5V Stepper Motor with ULN2003 Driver** | 28BYJ-48 5V 4-phase 5-wire unipolar geared stepper motor paired with ULN2003 Darlington array driver board with status LEDs | 15 Sets | **Permanent Asset** | | |
-| 72 | **L293D Dual H-Bridge Motor Driver Module** | L293D motor driver board; controls speed and direction of 2 DC motors or 1 stepper motor; up to 600mA per channel; 5V–12V | 15 Units | **Permanent Asset** | | |
-| 73 | **L298P High-Power Motor Shield** | Arduino Uno form-factor shield featuring L298 dual full-bridge driver; 2A per channel; heavy screw terminals for external motor power | 15 Units | **Permanent Asset** | | |
+| 67 | **Metal-Gear Micro Servo (MG90S)** | High-durability micro servo with brass and aluminum gears; $0^\circ - 180^\circ$ rotation; stall torque 2.2 kg-cm | 15 Units | **Consumable** | | |
+| 68 | **Standard High-Torque Positional Servo** | Full-size metal-gear positional servo (MG995 / MG996R); torque 10–12 kg-cm; double ball bearings; $0^\circ - 180^\circ$ control | 15 Units | **Consumable** | | |
+| 69 | **Continuous Rotation Metal Servo (360°)** | Full-size continuous rotation servo ($360^\circ$ speed/direction control); high-torque metal gear train | 15 Units | **Consumable** | | |
+| 70 | **3-Channel Servo & ESC Tester (CCPM)** | Standalone digital servo tester with 3 modes (Manual speed dial, Neutral auto-center, Automatic window sweep); tests up to 3 servos simultaneously | 6 Units | **Consumable** | | |
+| 71 | **5V Stepper Motor with ULN2003 Driver** | 28BYJ-48 5V 4-phase 5-wire unipolar geared stepper motor paired with ULN2003 Darlington array driver board with status LEDs | 15 Sets | **Consumable** | | |
+| 72 | **L293D Dual H-Bridge Motor Driver Module** | L293D motor driver board; controls speed and direction of 2 DC motors or 1 stepper motor; up to 600mA per channel; 5V–12V | 15 Units | **Consumable** | | |
+| 73 | **L298P High-Power Motor Shield** | Arduino Uno form-factor shield featuring L298 dual full-bridge driver; 2A per channel; heavy screw terminals for external motor power | 15 Units | **Consumable** | | |
 | 74 | **1-Channel 5V Relay Module** | 5V DC electromagnetic relay module with optocoupler isolation, transistor driver, flyback diode, status LED; contacts rated 10A 250V AC / 30V DC | 30 Units | **Consumable** | | |
 | 75 | **2-Channel 5V Relay Module** | Dual 5V DC relay board with independent optoisolated inputs, status LEDs, and NO/COM/NC screw terminals | 30 Units | **Consumable** | | |
 
@@ -131,11 +131,11 @@ This purchase order is structured specifically for electronic component distribu
 
 | Item # | Module Description | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 76 | **Bluetooth Serial Module (HC-05)** | 2.4 GHz Bluetooth V2.0+EDR module; SPP serial profile; UART AT command set; configurable Master/Slave; 3.3V logic (5V VCC tolerant) | 15 Units | **Permanent Asset** | | |
+| 76 | **Bluetooth Serial Module (HC-05)** | 2.4 GHz Bluetooth V2.0+EDR module; SPP serial profile; UART AT command set; configurable Master/Slave; 3.3V logic (5V VCC tolerant) | 15 Units | **Consumable** | | |
 | 77 | **433 MHz / 315 MHz RF Transmitter & Receiver** | ASK wireless super-regenerative RF transmitter and receiver pair; range 20–100 metres; operating voltage 3.3V–5V DC | 15 Pairs | **Consumable** | | |
-| 78 | **RFID Reader Module & Tag Kit (RC522)** | 13.56 MHz RFID reader board (MFRC522); SPI bus; includes 1x RFID contactless smart card and 1x key fob tag | 15 Kits | **Permanent Asset** | | |
-| 79 | **GPS Satellite Module (GY-NEO6MV2)** | High-sensitivity satellite receiver module with active ceramic patch antenna; EEPROM config retention; 9600 baud serial NMEA output | 6 Units | **Permanent Asset** | | |
-| 80 | **GSM / GPRS Cellular Module (SIM900)** | Quad-Band 850/900/1800/1900 MHz cellular shield; onboard standard SIM slot; UART serial AT command control; includes external rubber antenna | 6 Units | **Permanent Asset** | | |
+| 78 | **RFID Reader Module & Tag Kit (RC522)** | 13.56 MHz RFID reader board (MFRC522); SPI bus; includes 1x RFID contactless smart card and 1x key fob tag | 15 Kits | **Consumable** | | |
+| 79 | **GPS Satellite Module (GY-NEO6MV2)** | High-sensitivity satellite receiver module with active ceramic patch antenna; EEPROM config retention; 9600 baud serial NMEA output | 6 Units | **Consumable** | | |
+| 80 | **GSM / GPRS Cellular Module (SIM900)** | Quad-Band 850/900/1800/1900 MHz cellular shield; onboard standard SIM slot; UART serial AT command control; includes external rubber antenna | 6 Units | **Consumable** | | |
 | 81 | **IR Transmitter & Receiver Set (TSOP1738)** | 38 kHz carrier frequency infrared receiver photodiode with internal bandpass filter paired with 940nm high-output IR emitting LED | 15 Pairs | **Consumable** | | |
 
 ---
@@ -144,9 +144,9 @@ This purchase order is structured specifically for electronic component distribu
 
 | Item # | Item Description | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 82 | **Half-Size Solderless Breadboard (400 Tie-Points)** | 400 tie-point solderless breadboard with self-adhesive backing tape; dual power distribution buses | 50 Units | **Permanent Asset** | | |
-| 83 | **Full-Size Solderless Breadboard (800 Tie-Points)** | 830 tie-point solderless breadboard; dual center terminal strip with 4 power distribution rails; side interlocking tabs | 30 Units | **Permanent Asset** | | |
-| 84 | **Self-Adhesive Mini Proto Shield Breadboard** | Compact 170-point mini breadboard designed for Arduino Proto-Shield mounting | 30 Units | **Permanent Asset** | | |
+| 82 | **Half-Size Solderless Breadboard (400 Tie-Points)** | 400 tie-point solderless breadboard with self-adhesive backing tape; dual power distribution buses | 50 Units | **Consumable** | | |
+| 83 | **Full-Size Solderless Breadboard (800 Tie-Points)** | 830 tie-point solderless breadboard; dual center terminal strip with 4 power distribution rails; side interlocking tabs | 30 Units | **Consumable** | | |
+| 84 | **Self-Adhesive Mini Proto Shield Breadboard** | Compact 170-point mini breadboard designed for Arduino Proto-Shield mounting | 30 Units | **Consumable** | | |
 | 85 | **General-Purpose Perfboard (Zero-PCB) — Medium** | FR2 single-sided copper clad dotted prototype board; size $80\times 55\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
 | 86 | **General-Purpose Perfboard (Zero-PCB) — Large** | FR2 single-sided copper clad dotted prototype board; size $140\times 90\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
 | 87 | **Male Breakable Pin Headers (Berg Strips)** | 40-pin single row male headers; standard 2.54mm pitch; gold/tin plated; snappable to any pin length | 50 Strips | **Consumable** | | |
@@ -156,17 +156,17 @@ This purchase order is structured specifically for electronic component distribu
 | 91 | **Jumper Wires — Female to Female (F-F)** | 20cm flexible multicolored 40-pin ribbon jumper wires with female socket to female socket | 500 Wires (13 Packs) | **Consumable** | | |
 | 92 | **Alligator Clip Test Leads** | Double-ended insulated alligator clip jumper cables; 12-inch length; multicolored jackets | 300 Leads | **Consumable** | | |
 | 93 | **Hook-Up Wire Spools** | Single-core insulated hook-up wire spools (100 metres Red + 100 metres Black per set) | 4 Sets (8 Spools) | **Consumable** | | |
-| 94 | **USB Programming Cables — Type-A to Type-B** | High-shielded 1.2m USB 2.0 cable for Arduino Uno and Arduino Mega | 15 Cables | **Permanent Asset** | | |
-| 95 | **USB Programming Cables — Type-A to Mini-B** | High-shielded 1.0m USB 2.0 cable for Arduino Nano and microcontroller boards | 15 Cables | **Permanent Asset** | | |
-| 96 | **USB to DC Barrel Jack Converter Cables** | 5V USB Type-A to 5.5mm $\times$ 2.1mm center-positive DC plug cable for running breadboards from power banks | 10 Cables | **Permanent Asset** | | |
+| 94 | **USB Programming Cables — Type-A to Type-B** | High-shielded 1.2m USB 2.0 cable for Arduino Uno and Arduino Mega | 15 Cables | **Consumable** | | |
+| 95 | **USB Programming Cables — Type-A to Mini-B** | High-shielded 1.0m USB 2.0 cable for Arduino Nano and microcontroller boards | 15 Cables | **Consumable** | | |
+| 96 | **USB to DC Barrel Jack Converter Cables** | 5V USB Type-A to 5.5mm $\times$ 2.1mm center-positive DC plug cable for running breadboards from power banks | 10 Cables | **Consumable** | | |
 | 97 | **9V Battery Snaps with DC Barrel Plug** | Heavy-duty molded hard-plastic 9V battery connector clips terminating in a 5.5mm/2.1mm DC barrel jack | 40 Units | **Consumable** | | |
-| 98 | **Rechargeable Battery Packs with Smart Chargers** | 9V–12V (2000–2500 mAh) rechargeable NiMH/Li-ion battery packs with dual automatic smart chargers | 10 Packs + Chargers | **Permanent Asset** | | |
-| 99 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 5 Units | **Permanent Asset** | | |
-| 100 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Permanent Asset** | | |
-| 101 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Permanent Asset** | | |
-| 102 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 5 Units | **Permanent Asset** | | |
+| 98 | **Rechargeable Battery Packs with Smart Chargers** | 9V–12V (2000–2500 mAh) rechargeable NiMH/Li-ion battery packs with dual automatic smart chargers | 10 Packs + Chargers | **Consumable** | | |
+| 99 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 5 Units | **Consumable** | | |
+| 100 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
+| 101 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
+| 102 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 5 Units | **Consumable** | | |
 | 103 | **Twisted-Pair Mains Distribution Wires** | Red-Black twisted flexible copper electrical distribution wire | 20 Metres | **Consumable** | | |
-| 104 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 10 Units | **Permanent Asset** | | |
+| 104 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 10 Units | **Consumable** | | |
 
 ---
 
