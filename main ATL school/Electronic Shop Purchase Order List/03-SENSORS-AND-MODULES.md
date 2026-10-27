@@ -27,13 +27,14 @@
 | 19 | **Flexion Bend Sensor** | 2.2-inch flexible carbon-resistive bend sensor; nominal flat resistance $25\,\text{k}\Omega$; resistance increases proportionally when bent | 8 Units | **Consumable** |
 | 20 | **Pulse Heart-Rate Sensor** | Optical photoplethysmography (PPG) fingertip/earlobe pulse sensor with built-in ambient noise cancellation; 3.3V–5V DC | 5 Units | **Consumable** |
 | 21 | **Color Recognition Sensor (TCS3200)** | TCS3200 programmable color light-to-frequency converter with 4 integrated white LEDs; reads Red, Green, Blue, and Clear filters | 6 Units | **Consumable** |
-| 22 | **3-Axis Digital Accelerometer** | 3-axis motion and gravity sensor (ADXL345 / MPU-6050 compatible); user-selectable $\pm 2g / \pm 4g / \pm 8g / \pm 16g$ ranges; I2C/SPI | 15 Units | **Consumable** |
-| 23 | **3-Axis Digital Magnetometer** | 3-axis magnetoresistive digital compass module (HMC5883L / QMC5883L); I2C interface; 12-bit ADC; $\pm 8$ Gauss dynamic range | 15 Units | **Consumable** |
-| 24 | **MQ-2 Smoke & Combustible Gas Sensor** | Wide-spectrum gas sensor for methane, butane, LPG, smoke, and hydrogen; 5V heater | 4 Units | **Consumable** |
-| 25 | **MQ-3 Alcohol Vapor Gas Sensor** | High sensitivity to ethanol alcohol vapor; ideal for breathalyzer test circuits | 4 Units | **Consumable** |
-| 26 | **MQ-4 Methane & Natural Gas Sensor** | High sensitivity to methane ($\text{CH}_4$) and natural gas leaks; fast response | 4 Units | **Consumable** |
-| 27 | **MQ-5 LPG & Town Gas Sensor** | High sensitivity to liquefied petroleum gas (LPG) and compressed natural gas (CNG) | 4 Units | **Consumable** |
-| 28 | **MQ-6 Propane & Butane Gas Sensor** | Specialized high sensitivity for domestic LPG and butane gas cylinder leak detection | 4 Units | **Consumable** |
-| 29 | **MQ-7 Carbon Monoxide (CO) Sensor** | High sensitivity to toxic carbon monoxide gas; dual-temperature cycling heater | 4 Units | **Consumable** |
-| 30 | **MQ-8 Hydrogen Gas Sensor** | Specialized sensitivity to pure hydrogen gas ($\text{H}_2$); low sensitivity to alcohol/smoke | 4 Units | **Consumable** |
-| 31 | **MQ-135 Air Quality & Pollution Sensor** | Environmental air quality detector for ammonia ($\text{NH}_3$), nitrogen oxides ($\text{NO}_x$), alcohol, benzene, and smoke | 4 Units | **Consumable** |
+| 22 | **ADXL345 3-Axis Digital Accelerometer Module** | 3-axis digital accelerometer; high resolution (13-bit) measurement up to $\pm 16g$; ultra-low power; SPI and I2C digital interfaces; 3.3V/5V compatible | 10 Units | **Consumable** |
+| 23 | **MPU6050 6-Axis Gyroscope and Accelerometer Sensor Module with I2C Interface and Digital Processor, for Robotics, Metal and Plastic** | 6-Axis motion tracking module integrating 3-axis gyroscope ($\pm 250, \pm 500, \pm 1000, \pm 2000^\circ/\text{s}$) and 3-axis accelerometer ($\pm 2g, \pm 4g, \pm 8g, \pm 16g$) with onboard Digital Motion Processor (DMP); I2C interface; operating voltage 3.3V–5V DC with onboard low-dropout regulator; essential for self-balancing robots, gesture navigation, flight stabilization, metal and plastic chassis robotics | 10 Units | **Consumable** |
+| 24 | **3-Axis Digital Magnetometer** | 3-axis magnetoresistive digital compass module (HMC5883L / QMC5883L); I2C interface; 12-bit ADC; $\pm 8$ Gauss dynamic range | 15 Units | **Consumable** |
+| 25 | **MQ-2 Smoke & Combustible Gas Sensor** | Wide-spectrum gas sensor for methane, butane, LPG, smoke, and hydrogen; 5V heater | 4 Units | **Consumable** |
+| 26 | **MQ-3 Alcohol Vapor Gas Sensor** | High sensitivity to ethanol alcohol vapor; ideal for breathalyzer test circuits | 4 Units | **Consumable** |
+| 27 | **MQ-4 Methane & Natural Gas Sensor** | High sensitivity to methane ($\text{CH}_4$) and natural gas leaks; fast response | 4 Units | **Consumable** |
+| 28 | **MQ-5 LPG & Town Gas Sensor** | High sensitivity to liquefied petroleum gas (LPG) and compressed natural gas (CNG) | 4 Units | **Consumable** |
+| 29 | **MQ-6 Propane & Butane Gas Sensor** | Specialized high sensitivity for domestic LPG and butane gas cylinder leak detection | 4 Units | **Consumable** |
+| 30 | **MQ-7 Carbon Monoxide (CO) Sensor** | High sensitivity to toxic carbon monoxide gas; dual-temperature cycling heater | 4 Units | **Consumable** |
+| 31 | **MQ-8 Hydrogen Gas Sensor** | Specialized sensitivity to pure hydrogen gas ($\text{H}_2$); low sensitivity to alcohol/smoke | 4 Units | **Consumable** |
+| 32 | **MQ-135 Air Quality & Pollution Sensor** | Environmental air quality detector for ammonia ($\text{NH}_3$), nitrogen oxides ($\text{NO}_x$), alcohol, benzene, and smoke | 4 Units | **Consumable** |
