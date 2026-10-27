@@ -12,141 +12,123 @@
 ### Executive Procurement Summary for Principal & Vendor
 
 This purchase order is structured specifically for modern electronic component distributors and hardware suppliers. All items have been deduplicated, modernized to current technological standards, and organized into:
-1. **Primary Sections (Sections 1 to 10)**: Latest-generation Microcontroller Boards (Arduino + ESP32 Dual-Core), Professional Breakout Modules (directly attachable to Arduino, ESP32, and Raspberry Pi via 3-pin / 4-pin jumper headers and 3.3V/5V logic), High-Efficiency MOSFET Drivers, Displays, Actuators, Workshop Machinery, Tools, and Safety Infrastructure.
-2. **Dedicated Bottom Sections (Section 11 & Section 12)**:
-   - **Section 11**: Older / Deprecated Legacy Modules (2G GSM SIM900, noisy 433 MHz ASK RF, obsolete classic Bluetooth, and ancient BJT motor drivers) moved out of the primary order so the school does not purchase obsolete hardware.
-   - **Section 12**: Discrete and single electronic components (bare passives, loose ICs, through-hole LEDs, and unmounted sensors) that require manual circuit building on breadboards.
+1. **Section 1 — All Microcontrollers & Plug-and-Play Breakout Modules**: Unified master table of all development boards (ESP32 Dual-Core, Arduino, Raspberry Pi) and all professional breakout modules (sensors, displays, MOSFET drivers, opto-relays, wireless) designed for direct jumper-wire connection to ESP32, Arduino, and Raspberry Pi via 3.3V/5V logic, I2C, SPI, UART, and GPIO.
+2. **Sections 2 to 7 — Workshop Hardware, Tools, Materials & Kits**: Prototyping interconnects, mechanical gear motors/servos, diagnostic instruments (DSO, DMM), soldering stations, 3D printing, DIY drone kit, and safety equipment.
+3. **Dedicated Bottom Sections (Sections 8 & 9)**:
+   - **Section 8**: Older / Deprecated Legacy Modules (2G GSM SIM900, noisy 433 MHz RF, classic Bluetooth HC-05, BJT drivers) moved out of the active order so the school does not purchase obsolete hardware.
+   - **Section 9**: Discrete single electronic components (bare passives, loose ICs, through-hole LEDs, and unmounted sensors) used strictly for manual breadboard circuit building.
 
 ---
 
-## 1. Microcontroller Boards, Single-Board Computers & Controllers
+## 1. All Microcontrollers & Plug-and-Play Breakout Modules (ESP32, Arduino & Raspberry Pi Ecosystem)
 
-| Item # | Component / Board Name | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
-|:---:|---|---|---:|:---:|:---:|:---:|
-| 01 | **ESP32 DevKit V1 (30-Pin / 38-Pin)** | 32-bit Dual-Core Xtensa LX6 @ 240 MHz; integrated 2.4 GHz Wi-Fi + Bluetooth BLE 4.2/5.0; 520 KB SRAM; 4 MB Flash; 3.3V logic (5V Micro-USB / Type-C input); hardware capacitive touch, ADC, DAC, PWM on all GPIOs *(Latest standard for School IoT & AI)* | 16 Units | **Consumable** | | |
-| 02 | **Arduino Uno R3 (or equivalent)** | ATmega328P 8-bit AVR microcontroller; 5V operating voltage; 14 Digital I/O (6 PWM); 6 Analog inputs; 16 MHz crystal; includes clear protective case and USB Type-A to Type-B programming cable | 45 Units | **Consumable** | | |
-| 03 | **Arduino Nano (or equivalent)** | ATmega328P 8-bit AVR; 5V; breadboard-compatible 30-pin DIP form factor; 14 Digital I/O (6 PWM); 8 Analog inputs; Mini-USB cable included | 15 Units | **Consumable** | | |
-| 04 | **Arduino Mega 2560 (or equivalent)** | ATmega2560 8-bit AVR; 5V; 54 Digital I/O (15 PWM); 16 Analog inputs; 4 UART hardware serial ports; includes protective casing and USB cable | 15 Units | **Consumable** | | |
-| 05 | **Raspberry Pi 3 Model B+** | Quad Core 64-bit Broadcom ARM Cortex-A53 @ 1.4 GHz; 1 GB LPDDR2 RAM; Dual-band 2.4/5 GHz Wi-Fi & Bluetooth 4.2; 40-pin GPIO; 4x USB 2.0; Full HDMI; includes 32 GB Class-10 microSD card, HDMI-to-VGA converter, 5V 2.5A power supply, and protective enclosure | 8 Units | **Consumable** | | |
-| 06 | **NodeMCU v3 (ESP8266)** | ESP8266 Wi-Fi SoC with onboard CP2102/CH340 USB-UART; 3.3V logic (5V Micro-USB power input); integrated TCP/IP stack; PCB trace antenna | 8 Units | **Consumable** | | |
-| 07 | **WeMos D1 R2 (ESP8266)** | Arduino Uno form-factor Wi-Fi development board powered by ESP8266; 5V–12V barrel jack input; 11 Digital I/O; 1 Analog input; Arduino IDE compatible | 8 Units | **Consumable** | | |
+> **Module Standard Note**:  
+> Every module in this table is a **complete breakout module** with onboard regulation, signal conditioning, and standard 2.54mm pin headers.  
+> They connect directly to **ESP32, Arduino Uno/Nano/Mega, and Raspberry Pi** using standard DuPont jumper wires without requiring discrete external driver circuits.
+
+| Item # | Module / Controller Name | Technical Specifications & Model Details | Bus / Interface Standard | Microcontroller Compatibility | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
+|:---:|---|---|---|---|---:|:---:|:---:|:---:|
+| 01 | **ESP32 DevKit V1 (30-Pin / 38-Pin)** | 32-bit Dual-Core Xtensa LX6 @ 240 MHz; onboard 2.4 GHz Wi-Fi + Bluetooth BLE 4.2/5.0; 520 KB SRAM; 4 MB Flash; 3.3V logic; capacitive touch, ADC, DAC, PWM on all GPIOs | Wi-Fi / BLE / Micro-USB | **Primary IoT & AI Controller** | 16 Units | **Consumable** | | |
+| 02 | **Arduino Uno R3 (or equivalent)** | ATmega328P 8-bit AVR; 5V; 14 Digital I/O (6 PWM); 6 Analog inputs; 16 MHz; includes protective casing and USB A-to-B cable | USB Type-B / UART | **Primary Junior Controller** | 45 Units | **Consumable** | | |
+| 03 | **Arduino Nano (or equivalent)** | ATmega328P 8-bit AVR; 5V; breadboard DIP form factor; 14 Digital I/O; 8 Analog inputs; Mini-USB cable included | Mini-USB / UART | **Breadboard Prototyping** | 15 Units | **Consumable** | | |
+| 04 | **Arduino Mega 2560 (or equivalent)** | ATmega2560 8-bit AVR; 5V; 54 Digital I/O (15 PWM); 16 Analog inputs; 4 UART serial ports; USB cable included | USB Type-B / 4x UART | **Complex Multi-Sensor Robotics** | 15 Units | **Consumable** | | |
+| 05 | **Raspberry Pi 3 Model B+** | Quad Core 64-bit Broadcom ARM @ 1.4 GHz; 1 GB RAM; Wi-Fi & BLE; 40-pin GPIO; 4x USB; HDMI; 32 GB microSD; power supply & case | 40-pin GPIO / HDMI / USB | **Single-Board Computer (Linux/Python)** | 8 Units | **Consumable** | | |
+| 06 | **NodeMCU v3 (ESP8266)** | ESP8266 Wi-Fi SoC with onboard CP2102/CH340 USB-UART; 3.3V logic; integrated TCP/IP stack; PCB trace antenna | Wi-Fi / Micro-USB | **ESP Wi-Fi Prototyping** | 8 Units | **Consumable** | | |
+| 07 | **WeMos D1 R2 (ESP8266)** | Arduino Uno form-factor Wi-Fi development board powered by ESP8266; 5V–12V barrel jack input; 11 Digital I/O; 1 Analog input | Wi-Fi / Micro-USB | **Arduino-Format Wi-Fi Board** | 8 Units | **Consumable** | | |
+| 08 | **0.96-inch I2C OLED Display Module (SSD1306)** | 128&times;64 monochrome graphic OLED display; SSD1306 driver; 4-pin interface (VCC, GND, SCL, SDA); 3.3V–5V DC; high-contrast text and graphics | I2C (4-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
+| 09 | **4-Digit 7-Segment Display Module (TM1637)** | 0.36-inch 4-digit red display with colon dots; onboard TM1637 driver; 2-wire serial bus (CLK, DIO); 5V/3.3V | 2-Wire Serial (4-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
+| 10 | **8×8 LED Dot Matrix Module (MAX7219)** | 64 bright red LEDs in $8\times 8$ matrix; MAX7219 serial driver; 5-pin SPI interface; daisy-chainable | SPI (5-pin) | ESP32 / Arduino / Raspberry Pi | 10 Units | **Consumable** | | |
+| 11 | **LDR Light Sensor Module** | 5mm photoresistor with onboard LM393 voltage comparator, sensitivity trimmer pot, and dual Digital/Analog outputs | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 45 Units | **Consumable** | | |
+| 12 | **Digital Temperature & Humidity (DHT11)** | Single-bus digital output module with onboard pull-up resistor; temp range $0-50^\circ\text{C}$; humidity range $20-90\%\,\text{RH}$ | 1-Wire Digital (3-pin) | ESP32 / Arduino / Raspberry Pi | 50 Units | **Consumable** | | |
+| 13 | **Analog Humidity Sensor Module** | Resistance-based relative humidity sensor probe board; range $20-95\%\,\text{RH}$; linear analog voltage response | Analog (3-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 14 | **Soil Moisture Sensor Module** | Double-sided nickel-plated fork probe with LM393 comparator breakout module; analog and digital outputs | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 8 Units | **Consumable** | | |
+| 15 | **Raindrop Detection Board** | $50\times 40\,\text{mm}$ nickel-plated rain sensor board with separate LM393 comparator control module | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 8 Units | **Consumable** | | |
+| 16 | **Turbine Water Flow Sensor** | Hall-effect liquid flow meter; 1–30 L/min range; 5V DC; pulse frequency output ($f = 7.5\times Q$) | Digital Pulse (3-pin) | ESP32 / Arduino / Raspberry Pi | 6 Units | **Consumable** | | |
+| 17 | **PIR Human Motion Detector (HC-SR501)** | Pyroelectric infrared sensor module; dome Fresnel lens; range 3–7m; adjustable delay and sensitivity; 3.3V logic output | Digital GPIO (3-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
+| 18 | **Ultrasonic Distance Sensor (HC-SR04)** | 40 kHz ultrasonic transmitter and receiver module; range $2\,\text{cm} - 400\,\text{cm}$; precision 3mm; 4-pin header (VCC, Trig, Echo, GND) | Digital Pulse (4-pin) | ESP32 / Arduino / Raspberry Pi | 50 Units | **Consumable** | | |
+| 19 | **IR Proximity / Obstacle Avoidance Module** | 940nm IR emitter and photodiode pair; onboard LM393 comparator; detection distance $2-30\,\text{cm}$; $35^\circ$ angle | Digital GPIO (3-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
+| 20 | **8-Channel IR Tracking Sensor Array** | 8-sensor reflective infrared bar with onboard comparators; 8 individual digital output pins for line-following | Multi Digital (10-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 21 | **Sound Detection Microphone Module** | Electret condenser microphone with LM393 amplifier and digital threshold sensitivity trimmer | Digital GPIO (3-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 22 | **High-Sensitivity Big Sound Module** | Large electret microphone capsule module with dual analog sound waveform and digital trigger outputs | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
+| 23 | **Capacitive Touch Module (TTP223B)** | Single-key capacitive digital touch switch; momentary / toggle output mode selectable; supply $2.0\text{V} - 5.5\text{V}$ DC | Digital GPIO (3-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 24 | **Touch Sensor Module (TTP22X)** | Multi-purpose capacitive contact sensor with low standby power; operating voltage $2.4\text{V} - 5.5\text{V}$ DC | Digital GPIO (3-pin) | ESP32 / Arduino / Raspberry Pi | 8 Units | **Consumable** | | |
+| 25 | **Metal Touch Sensor Module (KY-036)** | Metal touch sensor with Darlington transistor and comparator; senses human skin touch on metal lead | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 8 Units | **Consumable** | | |
+| 26 | **12-Channel Capacitive Touch (MPR121)** | MPR121 capacitive touch controller; 12 independent sensing inputs; I2C digital interface; $3.3\text{V}$ logic | I2C (4-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
+| 27 | **Pulse Heart-Rate Sensor** | Optical photoplethysmography (PPG) pulse sensor with built-in ambient noise cancellation; 3.3V–5V DC | Analog (3-pin) | ESP32 / Arduino / Raspberry Pi | 5 Units | **Consumable** | | |
+| 28 | **Color Recognition Sensor (TCS3200)** | TCS3200 programmable color light-to-frequency converter with 4 white LEDs; reads Red, Green, Blue, Clear filters | Frequency Out (8-pin) | ESP32 / Arduino / Raspberry Pi | 6 Units | **Consumable** | | |
+| 29 | **3-Axis Digital Accelerometer** | 3-axis motion and gravity sensor (ADXL345 / MPU-6050 compatible); selectable $\pm 2g / \pm 4g / \pm 8g / \pm 16g$; I2C/SPI | I2C / SPI | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 30 | **3-Axis Digital Magnetometer** | 3-axis magnetoresistive compass module (HMC5883L / QMC5883L); I2C interface; 12-bit ADC; $\pm 8$ Gauss range | I2C (4-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 31 | **Laser Diode Emitter Module** | 650nm red point laser diode module with onboard current-limiting resistor; output 5mW; 5V DC | Digital GPIO (3-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 32 | **MQ-2 Smoke & Combustible Gas Sensor** | Wide-spectrum gas sensor module for methane, LPG, smoke, hydrogen; 5V heater with analog/digital comparator outputs | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
+| 33 | **MQ-3 Alcohol Vapor Gas Sensor** | High sensitivity to ethanol alcohol vapor; ideal for breathalyzer circuits; onboard LM393 comparator | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
+| 34 | **MQ-4 Methane & Natural Gas Sensor** | High sensitivity to methane ($\text{CH}_4$) and natural gas leaks; fast response; onboard LM393 comparator | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
+| 35 | **MQ-5 LPG & Town Gas Sensor** | High sensitivity to LPG and compressed natural gas (CNG); onboard LM393 comparator | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
+| 36 | **MQ-6 Propane & Butane Gas Sensor** | Specialized high sensitivity for domestic LPG and butane gas cylinder leak detection; onboard LM393 comparator | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
+| 37 | **MQ-7 Carbon Monoxide (CO) Sensor** | High sensitivity to toxic carbon monoxide gas; dual-temperature cycling heater; onboard LM393 comparator | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
+| 38 | **MQ-8 Hydrogen Gas Sensor** | Specialized sensitivity to pure hydrogen gas ($\text{H}_2$); low sensitivity to alcohol/smoke; onboard LM393 comparator | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
+| 39 | **MQ-135 Air Quality & Pollution Sensor** | Environmental air quality detector for ammonia ($\text{NH}_3$), $\text{NO}_x$, alcohol, benzene, and smoke; onboard LM393 | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
+| 40 | **TB6612FNG Dual MOSFET Motor Driver Module** | **High-Efficiency Dual H-Bridge Driver**; 1.2A cont / 3.2A peak per channel; ultra-low internal resistance; runs cool; logic $2.7\text{V} - 5.5\text{V}$ | PWM / Digital (16-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 41 | **PCA9685 16-Channel 12-bit PWM / Servo Driver** | 16-channel independent PWM controller with I2C bus; driven by only 2 microcontroller pins (SDA, SCL); 12-bit resolution; handles 16 servos | I2C (4-pin) | ESP32 / Arduino / Raspberry Pi | 6 Units | **Consumable** | | |
+| 42 | **1-Channel 5V/3.3V Relay Module with Optocoupler & Trigger Selector** | 5V DC relay module with PC817 optocoupler isolation, transistor driver, status LED, and **High/Low level trigger selection jumper**; 10A 250V AC | Digital GPIO (3-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
+| 43 | **2-Channel 5V/3.3V Relay Module with Optocoupler & Trigger Selector** | Dual 5V DC relay board with independent optoisolated inputs, status LEDs, High/Low trigger selection jumpers, and NO/COM/NC terminals | Digital GPIO (4-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
+| 44 | **ULN2003 Stepper Motor Driver Board with 28BYJ-48 Stepper** | 5V unipolar 4-phase stepper motor paired with ULN2003 Darlington driver board with 4-phase status indicator LEDs | Digital GPIO (4-pin) | ESP32 / Arduino / Raspberry Pi | 15 Sets | **Consumable** | | |
+| 45 | **NRF24L01+ 2.4 GHz RF Transceiver with PA+LNA & Antenna** | Long-range 2.4 GHz digital packet radio transceiver with Power Amplifier (PA) + LNA and external SMA antenna; range up to 1,000 metres; SPI interface | SPI (8-pin) | ESP32 / Arduino / Raspberry Pi | 15 Pairs | **Consumable** | | |
+| 46 | **Bluetooth Low Energy (BLE) Module (HM-10 / AT-09)** | 2.4 GHz Bluetooth 4.0/5.0 BLE transceiver; UART serial; compatible with **both Android and Apple iOS smartphones**; 3.3V/5V tolerant | UART Serial (4-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 47 | **RFID Reader Module & Tag Kit (RC522)** | 13.56 MHz contactless RFID/NFC reader board (MFRC522); SPI bus; includes 1x RFID contactless card and 1x key fob tag | SPI (8-pin) | ESP32 / Arduino / Raspberry Pi | 15 Kits | **Consumable** | | |
+| 48 | **GPS Satellite Module (u-blox GY-NEO6MV2 / NEO-8M)** | High-sensitivity satellite receiver module with active ceramic patch antenna; EEPROM config retention; 9600 baud serial NMEA output | UART Serial (4-pin) | ESP32 / Arduino / Raspberry Pi | 6 Units | **Consumable** | | |
+| 49 | **Voice Recording & Playback Module (ISD1820)** | ISD1820 chip board; 10-second voice recording; onboard microphone; playback pushbuttons; includes 8$\Omega$ 0.5W speaker | Digital GPIO (4-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 50 | **Dual-Axis Analog Joystick Module** | Dual $10\,\text{k}\Omega$ potentiometers for X and Y axes with integrated momentary pushbutton switch; spring auto-return to center | Analog + Digital (5-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
 
 ---
 
-## 2. Professional Breakout Sensors & Environmental Detection Modules
-*(All sensors in this section are complete breakout modules with onboard comparators/drivers and standard 3-pin / 4-pin headers for direct plug-and-play wiring to Arduino, ESP, and Raspberry Pi)*
-
-| Item # | Sensor Module Name | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
-|:---:|---|---|---:|:---:|:---:|:---:|
-| 08 | **LDR Light Sensor Module** | 5mm light-dependent resistor sensor with onboard LM393 voltage comparator, sensitivity adjustment trimmer potentiometer, and dual digital/analog outputs (3.3V–5V compatible) | 45 Units | **Consumable** | | |
-| 09 | **Digital Temperature & Humidity (DHT11)** | Single-bus digital output sensor module with pull-up resistor onboard; temperature range $0-50^\circ\text{C}$ ($\pm 2^\circ\text{C}$); humidity range $20-90\%\,\text{RH}$; supply $3.3\text{V} - 5\text{V}$ | 50 Units | **Consumable** | | |
-| 10 | **Analog Humidity Sensor Module** | Resistance-based relative humidity sensor probe board; range $20-95\%\,\text{RH}$; linear analog voltage response | 15 Units | **Consumable** | | |
-| 11 | **Soil Moisture Sensor Module** | Double-sided nickel-plated fork probe with LM393 comparator breakout module; corrosion-resistant coating; analog and digital outputs | 8 Units | **Consumable** | | |
-| 12 | **Raindrop Detection Board** | $50\times 40\,\text{mm}$ nickel-plated rain sensor board with separate control module (LM393 comparator and trimmer) | 8 Units | **Consumable** | | |
-| 13 | **Turbine Water Flow Sensor** | Hall-effect liquid flow meter; 1–30 L/min flow rate range; operating voltage 5V DC; pulse frequency output ($f = 7.5\times Q$) | 6 Units | **Consumable** | | |
-| 14 | **PIR Human Motion Detector (HC-SR501)** | Pyroelectric infrared sensor module; dome Fresnel lens; detection range 3–7 metres; adjustable delay time and sensitivity pots; 3.3V output logic | 30 Units | **Consumable** | | |
-| 15 | **Ultrasonic Distance Sensor (HC-SR04)** | 40 kHz ultrasonic transmitter and receiver module; range $2\,\text{cm} - 400\,\text{cm}$; precision 3mm; 4-pin header: VCC, Trig, Echo, GND; 5V DC | 50 Units | **Consumable** | | |
-| 16 | **IR Proximity / Obstacle Avoidance Module** | 940nm infrared LED emitter and photodiode pair; onboard LM393 comparator; detection distance $2-30\,\text{cm}$; $35^\circ$ detection angle | 30 Units | **Consumable** | | |
-| 17 | **8-Channel IR Tracking Sensor Array** | 8-sensor reflective infrared bar with onboard comparators; digital output pins for autonomous line-following robotics | 15 Units | **Consumable** | | |
-| 18 | **Sound Detection Microphone Module** | Electret condenser microphone with LM393 amplifier and digital threshold sensitivity trimmer | 15 Units | **Consumable** | | |
-| 19 | **High-Sensitivity Big Sound Module** | Large electret microphone capsule module with dual analog sound waveform and digital trigger outputs *(merged deduplicated stock)* | 30 Units | **Consumable** | | |
-| 20 | **Capacitive Touch Module (TTP223B)** | Single-key capacitive digital touch switch; momentary / toggle output mode selectable; supply $2.0\text{V} - 5.5\text{V}$ DC | 15 Units | **Consumable** | | |
-| 21 | **Touch Sensor Module (TTP22X)** | Multi-purpose capacitive contact sensor with low standby power consumption; operating voltage $2.4\text{V} - 5.5\text{V}$ | 8 Units | **Consumable** | | |
-| 22 | **Metal Touch Sensor Module (KY-036)** | Metal touch sensor with Darlington transistor and comparator; senses human skin touch on metal electrode lead | 8 Units | **Consumable** | | |
-| 23 | **12-Channel Capacitive Touch (MPR121)** | MPR121 capacitive touch controller; 12 independent electrode sensing inputs; I2C digital interface; $3.3\text{V}$ logic | 30 Units | **Consumable** | | |
-| 24 | **Pulse Heart-Rate Sensor** | Optical photoplethysmography (PPG) fingertip/earlobe pulse sensor with built-in ambient noise cancellation; 3.3V–5V DC | 5 Units | **Consumable** | | |
-| 25 | **Color Recognition Sensor (TCS3200)** | TCS3200 programmable color light-to-frequency converter with 4 integrated white LEDs; reads Red, Green, Blue, and Clear filters | 6 Units | **Consumable** | | |
-| 26 | **3-Axis Digital Accelerometer** | 3-axis motion and gravity sensor (ADXL345 / MPU-6050 compatible); user-selectable $\pm 2g / \pm 4g / \pm 8g / \pm 16g$ ranges; I2C/SPI | 15 Units | **Consumable** | | |
-| 27 | **3-Axis Digital Magnetometer** | 3-axis magnetoresistive digital compass module (HMC5883L / QMC5883L); I2C interface; 12-bit ADC; $\pm 8$ Gauss dynamic range | 15 Units | **Consumable** | | |
-| 28 | **Laser Diode Emitter Module** | 650nm red point laser diode head module with current-limiting resistor and 3-pin header; output 5mW; 5V DC | 15 Units | **Consumable** | | |
-| 29 | **MQ-2 Smoke & Combustible Gas Sensor** | Wide-spectrum gas sensor module for methane, butane, LPG, smoke, and hydrogen; 5V heater with analog/digital comparator outputs | 4 Units | **Consumable** | | |
-| 30 | **MQ-3 Alcohol Vapor Gas Sensor** | High sensitivity to ethanol alcohol vapor; ideal for breathalyzer test circuits; onboard LM393 comparator | 4 Units | **Consumable** | | |
-| 31 | **MQ-4 Methane & Natural Gas Sensor** | High sensitivity to methane ($\text{CH}_4$) and natural gas leaks; fast response; onboard LM393 comparator | 4 Units | **Consumable** | | |
-| 32 | **MQ-5 LPG & Town Gas Sensor** | High sensitivity to liquefied petroleum gas (LPG) and compressed natural gas (CNG); onboard LM393 comparator | 4 Units | **Consumable** | | |
-| 33 | **MQ-6 Propane & Butane Gas Sensor** | Specialized high sensitivity for domestic LPG and butane gas cylinder leak detection; onboard LM393 comparator | 4 Units | **Consumable** | | |
-| 34 | **MQ-7 Carbon Monoxide (CO) Sensor** | High sensitivity to toxic carbon monoxide gas; dual-temperature cycling heater; onboard LM393 comparator | 4 Units | **Consumable** | | |
-| 35 | **MQ-8 Hydrogen Gas Sensor** | Specialized sensitivity to pure hydrogen gas ($\text{H}_2$); low sensitivity to alcohol/smoke; onboard LM393 comparator | 4 Units | **Consumable** | | |
-| 36 | **MQ-135 Air Quality & Pollution Sensor** | Environmental air quality detector for ammonia ($\text{NH}_3$), nitrogen oxides ($\text{NO}_x$), alcohol, benzene, and smoke | 4 Units | **Consumable** | | |
-
----
-
-## 3. Displays, Audio Modules & User Interface Controls
+## 2. Prototyping Hardware, Interconnects, Batteries & Power Supplies
 
 | Item # | Item Description | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 37 | **0.96-inch I2C OLED Display Module (SSD1306)** | 0.96-inch monochrome graphic OLED display (128&times;64 resolution); SSD1306 driver; 4-pin I2C interface (VCC, GND, SCL, SDA); supply 3.3V–5V DC; high contrast text and graphics *(Directly connects to Arduino, ESP32, and Raspberry Pi)* | 30 Units | **Consumable** | | |
-| 38 | **4-Digit 7-Segment Display (TM1637)** | 0.36-inch 4-digit red 7-segment LED display with colon dots; onboard TM1637 driver IC; simple 2-wire serial bus (CLK, DIO); 5V | 30 Units | **Consumable** | | |
-| 39 | **8×8 LED Dot Matrix Module (MAX7219)** | 64 bright red LEDs arranged in an $8\times 8$ matrix; MAX7219 serial driver; 5-pin SPI interface; multi-module daisy-chainable | 10 Units | **Consumable** | | |
-| 40 | **Voice Recording & Playback (ISD1820)** | ISD1820 chip board; 10-second voice recording; onboard electret microphone; playback pushbuttons; includes miniature 8$\Omega$ 0.5W speaker | 15 Units | **Consumable** | | |
-| 41 | **$4\times 4$ Matrix Membrane Keypad** | 16-key matrix keypad (keys 0–9, *, #, A–D); flexible flat ribbon cable with 8-pin 2.54mm pitch female socket | 15 Units | **Consumable** | | |
-| 42 | **Dual-Axis Analog Joystick Module** | Dual $10\,\text{k}\Omega$ potentiometers for X and Y axes with integrated momentary pushbutton switch; spring auto-return to center; 5-pin header | 15 Units | **Consumable** | | |
+| 51 | **Half-Size Solderless Breadboard (400 Tie-Points)** | 400 tie-point solderless breadboard with self-adhesive backing tape; dual power distribution buses | 50 Units | **Consumable** | | |
+| 52 | **Full-Size Solderless Breadboard (800 Tie-Points)** | 830 tie-point solderless breadboard; dual center terminal strip with 4 power distribution rails; side interlocking tabs | 30 Units | **Consumable** | | |
+| 53 | **Self-Adhesive Mini Proto Shield Breadboard** | Compact 170-point mini breadboard designed for Arduino Proto-Shield mounting | 30 Units | **Consumable** | | |
+| 54 | **General-Purpose Perfboard (Zero-PCB) — Medium** | FR2 single-sided copper clad dotted prototype board; size $80\times 55\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
+| 55 | **General-Purpose Perfboard (Zero-PCB) — Large** | FR2 single-sided copper clad dotted prototype board; size $140\times 90\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
+| 56 | **Male Breakable Pin Headers (Berg Strips)** | 40-pin single row male headers; standard 2.54mm pitch; gold/tin plated; snappable to any pin length | 50 Strips | **Consumable** | | |
+| 57 | **Female Pin Headers (Berg Strips)** | 40-pin single row female socket headers; standard 2.54mm pitch; straight mount | 50 Strips | **Consumable** | | |
+| 58 | **Jumper Wires — Male to Male (M-M)** | 20cm flexible multicolored 40-pin ribbon jumper wires with molded square male pins | 1,500 Wires (38 Packs) | **Consumable** | | |
+| 59 | **Jumper Wires — Male to Female (M-F)** | 20cm flexible multicolored 40-pin ribbon jumper wires with male pin to female socket | 1,000 Wires (25 Packs) | **Consumable** | | |
+| 60 | **Jumper Wires — Female to Female (F-F)** | 20cm flexible multicolored 40-pin ribbon jumper wires with female socket to female socket | 500 Wires (13 Packs) | **Consumable** | | |
+| 61 | **Alligator Clip Test Leads** | Double-ended insulated alligator clip jumper cables; 12-inch length; multicolored jackets | 300 Leads | **Consumable** | | |
+| 62 | **Hook-Up Wire Spools** | Single-core insulated hook-up wire spools (100 metres Red + 100 metres Black per set) | 4 Sets (8 Spools) | **Consumable** | | |
+| 63 | **USB Programming Cables — Type-A to Type-B** | High-shielded 1.2m USB 2.0 cable for Arduino Uno and Arduino Mega | 15 Cables | **Consumable** | | |
+| 64 | **USB Programming Cables — Type-A to Mini-B** | High-shielded 1.0m USB 2.0 cable for Arduino Nano and microcontroller boards | 15 Cables | **Consumable** | | |
+| 65 | **USB to DC Barrel Jack Converter Cables** | 5V USB Type-A to 5.5mm $\times$ 2.1mm center-positive DC plug cable for running breadboards from power banks | 10 Cables | **Consumable** | | |
+| 66 | **9V Battery Snaps with DC Barrel Plug** | Heavy-duty molded hard-plastic 9V battery connector clips terminating in a 5.5mm/2.1mm DC barrel jack | 40 Units | **Consumable** | | |
+| 67 | **Rechargeable Battery Packs with Smart Chargers** | 9V–12V (2000–2500 mAh) rechargeable NiMH/Li-ion battery packs with dual automatic smart chargers | 10 Packs + Chargers | **Consumable** | | |
+| 68 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 5 Units | **Consumable** | | |
+| 69 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
+| 70 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
+| 71 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 5 Units | **Consumable** | | |
+| 72 | **Twisted-Pair Mains Distribution Wires** | Red-Black twisted flexible copper electrical distribution wire | 20 Metres | **Consumable** | | |
+| 73 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 10 Units | **Consumable** | | |
+| 74 | **$4\times 4$ Matrix Membrane Keypad** | 16-key matrix keypad (keys 0–9, *, #, A–D); flexible flat ribbon cable with 8-pin 2.54mm pitch female socket | 15 Units | **Consumable** | | |
 
 ---
 
-## 4. Motors, Actuators, High-Efficiency Drivers, Servos & Relay Modules
+## 3. Mechanical Motors, Servos & Actuators
 
 | Item # | Item Description | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 43 | **150 RPM Plastic BO Gear Motor with Wheel** | 3V–9V DC dual-shaft straight gearbox motor (150 RPM output speed @ 6V) complete with matching 65mm rubber-tread wheel | 60 Pairs | **Consumable** | | |
-| 44 | **150 RPM BO Motor (Standalone)** | 3V–9V DC battery-operated single-shaft plastic gear motor (150 RPM) | 15 Units | **Consumable** | | |
-| 45 | **12V High-Torque DC Geared Motor** | 12V DC heavy-duty metal-gear motor; 150 RPM output; 6mm D-shaped center output shaft | 30 Units | **Consumable** | | |
-| 46 | **Submersible Mini Water Pump** | 12V DC, 3W submersible centrifugal brushless water pump with outlet nozzle; max head 1.5 metres | 6 Units | **Consumable** | | |
-| 47 | **Micro Positional Servo — Plastic Gear (SG90)** | 9g micro positional servo motor; $0^\circ - 180^\circ$ pulse angle rotation; operating voltage $4.8\text{V} - 6.0\text{V}$; stall torque 1.8 kg-cm; horns included | 60 Units | **Consumable** | | |
-| 48 | **Metal-Gear Micro Servo (MG90S)** | High-durability micro servo with brass and aluminum gears; $0^\circ - 180^\circ$ rotation; stall torque 2.2 kg-cm | 15 Units | **Consumable** | | |
-| 49 | **Standard High-Torque Positional Servo** | Full-size metal-gear positional servo (MG995 / MG996R); torque 10–12 kg-cm; double ball bearings; $0^\circ - 180^\circ$ control | 15 Units | **Consumable** | | |
-| 50 | **Continuous Rotation Metal Servo (360°)** | Full-size continuous rotation servo ($360^\circ$ speed/direction control); high-torque metal gear train | 15 Units | **Consumable** | | |
-| 51 | **3-Channel Servo & ESC Tester (CCPM)** | Standalone digital servo tester with 3 modes (Manual speed dial, Neutral auto-center, Automatic window sweep); tests up to 3 servos simultaneously | 6 Units | **Consumable** | | |
-| 52 | **5V Stepper Motor with ULN2003 Driver** | 28BYJ-48 5V 4-phase 5-wire unipolar geared stepper motor paired with ULN2003 Darlington array driver board with status LEDs | 15 Sets | **Consumable** | | |
-| 53 | **TB6612FNG Dual MOSFET Motor Driver Module** | **High-Efficiency Dual H-Bridge Driver**; 1.2A continuous / 3.2A peak per channel; ultra-low internal resistance (near zero voltage drop); stays cool; logic voltage $2.7\text{V} - 5.5\text{V}$ (fully compatible with 3.3V ESP32 and 5V Arduino); hardware standby pin *(Replaces outdated, hot-running L293D/L298 drivers)* | 15 Units | **Consumable** | | |
-| 54 | **PCA9685 16-Channel 12-bit PWM / Servo Driver** | 16-channel independent PWM controller with I2C bus; driven by only 2 microcontroller pins (SDA, SCL); 12-bit resolution; handles up to 16 servos or LED dimmers simultaneously | 6 Units | **Consumable** | | |
-| 55 | **1-Channel 5V/3.3V Relay Module with Optocoupler & Trigger Selector** | 5V DC electromagnetic relay module with PC817 optocoupler isolation, transistor driver, flyback diode, status LED, and **High/Low level trigger selection jumper**; contacts rated 10A 250V AC / 30V DC *(Directly triggered by 3.3V ESP32 or 5V Arduino GPIO without damage)* | 30 Units | **Consumable** | | |
-| 56 | **2-Channel 5V/3.3V Relay Module with Optocoupler & Trigger Selector** | Dual 5V DC relay board with independent optoisolated inputs, status LEDs, High/Low trigger selection jumpers, and NO/COM/NC screw terminals *(Directly connects to ESP32 / Arduino / Raspberry Pi)* | 30 Units | **Consumable** | | |
+| 75 | **150 RPM Plastic BO Gear Motor with Wheel** | 3V–9V DC dual-shaft straight gearbox motor (150 RPM output speed @ 6V) complete with matching 65mm rubber-tread wheel | 60 Pairs | **Consumable** | | |
+| 76 | **150 RPM BO Motor (Standalone)** | 3V–9V DC battery-operated single-shaft plastic gear motor (150 RPM) | 15 Units | **Consumable** | | |
+| 77 | **12V High-Torque DC Geared Motor** | 12V DC heavy-duty metal-gear motor; 150 RPM output; 6mm D-shaped center output shaft | 30 Units | **Consumable** | | |
+| 78 | **Submersible Mini Water Pump** | 12V DC, 3W submersible centrifugal brushless water pump with outlet nozzle; max head 1.5 metres | 6 Units | **Consumable** | | |
+| 79 | **Micro Positional Servo — Plastic Gear (SG90)** | 9g micro positional servo motor; $0^\circ - 180^\circ$ pulse angle rotation; operating voltage $4.8\text{V} - 6.0\text{V}$; stall torque 1.8 kg-cm; horns included | 60 Units | **Consumable** | | |
+| 80 | **Metal-Gear Micro Servo (MG90S)** | High-durability micro servo with brass and aluminum gears; $0^\circ - 180^\circ$ rotation; stall torque 2.2 kg-cm | 15 Units | **Consumable** | | |
+| 81 | **Standard High-Torque Positional Servo** | Full-size metal-gear positional servo (MG995 / MG996R); torque 10–12 kg-cm; double ball bearings; $0^\circ - 180^\circ$ control | 15 Units | **Consumable** | | |
+| 82 | **Continuous Rotation Metal Servo (360°)** | Full-size continuous rotation servo ($360^\circ$ speed/direction control); high-torque metal gear train | 15 Units | **Consumable** | | |
+| 83 | **3-Channel Servo & ESC Tester (CCPM)** | Standalone digital servo tester with 3 modes (Manual speed dial, Neutral auto-center, Automatic window sweep); tests up to 3 servos simultaneously | 6 Units | **Consumable** | | |
 
 ---
 
-## 5. Modern Wireless Communication, RFID & Telemetry Modules
-*(All wireless modules in this section use current, active communication standards compatible with modern smartphones, microcontrollers, and cloud networks)*
-
-| Item # | Module Description | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
-|:---:|---|---|---:|:---:|:---:|:---:|
-| 57 | **NRF24L01+ 2.4 GHz RF Transceiver with PA+LNA & Antenna** | Long-range 2.4 GHz digital packet radio transceiver with Power Amplifier (PA) + Low Noise Amplifier (LNA) and external SMA rubber-duck antenna; range up to 1,000 metres (1 km); SPI interface; 3.3V logic *(Modern reliable standard; replaces noisy 433 MHz ASK)* | 15 Pairs | **Consumable** | | |
-| 58 | **Bluetooth Low Energy (BLE) Module (HM-10 / AT-09)** | 2.4 GHz Bluetooth 4.0/5.0 BLE transceiver; UART serial interface; compatible with **both Android and Apple iOS smartphones**; ultra-low power consumption; 3.3V/5V tolerant *(Replaces legacy Bluetooth 2.0 HC-05)* | 15 Units | **Consumable** | | |
-| 59 | **RFID Reader Module & Tag Kit (RC522)** | 13.56 MHz contactless RFID/NFC reader board (MFRC522); SPI bus; includes 1x RFID contactless smart card and 1x key fob tag | 15 Kits | **Consumable** | | |
-| 60 | **GPS Satellite Module (u-blox GY-NEO6MV2 / NEO-8M)** | High-sensitivity satellite receiver module with active ceramic patch antenna; EEPROM config retention; 9600 baud serial NMEA output; multi-GNSS support | 6 Units | **Consumable** | | |
-
----
-
-## 6. Prototyping Hardware, Interconnects, Batteries & Power Supplies
-
-| Item # | Item Description | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
-|:---:|---|---|---:|:---:|:---:|:---:|
-| 61 | **Half-Size Solderless Breadboard (400 Tie-Points)** | 400 tie-point solderless breadboard with self-adhesive backing tape; dual power distribution buses | 50 Units | **Consumable** | | |
-| 62 | **Full-Size Solderless Breadboard (800 Tie-Points)** | 830 tie-point solderless breadboard; dual center terminal strip with 4 power distribution rails; side interlocking tabs | 30 Units | **Consumable** | | |
-| 63 | **Self-Adhesive Mini Proto Shield Breadboard** | Compact 170-point mini breadboard designed for Arduino Proto-Shield mounting | 30 Units | **Consumable** | | |
-| 64 | **General-Purpose Perfboard (Zero-PCB) — Medium** | FR2 single-sided copper clad dotted prototype board; size $80\times 55\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
-| 65 | **General-Purpose Perfboard (Zero-PCB) — Large** | FR2 single-sided copper clad dotted prototype board; size $140\times 90\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
-| 66 | **Male Breakable Pin Headers (Berg Strips)** | 40-pin single row male headers; standard 2.54mm pitch; gold/tin plated; snappable to any pin length | 50 Strips | **Consumable** | | |
-| 67 | **Female Pin Headers (Berg Strips)** | 40-pin single row female socket headers; standard 2.54mm pitch; straight mount | 50 Strips | **Consumable** | | |
-| 68 | **Jumper Wires — Male to Male (M-M)** | 20cm flexible multicolored 40-pin ribbon jumper wires with molded square male pins | 1,500 Wires (38 Packs) | **Consumable** | | |
-| 69 | **Jumper Wires — Male to Female (M-F)** | 20cm flexible multicolored 40-pin ribbon jumper wires with male pin to female socket | 1,000 Wires (25 Packs) | **Consumable** | | |
-| 70 | **Jumper Wires — Female to Female (F-F)** | 20cm flexible multicolored 40-pin ribbon jumper wires with female socket to female socket | 500 Wires (13 Packs) | **Consumable** | | |
-| 71 | **Alligator Clip Test Leads** | Double-ended insulated alligator clip jumper cables; 12-inch length; multicolored jackets | 300 Leads | **Consumable** | | |
-| 72 | **Hook-Up Wire Spools** | Single-core insulated hook-up wire spools (100 metres Red + 100 metres Black per set) | 4 Sets (8 Spools) | **Consumable** | | |
-| 73 | **USB Programming Cables — Type-A to Type-B** | High-shielded 1.2m USB 2.0 cable for Arduino Uno and Arduino Mega | 15 Cables | **Consumable** | | |
-| 74 | **USB Programming Cables — Type-A to Mini-B** | High-shielded 1.0m USB 2.0 cable for Arduino Nano and microcontroller boards | 15 Cables | **Consumable** | | |
-| 75 | **USB to DC Barrel Jack Converter Cables** | 5V USB Type-A to 5.5mm $\times$ 2.1mm center-positive DC plug cable for running breadboards from power banks | 10 Cables | **Consumable** | | |
-| 76 | **9V Battery Snaps with DC Barrel Plug** | Heavy-duty molded hard-plastic 9V battery connector clips terminating in a 5.5mm/2.1mm DC barrel jack | 40 Units | **Consumable** | | |
-| 77 | **Rechargeable Battery Packs with Smart Chargers** | 9V–12V (2000–2500 mAh) rechargeable NiMH/Li-ion battery packs with dual automatic smart chargers | 10 Packs + Chargers | **Consumable** | | |
-| 78 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 5 Units | **Consumable** | | |
-| 79 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
-| 80 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
-| 81 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 5 Units | **Consumable** | | |
-| 82 | **Twisted-Pair Mains Distribution Wires** | Red-Black twisted flexible copper electrical distribution wire | 20 Metres | **Consumable** | | |
-| 83 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 10 Units | **Consumable** | | |
-
----
-
-## 7. Permanent Workshop Tools, Diagnostic Instruments & Machines
+## 4. Permanent Workshop Tools, Diagnostic Instruments & Machines
 
 | Item # | Equipment / Machine / Tool Name | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
@@ -192,7 +174,7 @@ This purchase order is structured specifically for modern electronic component d
 
 ---
 
-## 8. Workshop Consumable Supplies & Replenishment Hardware
+## 5. Workshop Consumable Supplies & Replenishment Hardware
 
 | Item # | Consumable Item Name | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
@@ -216,7 +198,7 @@ This purchase order is structured specifically for modern electronic component d
 
 ---
 
-## 9. Educational Robotics, Mechanical Kits & DIY Drone Assembly Kit
+## 6. Educational Robotics, Mechanical Kits & DIY Drone Assembly Kit
 
 | Item # | Kit / System Name | Technical Specifications & Inclusions | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
@@ -227,7 +209,7 @@ This purchase order is structured specifically for modern electronic component d
 
 ---
 
-## 10. Laboratory Safety Equipment & Protective Gear
+## 7. Laboratory Safety Equipment & Protective Gear
 
 | Item # | Safety Item Name | Technical Specifications & Safety Ratings | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
@@ -240,7 +222,7 @@ This purchase order is structured specifically for modern electronic component d
 ---
 ---
 
-## 11. Older & Deprecated Legacy Modules (Moved Out of Primary Order)
+## 8. Older & Deprecated Legacy Modules (Moved Out of Primary Order)
 
 > **Procurement Advisory for Principal & Vendor**:  
 > The items in the table below are **older legacy models** from historical equipment lists. They have been moved out of the active classroom requisition because they are obsolete, power-inefficient, or unreliable in today's technological environment:  
@@ -252,18 +234,18 @@ This purchase order is structured specifically for modern electronic component d
 | Item # | Deprecated Module Name | Original Specifications | Required Quantity | Modern Replacement in Primary Order | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|---|:---:|:---:|
 | 149 | **GSM / GPRS Cellular Module (SIM900)** | Quad-Band 850/900/1800/1900 MHz 2G cellular shield; UART serial AT command control; standard SIM socket *(Obsolete 2G technology)* | 6 Units | **ESP32 Wi-Fi / Cloud IoT** (Item #01) | | |
-| 150 | **433 MHz / 315 MHz RF Transmitter & Receiver** | ASK wireless super-regenerative RF pair; range 20–100m *(High RF noise, no packet filtering, unreliable)* | 15 Pairs | **NRF24L01+ 2.4 GHz PA+LNA** (Item #57) | | |
-| 151 | **Bluetooth Serial Module (HC-05)** | 2.4 GHz Bluetooth V2.0+EDR classic module; SPP serial *(Incompatible with iOS/iPhones)* | 15 Units | **BLE HM-10 / AT-09 Module** (Item #58) | | |
-| 152 | **L293D Dual H-Bridge Motor Driver Module** | BJT-based H-bridge board; max 600mA/ch; high 2V internal voltage drop, heavy heat dissipation | 15 Units | **TB6612FNG MOSFET Driver** (Item #53) | | |
-| 153 | **L298P High-Power Motor Shield** | Arduino Uno form-factor shield featuring L298 dual full-bridge BJT driver; heavy heat dissipation | 15 Units | **TB6612FNG / PCA9685 Drivers** (Items #53 & #54) | | |
+| 150 | **433 MHz / 315 MHz RF Transmitter & Receiver** | ASK wireless super-regenerative RF pair; range 20–100m *(High RF noise, no packet filtering, unreliable)* | 15 Pairs | **NRF24L01+ 2.4 GHz PA+LNA** (Item #45) | | |
+| 151 | **Bluetooth Serial Module (HC-05)** | 2.4 GHz Bluetooth V2.0+EDR classic module; SPP serial *(Incompatible with iOS/iPhones)* | 15 Units | **BLE HM-10 / AT-09 Module** (Item #46) | | |
+| 152 | **L293D Dual H-Bridge Motor Driver Module** | BJT-based H-bridge board; max 600mA/ch; high 2V internal voltage drop, heavy heat dissipation | 15 Units | **TB6612FNG MOSFET Driver** (Item #40) | | |
+| 153 | **L298P High-Power Motor Shield** | Arduino Uno form-factor shield featuring L298 dual full-bridge BJT driver; heavy heat dissipation | 15 Units | **TB6612FNG / PCA9685 Drivers** (Items #40 & #41) | | |
 
 ---
 
-## 12. Discrete Electronic Components & Single Parts (Require Manual Circuit Building)
+## 9. Discrete Electronic Components & Single Parts (Require Manual Circuit Building)
 
 > **Important Category Classification**:  
 > The items in the table below are **discrete / single components** (bare passives, loose semiconductors, through-hole LEDs, and unmounted sensors).  
-> Unlike the ready-to-use breakout modules listed in Sections 2 to 5, these items **do not come with a PCB board, comparator, or direct 3-pin/4-pin headers**. They require manual circuit construction on a solderless breadboard or perfboard using resistors, capacitors, and jumper wires.  
+> Unlike the ready-to-use breakout modules listed in Section 1, these items **do not come with a PCB board, comparator, or direct 3-pin/4-pin headers**. They require manual circuit construction on a solderless breadboard or perfboard using resistors, capacitors, and jumper wires.  
 > They are separated here so the Principal and Vendor can clearly distinguish **plug-and-play microcontroller modules** from **basic electronic components**.
 
 | Item # | Discrete Component Name | Technical Specifications & Model Details | Required Quantity | Component Nature | Vendor Unit Price (₹) | Total Quoted Price (₹) |
@@ -294,7 +276,7 @@ This purchase order is structured specifically for modern electronic component d
 
 ### Procurement Terms & Instructions for Vendor Quotation:
 1. **Unassembled Drone Requirement**: Item #143 must be delivered strictly as an unassembled kit with extra motors, extra propellers, dual batteries, and STM32 flight controller as specified. Pre-built/RTF drones will be rejected.
-2. **Modern Module Standards**: All sensor modules, wireless boards, display modules, and motor drivers in Sections 1 through 5 must feature onboard regulation and logic level compatibility with 3.3V / 5V systems (Arduino and ESP32).
+2. **Modern Module Standards**: All sensor modules, wireless boards, display modules, and motor drivers in Section 1 must feature onboard regulation and logic level compatibility with 3.3V / 5V systems (Arduino and ESP32).
 3. **Quotation Validity**: Vendor quotation must be valid for a minimum of 60 days.
 4. **Warranty**: Minimum 1-year standard warranty on all permanent capital assets (DSO, Multimeters, Soldering Stations, Power Tools, 3D Printer, UPS).
 
