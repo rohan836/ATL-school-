@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ATL Lab Timetable - Grid</title>
+  <style>
+    @page {
+      size: landscape;
+      margin: 8mm;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 10px;
+      padding: 0;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 18px;
+      margin: 0 0 4px 0;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .subtext {
+      font-size: 12px;
+      margin: 0;
+      font-weight: normal;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 6px;
+    }
+    th, td {
+      border: 1px solid #000000;
+      padding: 6px 6px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 11px;
+      line-height: 1.35;
+    }
+    th {
+      font-weight: bold;
+      text-align: center;
+      background-color: #ffffff;
+    }
+    .day-cell {
+      font-weight: bold;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 12px;
+    }
+    .break-cell {
+      text-align: center;
+      vertical-align: middle;
+      font-size: 10px;
+      color: #000000;
+    }
+    @media print {
+      body {
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>ATL Lab Weekly Timetable (Electronics &amp; AI)</h1>
+    <div class="subtext">Master Weekly Schedule &bull; Classes 5 to 9 &bull; Batches C &amp; D</div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 9%;">Day</th>
+        <th style="width: 16%;">Slot 1 (Periods 1–2)</th>
+        <th style="width: 9%;">Break 1</th>
+        <th style="width: 16%;">Slot 2 (Periods 3–4)</th>
+        <th style="width: 9%;">Break 2</th>
+        <th style="width: 17%;">Slot 3 (Periods 5–6)</th>
+        <th style="width: 8%;">Break 3</th>
+        <th style="width: 16%;">Slot 4 (Periods 7–8)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="day-cell">Monday</td>
+        <td><strong>Class 5C (Day 1)</strong><br>7:20–8:35 AM (75 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 1</strong><br>8:35–8:45 AM<br>(10 min)</td>
+        <td><strong>Class 5D (Day 1)</strong><br>8:45–9:55 AM (70 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 2</strong><br>9:55–10:05 AM<br>(10 min)</td>
+        <td><strong>Class 7C (Day 1)</strong><br>10:05–11:15 AM (70 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 3</strong><br>11:15–11:20 AM<br>(5 min)</td>
+        <td><strong>Class 7D (Day 1)</strong><br>11:20 AM–12:25 PM (65 min)<br>• Electronics Practical</td>
+      </tr>
+      <tr>
+        <td class="day-cell">Tuesday</td>
+        <td><strong>Class 5C (Day 2)</strong><br>7:20–8:35 AM (75 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 1</strong><br>8:35–8:45 AM<br>(10 min)</td>
+        <td><strong>Class 5D (Day 2)</strong><br>8:45–9:55 AM (70 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 2</strong><br>9:55–10:05 AM<br>(10 min)</td>
+        <td><strong>Class 7C (Day 2 - Final)</strong><br>10:05–11:15 AM (70 min)<br>• 10:05–10:40: Electronics (35m)<br>• 10:40–11:15: <strong>AI Lecture (35m)</strong></td>
+        <td class="break-cell"><strong>BREAK 3</strong><br>11:15–11:20 AM<br>(5 min)</td>
+        <td><strong>Class 7D (Day 2 - Final)</strong><br>11:20 AM–12:25 PM (65 min)<br>• 11:20–11:55: Electronics (35m)<br>• 11:55–12:25: <strong>AI Lecture (30m)</strong></td>
+      </tr>
+      <tr>
+        <td class="day-cell">Wednesday</td>
+        <td><strong>Class 5C (Day 3 - Final)</strong><br>7:20–8:35 AM (75 min)<br>• 7:20–8:00: Electronics (40m)<br>• 8:00–8:35: <strong>AI Lecture (35m)</strong></td>
+        <td class="break-cell"><strong>BREAK 1</strong><br>8:35–8:45 AM<br>(10 min)</td>
+        <td><strong>Class 5D (Day 3 - Final)</strong><br>8:45–9:55 AM (70 min)<br>• 8:45–9:20: Electronics (35m)<br>• 9:20–9:55: <strong>AI Lecture (35m)</strong></td>
+        <td class="break-cell"><strong>BREAK 2</strong><br>9:55–10:05 AM<br>(10 min)</td>
+        <td><strong>Class 8C (Day 1)</strong><br>10:05–11:15 AM (70 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 3</strong><br>11:15–11:20 AM<br>(5 min)</td>
+        <td><strong>Class 8D (Day 1)</strong><br>11:20 AM–12:25 PM (65 min)<br>• Electronics Practical</td>
+      </tr>
+      <tr>
+        <td class="day-cell">Thursday</td>
+        <td><strong>Class 6C (Day 1)</strong><br>7:20–8:35 AM (75 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 1</strong><br>8:35–8:45 AM<br>(10 min)</td>
+        <td><strong>Class 6D (Day 1)</strong><br>8:45–9:55 AM (70 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 2</strong><br>9:55–10:05 AM<br>(10 min)</td>
+        <td><strong>Class 8C (Day 2 - Final)</strong><br>10:05–11:15 AM (70 min)<br>• 10:05–10:40: Electronics (35m)<br>• 10:40–11:15: <strong>AI Lecture (35m)</strong></td>
+        <td class="break-cell"><strong>BREAK 3</strong><br>11:15–11:20 AM<br>(5 min)</td>
+        <td><strong>Class 8D (Day 2 - Final)</strong><br>11:20 AM–12:25 PM (65 min)<br>• 11:20–11:55: Electronics (35m)<br>• 11:55–12:25: <strong>AI Lecture (30m)</strong></td>
+      </tr>
+      <tr>
+        <td class="day-cell">Friday</td>
+        <td><strong>Class 6C (Day 2)</strong><br>7:20–8:35 AM (75 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 1</strong><br>8:35–8:45 AM<br>(10 min)</td>
+        <td><strong>Class 6D (Day 2)</strong><br>8:45–9:55 AM (70 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 2</strong><br>9:55–10:05 AM<br>(10 min)</td>
+        <td><strong>Class 9C (Day 1)</strong><br>10:05–11:15 AM (70 min)<br>• Electronics Practical</td>
+        <td class="break-cell"><strong>BREAK 3</strong><br>11:15–11:20 AM<br>(5 min)</td>
+        <td><strong>Class 9D (Day 1)</strong><br>11:20 AM–12:25 PM (65 min)<br>• Electronics Practical</td>
+      </tr>
+      <tr>
+        <td class="day-cell">Saturday</td>
+        <td><strong>Class 6C (Day 3 - Final)</strong><br>7:30–8:45 AM (75 min)<br>• 7:30–8:10: Electronics (40m)<br>• 8:10–8:45: <strong>AI Lecture (35m)</strong></td>
+        <td class="break-cell"><strong>BREAK 1</strong><br>8:45–9:00 AM<br>(15 min)</td>
+        <td><strong>Class 6D (Day 3 - Final)</strong><br>9:00–10:10 AM (70 min)<br>• 9:00–9:35: Electronics (35m)<br>• 9:35–10:10: <strong>AI Lecture (35m)</strong></td>
+        <td class="break-cell"><strong>BREAK 2</strong><br>10:10–10:20 AM<br>(10 min)</td>
+        <td><strong>Class 9C (Day 2 - Final)</strong><br>10:20–11:25 AM (65 min)<br>• 10:20–10:55: Electronics (35m)<br>• 10:55–11:25: <strong>AI Lecture (30m)</strong></td>
+        <td class="break-cell"><strong>BREAK 3</strong><br>11:25–11:30 AM<br>(5 min)</td>
+        <td><strong>Class 9D (Day 2 - Final)</strong><br>11:30 AM–12:30 PM (60 min)<br>• 11:30–12:00: Electronics (30m)<br>• 12:00–12:30: <strong>AI Lecture (30m)</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
