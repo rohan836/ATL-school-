@@ -23,10 +23,11 @@
 | 14 | **USB Programming Cables — Type-A to Mini-B** | High-shielded 1.0m USB 2.0 cable for Arduino Nano and microcontroller boards | 15 Cables | **Consumable** |
 | 15 | **USB to DC Barrel Jack Converter Cables** | 5V USB Type-A to 5.5mm $\times$ 2.1mm center-positive DC plug cable for running breadboards from power banks | 10 Cables | **Consumable** |
 | 16 | **9V Battery Snaps with DC Barrel Plug** | Heavy-duty molded hard-plastic 9V battery connector clips terminating in a 5.5mm/2.1mm DC barrel jack | 40 Units | **Consumable** |
-| 17 | **Rechargeable Battery Packs with Smart Chargers** | 9V–12V (2000–2500 mAh) rechargeable NiMH/Li-ion battery packs with dual automatic smart chargers | 10 Packs + Chargers | **Consumable** |
-| 18 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 5 Units | **Consumable** |
-| 19 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** |
-| 20 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** |
-| 21 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 5 Units | **Consumable** |
-| 22 | **Twisted-Pair Mains Distribution Wires** | Red-Black twisted flexible copper electrical distribution wire | 20 Metres | **Consumable** |
-| 23 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 10 Units | **Consumable** |
+| 17 | **3.7V 1200mAh LiPo (Lithium Polymer) Rechargeable Battery** | 3.7V 1S flat pouch rechargeable lithium polymer cell with built-in Protection Circuit Module (PCM); pre-soldered leads / 2-pin JST connector; for wearables & IoT | 30 Pieces | **Consumable** |
+| 18 | **18650 3.7V Li-ion (Lithium-Ion) Rechargeable Battery Cell** | Standard 18650 cylindrical rechargeable lithium-ion cells ($18\times 65\,\text{mm}$); high-capacity ($2000-2600\,\text{mAh}$) flat-top / button-top; for robotics & battery holders | 30 Pieces | **Consumable** |
+| 19 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 5 Units | **Consumable** |
+| 20 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** |
+| 21 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** |
+| 22 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 5 Units | **Consumable** |
+| 23 | **Twisted-Pair Mains Distribution Wires** | Red-Black twisted flexible copper electrical distribution wire | 20 Metres | **Consumable** |
+| 24 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 10 Units | **Consumable** |
