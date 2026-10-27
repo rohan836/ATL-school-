@@ -7,7 +7,7 @@
 ---
 
 ## Master Purchase Document
-- 📄 **[00-MASTER-PURCHASE-ORDER.md](00-MASTER-PURCHASE-ORDER.md)**: Unified master procurement document containing all 222 line items across all packages with full specifications, exact quantities, and **Permanent Asset vs Consumable** classifications.
+- 📄 **[00-MASTER-PURCHASE-ORDER.md](00-MASTER-PURCHASE-ORDER.md)**: Unified master procurement document containing all 218 line items across all packages with full specifications, exact quantities, and **Permanent Asset vs Consumable** classifications.
 
 ---
 
@@ -22,14 +22,14 @@
 | **[05-MOTORS-SERVOS-DRIVERS-AND-RELAYS.md](05-MOTORS-SERVOS-DRIVERS-AND-RELAYS.md)** | 19 | TB6612FNG, L293D shields/modules, L298P, PCA9685, Steppers, Relays (1/2/4/8-Ch), BO Motors, 12V Motors, SG90/MG90S/360° Servos, Pump, Tester | **Consumable** |
 | **[06-WIRELESS-AND-IOT-MODULES.md](06-WIRELESS-AND-IOT-MODULES.md)** | 7 | NRF24L01+ PA+LNA, BLE HM-10, Bluetooth HC-05, RF 433/315 MHz, GSM SIM900, RFID RC522, GPS Satellite | **Consumable** |
 | **[07-BREADBOARDS-WIRES-BATTERIES-AND-POWER.md](07-BREADBOARDS-WIRES-BATTERIES-AND-POWER.md)** | 34 | TP4056, 4S Charger, LM2596, SD card, RTC, Breadboards, Perfboards, Berg strips, Jumpers, Battery holders, Chargers, 18650 & LiPo cells, Power adapters | **Consumable** |
-| **[08-WORKSHOP-TOOLS-AND-MACHINES.md](08-WORKSHOP-TOOLS-AND-MACHINES.md)** | 44 | DMM, DSO, Pen DMM, Continuity tester, Soldering stations, Helping hands, Silicone mat, Pliers, Screwdrivers, Saws, Files, Drill, 3D Printer, UPS, Racks | **Permanent Asset** |
-| **[09-WORKSHOP-CONSUMABLES-AND-MATERIALS.md](09-WORKSHOP-CONSUMABLES-AND-MATERIALS.md)** | 18 | Solder paste/flux, Solder wire, Desoldering wick, Glue sticks, Blades, Sandpaper, Screws/Nuts, Zip ties, Heat shrink, 3D Filaments, Craft supplies | **Consumable** |
+| **[08-WORKSHOP-TOOLS-AND-MACHINES.md](08-WORKSHOP-TOOLS-AND-MACHINES.md)** | 42 | DMM, DSO, Pen DMM, Continuity tester, Soldering stations, Helping hands, Silicone mat, Pliers, Screwdrivers, Saws, Files, Drill, Racks | **Permanent Asset** |
+| **[09-WORKSHOP-CONSUMABLES-AND-MATERIALS.md](09-WORKSHOP-CONSUMABLES-AND-MATERIALS.md)** | 16 | Solder paste/flux, Solder wire, Desoldering wick, Glue sticks, Blades, Sandpaper, Screws/Nuts, Zip ties, Heat shrink, Craft supplies | **Consumable** |
 | **[10-SAFETY-EQUIPMENT-AND-FIRST-AID.md](10-SAFETY-EQUIPMENT-AND-FIRST-AID.md)** | 5 | Clear safety goggles, Protective work gloves, Dust/fume masks, First-Aid station, Portable fire extinguishers | **Mixed** |
 
 ---
 
 ## Dedicated Private Kits Directory
-- 📁 **[private kits/PRIVATE-KITS.md](private%20kits/PRIVATE-KITS.md)**: Segregated educational robotics kits, mechanical modular building systems, automobile mechanism learning set, and 100% unassembled DIY quadcopter drone kit separated for specialized procurement.
+- 📁 **[private kits/PRIVATE-KITS.md](private%20kits/PRIVATE-KITS.md)**: Segregated educational robotics kits, mechanical modular building systems, automobile mechanism learning set, 100% unassembled DIY quadcopter drone kit, and complete 3D printing fabrication ecosystem (FDM printer, UPS backup, PLA filaments, sealed containers) separated for specialized procurement.
 
 ---
 

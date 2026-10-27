@@ -18,10 +18,9 @@
 | 09 | **Machine Hardware Fasteners Kit** | Assorted metric machine screws, hex nuts, and washers: M4 $\times$ 12/20mm, M5 $\times$ 16/25mm, M6 $\times$ 20mm | 5 Sets | **Consumable** |
 | 10 | **Nylon Cable Ties (Zip Ties)** | Self-locking UV-resistant nylon cable ties: Small, Medium, Big (100 ties/pack) | 5 Packs (500 ties total) | **Consumable** |
 | 11 | **Heat Shrink Tubing Assortment** | Polyolefin flame-retardant heat shrink tubing assortment (diameters 2mm, 3mm, 5mm, 8mm, 10mm) | 3 Packs (60 Pieces) | **Consumable** |
-| 12 | **PLA 3D Printer Filament Spools** | High-grade 1.75mm PLA filament (1 kg spools in standard colours: Black, White, Red) | 3 Spools (3 kg) | **Consumable** |
-| 13 | **Sealed Filament Storage Containers** | Moisture-proof airtight filament storage boxes with reusable silica gel desiccants | 3 Units | **Permanent Asset** |
-| 14 | **Prototyping Corrugated Cardboard Sheets** | Heavy-duty 3-ply corrugated cardboard sheets for rapid structural chassis mockups | 3 Sheets | **Consumable** |
-| 15 | **Prototyping Foam Core Boards** | Lightweight rigid 5mm white foam core boards for precision enclosure fabrication | 3 Boards | **Consumable** |
-| 16 | **Wooden Popsicle Craft Sticks** | Natural birch wood craft sticks for linkages, chassis beams, and structural assemblies | 1 Pack (100 Sticks) | **Consumable** |
-| 17 | **PVA Wood Adhesive Glue** | 500 ml bottle of fast-drying non-toxic PVA wood glue | **1 Bottle** | **Consumable** |
-| 18 | **Thick String & Heavy Rubber Bands** | 20m spool of multicolored thick cord + 100 heavy-duty elastic rubber bands | 2 Spools + 1 Pack | **Consumable** |
+| 12 | **Prototyping Corrugated Cardboard Sheets** | Heavy-duty 3-ply corrugated cardboard sheets for rapid structural chassis mockups | 3 Sheets | **Consumable** |
+| 13 | **Prototyping Foam Core Boards** | Lightweight rigid 5mm white foam core boards for precision enclosure fabrication | 3 Boards | **Consumable** |
+| 14 | **Wooden Popsicle Craft Sticks** | Natural birch wood craft sticks for linkages, chassis beams, and structural assemblies | 1 Pack (100 Sticks) | **Consumable** |
+| 15 | **PVA Wood Adhesive Glue** | 500 ml bottle of fast-drying non-toxic PVA wood glue | **1 Bottle** | **Consumable** |
+| 16 | **Thick String & Heavy Rubber Bands** | 20m spool of multicolored thick cord + 100 heavy-duty elastic rubber bands | 2 Spools + 1 Pack | **Consumable** |
+

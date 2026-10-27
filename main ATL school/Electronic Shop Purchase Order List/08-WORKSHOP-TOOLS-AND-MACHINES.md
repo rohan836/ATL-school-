@@ -38,7 +38,7 @@
 | 29 | **12-inch Heavy-Duty Hacksaw Frame** | Tubular steel hacksaw frame with cast handle and wingnut blade tensioner for 12-inch blades | **1 Frame** | **Permanent Asset** |
 | 30 | **6-inch Mini Hacksaw Frame** | Compact aluminum alloy mini hacksaw frame for tight spaces and delicate cutting | **1 Frame** | **Permanent Asset** |
 | 31 | **Engineering Hand File Set (6-inch)** | 6-piece high-carbon steel file set: flat, hand, round, half-round, triangular, and square with non-slip rubber handles | **1 Set** | **Permanent Asset** |
-| 32 | **Diamond Needle File Set (3-inch)** | 6-piece miniature diamond needle file set for fine deburring of 3D prints, plastic boxes, and small chassis | **1 Set** | **Permanent Asset** |
+| 32 | **Diamond Needle File Set (3-inch)** | 6-piece miniature diamond needle file set for fine deburring of plastic boxes, project enclosures, and small chassis | **1 Set** | **Permanent Asset** |
 | 33 | **Steel Shaft Claw Hammer** | 0.75 kg polished carbon steel head with tubular steel shaft and vibration-absorbing rubber grip | **1 Unit** | **Permanent Asset** |
 | 34 | **Engineer's Ball Pein Hammer** | 0.75 kg forged carbon steel ball pein hammer for metal forming, tapping, and center punching | **1 Unit** | **Permanent Asset** |
 | 35 | **BLACK+DECKER LD120VA-IN 20V MAX* POWERECONNECT Li-Ion Cordless Drill/Driver + 30 Piece Bits and Drivers, 1.5 Ah Battery & Charger Included, 750 RPM, 24-Position Clutch, Keyless Chuck, Soft-Grip Handle** | 20V MAX cordless lithium-ion drill/driver; 750 RPM variable speed; 24-position clutch prevents stripping/overdriving screws; 3/8-inch keyless chuck; includes 20V 1.5 Ah POWERCONNECT battery, charger, and 30-piece accessory set with drill bits and screwdriver bits | **1 Unit** | **Permanent Asset** |
@@ -47,7 +47,6 @@
 | 38 | **Cordless Rotary Multitool Set** | High-speed Li-ion rotary tool (up to 30,000 RPM) with flexible shaft, collets, cutting discs, grinding stones, and polishing wheels | **1 Set** | **Permanent Asset** |
 | 39 | **Variable-Speed Electric Air Blower** | 500W electric high-velocity air blower with rubber directional nozzle for bench cleaning and dust removal | **1 Unit** | **Permanent Asset** |
 | 40 | **Flexible Self-Healing Cutting Mat** | A3 size ($18\times 12\,\text{inches}$) 5-ply self-healing cutting mat with printed metric grid lines, millimeters, and angle guides | **1 Unit** | **Permanent Asset** |
-| 41 | **3D Printer (FDM) Kit & Toolkit** | Fused Deposition Modelling (FDM) 3D printer ($160\times 160\times 160\,\text{mm}$ build volume, heated bed, 0.4mm nozzle, LCD screen) with repair toolkit | **1 Unit** | **Permanent Asset** |
-| 42 | **Dedicated 2-Hour UPS Power Backup** | Heavy-duty Uninterruptible Power Supply (UPS) with 2-hour battery backup for 3D printer power protection | **1 Unit** | **Permanent Asset** |
-| 43 | **Modular Component Storage Cabinets** | High-impact plastic storage cabinets with 60 transparent drawers each ($2\times 2\times 5\,\text{inches}$) for sorting small electronics | 2 Units (120 Drawers) | **Permanent Asset** |
-| 44 | **Wall-Mounted Pegboard Tool Systems** | $3\times 2$ feet metal tool pegboards with modular hanging hooks, spanner racks, plier clips, and tool shelves | 2 Boards | **Permanent Asset** |
+| 41 | **Modular Component Storage Cabinets** | High-impact plastic storage cabinets with 60 transparent drawers each ($2\times 2\times 5\,\text{inches}$) for sorting small electronics | 2 Units (120 Drawers) | **Permanent Asset** |
+| 42 | **Wall-Mounted Pegboard Tool Systems** | $3\times 2$ feet metal tool pegboards with modular hanging hooks, spanner racks, plier clips, and tool shelves | 2 Boards | **Permanent Asset** |
+

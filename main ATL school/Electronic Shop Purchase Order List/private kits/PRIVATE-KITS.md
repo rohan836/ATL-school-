@@ -1,13 +1,13 @@
-# Purchase Requisition: Educational Robotics, Construction Kits & DIY Drone Kit (Private Kits)
+# Purchase Requisition: Educational Robotics, Construction Kits, 3D Printing & DIY Drone Kit (Private Kits)
 
-> **Requisition Category**: Robotics Sets, Mechanical Modular Construction, Automobile Mechanism Kit & Unassembled Drone Kit  
-> **Target Vendor**: Educational Robotics & STEM Kit Supplier  
+> **Requisition Category**: Robotics Sets, Mechanical Modular Construction, Automobile Mechanism Kit, Unassembled Drone Kit & 3D Printing Ecosystem  
+> **Target Vendor**: Educational Robotics, STEM Kit & Advanced Fabrication Supplier  
 > **Student Capacity**: 90 Students (Batch Working Capacity)  
 > **Storage Note**: Stored separately in `private kits/` for independent specialized procurement  
 
 ---
 
-## Private Robotics & Assembly Kits Table
+## Private Robotics, Assembly Kits & 3D Fabrication Table
 
 | Item # | Kit / System Name | Technical Specifications & Inclusions | Required Quantity | Asset Classification |
 |:---:|---|---|---:|:---:|
@@ -15,6 +15,10 @@
 | 02 | **Mechanical Modular Construction Kit** | Metal and ABS engineering building system (beams, plates, gears, pulleys, axles, wheels, compatible with servo motors) | 2 Kits | **Permanent Asset** |
 | 03 | **Automobile Mechanism Kit** | Automotive mechanism learning set featuring working rack-and-pinion steering, differential gears, transmission, and suspension | 1 Kit | **Permanent Asset** |
 | 04 | **Educational DIY Drone Assembly Kit (Unassembled)** | **100% Unassembled DIY Quadcopter Kit** (NOT pre-built); includes modular composite frame, 6 motors (4 active + 2 spare), 12 balanced nylon propellers (4 active + 8 spare) with $360^\circ$ crash guards, STM32F4-based flight controller with 6-axis gyro/accelerometer & barometer, 2x LiPo flight batteries (1 active + 1 spare), USB balance charger, LiPo fireproof safety bag, 2.4 GHz 6-channel radio transmitter & receiver, and step-by-step DIY assembly guide | 1 Kit | **Permanent Asset** |
+| 05 | **3D Printer (FDM) Kit & Toolkit** | Fused Deposition Modelling (FDM) 3D printer ($160\times 160\times 160\,\text{mm}$ build volume, heated bed, 0.4mm nozzle, LCD screen) with repair toolkit | **1 Unit** | **Permanent Asset** |
+| 06 | **Dedicated 2-Hour UPS Power Backup** | Heavy-duty Uninterruptible Power Supply (UPS) with 2-hour battery backup for 3D printer power protection | **1 Unit** | **Permanent Asset** |
+| 07 | **PLA 3D Printer Filament Spools** | High-grade 1.75mm PLA filament (1 kg spools in standard colours: Black, White, Red) | 3 Spools (3 kg) | **Consumable** |
+| 08 | **Sealed Filament Storage Containers** | Moisture-proof airtight filament storage boxes with reusable silica gel desiccants | 3 Units | **Permanent Asset** |
 
 ---
 
