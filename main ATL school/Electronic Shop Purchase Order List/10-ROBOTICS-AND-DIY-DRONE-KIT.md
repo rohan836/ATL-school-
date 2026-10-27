@@ -4,12 +4,12 @@
 > **Target Vendor**: Educational Robotics & STEM Kit Supplier  
 > **Student Capacity**: 90 Students  
 
-| Item # | Kit / System Name | Technical Specifications & Inclusions | Required Quantity | Asset Classification | Vendor Unit Rate (₹) | Total Quoted Price (₹) |
-|:---:|---|---|---:|:---:|:---:|:---:|
-| 01 | **Complete Educational Robotics DIY Kit** | Microcontroller-based robotics kit with intelligent programmable brick/brain, chassis, infrared & ultrasonic sensors, gear motors, and software | 4 Kits | **Permanent Asset** | | |
-| 02 | **Mechanical Modular Construction Kit** | Metal and ABS engineering building system (beams, plates, gears, pulleys, axles, wheels, compatible with servo motors) | 6 Kits | **Permanent Asset** | | |
-| 03 | **Automobile Mechanism Kit** | Automotive mechanism learning set featuring working rack-and-pinion steering, differential gears, transmission, and suspension | 1 Kit | **Permanent Asset** | | |
-| 04 | **Educational DIY Drone Assembly Kit (Unassembled)** | **100% Unassembled DIY Quadcopter Kit** (NOT pre-built); includes modular composite frame, 6 motors (4 active + 2 spare), 12 balanced nylon propellers (4 active + 8 spare) with $360^\circ$ crash guards, STM32F4-based flight controller with 6-axis gyro/accelerometer & barometer, 2x LiPo flight batteries (1 active + 1 spare), USB balance charger, LiPo fireproof safety bag, 2.4 GHz 6-channel radio transmitter & receiver, and step-by-step DIY assembly guide | 1 Kit | **Permanent Asset** | | |
+| Item # | Kit / System Name | Technical Specifications & Inclusions | Required Quantity | Asset Classification |
+|:---:|---|---|---:|:---:|
+| 01 | **Complete Educational Robotics DIY Kit** | Microcontroller-based robotics kit with intelligent programmable brick/brain, chassis, infrared & ultrasonic sensors, gear motors, and software | 4 Kits | **Permanent Asset** |
+| 02 | **Mechanical Modular Construction Kit** | Metal and ABS engineering building system (beams, plates, gears, pulleys, axles, wheels, compatible with servo motors) | 6 Kits | **Permanent Asset** |
+| 03 | **Automobile Mechanism Kit** | Automotive mechanism learning set featuring working rack-and-pinion steering, differential gears, transmission, and suspension | 1 Kit | **Permanent Asset** |
+| 04 | **Educational DIY Drone Assembly Kit (Unassembled)** | **100% Unassembled DIY Quadcopter Kit** (NOT pre-built); includes modular composite frame, 6 motors (4 active + 2 spare), 12 balanced nylon propellers (4 active + 8 spare) with $360^\circ$ crash guards, STM32F4-based flight controller with 6-axis gyro/accelerometer & barometer, 2x LiPo flight batteries (1 active + 1 spare), USB balance charger, LiPo fireproof safety bag, 2.4 GHz 6-channel radio transmitter & receiver, and step-by-step DIY assembly guide | 1 Kit | **Permanent Asset** |
 
 ---
 
