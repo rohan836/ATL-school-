@@ -15,16 +15,16 @@
 
 | File Name | Items Count | Procurement Category Scope | Asset Type |
 |---|:---:|---|:---:|
-| **[01-BOARDS-AND-MICROCONTROLLERS.md](01-BOARDS-AND-MICROCONTROLLERS.md)** | 7 | Arduino Uno/Nano/Mega, Raspberry Pi 3B+, NodeMCU, WeMos D1, ATmega16U2 | **Consumable** |
-| **[02-DISCRETE-ELECTRONIC-COMPONENTS.md](02-DISCRETE-ELECTRONIC-COMPONENTS.md)** | 43 | Resistor kits, Capacitors, Transistors, Diodes, Regulators, 555 ICs, LEDs, Laser, Switches, Piezo | **Consumable** |
-| **[03-SENSORS-AND-MODULES.md](03-SENSORS-AND-MODULES.md)** | 32 | LDR, LM35, DHT11, Moisture, Rain, Flow, PIR, Ultrasonic, IR, Sound, Touch, Gas (MQ-2 to 135), ADXL345, MPU6050 | **Consumable** |
-| **[04-DISPLAYS-AND-USER-INTERFACES.md](04-DISPLAYS-AND-USER-INTERFACES.md)** | 8 | 16×2 I2C LCD, 4-digit 7-segment, 8×8 matrix, Buzzers, Voice recording, Keypads, Joysticks | **Consumable** |
-| **[05-MOTORS-ACTUATORS-AND-RELAYS.md](05-MOTORS-ACTUATORS-AND-RELAYS.md)** | 15 | BO Motors, 12V Motors, SG90/MG90S/360° Servos, Steppers, L293D/L298P drivers, Relays, Pump | **Consumable** |
-| **[06-WIRELESS-AND-COMMUNICATION.md](06-WIRELESS-AND-COMMUNICATION.md)** | 6 | Bluetooth HC-05, RF 433/315 MHz, RFID RC522, GPS NEO-6M, GSM SIM900, IR TSOP1738 | **Consumable** |
-| **[07-PROTOTYPING-WIRES-AND-POWER.md](07-PROTOTYPING-WIRES-AND-POWER.md)** | 23 | Breadboards, Perfboards, Berg strips, Jumper wires, Alligator clips, DC adapters, Power banks | **Consumable** |
-| **[08-PERMANENT-HARDWARE-TOOLS-AND-MACHINES.md](08-PERMANENT-HARDWARE-TOOLS-AND-MACHINES.md)** | 39 | DMM, Oscilloscope, Soldering stations, Pliers, Screwdrivers, Saws, Files, Drill, 3D Printer, UPS | **Permanent Asset** |
-| **[09-WORKSHOP-CONSUMABLES-AND-FASTENERS.md](09-WORKSHOP-CONSUMABLES-AND-FASTENERS.md)** | 17 | Solder wire, Flux, Glue sticks, Screws/Nuts, Zip ties, Sandpaper, Heat shrink, 3D Filaments | **Consumable** |
-| **[10-SAFETY-AND-PROTECTIVE-GEAR.md](10-SAFETY-AND-PROTECTIVE-GEAR.md)** | 7 | Safety goggles, Gloves, Fume masks, First Aid kit, Fire extinguishers, 60-Drawer organizers | **Mixed** |
+| **[01-MICROCONTROLLERS-AND-DEV-BOARDS.md](01-MICROCONTROLLERS-AND-DEV-BOARDS.md)** | 15 | ESP32 DevKit, XIAO ESP32-S3, DevKitC-1, Arduino Uno/Nano/Mega, Raspberry Pi (3B+, 5, 4B, Zero, W, 2W), NodeMCU, WeMos, MicroSD | **Consumable** |
+| **[02-BASIC-ELECTRONIC-COMPONENTS-AND-ICS.md](02-BASIC-ELECTRONIC-COMPONENTS-AND-ICS.md)** | 43 | Resistor kits, Capacitors, Transistors, Diodes, Regulators, 555 ICs, LEDs, Laser, Switches, Buzzers, Piezo, Bare ICs | **Consumable** |
+| **[03-SENSOR-MODULES.md](03-SENSOR-MODULES.md)** | 29 | DHT11/22, Ultrasonic, PIR, LDR, LM35, Moisture, Rain, Flow, Touch, Sound, Tilt, Vibration, Hall, Flame, Tracking, Heart, Color, ADXL345, MPU6050, Gas (MQ-2 to 135) | **Consumable** |
+| **[04-DISPLAYS-AND-INPUT-MODULES.md](04-DISPLAYS-AND-INPUT-MODULES.md)** | 8 | 0.96" OLED, 0.91" OLED, TM1637 4-digit, 16×2 I2C LCD, 8×8 Matrix, Voice recording ISD1820, Analog Joystick, 4×4 Keypad | **Consumable** |
+| **[05-MOTORS-SERVOS-DRIVERS-AND-RELAYS.md](05-MOTORS-SERVOS-DRIVERS-AND-RELAYS.md)** | 19 | TB6612FNG, L293D shields/modules, L298P, PCA9685, Steppers, Relays (1/2/4/8-Ch), BO Motors, 12V Motors, SG90/MG90S/360° Servos, Pump, Tester | **Consumable** |
+| **[06-WIRELESS-AND-IOT-MODULES.md](06-WIRELESS-AND-IOT-MODULES.md)** | 7 | NRF24L01+ PA+LNA, BLE HM-10, Bluetooth HC-05, RF 433/315 MHz, GSM SIM900, RFID RC522, GPS Satellite | **Consumable** |
+| **[07-BREADBOARDS-WIRES-BATTERIES-AND-POWER.md](07-BREADBOARDS-WIRES-BATTERIES-AND-POWER.md)** | 34 | TP4056, 4S Charger, LM2596, SD card, RTC, Breadboards, Perfboards, Berg strips, Jumpers, Battery holders, Chargers, 18650 & LiPo cells, Power adapters | **Consumable** |
+| **[08-WORKSHOP-TOOLS-AND-MACHINES.md](08-WORKSHOP-TOOLS-AND-MACHINES.md)** | 44 | DMM, DSO, Pen DMM, Continuity tester, Soldering stations, Helping hands, Silicone mat, Pliers, Screwdrivers, Saws, Files, Drill, 3D Printer, UPS, Racks | **Permanent Asset** |
+| **[09-WORKSHOP-CONSUMABLES-AND-MATERIALS.md](09-WORKSHOP-CONSUMABLES-AND-MATERIALS.md)** | 18 | Solder paste/flux, Solder wire, Desoldering wick, Glue sticks, Blades, Sandpaper, Screws/Nuts, Zip ties, Heat shrink, 3D Filaments, Craft supplies | **Consumable** |
+| **[10-SAFETY-EQUIPMENT-AND-FIRST-AID.md](10-SAFETY-EQUIPMENT-AND-FIRST-AID.md)** | 5 | Clear safety goggles, Protective work gloves, Dust/fume masks, First-Aid station, Portable fire extinguishers | **Mixed** |
 
 ---
 
