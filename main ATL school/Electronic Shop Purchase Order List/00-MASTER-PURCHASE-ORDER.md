@@ -12,8 +12,8 @@
 ### Executive Procurement Summary for Principal & Vendor
 
 This purchase order is structured specifically for modern electronic component distributors and hardware suppliers. All items have been deduplicated, modernized to current technological standards, and organized into:
-1. **Section 1 — All Microcontrollers & Plug-and-Play Breakout Modules**: Unified master table of all development boards (ESP32 Dual-Core, Arduino, Raspberry Pi) and all professional breakout modules (sensors, displays, MOSFET drivers, opto-relays, wireless) designed for direct jumper-wire connection to ESP32, Arduino, and Raspberry Pi via 3.3V/5V logic, I2C, SPI, UART, and GPIO.
-2. **Sections 2 to 7 — Workshop Hardware, Tools, Materials & Kits**: Prototyping interconnects, mechanical gear motors/servos, diagnostic instruments (DSO, DMM), soldering stations, 3D printing, DIY drone kit, and safety equipment.
+1. **Section 1 — All Microcontrollers & Plug-and-Play Breakout Modules**: Unified master table of all development boards (ESP32 Dual-Core, Arduino, Raspberry Pi) and all professional breakout modules (sensors, displays, MOSFET drivers, opto-relays, RTC timers, SD storage, wireless) designed for direct jumper-wire connection to ESP32, Arduino, and Raspberry Pi via 3.3V/5V logic, I2C, SPI, UART, and GPIO.
+2. **Sections 2 to 7 — Workshop Hardware, Interconnects, Tools, Materials & Kits**: Prototyping interconnects, high-speed OS memory cards for Raspberry Pi, mechanical gear motors/servos, diagnostic instruments (DSO, DMM), soldering stations, 3D printing, DIY drone kit, and safety equipment.
 3. **Dedicated Bottom Sections (Sections 8 & 9)**:
    - **Section 8**: Older / Deprecated Legacy Modules (2G GSM SIM900, noisy 433 MHz RF, classic Bluetooth HC-05, BJT drivers) moved out of the active order so the school does not purchase obsolete hardware.
    - **Section 9**: Discrete single electronic components (bare passives, loose ICs, through-hole LEDs, and unmounted sensors) used strictly for manual breadboard circuit building.
@@ -23,26 +23,26 @@ This purchase order is structured specifically for modern electronic component d
 ## 1. All Microcontrollers & Plug-and-Play Breakout Modules (ESP32, Arduino & Raspberry Pi Ecosystem)
 
 > **Module Standard Note**:  
-> Every module in this table is a **complete breakout module** with onboard regulation, signal conditioning, and standard 2.54mm pin headers.  
+> Every module in this table is a **complete breakout module** with onboard regulation, signal conditioning, level shifting, and standard 2.54mm pin headers.  
 > They connect directly to **ESP32, Arduino Uno/Nano/Mega, and Raspberry Pi** using standard DuPont jumper wires without requiring discrete external driver circuits.
 
 | Item # | Module / Controller Name | Technical Specifications & Model Details | Bus / Interface Standard | Microcontroller Compatibility | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---|---|---:|:---:|:---:|:---:|
 | 01 | **ESP32 DevKit V1 (30-Pin / 38-Pin)** | 32-bit Dual-Core Xtensa LX6 @ 240 MHz; onboard 2.4 GHz Wi-Fi + Bluetooth BLE 4.2/5.0; 520 KB SRAM; 4 MB Flash; 3.3V logic; capacitive touch, ADC, DAC, PWM on all GPIOs | Wi-Fi / BLE / Micro-USB | **Primary IoT & AI Controller** | 16 Units | **Consumable** | | |
-| 02 | **Arduino Uno R3 (or equivalent)** | ATmega328P 8-bit AVR; 5V; 14 Digital I/O (6 PWM); 6 Analog inputs; 16 MHz; includes protective casing and USB A-to-B cable | USB Type-B / UART | **Primary Junior Controller** | 45 Units | **Consumable** | | |
+| 02 | **Arduino Uno R3 (or equivalent)** | ATmega328P 8-bit AVR; 5V; 14 Digital I/O (6 PWM); 6 Analog inputs; 16 MHz; includes protective casing and USB Type-A to Type-B programming cable | USB Type-B / UART | **Primary Junior Controller** | 45 Units | **Consumable** | | |
 | 03 | **Arduino Nano (or equivalent)** | ATmega328P 8-bit AVR; 5V; breadboard DIP form factor; 14 Digital I/O; 8 Analog inputs; Mini-USB cable included | Mini-USB / UART | **Breadboard Prototyping** | 15 Units | **Consumable** | | |
 | 04 | **Arduino Mega 2560 (or equivalent)** | ATmega2560 8-bit AVR; 5V; 54 Digital I/O (15 PWM); 16 Analog inputs; 4 UART serial ports; USB cable included | USB Type-B / 4x UART | **Complex Multi-Sensor Robotics** | 15 Units | **Consumable** | | |
-| 05 | **Raspberry Pi 3 Model B+** | Quad Core 64-bit Broadcom ARM @ 1.4 GHz; 1 GB RAM; Wi-Fi & BLE; 40-pin GPIO; 4x USB; HDMI; 32 GB microSD; power supply & case | 40-pin GPIO / HDMI / USB | **Single-Board Computer (Linux/Python)** | 8 Units | **Consumable** | | |
+| 05 | **Raspberry Pi 3 Model B+** | Quad Core 64-bit Broadcom ARM @ 1.4 GHz; 1 GB RAM; Wi-Fi & BLE; 40-pin GPIO; 4x USB; HDMI; power supply & protective enclosure | 40-pin GPIO / HDMI / USB | **Single-Board Computer (Linux/Python)** | 8 Units | **Consumable** | | |
 | 06 | **NodeMCU v3 (ESP8266)** | ESP8266 Wi-Fi SoC with onboard CP2102/CH340 USB-UART; 3.3V logic; integrated TCP/IP stack; PCB trace antenna | Wi-Fi / Micro-USB | **ESP Wi-Fi Prototyping** | 8 Units | **Consumable** | | |
 | 07 | **WeMos D1 R2 (ESP8266)** | Arduino Uno form-factor Wi-Fi development board powered by ESP8266; 5V–12V barrel jack input; 11 Digital I/O; 1 Analog input | Wi-Fi / Micro-USB | **Arduino-Format Wi-Fi Board** | 8 Units | **Consumable** | | |
-| 08 | **0.96-inch I2C OLED Display Module (SSD1306)** | 128&times;64 monochrome graphic OLED display; SSD1306 driver; 4-pin interface (VCC, GND, SCL, SDA); 3.3V–5V DC; high-contrast text and graphics | I2C (4-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
+| 08 | **0.96-inch I2C OLED Display Module (SSD1306)** | 128&times;64 monochrome graphic OLED display; SSD1306 driver; 4-pin interface (VCC, GND, SCL, SDA); 3.3V–5V DC; high-contrast text and graphics *(Directly connects to Arduino, ESP32, and Raspberry Pi)* | I2C (4-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
 | 09 | **4-Digit 7-Segment Display Module (TM1637)** | 0.36-inch 4-digit red display with colon dots; onboard TM1637 driver; 2-wire serial bus (CLK, DIO); 5V/3.3V | 2-Wire Serial (4-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
 | 10 | **8×8 LED Dot Matrix Module (MAX7219)** | 64 bright red LEDs in $8\times 8$ matrix; MAX7219 serial driver; 5-pin SPI interface; daisy-chainable | SPI (5-pin) | ESP32 / Arduino / Raspberry Pi | 10 Units | **Consumable** | | |
-| 11 | **LDR Light Sensor Module** | 5mm photoresistor with onboard LM393 voltage comparator, sensitivity trimmer pot, and dual Digital/Analog outputs | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 45 Units | **Consumable** | | |
-| 12 | **Digital Temperature & Humidity (DHT11)** | Single-bus digital output module with onboard pull-up resistor; temp range $0-50^\circ\text{C}$; humidity range $20-90\%\,\text{RH}$ | 1-Wire Digital (3-pin) | ESP32 / Arduino / Raspberry Pi | 50 Units | **Consumable** | | |
+| 11 | **LDR Light Sensor Module** | 5mm photoresistor with onboard LM393 voltage comparator, sensitivity trimmer pot, and dual Digital/Analog outputs (3.3V–5V compatible) | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 45 Units | **Consumable** | | |
+| 12 | **Digital Temperature & Humidity (DHT11)** | Single-bus digital output sensor module with pull-up resistor onboard; temp range $0-50^\circ\text{C}$; humidity range $20-90\%\,\text{RH}$; supply $3.3\text{V} - 5\text{V}$ | 1-Wire Digital (3-pin) | ESP32 / Arduino / Raspberry Pi | 50 Units | **Consumable** | | |
 | 13 | **Analog Humidity Sensor Module** | Resistance-based relative humidity sensor probe board; range $20-95\%\,\text{RH}$; linear analog voltage response | Analog (3-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
 | 14 | **Soil Moisture Sensor Module** | Double-sided nickel-plated fork probe with LM393 comparator breakout module; analog and digital outputs | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 8 Units | **Consumable** | | |
-| 15 | **Raindrop Detection Board** | $50\times 40\,\text{mm}$ nickel-plated rain sensor board with separate LM393 comparator control module | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 8 Units | **Consumable** | | |
+| 15 | **Raindrop Detection Board** | $50\times 40\,\text{mm}$ nickel-plated rain sensor board with separate control module (LM393 comparator and trimmer) | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 8 Units | **Consumable** | | |
 | 16 | **Turbine Water Flow Sensor** | Hall-effect liquid flow meter; 1–30 L/min range; 5V DC; pulse frequency output ($f = 7.5\times Q$) | Digital Pulse (3-pin) | ESP32 / Arduino / Raspberry Pi | 6 Units | **Consumable** | | |
 | 17 | **PIR Human Motion Detector (HC-SR501)** | Pyroelectric infrared sensor module; dome Fresnel lens; range 3–7m; adjustable delay and sensitivity; 3.3V logic output | Digital GPIO (3-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
 | 18 | **Ultrasonic Distance Sensor (HC-SR04)** | 40 kHz ultrasonic transmitter and receiver module; range $2\,\text{cm} - 400\,\text{cm}$; precision 3mm; 4-pin header (VCC, Trig, Echo, GND) | Digital Pulse (4-pin) | ESP32 / Arduino / Raspberry Pi | 50 Units | **Consumable** | | |
@@ -67,48 +67,52 @@ This purchase order is structured specifically for modern electronic component d
 | 37 | **MQ-7 Carbon Monoxide (CO) Sensor** | High sensitivity to toxic carbon monoxide gas; dual-temperature cycling heater; onboard LM393 comparator | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
 | 38 | **MQ-8 Hydrogen Gas Sensor** | Specialized sensitivity to pure hydrogen gas ($\text{H}_2$); low sensitivity to alcohol/smoke; onboard LM393 comparator | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
 | 39 | **MQ-135 Air Quality & Pollution Sensor** | Environmental air quality detector for ammonia ($\text{NH}_3$), $\text{NO}_x$, alcohol, benzene, and smoke; onboard LM393 | Digital / Analog (4-pin) | ESP32 / Arduino / Raspberry Pi | 4 Units | **Consumable** | | |
-| 40 | **TB6612FNG Dual MOSFET Motor Driver Module** | **High-Efficiency Dual H-Bridge Driver**; 1.2A cont / 3.2A peak per channel; ultra-low internal resistance; runs cool; logic $2.7\text{V} - 5.5\text{V}$ | PWM / Digital (16-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 40 | **TB6612FNG Dual Motor Driver Module for Arduino/Other Microcontroller** | **High-Efficiency Dual MOSFET H-Bridge Driver Module**; 1.2A continuous / 3.2A peak per channel; ultra-low internal resistance; runs cool without heatsink; operating logic $2.7\text{V} - 5.5\text{V}$; motor voltage $4.5\text{V} - 13.5\text{V}$; PWM speed control *(Replaces outdated L293D / L298)* | PWM / Digital (16-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
 | 41 | **PCA9685 16-Channel 12-bit PWM / Servo Driver** | 16-channel independent PWM controller with I2C bus; driven by only 2 microcontroller pins (SDA, SCL); 12-bit resolution; handles 16 servos | I2C (4-pin) | ESP32 / Arduino / Raspberry Pi | 6 Units | **Consumable** | | |
 | 42 | **1-Channel 5V/3.3V Relay Module with Optocoupler & Trigger Selector** | 5V DC relay module with PC817 optocoupler isolation, transistor driver, status LED, and **High/Low level trigger selection jumper**; 10A 250V AC | Digital GPIO (3-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
 | 43 | **2-Channel 5V/3.3V Relay Module with Optocoupler & Trigger Selector** | Dual 5V DC relay board with independent optoisolated inputs, status LEDs, High/Low trigger selection jumpers, and NO/COM/NC terminals | Digital GPIO (4-pin) | ESP32 / Arduino / Raspberry Pi | 30 Units | **Consumable** | | |
 | 44 | **ULN2003 Stepper Motor Driver Board with 28BYJ-48 Stepper** | 5V unipolar 4-phase stepper motor paired with ULN2003 Darlington driver board with 4-phase status indicator LEDs | Digital GPIO (4-pin) | ESP32 / Arduino / Raspberry Pi | 15 Sets | **Consumable** | | |
-| 45 | **NRF24L01+ 2.4 GHz RF Transceiver with PA+LNA & Antenna** | Long-range 2.4 GHz digital packet radio transceiver with Power Amplifier (PA) + LNA and external SMA antenna; range up to 1,000 metres; SPI interface | SPI (8-pin) | ESP32 / Arduino / Raspberry Pi | 15 Pairs | **Consumable** | | |
-| 46 | **Bluetooth Low Energy (BLE) Module (HM-10 / AT-09)** | 2.4 GHz Bluetooth 4.0/5.0 BLE transceiver; UART serial; compatible with **both Android and Apple iOS smartphones**; 3.3V/5V tolerant | UART Serial (4-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
-| 47 | **RFID Reader Module & Tag Kit (RC522)** | 13.56 MHz contactless RFID/NFC reader board (MFRC522); SPI bus; includes 1x RFID contactless card and 1x key fob tag | SPI (8-pin) | ESP32 / Arduino / Raspberry Pi | 15 Kits | **Consumable** | | |
-| 48 | **GPS Satellite Module (u-blox GY-NEO6MV2 / NEO-8M)** | High-sensitivity satellite receiver module with active ceramic patch antenna; EEPROM config retention; 9600 baud serial NMEA output | UART Serial (4-pin) | ESP32 / Arduino / Raspberry Pi | 6 Units | **Consumable** | | |
-| 49 | **Voice Recording & Playback Module (ISD1820)** | ISD1820 chip board; 10-second voice recording; onboard microphone; playback pushbuttons; includes 8$\Omega$ 0.5W speaker | Digital GPIO (4-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
-| 50 | **Dual-Axis Analog Joystick Module** | Dual $10\,\text{k}\Omega$ potentiometers for X and Y axes with integrated momentary pushbutton switch; spring auto-return to center | Analog + Digital (5-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 45 | **Electronic Spices LM2596 DC-DC Step Down Power Supply Module (3A, Pack of 2)** | High-efficiency 3A switching voltage regulator buck converter; wide input voltage 4.0V–40V DC; adjustable output 1.3V–37V DC (supports 24V, 12V, 5V, 3.3V/3V rails); high efficiency (>90%); multi-turn trimmer pot; powers ESP32, Arduino, servos & motors from batteries | DC In / DC Out Screw Terminals | ESP32 / Arduino / Raspberry Pi / Motors | 15 Packs (30 Units) | **Consumable** | | |
+| 46 | **Robocraze SD Card Module for Arduino SPI Interface (3.3V/5V Level Shifter)** | SPI Interface Micro SD / MicroSDHC Reader Writer Module with **onboard 3.3V/5V Level Shifter**; data logging and storage expansion board for ESP32, Arduino, and Raspberry Pi robotics & IoT projects | SPI (6-pin: VCC, GND, MISO, MOSI, SCK, CS) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 47 | **Robocraze DS3231 RTC Module | AT24C32 Real Time Clock Memory Board** | High-precision Real-Time Clock with **integrated AT24C32 EEPROM memory board**; I2C interface; built-in Temperature Compensated Crystal Oscillator (TCXO); battery-backed (CR2032); essential for Automated School Bell & scheduled IoT projects | I2C (4-pin: VCC, GND, SDA, SCL) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 48 | **NRF24L01+PA+LNA Wireless RF Transceiver Module Long Range 1100M with SMA Antenna (2-Pack)** | Long-range 2.4 GHz digital packet radio transceiver with Power Amplifier (PA) + Low Noise Amplifier (LNA) and **external SMA duck antenna**; 2 Mbps low power signal amplifier; up to 1,100 metres line-of-sight range; SPI bus; for Uno, Arduino & ESP32 wireless communication projects | SPI (8-pin) | ESP32 / Arduino / Raspberry Pi | 15 Packs (30 Units) | **Consumable** | | |
+| 49 | **Bluetooth Low Energy (BLE) Module (HM-10 / AT-09)** | 2.4 GHz Bluetooth 4.0/5.0 BLE transceiver; UART serial; compatible with **both Android and Apple iOS smartphones**; 3.3V/5V tolerant | UART Serial (4-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 50 | **RFID Reader Module & Tag Kit (RC522)** | 13.56 MHz contactless RFID/NFC reader board (MFRC522); SPI bus; includes 1x RFID contactless card and 1x key fob tag | SPI (8-pin) | ESP32 / Arduino / Raspberry Pi | 15 Kits | **Consumable** | | |
+| 51 | **GPS Satellite Module (u-blox GY-NEO6MV2 / NEO-8M)** | High-sensitivity satellite receiver module with active ceramic patch antenna; EEPROM config retention; 9600 baud serial NMEA output | UART Serial (4-pin) | ESP32 / Arduino / Raspberry Pi | 6 Units | **Consumable** | | |
+| 52 | **Voice Recording & Playback Module (ISD1820)** | ISD1820 chip board; 10-second voice recording; onboard microphone; playback pushbuttons; includes 8$\Omega$ 0.5W speaker | Digital GPIO (4-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 53 | **Dual-Axis Analog Joystick Module** | Dual $10\,\text{k}\Omega$ potentiometers for X and Y axes with integrated momentary pushbutton switch; spring auto-return to center | Analog + Digital (5-pin) | ESP32 / Arduino / Raspberry Pi | 15 Units | **Consumable** | | |
+| 54 | **HIKVISION Extreme 16GB microSDXC Memory Card (Class 10, V30)** | High-speed 16GB Class 10, V30 MicroSD card; 92 MB/s read speed, 15 MB/s write speed; compatible with smartphones, cameras, CCTV; drop protection; 3-year warranty; **Dedicated for Raspberry Pi 3B+ Single-Board Computer (Operating System Boot & Local Storage)** | MicroSD Slot | **Raspberry Pi 3B+ OS Boot & Storage** | 10 Units | **Consumable** | | |
 
 ---
 
-## 2. Prototyping Hardware, Interconnects, Batteries & Power Supplies
+## 2. Prototyping Hardware, Interconnects, Batteries & Bench Power Supplies
 
 | Item # | Item Description | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 51 | **Half-Size Solderless Breadboard (400 Tie-Points)** | 400 tie-point solderless breadboard with self-adhesive backing tape; dual power distribution buses | 50 Units | **Consumable** | | |
-| 52 | **Full-Size Solderless Breadboard (800 Tie-Points)** | 830 tie-point solderless breadboard; dual center terminal strip with 4 power distribution rails; side interlocking tabs | 30 Units | **Consumable** | | |
-| 53 | **Self-Adhesive Mini Proto Shield Breadboard** | Compact 170-point mini breadboard designed for Arduino Proto-Shield mounting | 30 Units | **Consumable** | | |
-| 54 | **General-Purpose Perfboard (Zero-PCB) — Medium** | FR2 single-sided copper clad dotted prototype board; size $80\times 55\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
-| 55 | **General-Purpose Perfboard (Zero-PCB) — Large** | FR2 single-sided copper clad dotted prototype board; size $140\times 90\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
-| 56 | **Male Breakable Pin Headers (Berg Strips)** | 40-pin single row male headers; standard 2.54mm pitch; gold/tin plated; snappable to any pin length | 50 Strips | **Consumable** | | |
-| 57 | **Female Pin Headers (Berg Strips)** | 40-pin single row female socket headers; standard 2.54mm pitch; straight mount | 50 Strips | **Consumable** | | |
-| 58 | **Jumper Wires — Male to Male (M-M)** | 20cm flexible multicolored 40-pin ribbon jumper wires with molded square male pins | 1,500 Wires (38 Packs) | **Consumable** | | |
-| 59 | **Jumper Wires — Male to Female (M-F)** | 20cm flexible multicolored 40-pin ribbon jumper wires with male pin to female socket | 1,000 Wires (25 Packs) | **Consumable** | | |
-| 60 | **Jumper Wires — Female to Female (F-F)** | 20cm flexible multicolored 40-pin ribbon jumper wires with female socket to female socket | 500 Wires (13 Packs) | **Consumable** | | |
-| 61 | **Alligator Clip Test Leads** | Double-ended insulated alligator clip jumper cables; 12-inch length; multicolored jackets | 300 Leads | **Consumable** | | |
-| 62 | **Hook-Up Wire Spools** | Single-core insulated hook-up wire spools (100 metres Red + 100 metres Black per set) | 4 Sets (8 Spools) | **Consumable** | | |
-| 63 | **USB Programming Cables — Type-A to Type-B** | High-shielded 1.2m USB 2.0 cable for Arduino Uno and Arduino Mega | 15 Cables | **Consumable** | | |
-| 64 | **USB Programming Cables — Type-A to Mini-B** | High-shielded 1.0m USB 2.0 cable for Arduino Nano and microcontroller boards | 15 Cables | **Consumable** | | |
-| 65 | **USB to DC Barrel Jack Converter Cables** | 5V USB Type-A to 5.5mm $\times$ 2.1mm center-positive DC plug cable for running breadboards from power banks | 10 Cables | **Consumable** | | |
-| 66 | **9V Battery Snaps with DC Barrel Plug** | Heavy-duty molded hard-plastic 9V battery connector clips terminating in a 5.5mm/2.1mm DC barrel jack | 40 Units | **Consumable** | | |
-| 67 | **Rechargeable Battery Packs with Smart Chargers** | 9V–12V (2000–2500 mAh) rechargeable NiMH/Li-ion battery packs with dual automatic smart chargers | 10 Packs + Chargers | **Consumable** | | |
-| 68 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 5 Units | **Consumable** | | |
-| 69 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
-| 70 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
-| 71 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 5 Units | **Consumable** | | |
-| 72 | **Twisted-Pair Mains Distribution Wires** | Red-Black twisted flexible copper electrical distribution wire | 20 Metres | **Consumable** | | |
-| 73 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 10 Units | **Consumable** | | |
-| 74 | **$4\times 4$ Matrix Membrane Keypad** | 16-key matrix keypad (keys 0–9, *, #, A–D); flexible flat ribbon cable with 8-pin 2.54mm pitch female socket | 15 Units | **Consumable** | | |
+| 55 | **Half-Size Solderless Breadboard (400 Tie-Points)** | 400 tie-point solderless breadboard with self-adhesive backing tape; dual power distribution buses | 50 Units | **Consumable** | | |
+| 56 | **Full-Size Solderless Breadboard (800 Tie-Points)** | 830 tie-point solderless breadboard; dual center terminal strip with 4 power distribution rails; side interlocking tabs | 30 Units | **Consumable** | | |
+| 57 | **Self-Adhesive Mini Proto Shield Breadboard** | Compact 170-point mini breadboard designed for Arduino Proto-Shield mounting | 30 Units | **Consumable** | | |
+| 58 | **General-Purpose Perfboard (Zero-PCB) — Medium** | FR2 single-sided copper clad dotted prototype board; size $80\times 55\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
+| 59 | **General-Purpose Perfboard (Zero-PCB) — Large** | FR2 single-sided copper clad dotted prototype board; size $140\times 90\,\text{mm}$; 2.54mm hole spacing | 50 Units | **Consumable** | | |
+| 60 | **Male Breakable Pin Headers (Berg Strips)** | 40-pin single row male headers; standard 2.54mm pitch; gold/tin plated; snappable to any pin length | 50 Strips | **Consumable** | | |
+| 61 | **Female Pin Headers (Berg Strips)** | 40-pin single row female socket headers; standard 2.54mm pitch; straight mount | 50 Strips | **Consumable** | | |
+| 62 | **Jumper Wires — Male to Male (M-M)** | 20cm flexible multicolored 40-pin ribbon jumper wires with molded square male pins | 1,500 Wires (38 Packs) | **Consumable** | | |
+| 63 | **Jumper Wires — Male to Female (M-F)** | 20cm flexible multicolored 40-pin ribbon jumper wires with male pin to female socket | 1,000 Wires (25 Packs) | **Consumable** | | |
+| 64 | **Jumper Wires — Female to Female (F-F)** | 20cm flexible multicolored 40-pin ribbon jumper wires with female socket to female socket | 500 Wires (13 Packs) | **Consumable** | | |
+| 65 | **Alligator Clip Test Leads** | Double-ended insulated alligator clip jumper cables; 12-inch length; multicolored jackets | 300 Leads | **Consumable** | | |
+| 66 | **Hook-Up Wire Spools** | Single-core insulated hook-up wire spools (100 metres Red + 100 metres Black per set) | 4 Sets (8 Spools) | **Consumable** | | |
+| 67 | **USB Programming Cables — Type-A to Type-B** | High-shielded 1.2m USB 2.0 cable for Arduino Uno and Arduino Mega | 15 Cables | **Consumable** | | |
+| 68 | **USB Programming Cables — Type-A to Mini-B** | High-shielded 1.0m USB 2.0 cable for Arduino Nano and microcontroller boards | 15 Cables | **Consumable** | | |
+| 69 | **USB to DC Barrel Jack Converter Cables** | 5V USB Type-A to 5.5mm $\times$ 2.1mm center-positive DC plug cable for running breadboards from power banks | 10 Cables | **Consumable** | | |
+| 70 | **9V Battery Snaps with DC Barrel Plug** | Heavy-duty molded hard-plastic 9V battery connector clips terminating in a 5.5mm/2.1mm DC barrel jack | 40 Units | **Consumable** | | |
+| 71 | **Rechargeable Battery Packs with Smart Chargers** | 9V–12V (2000–2500 mAh) rechargeable NiMH/Li-ion battery packs with dual automatic smart chargers | 10 Packs + Chargers | **Consumable** | | |
+| 72 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 5 Units | **Consumable** | | |
+| 73 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
+| 74 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 10 Units | **Consumable** | | |
+| 75 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 5 Units | **Consumable** | | |
+| 76 | **Twisted-Pair Mains Distribution Wires** | Red-Black twisted flexible copper electrical distribution wire | 20 Metres | **Consumable** | | |
+| 77 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 10 Units | **Consumable** | | |
+| 78 | **$4\times 4$ Matrix Membrane Keypad** | 16-key matrix keypad (keys 0–9, *, #, A–D); flexible flat ribbon cable with 8-pin 2.54mm pitch female socket | 15 Units | **Consumable** | | |
 
 ---
 
@@ -116,15 +120,15 @@ This purchase order is structured specifically for modern electronic component d
 
 | Item # | Item Description | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 75 | **150 RPM Plastic BO Gear Motor with Wheel** | 3V–9V DC dual-shaft straight gearbox motor (150 RPM output speed @ 6V) complete with matching 65mm rubber-tread wheel | 60 Pairs | **Consumable** | | |
-| 76 | **150 RPM BO Motor (Standalone)** | 3V–9V DC battery-operated single-shaft plastic gear motor (150 RPM) | 15 Units | **Consumable** | | |
-| 77 | **12V High-Torque DC Geared Motor** | 12V DC heavy-duty metal-gear motor; 150 RPM output; 6mm D-shaped center output shaft | 30 Units | **Consumable** | | |
-| 78 | **Submersible Mini Water Pump** | 12V DC, 3W submersible centrifugal brushless water pump with outlet nozzle; max head 1.5 metres | 6 Units | **Consumable** | | |
-| 79 | **Micro Positional Servo — Plastic Gear (SG90)** | 9g micro positional servo motor; $0^\circ - 180^\circ$ pulse angle rotation; operating voltage $4.8\text{V} - 6.0\text{V}$; stall torque 1.8 kg-cm; horns included | 60 Units | **Consumable** | | |
-| 80 | **Metal-Gear Micro Servo (MG90S)** | High-durability micro servo with brass and aluminum gears; $0^\circ - 180^\circ$ rotation; stall torque 2.2 kg-cm | 15 Units | **Consumable** | | |
-| 81 | **Standard High-Torque Positional Servo** | Full-size metal-gear positional servo (MG995 / MG996R); torque 10–12 kg-cm; double ball bearings; $0^\circ - 180^\circ$ control | 15 Units | **Consumable** | | |
-| 82 | **Continuous Rotation Metal Servo (360°)** | Full-size continuous rotation servo ($360^\circ$ speed/direction control); high-torque metal gear train | 15 Units | **Consumable** | | |
-| 83 | **3-Channel Servo & ESC Tester (CCPM)** | Standalone digital servo tester with 3 modes (Manual speed dial, Neutral auto-center, Automatic window sweep); tests up to 3 servos simultaneously | 6 Units | **Consumable** | | |
+| 79 | **150 RPM Plastic BO Gear Motor with Wheel** | 3V–9V DC dual-shaft straight gearbox motor (150 RPM output speed @ 6V) complete with matching 65mm rubber-tread wheel | 60 Pairs | **Consumable** | | |
+| 80 | **150 RPM BO Motor (Standalone)** | 3V–9V DC battery-operated single-shaft plastic gear motor (150 RPM) | 15 Units | **Consumable** | | |
+| 81 | **12V High-Torque DC Geared Motor** | 12V DC heavy-duty metal-gear motor; 150 RPM output; 6mm D-shaped center output shaft | 30 Units | **Consumable** | | |
+| 82 | **Submersible Mini Water Pump** | 12V DC, 3W submersible centrifugal brushless water pump with outlet nozzle; max head 1.5 metres | 6 Units | **Consumable** | | |
+| 83 | **Micro Positional Servo — Plastic Gear (SG90)** | 9g micro positional servo motor; $0^\circ - 180^\circ$ pulse angle rotation; operating voltage $4.8\text{V} - 6.0\text{V}$; stall torque 1.8 kg-cm; horns included | 60 Units | **Consumable** | | |
+| 84 | **Metal-Gear Micro Servo (MG90S)** | High-durability micro servo with brass and aluminum gears; $0^\circ - 180^\circ$ rotation; stall torque 2.2 kg-cm | 15 Units | **Consumable** | | |
+| 85 | **Standard High-Torque Positional Servo** | Full-size metal-gear positional servo (MG995 / MG996R); torque 10–12 kg-cm; double ball bearings; $0^\circ - 180^\circ$ control | 15 Units | **Consumable** | | |
+| 86 | **Continuous Rotation Metal Servo (360°)** | Full-size continuous rotation servo ($360^\circ$ speed/direction control); high-torque metal gear train | 15 Units | **Consumable** | | |
+| 87 | **3-Channel Servo & ESC Tester (CCPM)** | Standalone digital servo tester with 3 modes (Manual speed dial, Neutral auto-center, Automatic window sweep); tests up to 3 servos simultaneously | 6 Units | **Consumable** | | |
 
 ---
 
@@ -132,45 +136,45 @@ This purchase order is structured specifically for modern electronic component d
 
 | Item # | Equipment / Machine / Tool Name | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 84 | **Digital Multimeter (DMM)** | 7 functions, 19 ranges; DC voltage ($200\text{mV} - 1000\text{V}$), AC voltage ($200\text{V} - 750\text{V}$), DC current ($200\,\mu\text{A} - 10\text{A}$), resistance ($200\,\Omega - 2\,\text{M}\Omega$), diode test, continuity buzzer, transistor $h_{FE}$ socket | 5 Units | **Permanent Asset** | | |
-| 85 | **Digital Storage Oscilloscope (DSO)** | 50 MHz bandwidth, 2 channels, 1 GSa/s real-time sample rate, 7-inch color LCD, built-in function generator, USB interface | 1 Unit | **Permanent Asset** | | |
-| 86 | **Digital Voltage Tester Pen** | Contactless and contact AC voltage detector pen with audible alarm and bright LED indicator | 1 Unit | **Permanent Asset** | | |
-| 87 | **Digital Vernier Caliper** | 150mm / 6-inch electronic digital vernier caliper; stainless steel frame; resolution 0.01mm / 0.0005"; zero-calibration key | 2 Units | **Permanent Asset** | | |
-| 88 | **Stainless Steel Workshop Ruler** | 150mm / 12-inch heavy-duty stainless steel measuring rule with photo-etched metric and imperial scales | 5 Units | **Permanent Asset** | | |
-| 89 | **Auto-Retracting Measuring Tape** | 5m $\times$ 19mm steel measuring tape with rubberized shockproof armor, belt clip, and thumb lock | 2 Units | **Permanent Asset** | | |
-| 90 | **Workshop Spirit Level** | 12-inch aluminum magnetic spirit level with 3 shockproof acrylic vials (horizontal, vertical, $45^\circ$) | 1 Unit | **Permanent Asset** | | |
-| 91 | **Temperature-Controlled Soldering Stations** | 15W–30W / 230V variable temperature soldering stations ($280^\circ\text{C} - 450^\circ\text{C}$) with heavy cast-iron cradle stand and brass tip cleaner | 6 Stations | **Permanent Asset** | | |
-| 92 | **Soldering Third-Hand Magnifier Tool** | Weighted cast-iron base, dual adjustable ball-joint crocodile clips, iron holster, LED light, and 3x optical glass magnifier | 6 Units | **Permanent Asset** | | |
-| 93 | **High-Vacuum Desoldering Pump** | Aluminum body spring-loaded manual solder sucker with high-suction Teflon nozzle | 6 Units | **Permanent Asset** | | |
-| 94 | **Industrial Hot Melt Glue Guns** | High-temperature electric glue gun ($230^\circ\text{C} - 280^\circ\text{C}$) for 11mm standard glue sticks; fold-out wire stand and insulated nozzle | 6 Guns | **Permanent Asset** | | |
-| 95 | **Dual-Temperature Electric Heat Gun** | 1800W heavy-duty industrial heat gun with dual-heat rocker switch ($300^\circ\text{C} / 500^\circ\text{C}$) and concentration nozzle attachment | 1 Unit | **Permanent Asset** | | |
-| 96 | **Adjustable Wire Stripper & Cutter** | Drop-forged steel wire stripper and diagonal cutter with adjustable brass gauge stop screw ($26\times 6\times 20\,\text{cm}$) | 5 Units | **Permanent Asset** | | |
-| 97 | **Workshop Mini Plier Set (6-Piece)** | 4.5-inch carbon steel precision pliers set: Long-nose, bent-nose, needle-nose, combination mini plier, external circlip plier, and wire-stripper | 1 Set (6 Pliers) | **Permanent Asset** | | |
-| 98 | **Anti-Static Precision Tweezer Set** | 6-piece non-magnetic anti-static ESD-safe stainless steel tweezers in zippered pouch (straight, curved, spade tips) | 2 Sets (12 Tweezers) | **Permanent Asset** | | |
-| 99 | **Jeweler Precision Screwdriver Set** | 6-piece precision screwdriver set: Phillips PH0, PH1, and Flathead 1.4mm, 2mm, 2.4mm, 3mm in indexed case | 3 Sets | **Permanent Asset** | | |
-| 100 | **40-Piece Multi-Bit Screwdriver Set** | Ratcheting screwdriver handle with flexible extension shaft and 40 magnetic bits (Torx, Hex, Phillips, Slotted, Pozidriv) | 3 Sets | **Permanent Asset** | | |
-| 101 | **Rechargeable Cordless Electric Screwdriver** | 3.6V Li-ion cordless electric screwdriver with forward/reverse trigger, LED worklight, magnetic bit holder, and charger | 1 Unit | **Permanent Asset** | | |
-| 102 | **Combination Spanner Set (12-Piece)** | Chrome vanadium drop-forged open and ring combination spanners (metric sizes 4mm to 30mm) with wall-mountable rack | 1 Set (12 Spanners) | **Permanent Asset** | | |
-| 103 | **Universal Adjustable Wrench** | 8-inch drop-forged carbon steel adjustable wrench with laser-etched metric jaw opening scale | 2 Units | **Permanent Asset** | | |
-| 104 | **Imperial Allen Hex Key Set** | 10-piece ring imperial Allen hex key set for machine hex socket screws | 1 Set (10 Keys) | **Permanent Asset** | | |
-| 105 | **Table-Top Bench Vice** | Heavy-duty cast-iron bench vice with serrated steel jaws, swivel base, locking lever, and integrated anvil surface | 1 Unit | **Permanent Asset** | | |
-| 106 | **Metal Screw C-Clamps** | 3-inch heavy-duty forged steel screw-threaded C-clamps with swivel shoe | 4 Units | **Permanent Asset** | | |
-| 107 | **12-inch Heavy-Duty Hacksaw Frame** | Tubular steel hacksaw frame with cast handle and wingnut blade tensioner for 12-inch blades | 1 Frame | **Permanent Asset** | | |
-| 108 | **6-inch Mini Hacksaw Frame** | Compact aluminum alloy mini hacksaw frame for tight spaces and delicate cutting | 1 Frame | **Permanent Asset** | | |
-| 109 | **Engineering Hand File Set (6-inch)** | 6-piece high-carbon steel file set: flat, hand, round, half-round, triangular, and square with non-slip rubber handles | 1 Set (6 Files) | **Permanent Asset** | | |
-| 110 | **Diamond Needle File Set (3-inch)** | 6-piece miniature diamond needle file set for fine deburring of 3D prints, plastic boxes, and small chassis | 1 Set (6 Files) | **Permanent Asset** | | |
-| 111 | **Steel Shaft Claw Hammer** | 0.75 kg polished carbon steel head with tubular steel shaft and vibration-absorbing rubber grip | 1 Unit | **Permanent Asset** | | |
-| 112 | **Engineer's Ball Pein Hammer** | 0.75 kg forged carbon steel ball pein hammer for metal forming, tapping, and center punching | 1 Unit | **Permanent Asset** | | |
-| 113 | **Variable-Speed Electric Drill Machine** | 500W electric drill machine (1–10mm chuck capacity, variable speed trigger 0–2800 RPM, hammer/drill selector modes) | 1 Unit | **Permanent Asset** | | |
-| 114 | **Bench Drill Press Stand & Holder** | Heavy cast-iron base drill press stand compatible with the 500W electric drill for perpendicular precision drilling | 1 Unit | **Permanent Asset** | | |
-| 115 | **HSS Twist Drill Bit Set (13-Piece)** | 13-piece High-Speed Steel (HSS) drill bits ($1\,\text{mm} - 10\,\text{mm}$) in indexed steel storage index box | 1 Set (13 Bits) | **Permanent Asset** | | |
-| 116 | **Cordless Rotary Multitool Set** | High-speed Li-ion rotary tool (up to 30,000 RPM) with flexible shaft, collets, cutting discs, grinding stones, and polishing wheels | 1 Set | **Permanent Asset** | | |
-| 117 | **Variable-Speed Electric Air Blower** | 500W electric high-velocity air blower with rubber directional nozzle for bench cleaning and dust removal | 1 Unit | **Permanent Asset** | | |
-| 118 | **Flexible Self-Healing Cutting Mat** | A3 size ($18\times 12\,\text{inches}$) 5-ply self-healing cutting mat with printed metric grid lines, millimeters, and angle guides | 1 Unit | **Permanent Asset** | | |
-| 119 | **3D Printer (FDM) Kit & Toolkit** | Fused Deposition Modelling (FDM) 3D printer ($160\times 160\times 160\,\text{mm}$ build volume, heated bed, 0.4mm nozzle, LCD screen) with repair toolkit | 1 Unit | **Permanent Asset** | | |
-| 120 | **Dedicated 2-Hour UPS Power Backup** | Heavy-duty Uninterruptible Power Supply (UPS) with 2-hour battery backup for 3D printer power protection | 1 Unit | **Permanent Asset** | | |
-| 121 | **Modular Component Storage Cabinets** | High-impact plastic storage cabinets with 60 transparent drawers each ($2\times 2\times 5\,\text{inches}$) for sorting small electronics | 2 Units (120 Drawers) | **Permanent Asset** | | |
-| 122 | **Wall-Mounted Pegboard Tool Systems** | $3\times 2$ feet metal tool pegboards with modular hanging hooks, spanner racks, plier clips, and tool shelves | 2 Boards | **Permanent Asset** | | |
+| 88 | **Digital Multimeter (DMM)** | 7 functions, 19 ranges; DC voltage ($200\text{mV} - 1000\text{V}$), AC voltage ($200\text{V} - 750\text{V}$), DC current ($200\,\mu\text{A} - 10\text{A}$), resistance ($200\,\Omega - 2\,\text{M}\Omega$), diode test, continuity buzzer, transistor $h_{FE}$ socket | 5 Units | **Permanent Asset** | | |
+| 89 | **Digital Storage Oscilloscope (DSO)** | 50 MHz bandwidth, 2 channels, 1 GSa/s real-time sample rate, 7-inch color LCD, built-in function generator, USB interface | 1 Unit | **Permanent Asset** | | |
+| 90 | **Digital Voltage Tester Pen** | Contactless and contact AC voltage detector pen with audible alarm and bright LED indicator | 1 Unit | **Permanent Asset** | | |
+| 91 | **Digital Vernier Caliper** | 150mm / 6-inch electronic digital vernier caliper; stainless steel frame; resolution 0.01mm / 0.0005"; zero-calibration key | 2 Units | **Permanent Asset** | | |
+| 92 | **Stainless Steel Workshop Ruler** | 150mm / 12-inch heavy-duty stainless steel measuring rule with photo-etched metric and imperial scales | 5 Units | **Permanent Asset** | | |
+| 93 | **Auto-Retracting Measuring Tape** | 5m $\times$ 19mm steel measuring tape with rubberized shockproof armor, belt clip, and thumb lock | 2 Units | **Permanent Asset** | | |
+| 94 | **Workshop Spirit Level** | 12-inch aluminum magnetic spirit level with 3 shockproof acrylic vials (horizontal, vertical, $45^\circ$) | 1 Unit | **Permanent Asset** | | |
+| 95 | **Temperature-Controlled Soldering Stations** | 15W–30W / 230V variable temperature soldering stations ($280^\circ\text{C} - 450^\circ\text{C}$) with heavy cast-iron cradle stand and brass tip cleaner | 6 Stations | **Permanent Asset** | | |
+| 96 | **Soldering Third-Hand Magnifier Tool** | Weighted cast-iron base, dual adjustable ball-joint crocodile clips, iron holster, LED light, and 3x optical glass magnifier | 6 Units | **Permanent Asset** | | |
+| 97 | **High-Vacuum Desoldering Pump** | Aluminum body spring-loaded manual solder sucker with high-suction Teflon nozzle | 6 Units | **Permanent Asset** | | |
+| 98 | **Industrial Hot Melt Glue Guns** | High-temperature electric glue gun ($230^\circ\text{C} - 280^\circ\text{C}$) for 11mm standard glue sticks; fold-out wire stand and insulated nozzle | 6 Guns | **Permanent Asset** | | |
+| 99 | **Dual-Temperature Electric Heat Gun** | 1800W heavy-duty industrial heat gun with dual-heat rocker switch ($300^\circ\text{C} / 500^\circ\text{C}$) and concentration nozzle attachment | 1 Unit | **Permanent Asset** | | |
+| 100 | **Adjustable Wire Stripper & Cutter** | Drop-forged steel wire stripper and diagonal cutter with adjustable brass gauge stop screw ($26\times 6\times 20\,\text{cm}$) | 5 Units | **Permanent Asset** | | |
+| 101 | **Workshop Mini Plier Set (6-Piece)** | 4.5-inch carbon steel precision pliers set: Long-nose, bent-nose, needle-nose, combination mini plier, external circlip plier, and wire-stripper | 1 Set (6 Pliers) | **Permanent Asset** | | |
+| 102 | **Anti-Static Precision Tweezer Set** | 6-piece non-magnetic anti-static ESD-safe stainless steel tweezers in zippered pouch (straight, curved, spade tips) | 2 Sets (12 Tweezers) | **Permanent Asset** | | |
+| 103 | **Jeweler Precision Screwdriver Set** | 6-piece precision screwdriver set: Phillips PH0, PH1, and Flathead 1.4mm, 2mm, 2.4mm, 3mm in indexed case | 3 Sets | **Permanent Asset** | | |
+| 104 | **40-Piece Multi-Bit Screwdriver Set** | Ratcheting screwdriver handle with flexible extension shaft and 40 magnetic bits (Torx, Hex, Phillips, Slotted, Pozidriv) | 3 Sets | **Permanent Asset** | | |
+| 105 | **Rechargeable Cordless Electric Screwdriver** | 3.6V Li-ion cordless electric screwdriver with forward/reverse trigger, LED worklight, magnetic bit holder, and charger | 1 Unit | **Permanent Asset** | | |
+| 106 | **Combination Spanner Set (12-Piece)** | Chrome vanadium drop-forged open and ring combination spanners (metric sizes 4mm to 30mm) with wall-mountable rack | 1 Set (12 Spanners) | **Permanent Asset** | | |
+| 107 | **Universal Adjustable Wrench** | 8-inch drop-forged carbon steel adjustable wrench with laser-etched metric jaw opening scale | 2 Units | **Permanent Asset** | | |
+| 108 | **Imperial Allen Hex Key Set** | 10-piece ring imperial Allen hex key set for machine hex socket screws | 1 Set (10 Keys) | **Permanent Asset** | | |
+| 109 | **Table-Top Bench Vice** | Heavy-duty cast-iron bench vice with serrated steel jaws, swivel base, locking lever, and integrated anvil surface | 1 Unit | **Permanent Asset** | | |
+| 110 | **Metal Screw C-Clamps** | 3-inch heavy-duty forged steel screw-threaded C-clamps with swivel shoe | 4 Units | **Permanent Asset** | | |
+| 111 | **12-inch Heavy-Duty Hacksaw Frame** | Tubular steel hacksaw frame with cast handle and wingnut blade tensioner for 12-inch blades | 1 Frame | **Permanent Asset** | | |
+| 112 | **6-inch Mini Hacksaw Frame** | Compact aluminum alloy mini hacksaw frame for tight spaces and delicate cutting | 1 Frame | **Permanent Asset** | | |
+| 113 | **Engineering Hand File Set (6-inch)** | 6-piece high-carbon steel file set: flat, hand, round, half-round, triangular, and square with non-slip rubber handles | 1 Set (6 Files) | **Permanent Asset** | | |
+| 114 | **Diamond Needle File Set (3-inch)** | 6-piece miniature diamond needle file set for fine deburring of 3D prints, plastic boxes, and small chassis | 1 Set (6 Files) | **Permanent Asset** | | |
+| 115 | **Steel Shaft Claw Hammer** | 0.75 kg polished carbon steel head with tubular steel shaft and vibration-absorbing rubber grip | 1 Unit | **Permanent Asset** | | |
+| 116 | **Engineer's Ball Pein Hammer** | 0.75 kg forged carbon steel ball pein hammer for metal forming, tapping, and center punching | 1 Unit | **Permanent Asset** | | |
+| 117 | **Variable-Speed Electric Drill Machine** | 500W electric drill machine (1–10mm chuck capacity, variable speed trigger 0–2800 RPM, hammer/drill selector modes) | 1 Unit | **Permanent Asset** | | |
+| 118 | **Bench Drill Press Stand & Holder** | Heavy cast-iron base drill press stand compatible with the 500W electric drill for perpendicular precision drilling | 1 Unit | **Permanent Asset** | | |
+| 119 | **HSS Twist Drill Bit Set (13-Piece)** | 13-piece High-Speed Steel (HSS) drill bits ($1\,\text{mm} - 10\,\text{mm}$) in indexed steel storage index box | 1 Set (13 Bits) | **Permanent Asset** | | |
+| 120 | **Cordless Rotary Multitool Set** | High-speed Li-ion rotary tool (up to 30,000 RPM) with flexible shaft, collets, cutting discs, grinding stones, and polishing wheels | 1 Set | **Permanent Asset** | | |
+| 121 | **Variable-Speed Electric Air Blower** | 500W electric high-velocity air blower with rubber directional nozzle for bench cleaning and dust removal | 1 Unit | **Permanent Asset** | | |
+| 122 | **Flexible Self-Healing Cutting Mat** | A3 size ($18\times 12\,\text{inches}$) 5-ply self-healing cutting mat with printed metric grid lines, millimeters, and angle guides | 1 Unit | **Permanent Asset** | | |
+| 123 | **3D Printer (FDM) Kit & Toolkit** | Fused Deposition Modelling (FDM) 3D printer ($160\times 160\times 160\,\text{mm}$ build volume, heated bed, 0.4mm nozzle, LCD screen) with repair toolkit | 1 Unit | **Permanent Asset** | | |
+| 124 | **Dedicated 2-Hour UPS Power Backup** | Heavy-duty Uninterruptible Power Supply (UPS) with 2-hour battery backup for 3D printer power protection | 1 Unit | **Permanent Asset** | | |
+| 125 | **Modular Component Storage Cabinets** | High-impact plastic storage cabinets with 60 transparent drawers each ($2\times 2\times 5\,\text{inches}$) for sorting small electronics | 2 Units (120 Drawers) | **Permanent Asset** | | |
+| 126 | **Wall-Mounted Pegboard Tool Systems** | $3\times 2$ feet metal tool pegboards with modular hanging hooks, spanner racks, plier clips, and tool shelves | 2 Boards | **Permanent Asset** | | |
 
 ---
 
@@ -178,23 +182,23 @@ This purchase order is structured specifically for modern electronic component d
 
 | Item # | Consumable Item Name | Technical Specifications & Model Details | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 123 | **Hot Melt Glue Sticks** | Standard $11\,\text{mm}\times 200\,\text{mm}$ high-clarity EVA hot melt adhesive glue sticks | 150 Sticks | **Consumable** | | |
-| 124 | **12-inch Hacksaw Replacement Blades** | 12-inch high-carbon steel bi-metal flexible hacksaw blades (18/24 TPI) | 10 Blades | **Consumable** | | |
-| 125 | **6-inch Mini Hacksaw Replacement Blades** | 6-inch high-carbon steel replacement mini blades (24 TPI) | 10 Blades | **Consumable** | | |
-| 126 | **Waterproof Sandpaper Assortment** | Silicon carbide waterproof sandpaper sheets: Grits 80, 100, 120, 200, 300 (5 sheets of each grit) | 25 Sheets (5 Packs) | **Consumable** | | |
-| 127 | **Machine Hardware Fasteners Kit** | Assorted metric machine screws, hex nuts, and washers: M4 $\times$ 12/20mm, M5 $\times$ 16/25mm, M6 $\times$ 20mm | 40 Sets | **Consumable** | | |
-| 128 | **Nylon Cable Ties (Zip Ties)** | Self-locking UV-resistant nylon cable ties: Small, Medium, Big (100 ties/pack, 15 packs each size) | 45 Packs (4,500 ties) | **Consumable** | | |
-| 129 | **Rosin-Core Solder Wire Spools** | 100g spools of 60/40 leaded or lead-free 20/22 AWG rosin-flux-core soldering wire | 6 Spools (600g total) | **Consumable** | | |
-| 130 | **Non-Corrosive Soldering Flux Paste** | 100g tubs of non-corrosive rosin soldering flux paste for tinning iron tips and cleaning copper pads | 6 Tubs | **Consumable** | | |
-| 131 | **Desoldering Copper Braid Wick** | $1.5\,\text{m}\times 2\,\text{mm}$ pure copper woven desoldering braid wick for solder bridge cleanup | 6 Spools | **Consumable** | | |
-| 132 | **Heat Shrink Tubing Assortment** | Polyolefin flame-retardant heat shrink tubing assortment (diameters 2mm, 3mm, 5mm, 8mm, 10mm) | 100 Pieces | **Consumable** | | |
-| 133 | **PLA 3D Printer Filament Spools** | High-grade 1.75mm PLA filament (1 kg spools in 5 different colours: Black, White, Red, Blue, Grey) | 5 Spools (5 kg) | **Consumable** | | |
-| 134 | **Sealed Filament Storage Containers** | Moisture-proof airtight filament storage boxes with reusable silica gel desiccants | 5 Units | **Permanent Asset** | | |
-| 135 | **Prototyping Corrugated Cardboard Sheets**| Heavy-duty 3-ply corrugated cardboard sheets for rapid structural chassis mockups | 5 Sheets | **Consumable** | | |
-| 136 | **Prototyping Foam Core Boards** | Lightweight rigid 5mm white foam core boards for precision enclosure fabrication | 5 Boards | **Consumable** | | |
-| 137 | **Wooden Popsicle Craft Sticks** | Natural birch wood craft sticks for linkages, chassis beams, and structural assemblies | 100 Sticks | **Consumable** | | |
-| 138 | **PVA Wood Adhesive Glue** | 500 ml bottles of fast-drying non-toxic PVA wood glue | 2 Bottles | **Consumable** | | |
-| 139 | **Thick String & Heavy Rubber Bands** | 20m spool of multicolored thick cord + 100 heavy-duty elastic rubber bands | 5 Spools + 100 Bands | **Consumable** | | |
+| 127 | **Hot Melt Glue Sticks** | Standard $11\,\text{mm}\times 200\,\text{mm}$ high-clarity EVA hot melt adhesive glue sticks | 150 Sticks | **Consumable** | | |
+| 128 | **12-inch Hacksaw Replacement Blades** | 12-inch high-carbon steel bi-metal flexible hacksaw blades (18/24 TPI) | 10 Blades | **Consumable** | | |
+| 129 | **6-inch Mini Hacksaw Replacement Blades** | 6-inch high-carbon steel replacement mini blades (24 TPI) | 10 Blades | **Consumable** | | |
+| 130 | **Waterproof Sandpaper Assortment** | Silicon carbide waterproof sandpaper sheets: Grits 80, 100, 120, 200, 300 (5 sheets of each grit) | 25 Sheets (5 Packs) | **Consumable** | | |
+| 131 | **Machine Hardware Fasteners Kit** | Assorted metric machine screws, hex nuts, and washers: M4 $\times$ 12/20mm, M5 $\times$ 16/25mm, M6 $\times$ 20mm | 40 Sets | **Consumable** | | |
+| 132 | **Nylon Cable Ties (Zip Ties)** | Self-locking UV-resistant nylon cable ties: Small, Medium, Big (100 ties/pack, 15 packs each size) | 45 Packs (4,500 ties) | **Consumable** | | |
+| 133 | **Rosin-Core Solder Wire Spools** | 100g spools of 60/40 leaded or lead-free 20/22 AWG rosin-flux-core soldering wire | 6 Spools (600g total) | **Consumable** | | |
+| 134 | **Non-Corrosive Soldering Flux Paste** | 100g tubs of non-corrosive rosin soldering flux paste for tinning iron tips and cleaning copper pads | 6 Tubs | **Consumable** | | |
+| 135 | **Desoldering Copper Braid Wick** | $1.5\,\text{m}\times 2\,\text{mm}$ pure copper woven desoldering braid wick for solder bridge cleanup | 6 Spools | **Consumable** | | |
+| 136 | **Heat Shrink Tubing Assortment** | Polyolefin flame-retardant heat shrink tubing assortment (diameters 2mm, 3mm, 5mm, 8mm, 10mm) | 100 Pieces | **Consumable** | | |
+| 137 | **PLA 3D Printer Filament Spools** | High-grade 1.75mm PLA filament (1 kg spools in 5 different colours: Black, White, Red, Blue, Grey) | 5 Spools (5 kg) | **Consumable** | | |
+| 138 | **Sealed Filament Storage Containers** | Moisture-proof airtight filament storage boxes with reusable silica gel desiccants | 5 Units | **Permanent Asset** | | |
+| 139 | **Prototyping Corrugated Cardboard Sheets**| Heavy-duty 3-ply corrugated cardboard sheets for rapid structural chassis mockups | 5 Sheets | **Consumable** | | |
+| 140 | **Prototyping Foam Core Boards** | Lightweight rigid 5mm white foam core boards for precision enclosure fabrication | 5 Boards | **Consumable** | | |
+| 141 | **Wooden Popsicle Craft Sticks** | Natural birch wood craft sticks for linkages, chassis beams, and structural assemblies | 100 Sticks | **Consumable** | | |
+| 142 | **PVA Wood Adhesive Glue** | 500 ml bottles of fast-drying non-toxic PVA wood glue | 2 Bottles | **Consumable** | | |
+| 143 | **Thick String & Heavy Rubber Bands** | 20m spool of multicolored thick cord + 100 heavy-duty elastic rubber bands | 5 Spools + 100 Bands | **Consumable** | | |
 
 ---
 
@@ -202,10 +206,10 @@ This purchase order is structured specifically for modern electronic component d
 
 | Item # | Kit / System Name | Technical Specifications & Inclusions | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 140 | **Complete Educational Robotics DIY Kit** | Microcontroller-based robotics kit with intelligent programmable brick/brain, chassis, infrared & ultrasonic sensors, gear motors, and software | 4 Kits | **Permanent Asset** | | |
-| 141 | **Mechanical Modular Construction Kit** | Metal and ABS engineering building system (beams, plates, gears, pulleys, axles, wheels, compatible with servo motors) | 6 Kits | **Permanent Asset** | | |
-| 142 | **Automobile Mechanism Kit** | Automotive mechanism learning set featuring working rack-and-pinion steering, differential gears, transmission, and suspension | 1 Kit | **Permanent Asset** | | |
-| 143 | **Educational DIY Drone Assembly Kit (Unassembled)** | **100% Unassembled DIY Quadcopter Kit** (NOT pre-built); includes modular composite frame, 6 motors (4 active + 2 spare), 12 balanced nylon propellers (4 active + 8 spare) with $360^\circ$ crash guards, STM32F4-based flight controller with 6-axis gyro/accelerometer & barometer, 2x LiPo flight batteries (1 active + 1 spare), USB balance charger, LiPo fireproof safety bag, 2.4 GHz 6-channel radio transmitter & receiver, and step-by-step DIY assembly guide | 1 Kit | **Permanent Asset** | | |
+| 144 | **Complete Educational Robotics DIY Kit** | Microcontroller-based robotics kit with intelligent programmable brick/brain, chassis, infrared & ultrasonic sensors, gear motors, and software | 4 Kits | **Permanent Asset** | | |
+| 145 | **Mechanical Modular Construction Kit** | Metal and ABS engineering building system (beams, plates, gears, pulleys, axles, wheels, compatible with servo motors) | 6 Kits | **Permanent Asset** | | |
+| 146 | **Automobile Mechanism Kit** | Automotive mechanism learning set featuring working rack-and-pinion steering, differential gears, transmission, and suspension | 1 Kit | **Permanent Asset** | | |
+| 147 | **Educational DIY Drone Assembly Kit (Unassembled)** | **100% Unassembled DIY Quadcopter Kit** (NOT pre-built); includes modular composite frame, 6 motors (4 active + 2 spare), 12 balanced nylon propellers (4 active + 8 spare) with $360^\circ$ crash guards, STM32F4-based flight controller with 6-axis gyro/accelerometer & barometer, 2x LiPo flight batteries (1 active + 1 spare), USB balance charger, LiPo fireproof safety bag, 2.4 GHz 6-channel radio transmitter & receiver, and step-by-step DIY assembly guide | 1 Kit | **Permanent Asset** | | |
 
 ---
 
@@ -213,11 +217,11 @@ This purchase order is structured specifically for modern electronic component d
 
 | Item # | Safety Item Name | Technical Specifications & Safety Ratings | Required Quantity | Asset Type | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 144 | **Clear Safety Goggles** | Polycarbonate high-impact scratch-resistant safety goggles (EN166 / ANSI Z87.1 certified); un-tinted clear lens | 50 Units | **Permanent Asset** | | |
-| 145 | **Protective Workshop Work Gloves** | Medium-size latex/nitrile coated work grip gloves for handling sharp sheet metals, drills, and hot tools | 15 Pairs | **Consumable** | | |
-| 146 | **Particulate Safety Dust & Fume Masks** | 80% particulate filtration efficiency masks for soldering flux fumes and workshop wood/drill dust | 30 Units | **Consumable** | | |
-| 147 | **Comprehensive Lab First-Aid Kit** | Portable wall-mountable first-aid station with sterile bandages, burn gel dressing, antiseptic liquid, eyewash, and surgical tape | 2 Kits | **Permanent Asset** | | |
-| 148 | **Portable Fire Extinguishers (ABC Dry Powder)** | 2 kg capacity ABC dry chemical powder portable fire extinguisher with pressure gauge; rated for electrical and material fires | 2 Units | **Permanent Asset** | | |
+| 148 | **Clear Safety Goggles** | Polycarbonate high-impact scratch-resistant safety goggles (EN166 / ANSI Z87.1 certified); un-tinted clear lens | 50 Units | **Permanent Asset** | | |
+| 149 | **Protective Workshop Work Gloves** | Medium-size latex/nitrile coated work grip gloves for handling sharp sheet metals, drills, and hot tools | 15 Pairs | **Consumable** | | |
+| 150 | **Particulate Safety Dust & Fume Masks** | 80% particulate filtration efficiency masks for soldering flux fumes and workshop wood/drill dust | 30 Units | **Consumable** | | |
+| 151 | **Comprehensive Lab First-Aid Kit** | Portable wall-mountable first-aid station with sterile bandages, burn gel dressing, antiseptic liquid, eyewash, and surgical tape | 2 Kits | **Permanent Asset** | | |
+| 152 | **Portable Fire Extinguishers (ABC Dry Powder)** | 2 kg capacity ABC dry chemical powder portable fire extinguisher with pressure gauge; rated for electrical and material fires | 2 Units | **Permanent Asset** | | |
 
 ---
 ---
@@ -233,11 +237,11 @@ This purchase order is structured specifically for modern electronic component d
 
 | Item # | Deprecated Module Name | Original Specifications | Required Quantity | Modern Replacement in Primary Order | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|---|:---:|:---:|
-| 149 | **GSM / GPRS Cellular Module (SIM900)** | Quad-Band 850/900/1800/1900 MHz 2G cellular shield; UART serial AT command control; standard SIM socket *(Obsolete 2G technology)* | 6 Units | **ESP32 Wi-Fi / Cloud IoT** (Item #01) | | |
-| 150 | **433 MHz / 315 MHz RF Transmitter & Receiver** | ASK wireless super-regenerative RF pair; range 20–100m *(High RF noise, no packet filtering, unreliable)* | 15 Pairs | **NRF24L01+ 2.4 GHz PA+LNA** (Item #45) | | |
-| 151 | **Bluetooth Serial Module (HC-05)** | 2.4 GHz Bluetooth V2.0+EDR classic module; SPP serial *(Incompatible with iOS/iPhones)* | 15 Units | **BLE HM-10 / AT-09 Module** (Item #46) | | |
-| 152 | **L293D Dual H-Bridge Motor Driver Module** | BJT-based H-bridge board; max 600mA/ch; high 2V internal voltage drop, heavy heat dissipation | 15 Units | **TB6612FNG MOSFET Driver** (Item #40) | | |
-| 153 | **L298P High-Power Motor Shield** | Arduino Uno form-factor shield featuring L298 dual full-bridge BJT driver; heavy heat dissipation | 15 Units | **TB6612FNG / PCA9685 Drivers** (Items #40 & #41) | | |
+| 153 | **GSM / GPRS Cellular Module (SIM900)** | Quad-Band 850/900/1800/1900 MHz 2G cellular shield; UART serial AT command control; standard SIM socket *(Obsolete 2G technology)* | 6 Units | **ESP32 Wi-Fi / Cloud IoT** (Item #01) | | |
+| 154 | **433 MHz / 315 MHz RF Transmitter & Receiver** | ASK wireless super-regenerative RF pair; range 20–100m *(High RF noise, no packet filtering, unreliable)* | 15 Pairs | **NRF24L01+ 2.4 GHz PA+LNA** (Item #48) | | |
+| 155 | **Bluetooth Serial Module (HC-05)** | 2.4 GHz Bluetooth V2.0+EDR classic module; SPP serial *(Incompatible with iOS/iPhones)* | 15 Units | **BLE HM-10 / AT-09 Module** (Item #49) | | |
+| 156 | **L293D Dual H-Bridge Motor Driver Module** | BJT-based H-bridge board; max 600mA/ch; high 2V internal voltage drop, heavy heat dissipation | 15 Units | **TB6612FNG MOSFET Driver** (Item #40) | | |
+| 157 | **L298P High-Power Motor Shield** | Arduino Uno form-factor shield featuring L298 dual full-bridge BJT driver; heavy heat dissipation | 15 Units | **TB6612FNG / PCA9685 Drivers** (Items #40 & #41) | | |
 
 ---
 
@@ -250,33 +254,33 @@ This purchase order is structured specifically for modern electronic component d
 
 | Item # | Discrete Component Name | Technical Specifications & Model Details | Required Quantity | Component Nature | Vendor Unit Price (₹) | Total Quoted Price (₹) |
 |:---:|---|---|---:|:---:|:---:|:---:|
-| 154 | **ATmega16U2 Standalone IC** | 8-bit AVR microcontroller bare IC in DIP/SOIC package; 16 KB flash; USB controller capability; operating voltage $2.7\text{V} - 5.5\text{V}$ *(Requires custom clock, capacitors & circuit)* | 15 Units | Discrete Bare IC | | |
-| 155 | **Assorted Resistor Kit** | 30 carbon-film axial resistors each across 20 standard values: $0\,\Omega, 1.5\,\Omega, 4.7\,\Omega, 10\,\Omega, 47\,\Omega, 100\,\Omega, 220\,\Omega, 330\,\Omega, 470\,\Omega, 680\,\Omega, 1\,\text{k}\Omega, 2.2\,\text{k}\Omega, 3.3\,\text{k}\Omega, 4.7\,\text{k}\Omega, 10\,\text{k}\Omega, 22\,\text{k}\Omega, 47\,\text{k}\Omega, 100\,\text{k}\Omega, 330\,\text{k}\Omega, 1\,\text{M}\Omega$; power rating $0.25\text{W} - 1\text{W}$ | 30 Kits (600/kit = 18,000 pcs) | Discrete Passives | | |
-| 156 | **Assorted Capacitor Kit** | 20 ceramic/electrolytic capacitors each across 10 values: $10\,\text{pF}, 22\,\text{pF}, 100\,\text{pF}, 1\,\text{nF}, 10\,\text{nF}, 100\,\text{nF}\,(104), 1\,\mu\text{F}, 10\,\mu\text{F}, 100\,\mu\text{F}, 1000\,\mu\text{F}$; voltage rating 16V–50V | 30 Kits (200/kit = 6,000 pcs) | Discrete Passives | | |
-| 157 | **Diodes and Transistors Kit** | 25 assorted components across 4 standard types: BC547 / 2N3904 (NPN), BC557 / 2N3906 (PNP), 1N4148 (Fast silicon signal diode), 1N4001/1N4007 (1A 50V–1000V rectifier diodes) | 5 Kits (125 pcs total) | Discrete Semiconductors | | |
-| 158 | **Linear Voltage Regulators (LM78XX)** | 3-terminal linear IC regulators in TO-220 package: LM7805 (+5V), LM7809 (+9V), LM7812 (+12V); 1.5A peak current *(Requires filter caps)* | 45 Units | Discrete Linear IC | | |
-| 159 | **Timer IC — LM555** | Precision timing bipolar IC; DIP-8 package; operating voltage $4.5\text{V} - 16\text{V}$; astable/monostable timer modes *(Requires external R-C circuit)* | 45 Units | Discrete Timer IC | | |
-| 160 | **LEDs — Red (5mm)** | High-brightness 5mm round diffused red through-hole LED; forward voltage $1.8\text{V} - 2.2\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
-| 161 | **LEDs — Green (5mm)** | High-brightness 5mm round diffused green through-hole LED; forward voltage $2.0\text{V} - 2.4\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
-| 162 | **LEDs — Blue (5mm)** | High-brightness 5mm round clear/diffused blue through-hole LED; forward voltage $2.8\text{V} - 3.2\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
-| 163 | **LEDs — Yellow (5mm)** | High-brightness 5mm round diffused yellow through-hole LED; forward voltage $2.0\text{V} - 2.4\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
-| 164 | **LEDs — White (5mm)** | Ultra-bright 5mm clear white through-hole LED; forward voltage $3.0\text{V} - 3.4\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
-| 165 | **RGB LEDs (5mm)** | 4-pin 5mm diffused RGB LED (Common Cathode / Common Anode); operating range $3.0\text{V} - 5.0\text{V}$ *(Requires 3 current-limiting resistors)* | 600 Units | Discrete Optical Component | | |
-| 166 | **Button & Switch Assortment Set** | 100 assorted loose switches per pack: tactile momentary push buttons, SPDT slide switches, rocker switches, micro switches, and toggle switches | 5 Sets (500 switches) | Discrete Mechanical Switches | | |
-| 167 | **Piezoelectric Transducer Plate** | 40mm copper-backed piezoelectric ceramic disc element with pre-soldered wire leads *(Requires external amplifier/ADC circuit)* | 30 Units | Bare Transducer Element | | |
-| 168 | **Temperature Sensor (LM35)** | Precision linear analog temperature sensor; TO-92 3-pin transistor package; scale factor $10\,\text{mV}/^\circ\text{C}$ *(Bare analog component without breakout PCB)* | 8 Units | Bare Analog IC | | |
-| 169 | **Force Sensitive Resistor (FSR)** | $1.75\times 1.5$ inch square polymer thick-film pressure sensor; resistance varies inversely with applied force ($100\text{g} - 10\text{kg}$) *(Requires voltage-divider resistor)* | 6 Units | Bare Resistive Sensor | | |
-| 170 | **Flexion Bend Sensor** | 2.2-inch flexible carbon-resistive bend sensor; nominal flat resistance $25\,\text{k}\Omega$ *(Requires voltage-divider resistor circuit)* | 8 Units | Bare Resistive Sensor | | |
-| 171 | **Miniature Active Buzzer — Small** | 5V DC active piezoelectric buzzer (2-pin through-hole component with internal oscillator) | 60 Units | Bare Audio Component | | |
-| 172 | **Loud Active Buzzer — Big** | 5V–12V DC high-decibel active buzzer (2-lead round casing, 85+ dB output) | 60 Units | Bare Audio Component | | |
-| 173 | **Miniature Haptic Vibrating Motor** | 10g coin/cylindrical vibration motor with eccentric mass; $1.5\text{V} - 3.7\text{V}$ DC *(Requires transistor and flyback diode driver circuit to connect to GPIO)* | 30 Units | Bare Actuator Component | | |
-| 174 | **IR Transmitter & Receiver Set (TSOP1738)** | 38 kHz carrier frequency infrared receiver photodiode IC paired with 940nm high-output IR emitting LED *(Bare discrete optical components)* | 15 Pairs | Bare Optical IC & Diode | | |
+| 158 | **ATmega16U2 Standalone IC** | 8-bit AVR microcontroller bare IC in DIP/SOIC package; 16 KB flash; USB controller capability; operating voltage $2.7\text{V} - 5.5\text{V}$ *(Requires custom clock, capacitors & circuit)* | 15 Units | Discrete Bare IC | | |
+| 159 | **Assorted Resistor Kit** | 30 carbon-film axial resistors each across 20 standard values: $0\,\Omega, 1.5\,\Omega, 4.7\,\Omega, 10\,\Omega, 47\,\Omega, 100\,\Omega, 220\,\Omega, 330\,\Omega, 470\,\Omega, 680\,\Omega, 1\,\text{k}\Omega, 2.2\,\text{k}\Omega, 3.3\,\text{k}\Omega, 4.7\,\text{k}\Omega, 10\,\text{k}\Omega, 22\,\text{k}\Omega, 47\,\text{k}\Omega, 100\,\text{k}\Omega, 330\,\text{k}\Omega, 1\,\text{M}\Omega$; power rating $0.25\text{W} - 1\text{W}$ | 30 Kits (600/kit = 18,000 pcs) | Discrete Passives | | |
+| 160 | **Assorted Capacitor Kit** | 20 ceramic/electrolytic capacitors each across 10 values: $10\,\text{pF}, 22\,\text{pF}, 100\,\text{pF}, 1\,\text{nF}, 10\,\text{nF}, 100\,\text{nF}\,(104), 1\,\mu\text{F}, 10\,\mu\text{F}, 100\,\mu\text{F}, 1000\,\mu\text{F}$; voltage rating 16V–50V | 30 Kits (200/kit = 6,000 pcs) | Discrete Passives | | |
+| 161 | **Diodes and Transistors Kit** | 25 assorted components across 4 standard types: BC547 / 2N3904 (NPN), BC557 / 2N3906 (PNP), 1N4148 (Fast silicon signal diode), 1N4001/1N4007 (1A 50V–1000V rectifier diodes) | 5 Kits (125 pcs total) | Discrete Semiconductors | | |
+| 162 | **Linear Voltage Regulators (LM78XX)** | 3-terminal linear IC regulators in TO-220 package: LM7805 (+5V), LM7809 (+9V), LM7812 (+12V); 1.5A peak current *(Requires filter caps)* | 45 Units | Discrete Linear IC | | |
+| 163 | **Timer IC — LM555** | Precision timing bipolar IC; DIP-8 package; operating voltage $4.5\text{V} - 16\text{V}$; astable/monostable timer modes *(Requires external R-C circuit)* | 45 Units | Discrete Timer IC | | |
+| 164 | **LEDs — Red (5mm)** | High-brightness 5mm round diffused red through-hole LED; forward voltage $1.8\text{V} - 2.2\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
+| 165 | **LEDs — Green (5mm)** | High-brightness 5mm round diffused green through-hole LED; forward voltage $2.0\text{V} - 2.4\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
+| 166 | **LEDs — Blue (5mm)** | High-brightness 5mm round clear/diffused blue through-hole LED; forward voltage $2.8\text{V} - 3.2\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
+| 167 | **LEDs — Yellow (5mm)** | High-brightness 5mm round diffused yellow through-hole LED; forward voltage $2.0\text{V} - 2.4\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
+| 168 | **LEDs — White (5mm)** | Ultra-bright 5mm clear white through-hole LED; forward voltage $3.0\text{V} - 3.4\text{V}$; current $20\,\text{mA}$ | 1,500 Units | Discrete Optical Component | | |
+| 169 | **RGB LEDs (5mm)** | 4-pin 5mm diffused RGB LED (Common Cathode / Common Anode); operating range $3.0\text{V} - 5.0\text{V}$ *(Requires 3 current-limiting resistors)* | 600 Units | Discrete Optical Component | | |
+| 170 | **Button & Switch Assortment Set** | 100 assorted loose switches per pack: tactile momentary push buttons, SPDT slide switches, rocker switches, micro switches, and toggle switches | 5 Sets (500 switches) | Discrete Mechanical Switches | | |
+| 171 | **Piezoelectric Transducer Plate** | 40mm copper-backed piezoelectric ceramic disc element with pre-soldered wire leads *(Requires external amplifier/ADC circuit)* | 30 Units | Bare Transducer Element | | |
+| 172 | **Temperature Sensor (LM35)** | Precision linear analog temperature sensor; TO-92 3-pin transistor package; scale factor $10\,\text{mV}/^\circ\text{C}$ *(Bare analog component without breakout PCB)* | 8 Units | Bare Analog IC | | |
+| 173 | **Force Sensitive Resistor (FSR)** | $1.75\times 1.5$ inch square polymer thick-film pressure sensor; resistance varies inversely with applied force ($100\text{g} - 10\text{kg}$) *(Requires voltage-divider resistor)* | 6 Units | Bare Resistive Sensor | | |
+| 174 | **Flexion Bend Sensor** | 2.2-inch flexible carbon-resistive bend sensor; nominal flat resistance $25\,\text{k}\Omega$ *(Requires voltage-divider resistor circuit)* | 8 Units | Bare Resistive Sensor | | |
+| 175 | **Miniature Active Buzzer — Small** | 5V DC active piezoelectric buzzer (2-pin through-hole component with internal oscillator) | 60 Units | Bare Audio Component | | |
+| 176 | **Loud Active Buzzer — Big** | 5V–12V DC high-decibel active buzzer (2-lead round casing, 85+ dB output) | 60 Units | Bare Audio Component | | |
+| 177 | **Miniature Haptic Vibrating Motor** | 10g coin/cylindrical vibration motor with eccentric mass; $1.5\text{V} - 3.7\text{V}$ DC *(Requires transistor and flyback diode driver circuit to connect to GPIO)* | 30 Units | Bare Actuator Component | | |
+| 178 | **IR Transmitter & Receiver Set (TSOP1738)** | 38 kHz carrier frequency infrared receiver photodiode IC paired with 940nm high-output IR emitting LED *(Bare discrete optical components)* | 15 Pairs | Bare Optical IC & Diode | | |
 
 ---
 
 ### Procurement Terms & Instructions for Vendor Quotation:
-1. **Unassembled Drone Requirement**: Item #143 must be delivered strictly as an unassembled kit with extra motors, extra propellers, dual batteries, and STM32 flight controller as specified. Pre-built/RTF drones will be rejected.
-2. **Modern Module Standards**: All sensor modules, wireless boards, display modules, and motor drivers in Section 1 must feature onboard regulation and logic level compatibility with 3.3V / 5V systems (Arduino and ESP32).
+1. **Unassembled Drone Requirement**: Item #147 must be delivered strictly as an unassembled kit with extra motors, extra propellers, dual batteries, and STM32 flight controller as specified. Pre-built/RTF drones will be rejected.
+2. **Modern Module Standards**: All sensor modules, wireless boards, display modules, power buck converters, and motor drivers in Section 1 must feature onboard regulation and logic level compatibility with 3.3V / 5V systems (Arduino and ESP32).
 3. **Quotation Validity**: Vendor quotation must be valid for a minimum of 60 days.
 4. **Warranty**: Minimum 1-year standard warranty on all permanent capital assets (DSO, Multimeters, Soldering Stations, Power Tools, 3D Printer, UPS).
 
