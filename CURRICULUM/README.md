@@ -1,19 +1,12 @@
 # Curriculum Hub — Classes 5–9
 
-Start here to navigate the ATL curriculum. There are two separate learning pathways; each has its own curriculum documents and classroom folders.
+Start here to navigate the ATL curriculum. There are two primary learning pathways for Classes 5–9:
 
 ## Choose a pathway
 
-- **[AI & Computing](CLASSES/AI/README.md)** — computing foundations, Python, data, AI/ML, evaluation, responsible use, and capstone projects.
-- **[Electronics, Programming & Robotics](CLASSES/ELECTRONICS-ROBOTICS/README.md)** — computational thinking, programming, circuits, sensors, actuators, robotics, IoT, engineering design, and projects.
-- **[Class and batch index](CLASSES/README.md)** — browse Classes 5–9 and their C/D sections.
-
-## How the folders work
-
-- The pathway-level curriculum is the shared source of truth.
-- Grade folders organize materials for each class.
-- Each grade retains its **C** and **D** batch folders for batch-specific notes, records, and classroom resources.
-- Do not create duplicate curriculum sequences for C and D unless the learning outcomes genuinely differ.
+- **[AI & Computing — Classes 5–9](CLASSES/AI/README.md)** — computing foundations, Python, data, AI/ML, evaluation, responsible use, and capstone projects ([Markdown](CLASSES/AI/AI-CURRICULUM-CLASSES-5-TO-9.md) · [HTML](CLASSES/AI/AI-CURRICULUM-CLASSES-5-TO-9.html)).
+- **[Electronics, Programming & Robotics — Classes 5–9](CLASSES/ELECTRONICS-ROBOTICS/README.md)** — circuits, breadboards, Arduino, sensors, actuators, robotics, IoT, and engineering design ([Markdown](CLASSES/ELECTRONICS-ROBOTICS/ELECTRONICS-ROBOTICS-CURRICULUM-CLASSES-5-TO-9.md) · [HTML](CLASSES/ELECTRONICS-ROBOTICS/ELECTRONICS-ROBOTICS-CURRICULUM-CLASSES-5-TO-9.html)).
+- **[Curriculum Pathways Overview](CLASSES/README.md)** — browse curriculum pathways.
 
 ## HTML reading copies
 

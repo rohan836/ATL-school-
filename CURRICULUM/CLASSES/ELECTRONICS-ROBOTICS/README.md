@@ -6,10 +6,10 @@ This is a single curriculum organized into eight modules for all Classes 5–9�
 
 ## Curriculum table
 
-- [Full curriculum — Markdown](FULL-YEAR-CURRICULUM.md)
-- [Full curriculum — HTML](FULL-YEAR-CURRICULUM.html)
-
-The existing Class 5–9 and C/D batch folder structure is retained for classroom materials and records. The shared curriculum is organized by module.
+- [Electronics & Robotics Curriculum (Classes 5–9) — Markdown](ELECTRONICS-ROBOTICS-CURRICULUM-CLASSES-5-TO-9.md)
+- [Electronics & Robotics Curriculum (Classes 5–9) — HTML](ELECTRONICS-ROBOTICS-CURRICULUM-CLASSES-5-TO-9.html)
+- [Project-Oriented Curriculum Plan — Markdown](Atal%20Lab%20Project-Oriented%20Curriculum%20for%20Classes%205%20to%209.md)
+- [Project-Based Learning Plan — Markdown](ATL-PROJECT-BASED-LEARNING-PLAN-CLASSES-5-9.md)
 
 ## Safety
 

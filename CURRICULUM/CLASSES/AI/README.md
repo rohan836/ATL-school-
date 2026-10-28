@@ -2,20 +2,12 @@
 
 ## Curriculum structure
 
-AI follows the Electronics & Robotics directory pattern: one shared, full-year curriculum for Classes 5–9, with separate C and D batch folders for class work.
+AI provides a single unified, full-year curriculum for Classes 5–9:
 
-- [Full-year AI curriculum — Markdown](FULL-YEAR-CURRICULUM.md)
-- [Full-year AI curriculum — HTML](FULL-YEAR-CURRICULUM.html)
+- [AI Curriculum (Classes 5–9) — Markdown](AI-CURRICULUM-CLASSES-5-TO-9.md)
+- [AI Curriculum (Classes 5–9) — HTML](AI-CURRICULUM-CLASSES-5-TO-9.html)
 
-**The full-year curriculum above is the canonical shared curriculum.** It defines the common modules and topic sequence for every class. Classes 5–9 use this same framework; teachers adjust depth, scaffolding, activities, and project expectations to suit learners.
-
-| Class | C batch | D batch |
-|---|---|---|
-| 5 | [Class 5 C](Class-5/Class-5-C/README.md) | [Class 5 D](Class-5/Class-5-D/README.md) |
-| 6 | [Class 6 C](Class-6/Class-6-C/README.md) | [Class 6 D](Class-6/Class-6-D/README.md) |
-| 7 | [Class 7 C](Class-7/Class-7-C/README.md) | [Class 7 D](Class-7/Class-7-D/README.md) |
-| 8 | [Class 8 C](Class-8/Class-8-C/README.md) | [Class 8 D](Class-8/Class-8-D/README.md) |
-| 9 | [Class 9 C](Class-9/Class-9-C/README.md) | [Class 9 D](Class-9/Class-9-D/README.md) |
+**The curriculum above is the canonical shared curriculum.** It defines the common modules and topic sequence for every class. Classes 5–9 use this same framework; teachers adjust depth, scaffolding, activities, and project expectations to suit learners.
 
 ## Learning progression
 
@@ -27,7 +19,7 @@ The common topic sequence is taught with increasing depth:
 - **Class 8:** modular programming, data analysis, model evaluation, and modern AI concepts.
 - **Class 9:** reproducible workflows, experiment design, error analysis, and independent project work.
 
-These are differentiation guidelines—not separate curriculum documents. C and D sections follow the same shared sequence.
+These are differentiation guidelines—not separate curriculum documents.
 
 ## Delivery and safety
 
