@@ -8,8 +8,8 @@ This is a single curriculum organized into eight modules for all Classes 5–9�
 
 - [Electronics & Robotics Curriculum (Classes 5–9) — Markdown](ELECTRONICS-ROBOTICS-CURRICULUM-CLASSES-5-TO-9.md)
 - [Electronics & Robotics Curriculum (Classes 5–9) — HTML](ELECTRONICS-ROBOTICS-CURRICULUM-CLASSES-5-TO-9.html)
-- [Project-Oriented Curriculum Plan — Markdown](Atal%20Lab%20Project-Oriented%20Curriculum%20for%20Classes%205%20to%209.md)
-- [Project-Based Learning Plan — Markdown](ATL-PROJECT-BASED-LEARNING-PLAN-CLASSES-5-9.md)
+- [Project-Oriented Curriculum Plan — Markdown](../../../item-things/Atal%20Lab%20Project-Oriented%20Curriculum%20for%20Classes%205%20to%209.md)
+- [Project-Based Learning Plan — Markdown](../../../item-things/ATL-PROJECT-BASED-LEARNING-PLAN-CLASSES-5-9.md)
 
 ## Safety
 
