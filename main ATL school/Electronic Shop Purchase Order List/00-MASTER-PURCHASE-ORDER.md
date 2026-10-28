@@ -1,12 +1,5 @@
-# Atal Tinkering Lab (ATL) — Official Procurement Requisition & Vendor Purchase Order
-
-> **To**: The School Principal / Institutional Procurement Committee  
-> **From**: ATL Lab In-Charge & Electronics Instructor  
-> **Target Vendor**: Electronic Component & Educational Hardware Supplier  
-> **Lab Capacity**: 90 Students (Batch Working Capacity)  
-> **Source Base**: Official ATL Equipment Guidelines (`ATL_Equipment_List_90_students.md`)  
-> **Date of Requisition**: October 2026  
-
+# Atal Tinkering Lab (ATL) Component List
+**Year: 2026**
 ---
 
 ## 1. All Microcontrollers & Plug-and-Play Breakout Modules (ESP32, Arduino & Raspberry Pi Ecosystem)
