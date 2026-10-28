@@ -19,6 +19,7 @@
 | 06 | **Dedicated 2-Hour UPS Power Backup** | Heavy-duty Uninterruptible Power Supply (UPS) with 2-hour battery backup for 3D printer power protection | **1 Unit** | **Permanent Asset** |
 | 07 | **PLA 3D Printer Filament Spools** | High-grade 1.75mm PLA filament (1 kg spools in standard colours: Black, White, Red) | 3 Spools (3 kg) | **Consumable** |
 | 08 | **Sealed Filament Storage Containers** | Moisture-proof airtight filament storage boxes with reusable silica gel desiccants | 3 Units | **Permanent Asset** |
+| 09 | **Digital Storage Oscilloscope (DSO)** | 50 MHz bandwidth, 2 channels, 1 GSa/s real-time sample rate, 7-inch color LCD, built-in function generator, USB interface | **1 Unit** | **Permanent Asset** |
 
 ---
 

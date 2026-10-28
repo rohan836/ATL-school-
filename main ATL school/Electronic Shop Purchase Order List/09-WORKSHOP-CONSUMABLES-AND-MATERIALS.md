@@ -23,4 +23,7 @@
 | 14 | **Wooden Popsicle Craft Sticks** | Natural birch wood craft sticks for linkages, chassis beams, and structural assemblies | 1 Pack (100 Sticks) | **Consumable** |
 | 15 | **PVA Wood Adhesive Glue** | 500 ml bottle of fast-drying non-toxic PVA wood glue | **1 Bottle** | **Consumable** |
 | 16 | **Thick String & Heavy Rubber Bands** | 20m spool of multicolored thick cord + 100 heavy-duty elastic rubber bands | 2 Spools + 1 Pack | **Consumable** |
-
+| 17 | **Polyolefin Heat Shrink Sleeve Wrapping Tube (1mm–10mm, 1m each)** | Polyolefin flame-retardant heat shrink tubing assortment in individual 1-meter lengths (diameters 1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 7mm, 8mm, 9mm, 10mm; 2:1 shrink ratio); for DIY projects, wiring insulation, and cable repairs | 1 Set (10 Metres) | **Consumable** |
+| 18 | **Mario Masking Tape (12mm Width, 20m Length, Pack of 12 Rolls)** | 12mm width $\times$ 20m length paper masking tape (pack of 12 rolls); easy-tear DIY craft tape, residue-free peeling; for labeling, carpentry, light holding, and painting | 1 Pack (12 Rolls) | **Consumable** |
+| 19 | **Pidilite Steelgrip Self-Adhesive PVC Electrical Insulation Tape** | Premium PVC electrical insulation tape (6m length per roll); flame-retardant, high-adhesion dielectric insulation for wire splicing and electrical joints; pack of 12 rolls | 1 Pack (12 Rolls) | **Consumable** |
+| 20 | **Instamall Aluminum Gas Lighter Refill Can (100 ML, Pack of 2)** | Refined liquefied butane gas refill canisters (100 ml each, pack of 2 red aluminum cans); for refilling micro gas torches, flame tools, bench lighters, and heat shrink activation | 1 Pack (2 Cans) | **Consumable** |

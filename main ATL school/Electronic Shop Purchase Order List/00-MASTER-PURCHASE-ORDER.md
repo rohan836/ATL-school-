@@ -114,19 +114,21 @@
 | 88 | **Electronic Spices 18650 Battery Holder 3-Slot with Wire Leads** | 3-slot 18650 lithium battery holder box (3.7V × 3 = 11.1V / 12V output) with heavy-duty wire leads for robotics and motor supply | 10 Units | **Consumable** |
 | 89 | **Electronic Spices Li-ion Battery Universal Charger (Dual 3.7V 18650)** | Universal dual-slot desktop battery charger for 3.7V 18650 cylindrical lithium rechargeable cells with automatic cut-off and LED status | 3 Units | **Consumable** |
 | 90 | **AC to DC 4-Slot 18650 Battery Charger with LED Indicator** | Heavy-duty 4-slot intelligent AC mains charger for 3.7V rechargeable Li-ion 18650 batteries; independent channel charging with LED indicators | 2 Units | **Consumable** |
-| 91 | **3.7V 1200mAh LiPo (Lithium Polymer) Rechargeable Battery** | 3.7V 1S flat pouch rechargeable lithium polymer cell with built-in Protection Circuit Module (PCM) preventing overcharge/overdischarge; pre-soldered leads / 2-pin JST connector; ideal for wearable electronics, IoT sensors, Seeed Studio XIAO ESP32-S3 battery charging, and TP4056 single-cell charging circuits | **30 Pieces** | **Consumable** |
-| 92 | **18650 3.7V Li-ion (Lithium-Ion) Rechargeable Battery Cell** | Standard industrial 18650 cylindrical rechargeable lithium-ion cells ($18\times 65\,\text{mm}$); high-capacity ($2000-2600\,\text{mAh}$) flat-top / button-top; fits 2-slot (7.4V) and 3-slot (11.1V) battery holders, desktop 4-slot chargers, robotics chassis, and high-drain BO motors | **30 Pieces** | **Consumable** |
-| 93 | **9V Battery Snaps with DC Barrel Plug** | Heavy-duty molded hard-plastic 9V battery connector clips terminating in a 5.5mm/2.1mm DC barrel jack | 20 Units | **Consumable** |
-| 94 | **USB Programming Cables — Type-A to Type-B** | High-shielded 1.2m USB 2.0 cable for Arduino Uno and Arduino Mega | 10 Cables | **Consumable** |
-| 95 | **USB Programming Cables — Type-A to Mini-B** | High-shielded 1.0m USB 2.0 cable for Arduino Nano and microcontroller boards | 10 Cables | **Consumable** |
-| 96 | **USB to DC Barrel Jack Converter Cables** | 5V USB Type-A to 5.5mm $\times$ 2.1mm center-positive DC plug cable for running breadboards from power banks | 5 Cables | **Consumable** |
-| 97 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 3 Units | **Consumable** |
-| 98 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 5 Units | **Consumable** |
-| 99 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 5 Units | **Consumable** |
-| 100 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 3 Units | **Consumable** |
-| 101 | **Twisted-Pair Mains Distribution Wires** | Red-Black twisted flexible copper electrical distribution wire | 20 Metres | **Consumable** |
-| 102 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 5 Units | **Consumable** |
-| 103 | **$4\times 4$ Matrix Membrane Keypad** | 16-key matrix keypad (keys 0–9, *, #, A–D); flexible flat ribbon cable with 8-pin 2.54mm pitch female socket | 10 Units | **Consumable** |
+| 91 | **HD-8993A 8-Slot Battery Charger with LCD Display** | 8-slot multi-chemistry intelligent battery charger with LCD status display; 6400mA max output across independent channels; supports 18650, 26650, AA, AAA, Ni-MH, and 3.7V Lithium-ion cylindrical rechargeable batteries | 1 Unit | **Consumable** |
+| 92 | **3.7V 1200mAh LiPo (Lithium Polymer) Rechargeable Battery** | 3.7V 1S flat pouch rechargeable lithium polymer cell with built-in Protection Circuit Module (PCM) preventing overcharge/overdischarge; pre-soldered leads / 2-pin JST connector; ideal for wearable electronics, IoT sensors, Seeed Studio XIAO ESP32-S3 battery charging, and TP4056 single-cell charging circuits | **30 Pieces** | **Consumable** |
+| 93 | **18650 3.7V Li-ion (Lithium-Ion) Rechargeable Battery Cell** | Standard industrial 18650 cylindrical rechargeable lithium-ion cells ($18\times 65\,\text{mm}$); high-capacity ($2000-2600\,\text{mAh}$) flat-top / button-top; fits 2-slot (7.4V) and 3-slot (11.1V) battery holders, desktop 4-slot chargers, robotics chassis, and high-drain BO motors | **30 Pieces** | **Consumable** |
+| 94 | **9V Battery Snaps with DC Barrel Plug** | Heavy-duty molded hard-plastic 9V battery connector clips terminating in a 5.5mm/2.1mm DC barrel jack | 20 Units | **Consumable** |
+| 95 | **USB Programming Cables — Type-A to Type-B** | High-shielded 1.2m USB 2.0 cable for Arduino Uno and Arduino Mega | 10 Cables | **Consumable** |
+| 96 | **USB Programming Cables — Type-A to Mini-B** | High-shielded 1.0m USB 2.0 cable for Arduino Nano and microcontroller boards | 10 Cables | **Consumable** |
+| 97 | **USB to DC Barrel Jack Converter Cables** | 5V USB Type-A to 5.5mm $\times$ 2.1mm center-positive DC plug cable for running breadboards from power banks | 5 Cables | **Consumable** |
+| 98 | **High-Capacity Portable Power Banks** | 10,000 mAh dual-port (5V 2.1A / 1A) portable rechargeable power bank with battery LED meter | 3 Units | **Consumable** |
+| 99 | **Regulated DC Wall Power Adapter — 5V 2A** | 230V AC to 5V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 5 Units | **Consumable** |
+| 100 | **Regulated DC Wall Power Adapter — 12V 2A** | 230V AC to 12V DC, 2000mA regulated switch-mode wall power adapter with 5.5mm DC barrel jack | 5 Units | **Consumable** |
+| 101 | **FEDUS 12V 1.5Amp DC Power Supply Adapter Converter** | 12 Volt 1.5A SMPS regulated power adapter converter (100–240V AC input, 12V 1.5A DC output with standard 5.5mm DC barrel jack); for CCTV cameras, routers, DVR/NVR, LCD monitors, LED strips, motors and microcontrollers | 2 Units | **Consumable** |
+| 102 | **Workshop Power Extension Boards** | Heavy-duty 5-socket universal surge-protected power extension strip with master switch, indicator, and 5m cord | 3 Units | **Consumable** |
+| 103 | **Twisted-Pair Mains Distribution Wires** | Red-Black twisted flexible copper electrical distribution wire | 20 Metres | **Consumable** |
+| 104 | **AC/DC Lamp Bulb Holders** | Standard insulated screw/bayonet socket bulb holders for bench load experiments | 5 Units | **Consumable** |
+| 105 | **$4\times 4$ Matrix Membrane Keypad** | 16-key matrix keypad (keys 0–9, *, #, A–D); flexible flat ribbon cable with 8-pin 2.54mm pitch female socket | 10 Units | **Consumable** |
 
 ---
 
@@ -134,15 +136,15 @@
 
 | Item # | Item Description | Technical Specifications & Model Details | Required Quantity | Asset Type |
 |:---:|---|---|---:|:---:|
-| 104 | **150 RPM Plastic BO Gear Motor with Wheel** | 3V–9V DC dual-shaft straight gearbox motor (150 RPM output speed @ 6V) complete with matching 65mm rubber-tread wheel | 30 Pairs | **Consumable** |
-| 105 | **150 RPM BO Motor (Standalone)** | 3V–9V DC battery-operated single-shaft plastic gear motor (150 RPM) | 10 Units | **Consumable** |
-| 106 | **12V High-Torque DC Geared Motor** | 12V DC heavy-duty metal-gear motor; 150 RPM output; 6mm D-shaped center output shaft | 10 Units | **Consumable** |
-| 107 | **Submersible Mini Water Pump** | 12V DC, 3W submersible centrifugal brushless water pump with outlet nozzle; max head 1.5 metres | 3 Units | **Consumable** |
-| 108 | **Micro Positional Servo — Plastic Gear (SG90)** | 9g micro positional servo motor; $0^\circ - 180^\circ$ pulse angle rotation; operating voltage $4.8\text{V} - 6.0\text{V}$; stall torque 1.8 kg-cm; horns included | 30 Units | **Consumable** |
-| 109 | **Metal-Gear Micro Servo (MG90S)** | High-durability micro servo with brass and aluminum gears; $0^\circ - 180^\circ$ rotation; stall torque 2.2 kg-cm | 10 Units | **Consumable** |
-| 110 | **Standard High-Torque Positional Servo** | Full-size metal-gear positional servo (MG995 / MG996R); torque 10–12 kg-cm; double ball bearings; $0^\circ - 180^\circ$ control | 5 Units | **Consumable** |
-| 111 | **Continuous Rotation Metal Servo (360°)** | Full-size continuous rotation servo ($360^\circ$ speed/direction control); high-torque metal gear train | 5 Units | **Consumable** |
-| 112 | **3-Channel Servo & ESC Tester (CCPM)** | Standalone digital servo tester with 3 modes (Manual speed dial, Neutral auto-center, Automatic window sweep); tests up to 3 servos simultaneously | 3 Units | **Consumable** |
+| 106 | **150 RPM Plastic BO Gear Motor with Wheel** | 3V–9V DC dual-shaft straight gearbox motor (150 RPM output speed @ 6V) complete with matching 65mm rubber-tread wheel | 30 Pairs | **Consumable** |
+| 107 | **150 RPM BO Motor (Standalone)** | 3V–9V DC battery-operated single-shaft plastic gear motor (150 RPM) | 10 Units | **Consumable** |
+| 108 | **12V High-Torque DC Geared Motor** | 12V DC heavy-duty metal-gear motor; 150 RPM output; 6mm D-shaped center output shaft | 10 Units | **Consumable** |
+| 109 | **Submersible Mini Water Pump** | 12V DC, 3W submersible centrifugal brushless water pump with outlet nozzle; max head 1.5 metres | 3 Units | **Consumable** |
+| 110 | **Micro Positional Servo — Plastic Gear (SG90)** | 9g micro positional servo motor; $0^\circ - 180^\circ$ pulse angle rotation; operating voltage $4.8\text{V} - 6.0\text{V}$; stall torque 1.8 kg-cm; horns included | 30 Units | **Consumable** |
+| 111 | **Metal-Gear Micro Servo (MG90S)** | High-durability micro servo with brass and aluminum gears; $0^\circ - 180^\circ$ rotation; stall torque 2.2 kg-cm | 10 Units | **Consumable** |
+| 112 | **Standard High-Torque Positional Servo** | Full-size metal-gear positional servo (MG995 / MG996R); torque 10–12 kg-cm; double ball bearings; $0^\circ - 180^\circ$ control | 5 Units | **Consumable** |
+| 113 | **Continuous Rotation Metal Servo (360°)** | Full-size continuous rotation servo ($360^\circ$ speed/direction control); high-torque metal gear train | 5 Units | **Consumable** |
+| 114 | **3-Channel Servo & ESC Tester (CCPM)** | Standalone digital servo tester with 3 modes (Manual speed dial, Neutral auto-center, Automatic window sweep); tests up to 3 servos simultaneously | 3 Units | **Consumable** |
 
 ---
 
@@ -150,48 +152,56 @@
 
 | Item # | Equipment / Machine / Tool Name | Technical Specifications & Model Details | Required Quantity | Asset Type |
 |:---:|---|---|---:|:---:|
-| 113 | **Digital Storage Oscilloscope (DSO)** | 50 MHz bandwidth, 2 channels, 1 GSa/s real-time sample rate, 7-inch color LCD, built-in function generator, USB interface | **1 Unit** | **Permanent Asset** |
-| 114 | **Digital Multimeter (DMM)** | 7 functions, 19 ranges; DC voltage ($200\text{mV} - 1000\text{V}$), AC voltage ($200\text{V} - 750\text{V}$), DC current ($200\,\mu\text{A} - 10\text{A}$), resistance ($200\,\Omega - 2\,\text{M}\Omega$), diode test, continuity buzzer | 3 Units | **Permanent Asset** |
-| 115 | **Serplex Pen Type Digital Multimeter (4000 Count AC/DC 600V)** | Slim pen-style auto-ranging digital multimeter; 4000 counts; measures AC/DC voltage up to 600V, resistance, continuity buzzer, frequency, NCV non-contact voltage sensor with flashlight | 2 Units | **Permanent Asset** |
-| 116 | **Continuity Tester with Light Multi-Purpose Tool with Green LED** | Heavy-duty diagnostic continuity test tool with bright green LED indicator and tone buzzer; supplied complete with 2 AAA batteries; for wire tracing and PCB fault diagnosis | **1 Unit** | **Permanent Asset** |
-| 117 | **Digital Voltage Tester Pen** | Contactless and contact AC voltage detector pen with audible alarm and bright LED indicator | **1 Unit** | **Permanent Asset** |
-| 118 | **Digital Vernier Caliper** | 150mm / 6-inch electronic digital vernier caliper; stainless steel frame; resolution 0.01mm / 0.0005"; zero-calibration key | 2 Units | **Permanent Asset** |
-| 119 | **Stainless Steel Workshop Ruler** | 150mm / 12-inch heavy-duty stainless steel measuring rule with photo-etched metric and imperial scales | 3 Units | **Permanent Asset** |
-| 120 | **Auto-Retracting Measuring Tape** | 5m $\times$ 19mm steel measuring tape with rubberized shockproof armor, belt clip, and thumb lock | 2 Units | **Permanent Asset** |
-| 121 | **Workshop Spirit Level** | 12-inch aluminum magnetic spirit level with 3 shockproof acrylic vials (horizontal, vertical, $45^\circ$) | **1 Unit** | **Permanent Asset** |
-| 122 | **Temperature-Controlled Soldering Stations** | 15W–30W / 230V variable temperature soldering stations ($280^\circ\text{C} - 450^\circ\text{C}$) with heavy cast-iron cradle stand | **2 Stations** | **Permanent Asset** |
-| 123 | **Helping Hand Magnifier Soldering Stand with 2 LED Lights** | PCB soldering auxiliary stand with dual adjustable alligator clips, heavy cast-iron base, flexible joints, bright dual LED illuminator, and dual magnification optical lens (35X / 12X, 65mm / 17mm) | 3 Units | **Permanent Asset** |
-| 124 | **Circuit Board Welding Repairing Disassembly Fixture (Motherboard Holder)** | Precision adjustable PCB and motherboard holding clamp with 360° rotation fixture, high-temperature resistance, and dual movable slide-locks for soldering, desoldering, and component rework | 2 Units | **Permanent Asset** |
-| 125 | **SP Electron Anti-Static Heat Insulation Silicone Magnetic Mat** | Large heat-resistant ($500^\circ\text{C}$) silicone work mat for soldering and electronics repair; built-in screw sorting notches, tool holders, and magnetic zones for mobile, PCB & laptop assembly | 3 Units | **Permanent Asset** |
-| 126 | **Metal Wire Welding Soldering Tip Cleaner (Steel Ball Mesh)** | Heavy-duty copper/steel ball wire mesh tip cleaner with domed metal holder; cleans solder tips without lowering tip temperature or thermal shock | **2 Units** | **Permanent Asset** |
-| 127 | **High-Vacuum Desoldering Pump** | Aluminum body spring-loaded manual solder sucker with high-suction Teflon nozzle | 5 Units | **Permanent Asset** |
-| 128 | **Lifelong 105 Pcs Electric Cordless Screwdriver Kit** | Precision mini electric screwdriver with forward-reverse function, adjustable torque, 1600mAh rechargeable Li-ion battery, USB-C charging cable, and 105 CR-V precision bit set for electronics, mobile & laptop repair | **1 Unit** | **Permanent Asset** |
-| 129 | **Industrial Hot Melt Glue Guns** | High-temperature electric glue gun ($230^\circ\text{C} - 280^\circ\text{C}$) for 11mm standard glue sticks; fold-out wire stand and insulated nozzle | **2 Guns** | **Permanent Asset** |
-| 130 | **Dual-Temperature Electric Heat Gun** | 1800W heavy-duty industrial heat gun with dual-heat rocker switch ($300^\circ\text{C} / 500^\circ\text{C}$) and concentration nozzle attachment | **1 Unit** | **Permanent Asset** |
-| 131 | **Adjustable Wire Stripper & Cutter** | Drop-forged steel wire stripper and diagonal cutter with adjustable brass gauge stop screw | 2 Units | **Permanent Asset** |
-| 132 | **Workshop Mini Plier Set (6-Piece)** | 4.5-inch carbon steel precision pliers set: Long-nose, bent-nose, needle-nose, combination mini plier, external circlip plier, and wire-stripper | **1 Set** | **Permanent Asset** |
-| 133 | **Anti-Static Precision Tweezer Set** | 6-piece non-magnetic anti-static ESD-safe stainless steel tweezers in zippered pouch (straight, curved, spade tips) | **1 Set** | **Permanent Asset** |
-| 134 | **Jeweler Precision Screwdriver Set** | 6-piece precision screwdriver set: Phillips PH0, PH1, and Flathead 1.4mm, 2mm, 2.4mm, 3mm in indexed case | **1 Set** | **Permanent Asset** |
-| 135 | **40-Piece Multi-Bit Screwdriver Set** | Ratcheting screwdriver handle with flexible extension shaft and 40 magnetic bits (Torx, Hex, Phillips, Slotted, Pozidriv) | 2 Sets | **Permanent Asset** |
-| 136 | **Combination Spanner Set (12-Piece)** | Chrome vanadium drop-forged open and ring combination spanners (metric sizes 4mm to 30mm) with wall-mountable rack | **1 Set** | **Permanent Asset** |
-| 137 | **Universal Adjustable Wrench** | 8-inch drop-forged carbon steel adjustable wrench with laser-etched metric jaw opening scale | **1 Unit** | **Permanent Asset** |
-| 138 | **Imperial Allen Hex Key Set** | 10-piece ring imperial Allen hex key set for machine hex socket screws | **1 Set** | **Permanent Asset** |
-| 139 | **Table-Top Bench Vice** | Heavy-duty cast-iron bench vice with serrated steel jaws, swivel base, locking lever, and integrated anvil surface | **1 Unit** | **Permanent Asset** |
-| 140 | **Metal Screw C-Clamps** | 3-inch heavy-duty forged steel screw-threaded C-clamps with swivel shoe | 2 Units | **Permanent Asset** |
-| 141 | **12-inch Heavy-Duty Hacksaw Frame** | Tubular steel hacksaw frame with cast handle and wingnut blade tensioner for 12-inch blades | **1 Frame** | **Permanent Asset** |
-| 142 | **6-inch Mini Hacksaw Frame** | Compact aluminum alloy mini hacksaw frame for tight spaces and delicate cutting | **1 Frame** | **Permanent Asset** |
-| 143 | **Engineering Hand File Set (6-inch)** | 6-piece high-carbon steel file set: flat, hand, round, half-round, triangular, and square with non-slip rubber handles | **1 Set** | **Permanent Asset** |
-| 144 | **Diamond Needle File Set (3-inch)** | 6-piece miniature diamond needle file set for fine deburring of plastic boxes, project enclosures, and small chassis | **1 Set** | **Permanent Asset** |
-| 145 | **Steel Shaft Claw Hammer** | 0.75 kg polished carbon steel head with tubular steel shaft and vibration-absorbing rubber grip | **1 Unit** | **Permanent Asset** |
-| 146 | **Engineer's Ball Pein Hammer** | 0.75 kg forged carbon steel ball pein hammer for metal forming, tapping, and center punching | **1 Unit** | **Permanent Asset** |
-| 147 | **BLACK+DECKER LD120VA-IN 20V MAX* POWERECONNECT Li-Ion Cordless Drill/Driver + 30 Piece Bits and Drivers, 1.5 Ah Battery & Charger Included, 750 RPM, 24-Position Clutch, Keyless Chuck, Soft-Grip Handle** | 20V MAX cordless lithium-ion drill/driver; 750 RPM variable speed; 24-position clutch prevents stripping/overdriving screws; 3/8-inch keyless chuck; includes 20V 1.5 Ah POWERCONNECT battery, charger, and 30-piece accessory set with drill bits and screwdriver bits | **1 Unit** | **Permanent Asset** |
-| 148 | **Bench Drill Press Stand & Holder** | Heavy cast-iron base drill press stand compatible with the 500W electric drill for perpendicular precision drilling | **1 Unit** | **Permanent Asset** |
-| 149 | **HSS Twist Drill Bit Set (13-Piece)** | 13-piece High-Speed Steel (HSS) drill bits ($1\,\text{mm} - 10\,\text{mm}$) in indexed steel storage index box | **1 Set** | **Permanent Asset** |
-| 150 | **Cordless Rotary Multitool Set** | High-speed Li-ion rotary tool (up to 30,000 RPM) with flexible shaft, collets, cutting discs, grinding stones, and polishing wheels | **1 Set** | **Permanent Asset** |
-| 151 | **Variable-Speed Electric Air Blower** | 500W electric high-velocity air blower with rubber directional nozzle for bench cleaning and dust removal | **1 Unit** | **Permanent Asset** |
-| 152 | **Flexible Self-Healing Cutting Mat** | A3 size ($18\times 12\,\text{inches}$) 5-ply self-healing cutting mat with printed metric grid lines, millimeters, and angle guides | **1 Unit** | **Permanent Asset** |
-| 153 | **Modular Component Storage Cabinets** | High-impact plastic storage cabinets with 60 transparent drawers each ($2\times 2\times 5\,\text{inches}$) for sorting small electronics | 2 Units (120 Drawers) | **Permanent Asset** |
-| 154 | **Wall-Mounted Pegboard Tool Systems** | $3\times 2$ feet metal tool pegboards with modular hanging hooks, spanner racks, plier clips, and tool shelves | 2 Boards | **Permanent Asset** |
+| 115 | **Digital Multimeter (DMM)** | 7 functions, 19 ranges; DC voltage ($200\text{mV} - 1000\text{V}$), AC voltage ($200\text{V} - 750\text{V}$), DC current ($200\,\mu\text{A} - 10\text{A}$), resistance ($200\,\Omega - 2\,\text{M}\Omega$), diode test, continuity buzzer | 3 Units | **Permanent Asset** |
+| 116 | **Serplex Pen Type Digital Multimeter (4000 Count AC/DC 600V)** | Slim pen-style auto-ranging digital multimeter; 4000 counts; measures AC/DC voltage up to 600V, resistance, continuity buzzer, frequency, NCV non-contact voltage sensor with flashlight | 2 Units | **Permanent Asset** |
+| 117 | **Continuity Tester with Light Multi-Purpose Tool with Green LED** | Heavy-duty diagnostic continuity test tool with bright green LED indicator and tone buzzer; supplied complete with 2 AAA batteries; for wire tracing and PCB fault diagnosis | **1 Unit** | **Permanent Asset** |
+| 118 | **Digital Voltage Tester Pen** | Contactless and contact AC voltage detector pen with audible alarm and bright LED indicator | **1 Unit** | **Permanent Asset** |
+| 119 | **Digital Vernier Caliper** | 150mm / 6-inch electronic digital vernier caliper; stainless steel frame; resolution 0.01mm / 0.0005"; zero-calibration key | 2 Units | **Permanent Asset** |
+| 120 | **Stainless Steel Workshop Ruler** | 150mm / 12-inch heavy-duty stainless steel measuring rule with photo-etched metric and imperial scales | 3 Units | **Permanent Asset** |
+| 121 | **Auto-Retracting Measuring Tape** | 5m $\times$ 19mm steel measuring tape with rubberized shockproof armor, belt clip, and thumb lock | 2 Units | **Permanent Asset** |
+| 122 | **Workshop Spirit Level** | 12-inch aluminum magnetic spirit level with 3 shockproof acrylic vials (horizontal, vertical, $45^\circ$) | **1 Unit** | **Permanent Asset** |
+| 123 | **Temperature-Controlled Soldering Stations** | 15W–30W / 230V variable temperature soldering stations ($280^\circ\text{C} - 450^\circ\text{C}$) with heavy cast-iron cradle stand | **2 Stations** | **Permanent Asset** |
+| 124 | **Helping Hand Magnifier Soldering Stand with 2 LED Lights** | PCB soldering auxiliary stand with dual adjustable alligator clips, heavy cast-iron base, flexible joints, bright dual LED illuminator, and dual magnification optical lens (35X / 12X, 65mm / 17mm) | 3 Units | **Permanent Asset** |
+| 125 | **Circuit Board Welding Repairing Disassembly Fixture (Motherboard Holder)** | Precision adjustable PCB and motherboard holding clamp with 360° rotation fixture, high-temperature resistance, and dual movable slide-locks for soldering, desoldering, and component rework | 2 Units | **Permanent Asset** |
+| 126 | **SP Electron Anti-Static Heat Insulation Silicone Magnetic Mat** | Large heat-resistant ($500^\circ\text{C}$) silicone work mat for soldering and electronics repair; built-in screw sorting notches, tool holders, and magnetic zones for mobile, PCB & laptop assembly | 3 Units | **Permanent Asset** |
+| 127 | **Metal Wire Welding Soldering Tip Cleaner (Steel Ball Mesh)** | Heavy-duty copper/steel ball wire mesh tip cleaner with domed metal holder; cleans solder tips without lowering tip temperature or thermal shock | **2 Units** | **Permanent Asset** |
+| 128 | **High-Vacuum Desoldering Pump** | Aluminum body spring-loaded manual solder sucker with high-suction Teflon nozzle | 5 Units | **Permanent Asset** |
+| 129 | **Lifelong 105 Pcs Electric Cordless Screwdriver Kit** | Precision mini electric screwdriver with forward-reverse function, adjustable torque, 1600mAh rechargeable Li-ion battery, USB-C charging cable, and 105 CR-V precision bit set for electronics, mobile & laptop repair | **1 Unit** | **Permanent Asset** |
+| 130 | **Industrial Hot Melt Glue Guns** | High-temperature electric glue gun ($230^\circ\text{C} - 280^\circ\text{C}$) for 11mm standard glue sticks; fold-out wire stand and insulated nozzle | **2 Guns** | **Permanent Asset** |
+| 131 | **Dual-Temperature Electric Heat Gun** | 1800W heavy-duty industrial heat gun with dual-heat rocker switch ($300^\circ\text{C} / 500^\circ\text{C}$) and concentration nozzle attachment | **1 Unit** | **Permanent Asset** |
+| 132 | **Adjustable Wire Stripper & Cutter** | Drop-forged steel wire stripper and diagonal cutter with adjustable brass gauge stop screw | 2 Units | **Permanent Asset** |
+| 133 | **Workshop Mini Plier Set (6-Piece)** | 4.5-inch carbon steel precision pliers set: Long-nose, bent-nose, needle-nose, combination mini plier, external circlip plier, and wire-stripper | **1 Set** | **Permanent Asset** |
+| 134 | **Anti-Static Precision Tweezer Set** | 6-piece non-magnetic anti-static ESD-safe stainless steel tweezers in zippered pouch (straight, curved, spade tips) | **1 Set** | **Permanent Asset** |
+| 135 | **Jeweler Precision Screwdriver Set** | 6-piece precision screwdriver set: Phillips PH0, PH1, and Flathead 1.4mm, 2mm, 2.4mm, 3mm in indexed case | **1 Set** | **Permanent Asset** |
+| 136 | **40-Piece Multi-Bit Screwdriver Set** | Ratcheting screwdriver handle with flexible extension shaft and 40 magnetic bits (Torx, Hex, Phillips, Slotted, Pozidriv) | 2 Sets | **Permanent Asset** |
+| 137 | **Combination Spanner Set (12-Piece)** | Chrome vanadium drop-forged open and ring combination spanners (metric sizes 4mm to 30mm) with wall-mountable rack | **1 Set** | **Permanent Asset** |
+| 138 | **Universal Adjustable Wrench** | 8-inch drop-forged carbon steel adjustable wrench with laser-etched metric jaw opening scale | **1 Unit** | **Permanent Asset** |
+| 139 | **Imperial Allen Hex Key Set** | 10-piece ring imperial Allen hex key set for machine hex socket screws | **1 Set** | **Permanent Asset** |
+| 140 | **Table-Top Bench Vice** | Heavy-duty cast-iron bench vice with serrated steel jaws, swivel base, locking lever, and integrated anvil surface | **1 Unit** | **Permanent Asset** |
+| 141 | **Metal Screw C-Clamps** | 3-inch heavy-duty forged steel screw-threaded C-clamps with swivel shoe | 2 Units | **Permanent Asset** |
+| 142 | **12-inch Heavy-Duty Hacksaw Frame** | Tubular steel hacksaw frame with cast handle and wingnut blade tensioner for 12-inch blades | **1 Frame** | **Permanent Asset** |
+| 143 | **6-inch Mini Hacksaw Frame** | Compact aluminum alloy mini hacksaw frame for tight spaces and delicate cutting | **1 Frame** | **Permanent Asset** |
+| 144 | **Engineering Hand File Set (6-inch)** | 6-piece high-carbon steel file set: flat, hand, round, half-round, triangular, and square with non-slip rubber handles | **1 Set** | **Permanent Asset** |
+| 145 | **Diamond Needle File Set (3-inch)** | 6-piece miniature diamond needle file set for fine deburring of plastic boxes, project enclosures, and small chassis | **1 Set** | **Permanent Asset** |
+| 146 | **Steel Shaft Claw Hammer** | 0.75 kg polished carbon steel head with tubular steel shaft and vibration-absorbing rubber grip | **1 Unit** | **Permanent Asset** |
+| 147 | **Engineer's Ball Pein Hammer** | 0.75 kg forged carbon steel ball pein hammer for metal forming, tapping, and center punching | **1 Unit** | **Permanent Asset** |
+| 148 | **BLACK+DECKER LD120VA-IN 20V MAX* POWERECONNECT Li-Ion Cordless Drill/Driver + 30 Piece Bits and Drivers, 1.5 Ah Battery & Charger Included, 750 RPM, 24-Position Clutch, Keyless Chuck, Soft-Grip Handle** | 20V MAX cordless lithium-ion drill/driver; 750 RPM variable speed; 24-position clutch prevents stripping/overdriving screws; 3/8-inch keyless chuck; includes 20V 1.5 Ah POWERCONNECT battery, charger, and 30-piece accessory set with drill bits and screwdriver bits | **1 Unit** | **Permanent Asset** |
+| 149 | **Bench Drill Press Stand & Holder** | Heavy cast-iron base drill press stand compatible with the 500W electric drill for perpendicular precision drilling | **1 Unit** | **Permanent Asset** |
+| 150 | **HSS Twist Drill Bit Set (13-Piece)** | 13-piece High-Speed Steel (HSS) drill bits ($1\,\text{mm} - 10\,\text{mm}$) in indexed steel storage index box | **1 Set** | **Permanent Asset** |
+| 151 | **Cordless Rotary Multitool Set** | High-speed Li-ion rotary tool (up to 30,000 RPM) with flexible shaft, collets, cutting discs, grinding stones, and polishing wheels | **1 Set** | **Permanent Asset** |
+| 152 | **Variable-Speed Electric Air Blower** | 500W electric high-velocity air blower with rubber directional nozzle for bench cleaning and dust removal | **1 Unit** | **Permanent Asset** |
+| 153 | **Flexible Self-Healing Cutting Mat** | A3 size ($18\times 12\,\text{inches}$) 5-ply self-healing cutting mat with printed metric grid lines, millimeters, and angle guides | **1 Unit** | **Permanent Asset** |
+| 154 | **Modular Component Storage Cabinets** | High-impact plastic storage cabinets with 60 transparent drawers each ($2\times 2\times 5\,\text{inches}$) for sorting small electronics | 2 Units (120 Drawers) | **Permanent Asset** |
+| 155 | **Wall-Mounted Pegboard Tool Systems** | $3\times 2$ feet metal tool pegboards with modular hanging hooks, spanner racks, plier clips, and tool shelves | 2 Boards | **Permanent Asset** |
+| 156 | **BUILDSKILL 2 IN 1 Automatic Wire Stripping & Cutting Tool** | Precision 2-in-1 automatic wire stripper and cutter; adjustable pressure tension knob and wire length guide; ergonomic non-slip handle; for electrical, electronics, automotive cords and cables | **1 Unit** | **Permanent Asset** |
+| 157 | **Wire Crimping Tool Kit Ferrule Crimping Plier with 1200pcs Terminals** | Self-adjusting electrician ratchet ferrule crimper plier (AWG 23-7 / 0.25-10mm²) paired with 1200pcs copper crimp connector ferrule wire terminal assortment box | **1 Kit** | **Permanent Asset** |
+| 158 | **Stainless Steel Heavy Quality Diagonal Nipper Wire Cutter** | Heavy-duty stainless steel diagonal nipper/flush wire cutter; precision cutting edges with spring return and insulated non-slip grips; for component lead clipping, electronics and jewelry wiring | **1 Pack (1 Unit)** | **Permanent Asset** |
+| 159 | **VEGA Small General Cutting Scissor for Home, Office & Craft Use (SCS-01)** | Stainless steel multipurpose precision scissors with ergonomic comfort grip; for paper, cardboard, fabric, thread, tapes, and craft cutting | **1 Unit** | **Permanent Asset** |
+| 160 | **Serplex® 8 Inch Heavy Duty Scissors Tin Snips with Stainless Steel Blade** | 8-inch industrial heavy-duty scissors / tin snips with stainless steel hardened cutting blades; for cutting thin sheet metal, aluminum, tin, wire mesh, thick plastic, and cardboard | **1 Unit** | **Permanent Asset** |
+| 161 | **Qatalitic Detail Pen Cutter with 5 Interchangeable Sharp Blades** | Precision craft detail pen knife / scalpel tool made of high-grade steel with textured anti-slip grip; supplied with 5 interchangeable surgical-sharp replacement blades; for fine model making, stencil trimming, paper craft, and PCB trace cutting | 2 Units | **Permanent Asset** |
+| 162 | **KABEER ART Heavy Duty 18 mm Cutter Set With 10 Replacement Blades** | Heavy-duty 18mm utility cutter knife with auto-lock slide mechanism and rugged body; packaged with 10 replacement high-carbon snap-off blades in storage case; for heavy craft, cardboard, acrylic, and foam boards | **1 Set** | **Permanent Asset** |
+| 163 | **Verilux® Mini Cordless Rotary Tool Kit (3.7V, 5 Speeds, with 58 Accessories)** | 3.7V rechargeable mini cordless rotary multitool with 5 variable speed levels; includes 58 accessories (collets, sanding bands, grinding stones, drill bits, polishing wheels) and USB charging cable; for delicate craft, PCB drilling, engraving, and polishing | **1 Kit** | **Permanent Asset** |
+| 164 | **Hetkrishi Mini Die Grinder Rotary Tool Variable Speed (130W)** | Compact 130W electric mini die grinder with variable speed dial ($8,000 - 30,000\,\text{RPM}$); heavy-duty motor for high-torque drilling, sanding, grinding, buffing, polishing, and engraving | **1 Unit** | **Permanent Asset** |
 
 ---
 
@@ -199,22 +209,26 @@
 
 | Item # | Consumable Item Name | Technical Specifications & Model Details | Required Quantity | Asset Type |
 |:---:|---|---|---:|:---:|
-| 155 | **Electronic Spices Quickfix Solder Paste Flux (Pack of 2, 50g+50g=100g)** | Premium brown rosin-rich active solder paste flux; facilitates fast solder wetting, prevents oxidation, and cleans copper traces during prototyping | 2 Packs (4 Tubs) | **Consumable** |
-| 156 | **Mechanic XG-50 Tin Solder Paste (Sn63/Pb37, 35g)** | Professional No-Clean soldering tin paste alloy ($63\%\,\text{Sn} / 37\%\,\text{Pb}$, melting point $183^\circ\text{C}$); ideal for SMD rework, BGA, PCB assembly & mobile repair | 2 Tubs | **Consumable** |
-| 157 | **SCHOFIC 5 Feet 3MM BGA Desoldering Wick** | High-absorption pure copper desoldering braid / solder remover wick (3.0mm width, 5 feet length); for cleaning solder bridges and SMD pads | 5 Spools | **Consumable** |
-| 158 | **Rosin-Core Solder Wire Spools** | 100g spools of 60/40 leaded or lead-free 20/22 AWG rosin-flux-core soldering wire | 3 Spools (300g total) | **Consumable** |
-| 159 | **Hot Melt Glue Sticks** | Standard $11\,\text{mm}\times 200\,\text{mm}$ high-clarity EVA hot melt adhesive glue sticks | 30 Sticks | **Consumable** |
-| 160 | **12-inch Hacksaw Replacement Blades** | 12-inch high-carbon steel bi-metal flexible hacksaw blades (18/24 TPI) | 5 Blades | **Consumable** |
-| 161 | **6-inch Mini Hacksaw Replacement Blades** | 6-inch high-carbon steel replacement mini blades (24 TPI) | 5 Blades | **Consumable** |
-| 162 | **Waterproof Sandpaper Assortment** | Silicon carbide waterproof sandpaper sheets: Grits 80, 100, 120, 200, 300 | 3 Packs (15 Sheets) | **Consumable** |
-| 163 | **Machine Hardware Fasteners Kit** | Assorted metric machine screws, hex nuts, and washers: M4 $\times$ 12/20mm, M5 $\times$ 16/25mm, M6 $\times$ 20mm | 5 Sets | **Consumable** |
-| 164 | **Nylon Cable Ties (Zip Ties)** | Self-locking UV-resistant nylon cable ties: Small, Medium, Big (100 ties/pack) | 5 Packs (500 ties total) | **Consumable** |
-| 165 | **Heat Shrink Tubing Assortment** | Polyolefin flame-retardant heat shrink tubing assortment (diameters 2mm, 3mm, 5mm, 8mm, 10mm) | 3 Packs (60 Pieces) | **Consumable** |
-| 166 | **Prototyping Corrugated Cardboard Sheets**| Heavy-duty 3-ply corrugated cardboard sheets for rapid structural chassis mockups | 3 Sheets | **Consumable** |
-| 167 | **Prototyping Foam Core Boards** | Lightweight rigid 5mm white foam core boards for precision enclosure fabrication | 3 Boards | **Consumable** |
-| 168 | **Wooden Popsicle Craft Sticks** | Natural birch wood craft sticks for linkages, chassis beams, and structural assemblies | 1 Pack (100 Sticks) | **Consumable** |
-| 169 | **PVA Wood Adhesive Glue** | 500 ml bottle of fast-drying non-toxic PVA wood glue | **1 Bottle** | **Consumable** |
-| 170 | **Thick String & Heavy Rubber Bands** | 20m spool of multicolored thick cord + 100 heavy-duty elastic rubber bands | 2 Spools + 1 Pack | **Consumable** |
+| 165 | **Electronic Spices Quickfix Solder Paste Flux (Pack of 2, 50g+50g=100g)** | Premium brown rosin-rich active solder paste flux; facilitates fast solder wetting, prevents oxidation, and cleans copper traces during prototyping | 2 Packs (4 Tubs) | **Consumable** |
+| 166 | **Mechanic XG-50 Tin Solder Paste (Sn63/Pb37, 35g)** | Professional No-Clean soldering tin paste alloy ($63\%\,\text{Sn} / 37\%\,\text{Pb}$, melting point $183^\circ\text{C}$); ideal for SMD rework, BGA, PCB assembly & mobile repair | 2 Tubs | **Consumable** |
+| 167 | **SCHOFIC 5 Feet 3MM BGA Desoldering Wick** | High-absorption pure copper desoldering braid / solder remover wick (3.0mm width, 5 feet length); for cleaning solder bridges and SMD pads | 5 Spools | **Consumable** |
+| 168 | **Rosin-Core Solder Wire Spools** | 100g spools of 60/40 leaded or lead-free 20/22 AWG rosin-flux-core soldering wire | 3 Spools (300g total) | **Consumable** |
+| 169 | **Hot Melt Glue Sticks** | Standard $11\,\text{mm}\times 200\,\text{mm}$ high-clarity EVA hot melt adhesive glue sticks | 30 Sticks | **Consumable** |
+| 170 | **12-inch Hacksaw Replacement Blades** | 12-inch high-carbon steel bi-metal flexible hacksaw blades (18/24 TPI) | 5 Blades | **Consumable** |
+| 171 | **6-inch Mini Hacksaw Replacement Blades** | 6-inch high-carbon steel replacement mini blades (24 TPI) | 5 Blades | **Consumable** |
+| 172 | **Waterproof Sandpaper Assortment** | Silicon carbide waterproof sandpaper sheets: Grits 80, 100, 120, 200, 300 | 3 Packs (15 Sheets) | **Consumable** |
+| 173 | **Machine Hardware Fasteners Kit** | Assorted metric machine screws, hex nuts, and washers: M4 $\times$ 12/20mm, M5 $\times$ 16/25mm, M6 $\times$ 20mm | 5 Sets | **Consumable** |
+| 174 | **Nylon Cable Ties (Zip Ties)** | Self-locking UV-resistant nylon cable ties: Small, Medium, Big (100 ties/pack) | 5 Packs (500 ties total) | **Consumable** |
+| 175 | **Heat Shrink Tubing Assortment** | Polyolefin flame-retardant heat shrink tubing assortment (diameters 2mm, 3mm, 5mm, 8mm, 10mm) | 3 Packs (60 Pieces) | **Consumable** |
+| 176 | **Prototyping Corrugated Cardboard Sheets**| Heavy-duty 3-ply corrugated cardboard sheets for rapid structural chassis mockups | 3 Sheets | **Consumable** |
+| 177 | **Prototyping Foam Core Boards** | Lightweight rigid 5mm white foam core boards for precision enclosure fabrication | 3 Boards | **Consumable** |
+| 178 | **Wooden Popsicle Craft Sticks** | Natural birch wood craft sticks for linkages, chassis beams, and structural assemblies | 1 Pack (100 Sticks) | **Consumable** |
+| 179 | **PVA Wood Adhesive Glue** | 500 ml bottle of fast-drying non-toxic PVA wood glue | **1 Bottle** | **Consumable** |
+| 180 | **Thick String & Heavy Rubber Bands** | 20m spool of multicolored thick cord + 100 heavy-duty elastic rubber bands | 2 Spools + 1 Pack | **Consumable** |
+| 181 | **Polyolefin Heat Shrink Sleeve Wrapping Tube (1mm–10mm, 1m each)** | Polyolefin flame-retardant heat shrink tubing assortment in individual 1-meter lengths (diameters 1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 7mm, 8mm, 9mm, 10mm; 2:1 shrink ratio); for DIY projects, wiring insulation, and cable repairs | 1 Set (10 Metres) | **Consumable** |
+| 182 | **Mario Masking Tape (12mm Width, 20m Length, Pack of 12 Rolls)** | 12mm width $\times$ 20m length paper masking tape (pack of 12 rolls); easy-tear DIY craft tape, residue-free peeling; for labeling, carpentry, light holding, and painting | 1 Pack (12 Rolls) | **Consumable** |
+| 183 | **Pidilite Steelgrip Self-Adhesive PVC Electrical Insulation Tape** | Premium PVC electrical insulation tape (6m length per roll); flame-retardant, high-adhesion dielectric insulation for wire splicing and electrical joints; pack of 12 rolls | 1 Pack (12 Rolls) | **Consumable** |
+| 184 | **Instamall Aluminum Gas Lighter Refill Can (100 ML, Pack of 2)** | Refined liquefied butane gas refill canisters (100 ml each, pack of 2 red aluminum cans); for refilling micro gas torches, flame tools, bench lighters, and heat shrink activation | 1 Pack (2 Cans) | **Consumable** |
 
 ---
 
@@ -222,11 +236,11 @@
 
 | Item # | Safety Item Name | Technical Specifications & Safety Ratings | Required Quantity | Asset Type |
 |:---:|---|---|---:|:---:|
-| 171 | **Clear Safety Goggles** | Polycarbonate high-impact scratch-resistant safety goggles (EN166 / ANSI Z87.1 certified); un-tinted clear lens | 20 Units | **Permanent Asset** |
-| 172 | **Protective Workshop Work Gloves** | Medium-size latex/nitrile coated work grip gloves for handling sharp sheet metals, drills, and hot tools | 5 Pairs | **Consumable** |
-| 173 | **Particulate Safety Dust & Fume Masks** | 80% particulate filtration efficiency masks for soldering flux fumes and workshop wood/drill dust | 10 Units | **Consumable** |
-| 174 | **Comprehensive Lab First-Aid Kit** | Portable wall-mountable first-aid station with sterile bandages, burn gel dressing, antiseptic liquid, eyewash, and surgical tape | **1 Kit** | **Permanent Asset** |
-| 175 | **Portable Fire Extinguishers (ABC Dry Powder)** | 2 kg capacity ABC dry chemical powder portable fire extinguisher with pressure gauge; rated for electrical and material fires | 2 Units | **Permanent Asset** |
+| 185 | **Clear Safety Goggles** | Polycarbonate high-impact scratch-resistant safety goggles (EN166 / ANSI Z87.1 certified); un-tinted clear lens | 20 Units | **Permanent Asset** |
+| 186 | **Protective Workshop Work Gloves** | Medium-size latex/nitrile coated work grip gloves for handling sharp sheet metals, drills, and hot tools | 5 Pairs | **Consumable** |
+| 187 | **Particulate Safety Dust & Fume Masks** | 80% particulate filtration efficiency masks for soldering flux fumes and workshop wood/drill dust | 10 Units | **Consumable** |
+| 188 | **Comprehensive Lab First-Aid Kit** | Portable wall-mountable first-aid station with sterile bandages, burn gel dressing, antiseptic liquid, eyewash, and surgical tape | **1 Kit** | **Permanent Asset** |
+| 189 | **Portable Fire Extinguishers (ABC Dry Powder)** | 2 kg capacity ABC dry chemical powder portable fire extinguisher with pressure gauge; rated for electrical and material fires | 2 Units | **Permanent Asset** |
 
 ---
 
@@ -240,48 +254,48 @@
 
 | Item # | Discrete Component Name | Technical Specifications & Model Details | Practical Lab / Circuit Role | Required Quantity |
 |:---:|---|---|---|---:|
-| 176 | **Bare 5V Sugar-Cube Electromagnetic Relay** | Songle SRD-05VDC-SL-C; 5-pin SPDT bare relay; contacts rated 10A 250V AC / 30V DC *(Requires manual transistor & diode driver)* | Learning coil actuation, transistor switching & flyback diode protection | **5 Units** |
-| 177 | **Single 1-Digit 7-Segment LED Display (Common Cathode)** | 0.56-inch 1-digit red 7-segment display; 10-pin DIP through-hole; forward voltage 2.0V *(Requires 7-8 current-limiting resistors)* | Learning direct binary-to-decimal LED segment decoding | **5 Units** |
-| 178 | **Single 1-Digit 7-Segment LED Display (Common Anode)** | 0.56-inch 1-digit red 7-segment display; 10-pin DIP through-hole; active-low configuration | Comparative study of active-high vs active-low segment logic | **5 Units** |
-| 179 | **Bare 4-Digit 7-Segment LED Display** | 12-pin bare multiplexed 4-digit display *(No TM1637 driver IC; requires multiplexed pin scanning)* | Teaching display multiplexing, ghosting prevention & persistence of vision | **5 Units** |
-| 180 | **Bare 16×2 Character LCD Panel (HD44780)** | 16-pin parallel interface LCD display; 5V DC; blue backlight *(Raw display without I2C backpack board)* | Teaching parallel data buses (4-bit/8-bit), RS, Enable & RW pin control | **5 Units** |
-| 181 | **10-Segment LED Bargraph Display Array** | 20-pin DIP array with 10 individually addressable red/green LED segments | Analog level indicators, battery level meters & audio VU meters | **5 Units** |
-| 182 | **Bare LDR Photoresistors (GL5528)** | 5mm cadmium sulfide (CdS) light-dependent resistor; dark resistance $1\,\text{M}\Omega$, light resistance $10-20\,\text{k}\Omega$ | Voltage divider circuits for automatic light/dark detectors | **5 Units** |
-| 183 | **Bare NTC Thermistors (10kΩ Bead)** | 2-pin negative temperature coefficient thermistor; $B_{25/50} = 3950\,\text{K}$; resistance decreases as heat rises | Building analog thermal detection and fire alarm circuits | **5 Units** |
-| 184 | **Rotary Carbon Potentiometers (10kΩ)** | 3-pin panel mount / breadboard rotary potentiometer with knurled shaft and matching control knobs | Dial controls for PWM motor speed, tone pitch & LCD contrast | **5 Units** |
-| 185 | **Breadboard Miniature Trimpots (10kΩ - 3362P)** | 3-pin single-turn horizontal/vertical cermet trimmer potentiometer | Precision threshold calibration on prototype breadboards | **5 Units** |
-| 186 | **ATmega328P-PU Standalone IC (with 16MHz Crystal Kit)** | 28-pin DIP AVR microcontroller bare chip paired with 16 MHz HC-49S quartz crystal and two 22pF ceramic load capacitors | Building a "DIY Arduino on Breadboard / Perfboard" from scratch | **5 Sets** |
-| 187 | **ATmega16U2 Standalone IC** | 8-bit AVR microcontroller bare IC in DIP/SOIC package; 16 KB flash; USB controller capability; $2.7\text{V} - 5.5\text{V}$ | Advanced USB microcontroller prototyping & bare IC design | **3 Units** |
-| 188 | **Shift Register IC (74HC595)** | 16-pin DIP 8-bit serial-in parallel-out shift register with 3-state output latches | Controlling 8 to 64 LEDs or multi-digit displays using only 3 GPIO pins | **5 Units** |
-| 189 | **Dual Operational Amplifier IC (LM358)** | 8-pin DIP dual low-power general-purpose op-amp; single supply $3\text{V} - 32\text{V}$ | Building analog signal amplifiers, active filters & sensor preamps | **5 Units** |
-| 190 | **Dual Voltage Comparator IC (LM393)** | 8-pin DIP dual precision voltage comparator; open-collector output | Understanding analog voltage threshold slicing (how sensor modules work) | **5 Units** |
-| 191 | **Timer IC — LM555 / NE555** | Precision timing bipolar IC; DIP-8 package; operating voltage $4.5\text{V} - 16\text{V}$ | Astable multivibrators (clock pulse generators) and monostable timers | **5 Units** |
-| 192 | **Linear Voltage Regulators (LM78XX)** | 3-terminal linear regulators in TO-220 package: LM7805 (+5V), LM7809 (+9V), LM7812 (+12V); 1.5A peak | Designing clean regulated DC power supply rails on breadboards | **5 Units** |
-| 193 | **Logic-Level Power N-Channel MOSFET (IRLZ44N / IRF540N)** | TO-220 power MOSFET; 55V, 47A, low $R_{DS(\text{on})}$; logic-level gate threshold ($V_{GS(\text{th})} = 1.0\text{V} - 2.0\text{V}$) | Direct high-speed switching of high-current DC motors, coils & 12V LED strips | **5 Units** |
-| 194 | **Bare Dual H-Bridge Motor Driver IC (L293D)** | 16-pin DIP bare driver IC (unmounted without shield); 600mA per channel; internal clamp diodes | Breadboard motor control circuits and H-bridge theory | **5 Units** |
-| 195 | **Bare Darlington Transistor Array IC (ULN2003A)** | 16-pin DIP array of 7 high-voltage, high-current NPN Darlington pairs with common suppression diodes | Driving unmounted stepper motors, relays, and solenoid coils | **5 Units** |
-| 196 | **Assorted Resistor Kit (1/4W Carbon Film)** | 30 resistors each across 20 standard values: $10\,\Omega, 100\,\Omega, 220\,\Omega, 330\,\Omega, 470\,\Omega, 1\,\text{k}\Omega, 4.7\,\text{k}\Omega, 10\,\text{k}\Omega, 100\,\text{k}\Omega, 1\,\text{M}\Omega$, etc. | Current-limiting for LEDs, pull-up/pull-down, and voltage dividers | **5 Kits** (3,000 pcs) |
-| 197 | **Assorted Capacitor Kit (Ceramic & Electrolytic)** | Assorted values: $22\,\text{pF}, 100\,\text{pF}, 10\,\text{nF}, 100\,\text{nF}\,(104), 1\,\mu\text{F}, 10\,\mu\text{F}, 100\,\mu\text{F}, 1000\,\mu\text{F}$; 16V–50V | Noise filtering, crystal loading, decoupling & timing circuits | **5 Kits** (1,000 pcs) |
-| 198 | **Diodes and Transistors Kit** | BC547 / 2N3904 (NPN), BC557 / 2N3906 (PNP), 1N4148 (Fast signal), 1N4001 / 1N4007 (1A Rectifier) | Amplification, logic inverter switching, rectification & flyback protection | **3 Kits** (75 pcs) |
-| 199 | **Zener Diodes Assortment (3.3V, 5.1V, 12V)** | 0.5W axial leaded Zener voltage reference diodes | Voltage clamping, regulation & basic 5V-to-3.3V logic level shifting | **3 Packs** (30 pcs) |
-| 200 | **Through-Hole Diffused LEDs (5mm) — Red** | Standard 5mm round diffused red LED; forward voltage $1.8\text{V} - 2.2\text{V}$; current $20\,\text{mA}$ | Visual output indicators and logic state signals | **5 Packs** (250 pcs) |
-| 201 | **Through-Hole Diffused LEDs (5mm) — Green** | Standard 5mm round diffused green LED; forward voltage $2.0\text{V} - 2.4\text{V}$; current $20\,\text{mA}$ | Power/Go status indicators | **5 Packs** (250 pcs) |
-| 202 | **Through-Hole Diffused LEDs (5mm) — Blue** | Standard 5mm round diffused blue LED; forward voltage $2.8\text{V} - 3.2\text{V}$; current $20\,\text{mA}$ | Special indicator and primary RGB color mixing | **5 Packs** (250 pcs) |
-| 203 | **Through-Hole Diffused LEDs (5mm) — Yellow** | Standard 5mm round diffused yellow LED; forward voltage $2.0\text{V} - 2.4\text{V}$; current $20\,\text{mA}$ | Warning and caution state signaling | **5 Packs** (250 pcs) |
-| 204 | **Through-Hole Clear LEDs (5mm) — White** | Ultra-bright 5mm clear white LED; forward voltage $3.0\text{V} - 3.4\text{V}$; current $20\,\text{mA}$ | Illumination and miniature flashlight projects | **5 Packs** (250 pcs) |
-| 205 | **RGB LEDs (5mm Common Cathode, 4-Pin)** | 4-pin through-hole 5mm diffused RGB LED; common ground pin *(Requires 3 individual resistors)* | Color blending, PWM color mixing & status multi-color alerts | **3 Packs** (60 pcs) |
-| 206 | **Tactile Momentary Push Buttons (6×6mm)** | 4-pin breadboard-compatible momentary micro push buttons with colored caps | Manual digital inputs, reset triggers & interface buttons | **3 Packs** (150 pcs) |
-| 207 | **Miniature SPDT Slide Switches** | 3-pin through-hole sub-miniature slide switches; ON-ON 2-position rating 0.5A 50V DC | Power master switching and hardware mode selection | **2 Packs** (40 pcs) |
-| 208 | **DIP Switch Array (4-Position & 8-Position)** | Standard 2.54mm pitch breadboard rocker/slide DIP switch blocks | Binary address setting, mode configuration & logic truth table tests | **5 Packs** (20 pcs) |
-| 209 | **Bare Tilt Ball Switch Sensor (SW-520D)** | 2-pin brass-cased rolling ball tilt sensor switch | Simple gravity/tilt orientation detection without software libraries | **5 Units** |
-| 210 | **Bare Electret Microphone Capsule (9×7mm)** | 2-pin raw electret microphone cartridge with solder pads *(Requires pull-up & coupling capacitor)* | Building custom acoustic sensor & sound trigger circuits | **5 Units** |
-| 211 | **Piezoelectric Transducer Disc Plate** | 40mm copper-backed piezoelectric ceramic disc element with pre-soldered positive/negative wire leads | Vibration energy harvesting, knock detection & contact microphones | **5 Units** |
-| 212 | **Precision Analog Temperature Sensor (LM35)** | Precision linear analog temperature sensor; TO-92 3-pin transistor package; $10\,\text{mV}/^\circ\text{C}$ | Raw analog voltage temperature reading | **5 Units** |
-| 213 | **Force Sensitive Resistor (FSR)** | $1.75\times 1.5$ inch square polymer thick-film pressure sensor; resistance varies with mechanical force | Pressure sensing, electronic scales & footstep pads | **3 Units** |
-| 214 | **Flexion Bend Sensor** | 2.2-inch flexible carbon-resistive bend sensor; nominal flat resistance $25\,\text{k}\Omega$ | Robotic finger joint tracking and wearable glove controls | **3 Units** |
-| 215 | **Miniature Active Buzzer — Small** | 5V DC active piezoelectric buzzer with internal oscillator (2-pin through-hole) | Audible alarms and beep notifications | **5 Units** |
-| 216 | **Loud Active Buzzer — Big** | 5V–12V DC high-decibel active buzzer (2-lead round casing, 85+ dB output) | Perimeter intrusion alarms and fire warning buzzers | **5 Units** |
-| 217 | **Miniature Haptic Vibrating Motor** | 10g coin/cylindrical vibration motor ($1.5\text{V} - 3.7\text{V}$ DC) *(Requires transistor & flyback diode)* | Silent tactile alerts and wearable haptic feedback | **5 Units** |
-| 218 | **IR Optical Sensor Pair (TSOP1738 + 940nm LED)** | 38 kHz infrared receiver IC (3-pin) paired with 940nm high-output IR emitting LED (2-pin) | Remote control decoders, IR beam breaks & optical tachometers | **5 Pairs** |
+| 190 | **Bare 5V Sugar-Cube Electromagnetic Relay** | Songle SRD-05VDC-SL-C; 5-pin SPDT bare relay; contacts rated 10A 250V AC / 30V DC *(Requires manual transistor & diode driver)* | Learning coil actuation, transistor switching & flyback diode protection | **5 Units** |
+| 191 | **Single 1-Digit 7-Segment LED Display (Common Cathode)** | 0.56-inch 1-digit red 7-segment display; 10-pin DIP through-hole; forward voltage 2.0V *(Requires 7-8 current-limiting resistors)* | Learning direct binary-to-decimal LED segment decoding | **5 Units** |
+| 192 | **Single 1-Digit 7-Segment LED Display (Common Anode)** | 0.56-inch 1-digit red 7-segment display; 10-pin DIP through-hole; active-low configuration | Comparative study of active-high vs active-low segment logic | **5 Units** |
+| 193 | **Bare 4-Digit 7-Segment LED Display** | 12-pin bare multiplexed 4-digit display *(No TM1637 driver IC; requires multiplexed pin scanning)* | Teaching display multiplexing, ghosting prevention & persistence of vision | **5 Units** |
+| 194 | **Bare 16×2 Character LCD Panel (HD44780)** | 16-pin parallel interface LCD display; 5V DC; blue backlight *(Raw display without I2C backpack board)* | Teaching parallel data buses (4-bit/8-bit), RS, Enable & RW pin control | **5 Units** |
+| 195 | **10-Segment LED Bargraph Display Array** | 20-pin DIP array with 10 individually addressable red/green LED segments | Analog level indicators, battery level meters & audio VU meters | **5 Units** |
+| 196 | **Bare LDR Photoresistors (GL5528)** | 5mm cadmium sulfide (CdS) light-dependent resistor; dark resistance $1\,\text{M}\Omega$, light resistance $10-20\,\text{k}\Omega$ | Voltage divider circuits for automatic light/dark detectors | **5 Units** |
+| 197 | **Bare NTC Thermistors (10kΩ Bead)** | 2-pin negative temperature coefficient thermistor; $B_{25/50} = 3950\,\text{K}$; resistance decreases as heat rises | Building analog thermal detection and fire alarm circuits | **5 Units** |
+| 198 | **Rotary Carbon Potentiometers (10kΩ)** | 3-pin panel mount / breadboard rotary potentiometer with knurled shaft and matching control knobs | Dial controls for PWM motor speed, tone pitch & LCD contrast | **5 Units** |
+| 199 | **Breadboard Miniature Trimpots (10kΩ - 3362P)** | 3-pin single-turn horizontal/vertical cermet trimmer potentiometer | Precision threshold calibration on prototype breadboards | **5 Units** |
+| 200 | **ATmega328P-PU Standalone IC (with 16MHz Crystal Kit)** | 28-pin DIP AVR microcontroller bare chip paired with 16 MHz HC-49S quartz crystal and two 22pF ceramic load capacitors | Building a "DIY Arduino on Breadboard / Perfboard" from scratch | **5 Sets** |
+| 201 | **ATmega16U2 Standalone IC** | 8-bit AVR microcontroller bare IC in DIP/SOIC package; 16 KB flash; USB controller capability; $2.7\text{V} - 5.5\text{V}$ | Advanced USB microcontroller prototyping & bare IC design | **3 Units** |
+| 202 | **Shift Register IC (74HC595)** | 16-pin DIP 8-bit serial-in parallel-out shift register with 3-state output latches | Controlling 8 to 64 LEDs or multi-digit displays using only 3 GPIO pins | **5 Units** |
+| 203 | **Dual Operational Amplifier IC (LM358)** | 8-pin DIP dual low-power general-purpose op-amp; single supply $3\text{V} - 32\text{V}$ | Building analog signal amplifiers, active filters & sensor preamps | **5 Units** |
+| 204 | **Dual Voltage Comparator IC (LM393)** | 8-pin DIP dual precision voltage comparator; open-collector output | Understanding analog voltage threshold slicing (how sensor modules work) | **5 Units** |
+| 205 | **Timer IC — LM555 / NE555** | Precision timing bipolar IC; DIP-8 package; operating voltage $4.5\text{V} - 16\text{V}$ | Astable multivibrators (clock pulse generators) and monostable timers | **5 Units** |
+| 206 | **Linear Voltage Regulators (LM78XX)** | 3-terminal linear regulators in TO-220 package: LM7805 (+5V), LM7809 (+9V), LM7812 (+12V); 1.5A peak | Designing clean regulated DC power supply rails on breadboards | **5 Units** |
+| 207 | **Logic-Level Power N-Channel MOSFET (IRLZ44N / IRF540N)** | TO-220 power MOSFET; 55V, 47A, low $R_{DS(\text{on})}$; logic-level gate threshold ($V_{GS(\text{th})} = 1.0\text{V} - 2.0\text{V}$) | Direct high-speed switching of high-current DC motors, coils & 12V LED strips | **5 Units** |
+| 208 | **Bare Dual H-Bridge Motor Driver IC (L293D)** | 16-pin DIP bare driver IC (unmounted without shield); 600mA per channel; internal clamp diodes | Breadboard motor control circuits and H-bridge theory | **5 Units** |
+| 209 | **Bare Darlington Transistor Array IC (ULN2003A)** | 16-pin DIP array of 7 high-voltage, high-current NPN Darlington pairs with common suppression diodes | Driving unmounted stepper motors, relays, and solenoid coils | **5 Units** |
+| 210 | **Assorted Resistor Kit (1/4W Carbon Film)** | 30 resistors each across 20 standard values: $10\,\Omega, 100\,\Omega, 220\,\Omega, 330\,\Omega, 470\,\Omega, 1\,\text{k}\Omega, 4.7\,\text{k}\Omega, 10\,\text{k}\Omega, 100\,\text{k}\Omega, 1\,\text{M}\Omega$, etc. | Current-limiting for LEDs, pull-up/pull-down, and voltage dividers | **5 Kits** (3,000 pcs) |
+| 211 | **Assorted Capacitor Kit (Ceramic & Electrolytic)** | Assorted values: $22\,\text{pF}, 100\,\text{pF}, 10\,\text{nF}, 100\,\text{nF}\,(104), 1\,\mu\text{F}, 10\,\mu\text{F}, 100\,\mu\text{F}, 1000\,\mu\text{F}$; 16V–50V | Noise filtering, crystal loading, decoupling & timing circuits | **5 Kits** (1,000 pcs) |
+| 212 | **Diodes and Transistors Kit** | BC547 / 2N3904 (NPN), BC557 / 2N3906 (PNP), 1N4148 (Fast signal), 1N4001 / 1N4007 (1A Rectifier) | Amplification, logic inverter switching, rectification & flyback protection | **3 Kits** (75 pcs) |
+| 213 | **Zener Diodes Assortment (3.3V, 5.1V, 12V)** | 0.5W axial leaded Zener voltage reference diodes | Voltage clamping, regulation & basic 5V-to-3.3V logic level shifting | **3 Packs** (30 pcs) |
+| 214 | **Through-Hole Diffused LEDs (5mm) — Red** | Standard 5mm round diffused red LED; forward voltage $1.8\text{V} - 2.2\text{V}$; current $20\,\text{mA}$ | Visual output indicators and logic state signals | **5 Packs** (250 pcs) |
+| 215 | **Through-Hole Diffused LEDs (5mm) — Green** | Standard 5mm round diffused green LED; forward voltage $2.0\text{V} - 2.4\text{V}$; current $20\,\text{mA}$ | Power/Go status indicators | **5 Packs** (250 pcs) |
+| 216 | **Through-Hole Diffused LEDs (5mm) — Blue** | Standard 5mm round diffused blue LED; forward voltage $2.8\text{V} - 3.2\text{V}$; current $20\,\text{mA}$ | Special indicator and primary RGB color mixing | **5 Packs** (250 pcs) |
+| 217 | **Through-Hole Diffused LEDs (5mm) — Yellow** | Standard 5mm round diffused yellow LED; forward voltage $2.0\text{V} - 2.4\text{V}$; current $20\,\text{mA}$ | Warning and caution state signaling | **5 Packs** (250 pcs) |
+| 218 | **Through-Hole Clear LEDs (5mm) — White** | Ultra-bright 5mm clear white LED; forward voltage $3.0\text{V} - 3.4\text{V}$; current $20\,\text{mA}$ | Illumination and miniature flashlight projects | **5 Packs** (250 pcs) |
+| 219 | **RGB LEDs (5mm Common Cathode, 4-Pin)** | 4-pin through-hole 5mm diffused RGB LED; common ground pin *(Requires 3 individual resistors)* | Color blending, PWM color mixing & status multi-color alerts | **3 Packs** (60 pcs) |
+| 220 | **Tactile Momentary Push Buttons (6×6mm)** | 4-pin breadboard-compatible momentary micro push buttons with colored caps | Manual digital inputs, reset triggers & interface buttons | **3 Packs** (150 pcs) |
+| 221 | **Miniature SPDT Slide Switches** | 3-pin through-hole sub-miniature slide switches; ON-ON 2-position rating 0.5A 50V DC | Power master switching and hardware mode selection | **2 Packs** (40 pcs) |
+| 222 | **DIP Switch Array (4-Position & 8-Position)** | Standard 2.54mm pitch breadboard rocker/slide DIP switch blocks | Binary address setting, mode configuration & logic truth table tests | **5 Packs** (20 pcs) |
+| 223 | **Bare Tilt Ball Switch Sensor (SW-520D)** | 2-pin brass-cased rolling ball tilt sensor switch | Simple gravity/tilt orientation detection without software libraries | **5 Units** |
+| 224 | **Bare Electret Microphone Capsule (9×7mm)** | 2-pin raw electret microphone cartridge with solder pads *(Requires pull-up & coupling capacitor)* | Building custom acoustic sensor & sound trigger circuits | **5 Units** |
+| 225 | **Piezoelectric Transducer Disc Plate** | 40mm copper-backed piezoelectric ceramic disc element with pre-soldered positive/negative wire leads | Vibration energy harvesting, knock detection & contact microphones | **5 Units** |
+| 226 | **Precision Analog Temperature Sensor (LM35)** | Precision linear analog temperature sensor; TO-92 3-pin transistor package; $10\,\text{mV}/^\circ\text{C}$ | Raw analog voltage temperature reading | **5 Units** |
+| 227 | **Force Sensitive Resistor (FSR)** | $1.75\times 1.5$ inch square polymer thick-film pressure sensor; resistance varies with mechanical force | Pressure sensing, electronic scales & footstep pads | **3 Units** |
+| 228 | **Flexion Bend Sensor** | 2.2-inch flexible carbon-resistive bend sensor; nominal flat resistance $25\,\text{k}\Omega$ | Robotic finger joint tracking and wearable glove controls | **3 Units** |
+| 229 | **Miniature Active Buzzer — Small** | 5V DC active piezoelectric buzzer with internal oscillator (2-pin through-hole) | Audible alarms and beep notifications | **5 Units** |
+| 230 | **Loud Active Buzzer — Big** | 5V–12V DC high-decibel active buzzer (2-lead round casing, 85+ dB output) | Perimeter intrusion alarms and fire warning buzzers | **5 Units** |
+| 231 | **Miniature Haptic Vibrating Motor** | 10g coin/cylindrical vibration motor ($1.5\text{V} - 3.7\text{V}$ DC) *(Requires transistor & flyback diode)* | Silent tactile alerts and wearable haptic feedback | **5 Units** |
+| 232 | **IR Optical Sensor Pair (TSOP1738 + 940nm LED)** | 38 kHz infrared receiver IC (3-pin) paired with 940nm high-output IR emitting LED (2-pin) | Remote control decoders, IR beam breaks & optical tachometers | **5 Pairs** |
   
 
