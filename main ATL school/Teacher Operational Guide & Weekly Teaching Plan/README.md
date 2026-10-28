@@ -2,7 +2,7 @@
 
 > **Location**: `main ATL school/Teacher Operational Guide & Weekly Teaching Plan/`  
 > **Prepared for**: ATL Lead Teacher & Floor Instructor  
-> **Timetable Alignment**: Linked with `SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md`  
+> **Timetable Alignment**: Linked with `item-things/SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md`  
 
 ---
 

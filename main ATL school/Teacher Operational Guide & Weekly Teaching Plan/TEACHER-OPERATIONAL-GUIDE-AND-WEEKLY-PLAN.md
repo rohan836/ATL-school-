@@ -1,7 +1,7 @@
 # ATL Teacher Operational Guide & Weekly Teaching Plan
 
 > **Scope**: Classes 5–9 (10 Batches, 400 Students)  
-> **Timetable Reference**: [`SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md`](../../SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md)  
+> **Timetable Reference**: [`item-things/SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md`](../../item-things/item-things/SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md)  
 > **Core Formula**: 20 Minutes Concept Hook + 50 Minutes Hands-On Build  
 
 ---
