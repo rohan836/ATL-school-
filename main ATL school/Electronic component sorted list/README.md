@@ -16,10 +16,10 @@
 | [05-MOTORS-ACTUATORS-AND-RELAYS.md](05-MOTORS-ACTUATORS-AND-RELAYS.md) | 15 | BO Motors, 12V Motors, Servos (SG90/Metal/360°), Stepper+ULN2003, Pump, Drivers, Relays |
 | [06-COMMUNICATION-AND-WIRELESS.md](06-COMMUNICATION-AND-WIRELESS.md) | 6 | Bluetooth HC-05, RF 433/315 MHz, RFID RC522, GPS NEO-6M, GSM SIM900, IR TSOP1738 |
 | [07-PROTOTYPING-WIRES-AND-POWER.md](07-PROTOTYPING-WIRES-AND-POWER.md) | 23 | Breadboards, Perfboards, Berg Strips, Jumper Cables, Alligator Leads, Power Supplies, Battery Packs |
-| [08-HARDWARE-TOOLS-AND-MEASUREMENT.md](08-HARDWARE-TOOLS-AND-MEASUREMENT.md) | 35 | DMM, Oscilloscope, Soldering Kit, Drill, Rotary Tool, Pliers, Screwdrivers, Saws, Files, Fasteners |
+| [08-HARDWARE-TOOLS-AND-MEASUREMENT.md](08-HARDWARE-TOOLS-AND-MEASUREMENT.md) | 36 | DMM, Oscilloscope, Soldering Kit, Drill, Rotary Tool, Pliers, Screwdrivers, Saws, Files, Fasteners |
 | [09-RAPID-PROTOTYPING-AND-KITS.md](09-RAPID-PROTOTYPING-AND-KITS.md) | 13 | 3D Printer, PLA Filaments, UPS, Craft Prototyping, Robotics Kit, Automobile Kit, DIY Drone Kit |
 | [10-SAFETY-AND-ORGANIZATION.md](10-SAFETY-AND-ORGANIZATION.md) | 7 | Safety Goggles, Gloves, Masks, First Aid, Fire Extinguishers, 60-Drawer Organizer, Pegboards |
-| **Total Items Categorized** | **159** | *(Clean engineering inventory; non-robotics biology/astronomy/textile kits excluded)* |
+| **Total Items Categorized** | **160** | *(Clean engineering inventory; non-robotics biology/astronomy/textile kits excluded)* |
 
 ---
 
