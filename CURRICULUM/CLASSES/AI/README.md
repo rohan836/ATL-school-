@@ -23,11 +23,22 @@ These are differentiation guidelines—not separate curriculum documents.
 
 ## Practical teaching planner
 
-The following records support a practical 16-week starter programme. They are designed for lesson preparation and teacher notes, and supplement rather than replace the canonical full-year curriculum.
+The following records support a practical 16-week starter programme. They supplement rather than replace the canonical full-year curriculum.
 
 - [Four-month practical AI learning roadmap](PRACTICAL-AI-TEACHING/FOUR-MONTH-LEARNING-ROADMAP.md) — weekly topics, projects, outcomes, class-wise expectations and core skills.
-- [Teacher delivery guide and lesson log](PRACTICAL-AI-TEACHING/TEACHER-DELIVERY-GUIDE.md) — actual batch AI slots, 30/35-minute lesson structure, tools, teaching method, preparation checklist and a reusable lesson log.
+- [Teacher delivery guide and lesson log](PRACTICAL-AI-TEACHING/TEACHER-DELIVERY-GUIDE.md) — actual batch timings, 30/35-minute lesson structure, tools, teaching method, preparation checklist and a reusable lesson log.
+- [Universal AI Teaching Agent instructions](PRACTICAL-AI-TEACHING/AGENTS.md) — reusable instructions for ChatGPT Projects, Codex and Claude Code to prepare lessons, student materials, quizzes, coding demonstrations and working projects in real time.
 - [Month 1 teacher notes and weekly folders](PRACTICAL-AI-TEACHING/MONTH-01/README.md) — classroom setup and separate lesson folders for Weeks 1–4.
+
+## Using the Universal AI Teaching Agent
+
+Give the assistant a class and topic, for example: **“Class 7 — Module 5.2: pixels and images. Prepare a 35-minute lesson with a Python demonstration, student activity and quiz.”**
+
+- **Codex:** open the practical AI teaching folder as the working directory so its AGENTS.md is in scope.
+- **Claude Code:** open the same folder. CLAUDE.md imports the shared AGENTS.md instructions.
+- **ChatGPT:** upload AGENTS.md, the canonical curriculum, the practical roadmap and the teacher delivery guide to a dedicated ChatGPT Project. Paste the short Project-instructions text from AGENTS.md into Project settings.
+
+The agent adapts explanations and activities for Classes 5–9. It should not create a fixed lesson plan for every topic in advance.
 
 ## Delivery and safety
 
