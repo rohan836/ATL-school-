@@ -27,7 +27,7 @@ The following records support a practical 16-week starter programme. They are de
 
 - [Four-month practical AI learning roadmap](PRACTICAL-AI-TEACHING/FOUR-MONTH-LEARNING-ROADMAP.md) — weekly topics, projects, outcomes, class-wise expectations and core skills.
 - [Teacher delivery guide and lesson log](PRACTICAL-AI-TEACHING/TEACHER-DELIVERY-GUIDE.md) — actual batch AI slots, 30/35-minute lesson structure, tools, teaching method, preparation checklist and a reusable lesson log.
-- [Month 1 teacher notes and practicals](PRACTICAL-AI-TEACHING/MONTH-01-TEACHER-NOTES.md) — ready-to-teach notes, explanations, projector demonstrations, group-laptop activities, code examples and timings for Weeks 1–4.
+- [Month 1 teacher notes and weekly folders](PRACTICAL-AI-TEACHING/MONTH-01/README.md) — classroom setup and separate lesson folders for Weeks 1–4.
 
 ## Delivery and safety
 
