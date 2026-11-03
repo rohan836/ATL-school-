@@ -21,6 +21,13 @@ The common topic sequence is taught with increasing depth:
 
 These are differentiation guidelines—not separate curriculum documents.
 
+## Practical teaching planner
+
+The following records support a practical 16-week starter programme. They are designed for lesson preparation and teacher notes, and supplement rather than replace the canonical full-year curriculum.
+
+- [Four-month practical AI learning roadmap](PRACTICAL-AI-TEACHING/FOUR-MONTH-LEARNING-ROADMAP.md) — weekly topics, projects, outcomes, class-wise expectations and core skills.
+- [Teacher delivery guide and lesson log](PRACTICAL-AI-TEACHING/TEACHER-DELIVERY-GUIDE.md) — actual batch AI slots, 30/35-minute lesson structure, tools, teaching method, preparation checklist and a reusable lesson log.
+
 ## Delivery and safety
 
-Use small approved datasets and provide paper/offline alternatives. No GPU, paid tool, public account, webcam, or external AI service is required. Never upload identifiable student data to public AI services. Test AI outputs, document mistakes, and keep humans responsible for consequential decisions.
+Use small approved datasets and provide paper/offline alternatives. No GPU, paid tool, public account, webcam or external AI service is required. Never upload identifiable student data to public AI services. Test AI outputs, document mistakes, and keep humans responsible for consequential decisions.
