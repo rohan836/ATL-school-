@@ -1,0 +1,34 @@
+{
+  "name": "ATL School Knowledge Base",
+  "repository": "rohan836/ATL-school-",
+  "description": "Personal knowledge and work database for the school's Atal Tinkering Lab programme, Classes 5–9.",
+  "areas": {
+    "curriculum": {
+      "ai": {
+        "title": "AI Curriculum, Classes 5–9",
+        "path": "CURRICULUM/CLASSES/AI/AI-CURRICULUM-CLASSES-5-TO-9.md"
+      },
+      "electronicsAndRobotics": {
+        "title": "Electronics & Robotics Curriculum, Classes 5–9",
+        "path": "CURRICULUM/CLASSES/ELECTRONICS-ROBOTICS/ELECTRONICS-ROBOTICS-CURRICULUM-CLASSES-5-TO-9.md"
+      }
+    },
+    "schoolOperations": {
+      "mainTimetable": {
+        "title": "Main ATL Lab Timetable",
+        "path": "item-things/SCHOOL-OPERATIONS/TIMETABLES/MAIN/ATL-LAB-TIMETABLE.md"
+      },
+      "temporaryTimetable": {
+        "title": "Temporary 60-minute Timetable",
+        "path": "item-things/SCHOOL-OPERATIONS/TIMETABLES/TEMPORARY/ATL-TEMP-TIMETABLE-60-MIN.md"
+      }
+    },
+    "labReferences": [
+      "item-things/ATL_Equipment_List_90_students.md",
+      "item-things/LAB/REFERENCE/ARDUINO-COMPONENTS.md",
+      "item-things/LAB/REFERENCE/ESP-MODULES.md"
+    ],
+    "projectIdeas": "item-things/PROJECTS/IDEAS/ATL_COMPONENT_PROJECT_IDEAS.md"
+  },
+  "note": "This JSON indexes repository records; it is not a live stock count or a copy of all curriculum text."
+}
