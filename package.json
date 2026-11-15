@@ -1,7 +1,8 @@
 {
   "name": "atl-school-curriculum",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "echo 'Markdown repository ready'"
+    "dev": "node server.js"
   }
 }
