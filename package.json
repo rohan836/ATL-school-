@@ -1,0 +1,7 @@
+{
+  "name": "atl-school-curriculum",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "echo 'Markdown repository ready'"
+  }
+}
