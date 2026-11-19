@@ -1,45 +1,25 @@
-# AI & Computing — Classes 5–9
+# AI, Computing & Robotics Curriculum (Classes 5–9)
 
-## Curriculum structure
+**Artificial Intelligence, Computational Thinking, Logic & GPU Hardware, Python (`Basics → OOP`), C++ (`Arduino/ESP Controllers`), PyTorch, Jupyter Notebook, Modern AI (`2017–2026`), and Physical Robotics · `Term 1` (June–October · Weeks 01–14) & `Term 2` (November–March · Weeks 15–28)**
 
-AI provides a single unified, full-year curriculum for Classes 5–9:
+Every grade (Classes 5–9) begins in **June (`Week 01`)** with AI purpose, computational thinking, binary/logic gates, and `CPU vs GPU` parallel compute alongside age-appropriate **Python** (`Jupyter Notebook`), advancing through machine learning, computer vision, NLP, Transformers, **PyTorch**, **C++ embedded controller logic**, reinforcement learning (`AlphaGo`, `OpenAI Five Dota 2`), scientific & world models (`AlphaFold 3`, `AlphaGenome 2`, `Sora`, `Genie 2`), reasoning models (`o1/o3`, `DeepSeek-R1`), and physical robotics (`Gemini Robotics 2.5` VLA & Raspberry Pi / C++ integration). Every row integrates **5 hands-on projects (`Project 1`–`Project 5`)** directly in the curriculum table.
 
-- [AI Curriculum (Classes 5–9) — Markdown](AI-CURRICULUM-CLASSES-5-TO-9.md)
-- [AI Curriculum (Classes 5–9) — HTML](AI-CURRICULUM-CLASSES-5-TO-9.html)
+## Master Curriculum & Guides
 
-**The curriculum above is the canonical shared curriculum.** It defines the common modules and topic sequence for every class. Classes 5–9 use this same framework; teachers adjust depth, scaffolding, activities, and project expectations to suit learners.
+- **[All-Classes Master Curriculum (Classes 5–9 · Single Unified Table)](AI-CURRICULUM-CLASSES-5-TO-9.md)** · [HTML](AI-CURRICULUM-CLASSES-5-TO-9.html)
+- **[Structure & Curation Rules (`AGENTS.md`)](AGENTS.md)**
+- **[Four-Month Practical Starter Notes (Archive)](PRACTICAL-AI-TEACHING/FOUR-MONTH-LEARNING-ROADMAP.md)** · [HTML](PRACTICAL-AI-TEACHING/FOUR-MONTH-LEARNING-ROADMAP.html)
 
-## Learning progression
+## Class-by-Class Curricula (Topics + 5 Projects per Row)
 
-The common topic sequence is taught with increasing depth:
+| Class | Term 1 (`June–October` · `Weeks 01–14`) | Term 2 (`November–March` · `Weeks 15–28`) | Files |
+|---|---|---|---|
+| **Class 5** | AI Purpose, CT, Logic Gates, CPU/GPU, Jupyter & Python Basics, Data & Bias, Pixel CV, Keyword & LLM Chatbots | Deep Learning/RL Intuition, AlphaGo/Dota 2/AlphaGenome/Sora Stories, Sense-Think-Act Robotics, MicroPython/Pi Intro, Safety & Showcase | [Curriculum](Class-5/CLASS-5-CURRICULUM.md) · [HTML](Class-5/CLASS-5-CURRICULUM.html) · [Skill](Class-5/SKILL.md) |
+| **Class 6** | Narrow/Reasoning AI, CT Flowcharts, XOR/Adder Gates, Structured Python, CSV/Charts, Supervised/Trees, CV/NLP/Transformers, Pi Python | Neurons & Gridworld RL, AlphaGo/o1/DeepSeek-R1/Genie 2/AlphaGenome, Gemini Robotics VLA, Deepfake Forensics & Expo | [Curriculum](Class-6/CLASS-6-CURRICULUM.md) · [HTML](Class-6/CLASS-6-CURRICULUM.html) · [Skill](Class-6/SKILL.md) |
+| **Class 7** | 2017–2026 AI, Algorithms, Half-Adder/NAND, CPU/GPU/TPU/NPU, NumPy, Pandas, Scikit-Learn, OpenCV, TF-IDF/RLHF, C++ Controller Basics | PyTorch Tensors & Training, Q-Learning/AlphaZero/o1/R1/AlphaGenome, Pi Vision + C++ Rover, Gemini Robotics 2.5 VLA & Capstone | [Curriculum](Class-7/CLASS-7-CURRICULUM.md) · [HTML](Class-7/CLASS-7-CURRICULUM.html) · [Skill](Class-7/SKILL.md) |
+| **Class 8** | Systems Thinking, Flip-Flops, CUDA/VRAM, Python OOP Intro, PyTorch Autograd/MLP/CNNs, Metrics/PCA, Vision/Pose, Q/K/V/RAG/o3, Intermediate C++ & PID | Raspberry Pi OpenCV + TinyML, DQN/AlphaZero/Dota 2, Sora/Genie 2/AlphaGenome 2, Gemini Robotics VLA, Agents/Red-Teaming & Capstone | [Curriculum](Class-8/CLASS-8-CURRICULUM.md) · [HTML](Class-8/CLASS-8-CURRICULUM.html) · [Skill](Class-8/SKILL.md) |
+| **Class 9** | Scaling Laws, 4-Bit ALU/NPU, Full OOP Python, PyTorch ResNets/INT8/ONNX, Transformer/DPO/RAG/Agents, o1/o3/R1/MoE, AlphaGenome 2 Atlas, Genie 2/PPO | OOP C++ Firmware & ISR/PID, TinyML to C++, Pi Vision + C++ Bridge, Object Tracking, Gemini Robotics 2.5, SLAM/Drone AI, Alignment & Flagship | [Curriculum](Class-9/CLASS-9-CURRICULUM.md) · [HTML](Class-9/CLASS-9-CURRICULUM.html) · [Skill](Class-9/SKILL.md) |
 
-- **Class 5:** concrete examples, digital basics, simple algorithms, and guided activities.
-- **Class 6:** foundational programming, data representation, and introductory model reasoning.
-- **Class 7:** more independent coding, data handling, model evaluation, and critical AI literacy.
-- **Class 8:** modular programming, data analysis, model evaluation, and modern AI concepts.
-- **Class 9:** reproducible workflows, experiment design, error analysis, and independent project work.
+## Student Safety & Data Rules
 
-These are differentiation guidelines—not separate curriculum documents.
-
-## Practical teaching planner
-
-The following records support a practical 16-week starter programme. They supplement rather than replace the canonical full-year curriculum.
-
-- [Four-month practical AI learning roadmap](PRACTICAL-AI-TEACHING/FOUR-MONTH-LEARNING-ROADMAP.md) — weekly topics, projects, outcomes, class-wise expectations and core skills.
-- [Teacher delivery guide and lesson log](PRACTICAL-AI-TEACHING/TEACHER-DELIVERY-GUIDE.md) — actual batch timings, 30/35-minute lesson structure, tools, teaching method, preparation checklist and a reusable lesson log.
-- [Universal AI Teaching Agent instructions](PRACTICAL-AI-TEACHING/AGENTS.md) — reusable instructions for ChatGPT Projects, Codex and Claude Code to prepare lessons, student materials, quizzes, coding demonstrations and working projects in real time.
-- [Month 1 teacher notes and weekly folders](PRACTICAL-AI-TEACHING/MONTH-01/README.md) — classroom setup and separate lesson folders for Weeks 1–4.
-
-## Using the Universal AI Teaching Agent
-
-Give the assistant a class and topic, for example: **“Class 7 — Module 5.2: pixels and images. Prepare a 35-minute lesson with a Python demonstration, student activity and quiz.”**
-
-- **Codex:** open the practical AI teaching folder as the working directory so its AGENTS.md is in scope.
-- **Claude Code:** open the same folder. CLAUDE.md imports the shared AGENTS.md instructions.
-- **ChatGPT:** upload AGENTS.md, the canonical curriculum, the practical roadmap and the teacher delivery guide to a dedicated ChatGPT Project. Paste the short Project-instructions text from AGENTS.md into Project settings.
-
-The agent adapts explanations and activities for Classes 5–9. It should not create a fixed lesson plan for every topic in advance.
-
-## Delivery and safety
-
-Use small approved datasets and provide paper/offline alternatives. No GPU, paid tool, public account, webcam or external AI service is required. Never upload identifiable student data to public AI services. Test AI outputs, document mistakes, and keep humans responsible for consequential decisions.
+Always use small synthetic, anonymized, or school-approved public datasets, never upload identifiable student photos, voices, or records to public AI tools, keep API keys strictly out of notebooks and code, and verify AI outputs experimentally.

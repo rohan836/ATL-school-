@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 7 Electronics &amp; Robotics Curriculum</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; Electronics &amp; Robotics &rsaquo; Class 7</p>
+<header class="page">
+  <p class="eyebrow">Electronics &amp; Robotics</p>
+  <h1>Class 7 Electronics &amp; Robotics Curriculum</h1>
+<p class="meta">Class 7</p>
+
+</header>
+<main>
+
+<div class="table-wrap"><table><thead><tr><th>Term</th><th>Month</th><th>Week</th><th>Module</th><th>Component / Topic</th><th>Project 1</th><th>Project 2</th><th>Project 3</th><th>Project 4</th><th>Project 5</th></tr></thead><tbody><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: Safety, Diagnostics &amp; Core Refresh</td><td>Lab Safety, Dust Masks, AC vs DC &amp; Pen DMM 4000 Count</td><td>NCV Live Wire Tracer</td><td>Auto-Range Voltage Audit</td><td>Breadboard Fault Finder</td><td>Frequency Hz Checker</td><td>Mains Grounding Check</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: Safety, Diagnostics &amp; Core Refresh</td><td>Core Refresh: Resistor, Breadboard, LEDs &amp; Switches</td><td>Precision Current Rig</td><td>6-LED Bus Matrix</td><td>3-Switch Hallway Logic</td><td>Debounced Button Array</td><td>Parallel Headlight Pod</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 1: Safety, Diagnostics &amp; Core Refresh</td><td>Core Refresh: Potentiometer, LDR, Capacitor &amp; Transistor</td><td>Dawn-Dusk Bridge Signal</td><td>RC Charge Visualizer</td><td>Flyback Protected Relay</td><td>2-Stage Touch Amplifier</td><td>Auto Night Beacons</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 03</td><td>Module 2: Zener Clamp &amp; Wire Tooling</td><td>Zener Diodes 3.3V, 5.1V &amp; 12V</td><td>5V-to-3.3V Logic Clamp</td><td>Over-Voltage LED Guard</td><td>Battery Low Reference</td><td>Zener Voltage Regulator</td><td>Signal Spike Clipper</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 03</td><td>Module 2: Zener Clamp &amp; Wire Tooling</td><td>Wire Stripper, 2-in-1 Stripper, Nipper &amp; Ferrule Crimper</td><td>Clean 1m Harness Loom</td><td>Ferrule Terminal Block</td><td>Flush-Clipped Perfboard</td><td>Tangle-Free Jumper Pack</td><td>Screw-Terminal Motor Lead</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 04</td><td>Module 3: Soldering &amp; Zero-PCB Fabrication</td><td>Soldering Station, Helping Hand, Silicone Mat &amp; Tip Cleaner</td><td>Cold-vs-Shiny Joint Lab</td><td>Tinning Hook-Up Wires</td><td>Inline Wire Splice</td><td>Zero-Short Header Mount</td><td>Bench Safety Station</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 05</td><td>Module 3: Soldering &amp; Zero-PCB Fabrication</td><td>Perfboard Zero-PCB 80×55 &amp; 140×90 + Berg Pin Headers</td><td>Plug-In LED Tester Bar</td><td>Custom 5V Power Rail</td><td>Soldered 555 Flasher PCB</td><td>Arduino Sensor Breakout</td><td>Relay Driver Mini Board</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 06</td><td>Module 3: Soldering &amp; Zero-PCB Fabrication</td><td>Desoldering Pump, Solder Wick, Rosin Wire, Flux &amp; Heat Shrink</td><td>Salvage Bad Header</td><td>Clear Bridged Solder Pads</td><td>Waterproof Heat-Shrink Lead</td><td>PVC-Taped Power Splice</td><td>Clean Perfboard Rework</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 07</td><td>Module 4: Arduino Uno &amp; Character Displays</td><td>Arduino Uno R3 C++ Foundations</td><td>PWM Breathing LED</td><td>Debounced Reaction Game</td><td>Tone Melody Keyboard</td><td>Analog Voltage Plotter</td><td>Multi-Mode Flashlight</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 08</td><td>Module 4: Character &amp; Numeric Displays</td><td>16×2 I2C LCD &amp; Bare 16×2 HD44780 Character LCD</td><td>Digital Welcome Sign</td><td>Ultrasonic Distance Screen</td><td>Live Temp-Humidity Pod</td><td>Countdown Timer Screen</td><td>4-Bit Parallel LCD Lab</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 09</td><td>Module 4: Character &amp; Numeric Displays</td><td>4-Digit 7-Segment TM1637 &amp; Bare 4-Digit Display</td><td>Stopwatch &amp; Lap Timer</td><td>Classroom Scoreboard</td><td>Multiplexed Digit Clock</td><td>Ultrasonic cm Counter</td><td>Countdown Quiz Clock</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 10</td><td>Module 5: Graphical Matrix &amp; Keypad UI</td><td>8×8 LED Dot Matrix Module MAX7219</td><td>Scrolling Ticker Name</td><td>Animated Emoji Faces</td><td>Joystick Dot Pong Game</td><td>Sound Bounce Bar</td><td>Directional Turn Arrow</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 11</td><td>Module 5: Graphical Matrix &amp; Keypad UI</td><td>4×4 Matrix Membrane Keypad</td><td>4-Digit PIN Vault Lock</td><td>Simple LCD Calculator</td><td>Doorbell Room Selector</td><td>Musical Synth Keypad</td><td>Quiz Buzzer Entry Pad</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 12</td><td>Module 6: Physical &amp; Bio-Medical Sensors</td><td>Force Sensitive Resistor FSR &amp; Flexion Bend Sensor</td><td>Mini Digital Kitchen Scale</td><td>Smart Gripper Pressure</td><td>Gesture Finger Glove</td><td>Step-Count Foot Mat</td><td>Robotic Bend Mirror</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 13</td><td>Module 6: Physical &amp; Bio-Medical Sensors</td><td>LM35 Precision Temp &amp; Analog Humidity Sensor</td><td>Incubator Heat Monitor</td><td>Weather Station Node</td><td>Soldering Iron Overheat Check</td><td>Cold-Drink Temp Gauge</td><td>Greenhouse Climate Alert</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 14</td><td>Module 6: Physical &amp; Bio-Medical Sensors</td><td>Pulse Heart-Rate Sensor</td><td>Live BPM OLED/LCD Monitor</td><td>Exercise Recovery Logger</td><td>Resting Heart-Rate Beep</td><td>Finger Pulse Visualizer</td><td>Bio-Check Kiosk</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 15</td><td>Module 7: Efficient Drivers &amp; Steppers</td><td>L293D Motor Driver Shield &amp; TB6612FNG MOSFET Driver</td><td>Cool-Run 2WD Obstacle Car</td><td>Bluetooth Gripper Bot</td><td>Keypad Speed Conveyor</td><td>Ultrasonic Radar Cart</td><td>Line-Following Buggy</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 16</td><td>Module 7: Efficient Drivers &amp; Steppers</td><td>ULN2003 Driver &amp; 28BYJ-48 Stepper Motor</td><td>Exact-Angle Desk Radar</td><td>Automated Pill Dispenser</td><td>Solar Panel Sun Tracker</td><td>Motorized Clock Hand</td><td>Miniature Rotating Display</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 17</td><td>Module 8: Heavy Torque Actuators</td><td>12V High-Torque DC Geared Motor</td><td>Heavy Winch Lift</td><td>Motorized Gate Barrier</td><td>Rugged All-Terrain Rover</td><td>Screw-Jack Elevator</td><td>Conveyor Belt Feeder</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 18</td><td>Module 8: Heavy Torque Actuators</td><td>High-Torque MG995/996R &amp; Continuous 360° Servos</td><td>3-DOF Cardboard Robot Arm</td><td>Continuous Winch Crane</td><td>Steerable Heavy Chassis</td><td>Automated Catapult Arm</td><td>Solar Tracking Gimbal</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 19</td><td>Module 9: RF, RFID &amp; Timing Modules</td><td>433 MHz / 315 MHz RF Transmitter &amp; Receiver Pair</td><td>Wireless Gate Open Link</td><td>Remote Panic Call Button</td><td>Weather Probe Downlink</td><td>Tank-Full Radio Alert</td><td>2-Button Rover Link</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 20</td><td>Module 9: RF, RFID &amp; Timing Modules</td><td>RFID Reader &amp; Tag Kit RC522</td><td>Classroom Attendance Logger</td><td>Smart Locker Card Key</td><td>Tool-Borrow Check-In</td><td>Tap-to-Pay Canteen Demo</td><td>Authorized Car Starter</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 21</td><td>Module 9: RF, RFID &amp; Timing Modules</td><td>DS3231 RTC Clock &amp; AT24C32 EEPROM Board</td><td>Automated School Bell</td><td>Scheduled Plant Waterer</td><td>Digital Desk Alarm Clock</td><td>Timestamped Door Log</td><td>Power-Loss Saved Counter</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 22</td><td>Module 9: RF, RFID &amp; Timing Modules</td><td>SD Card SPI Reader/Writer Module</td><td>CSV Temperature Logger</td><td>RFID Check-In Database</td><td>Soil Moisture History</td><td>Pulse Rate Recorder</td><td>Sensor Black-Box Flight Log</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 23</td><td>Module 10: Optical Sorting &amp; Precision CAD</td><td>Color Recognition Sensor TCS3200</td><td>RGB Candy Color Sorter</td><td>Colored-Line Finder</td><td>Blind-Aid Color Reader</td><td>Paint Shade Matcher</td><td>Recycling Bin Sorter</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 24</td><td>Module 10: Optical Sorting &amp; Precision CAD</td><td>Digital Vernier Caliper, Steel Rule &amp; Spirit Level</td><td>0.1mm Servo Horn Measure</td><td>Sensor Hole Blueprint</td><td>Levelled Printer Bed Check</td><td>Bolt Size Identifier</td><td>Enclosure Clearance Spec</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 25</td><td>Module 11: 3D Printing &amp; Workshop Fabrication</td><td>3D Printer FDM, PLA Filament, Storage Box &amp; 2-Hr UPS</td><td>HC-SR04 Mount Bracket</td><td>Custom SG90 Servo Horn</td><td>Arduino Uno Snap Case</td><td>Ultrasonic Radar Turret</td><td>Cable-Clip Desk Hook</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 26</td><td>Module 11: 3D Printing &amp; Workshop Fabrication</td><td>Hacksaw, Mini Hacksaw, Hand Files &amp; Self-Healing Mat</td><td>Acrylic Sensor Mount</td><td>Deburred 3D Print Finish</td><td>Slotted Rover Deck Plate</td><td>Hinged Project Enclosure</td><td>Beveled Control Box</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 27</td><td>Module 12: Assembly Tools &amp; Bio-Medical Capstone</td><td>Cordless Screwdriver, 105-Pc Electric Driver, 6-Pc/40-Pc Sets &amp; Drill</td><td>Fastener Chassis Build</td><td>Electronics Device Teardown</td><td>Drilled Control Box Panel</td><td>Hinged Locker Prototype</td><td>Modular Kit Assembly</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 28</td><td>Module 12: Assembly Tools &amp; Bio-Medical Capstone</td><td>Bio-Medical STEM Kit &amp; Multi-Sensor Capstone</td><td>Vitals Check Desk Pod</td><td>Smart Medicine Reminder</td><td>Touchless Fever Screening</td><td>Posture Flex Alert Belt</td><td>Automated Hygiene Station</td></tr></tbody></table></div>
+</main>
+<footer>
+  <p>Source: <a href="CLASS-7-CURRICULUM.md">CLASS-7-CURRICULUM.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

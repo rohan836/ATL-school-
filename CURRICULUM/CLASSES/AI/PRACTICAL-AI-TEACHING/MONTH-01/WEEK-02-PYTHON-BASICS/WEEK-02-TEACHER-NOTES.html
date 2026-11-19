@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 2 — Python Basics: Give Instructions to a Computer</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../../../INDEX.html">Curriculum</a> &rsaquo; AI &amp; Computing</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Week 2 — Python Basics: Give Instructions to a Computer</h1>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#1-what-students-should-learn">1. What students should learn</a></li><li><a href="#2-before-students-arrive">2. Before students arrive</a></li><li><a href="#3-teacher-explanation-teach-these-ideas-in-simple-language">3. Teacher explanation — teach these ideas in simple language</a></li><li><a href="#4-lesson-timing-fit-the-actual-timetable">4. Lesson timing — fit the actual timetable</a></li><li><a href="#5-main-practical-team-greeting-and-scoreboard">5. Main practical — Team Greeting and Scoreboard</a></li><li><a href="#6-student-questions-ready-answers-for-the-teacher">6. Student questions — ready answers for the teacher</a></li><li><a href="#7-common-mistakes-show-students-how-to-fix-them">7. Common mistakes — show students how to fix them</a></li><li><a href="#8-variable-naming-rules-simple-version">8. Variable naming rules — simple version</a></li><li><a href="#9-what-is-the-difference-between-and">9. What is the difference between = and ==?</a></li><li><a href="#10-class-wise-teaching-adjustments">10. Class-wise teaching adjustments</a></li><li><a href="#11-quick-assessment-ask-before-the-bell">11. Quick assessment — ask before the bell</a></li><li><a href="#12-what-students-should-write-in-their-notebooks">12. What students should write in their notebooks</a></li><li><a href="#13-after-the-lesson-teacher-record">13. After the lesson — teacher record</a></li></ul></nav>
+<p><strong>Classes:</strong> 5–9<br><strong>Duration:</strong> 30–35 minutes per batch<br><strong>Big question:</strong> How do we tell a computer exactly what to do?<br><strong>Main practical:</strong> Build a team greeting and scoreboard in Python.</p>
+<p>These are teacher-facing notes. Use the explanations and questions to teach from the projector. Students work in groups with one laptop. The aim is for every student to understand what the code means, not just copy it.</p>
+<h2 id="1-what-students-should-learn">1. What students should learn</h2>
+<p>By the end of this lesson, students should be able to:</p>
+<ul><li>Explain what Python is and what a program is.</li><li>Open a notebook and run a code cell.</li><li>Explain what <code>print()</code> does.</li><li>Identify a variable, its name and the value stored in it.</li><li>Recognise the basic data types: string (<code>str</code>), integer (<code>int</code>), decimal number (<code>float</code>) and Boolean (<code>bool</code>).</li><li>Use <code>input()</code> to receive information.</li><li>Understand that keyboard input is received as text and that <code>int()</code> can convert suitable text into a whole number.</li><li>Change a value, predict the result, run the code and explain what happened.</li></ul>
+<p><strong>Keep the main lesson small:</strong> focus on notebooks, <code>print()</code>, variables, data types and input. Arithmetic and type conversion are guided extensions. Conditions and loops are taught properly in Week 3; functions and importing libraries are taught in Week 4.</p>
+<h2 id="2-before-students-arrive">2. Before students arrive</h2>
+<h3 id="equipment">Equipment</h3>
+<ul><li>Teacher laptop connected to the projector.</li><li>iPad with these notes open.</li><li>One laptop per student group.</li><li>Prepared Python notebook already opened on the group laptops.</li><li>Charger, projector and internet if the chosen notebook environment needs it.</li><li>Paper copy of the code examples as a backup.</li></ul>
+<p>Test the notebook and every code cell before class. Avoid making students install Python or create accounts during this 30–35-minute lesson. Use the school's approved notebook environment. If internet is unavailable, use an offline Python environment prepared in advance or conduct the practical as a teacher-led demonstration with group prediction sheets.</p>
+<h3 id="group-roles">Group roles</h3>
+<p>Give each group one laptop. Rotate roles in later lessons:</p>
+<ul><li><strong>Operator:</strong> types and runs the code.</li><li><strong>Navigator:</strong> reads the instructions.</li><li><strong>Predictor:</strong> says what they think the code will do before it runs.</li><li><strong>Tester / reporter:</strong> changes a value and explains the result.</li></ul>
+<p>For a fifth student, add a <strong>recorder</strong> who writes down the team's discoveries.</p>
+<h2 id="3-teacher-explanation-teach-these-ideas-in-simple-language">3. Teacher explanation — teach these ideas in simple language</h2>
+<h3 id="a-what-is-a-computer-program">A. What is a computer program?</h3>
+<p>Say:</p>
+<blockquote><p>A computer program is a set of instructions that tells a computer what to do.</p></blockquote>
+<p>Everyday example: a recipe gives a person steps to follow. A program gives a computer steps to follow. The instructions must be written in a language and format the computer can understand.</p>
+<p>Ask: <strong>“Is a computer doing whatever it wants, or is it following instructions?”</strong></p>
+<p>Answer: It follows the instructions in the program. Some programs use fixed rules; AI systems may also use models that have learned patterns from examples.</p>
+<h3 id="b-what-is-a-programming-language">B. What is a programming language?</h3>
+<p>Say:</p>
+<blockquote><p>A programming language is a way for people to write instructions for computers.</p></blockquote>
+<p>Examples include Python, JavaScript, Java and C++. We are starting with Python because its code is comparatively readable.</p>
+<h3 id="c-what-is-python">C. What is Python?</h3>
+<p>Say:</p>
+<blockquote><p>Python is a programming language. We write Python instructions, and the Python interpreter runs those instructions for us.</p></blockquote>
+<p>Important distinction:</p>
+<ul><li>Python is a programming language.</li><li>Python is not itself an AI model.</li><li>People use Python to work with data, train machine-learning models, build applications and automate tasks.</li></ul>
+<p>Ask: <strong>“Can we use Python to build AI?”</strong></p>
+<p>Answer: Yes. Python has libraries and tools that help people work with data and machine-learning models.</p>
+<h3 id="d-what-is-jupyter-notebook">D. What is Jupyter Notebook?</h3>
+<p>Show the notebook on the projector.</p>
+<p>Explain:</p>
+<ul><li>A <strong>notebook</strong> is a digital document for writing and running code in small sections.</li><li>A <strong>cell</strong> is one section of the notebook.</li><li>A <strong>code cell</strong> contains instructions written in Python.</li><li>The <strong>Run</strong> button executes the selected cell.</li><li>The <strong>output</strong> is what appears after the code runs.</li><li>A <strong>Markdown cell</strong> is for written notes and headings, not Python instructions.</li></ul>
+<p>Say:</p>
+<blockquote><p>We can run one small piece of code, see the result, change it and run it again. This makes experiments easier.</p></blockquote>
+<p>For older students, introduce the word <strong>kernel</strong>: it is the running Python process that executes notebook cells and remembers variables. They do not need to manage it in this lesson.</p>
+<h3 id="e-what-does-print-mean">E. What does <code>print()</code> mean?</h3>
+<p>Show:</p>
+<p>~~~python<br>print("Hello, AI Lab!")<br>~~~</p>
+<p>Explain each part:</p>
+<ul><li><code>print</code> is a built-in Python function that displays information.</li><li>The round brackets <code>()</code> contain what we want to display.</li><li>The quotation marks <code>"</code> show that <code>Hello, AI Lab!</code> is text.</li><li>The exclamation mark is just part of the message.</li><li>The output appears below the cell.</li></ul>
+<p>Ask: <strong>“Does Python print this message on paper?”</strong></p>
+<p>Answer: No. In Python, <code>print()</code> normally displays information on the screen or in the notebook output.</p>
+<p>Ask: <strong>“What if I change the words inside the quotation marks?”</strong></p>
+<p>Answer: Python displays the new words when we run the cell again.</p>
+<p>Try:</p>
+<p>~~~python<br>print("Welcome, Team Rocket!")<br>print("We are learning Python.")<br>print(25)<br>~~~</p>
+<p>Explain that <code>print()</code> can display text and numbers.</p>
+<h3 id="f-what-is-a-variable">F. What is a variable?</h3>
+<p>Say:</p>
+<blockquote><p>A variable is a name that refers to a value stored by a program. Think of it as a labelled box: the label is the variable name, and the value is the information inside it.</p></blockquote>
+<p>Show:</p>
+<p>~~~python<br>team_name = "Smart Builders"<br>score = 10</p>
+<p>print(team_name)<br>print(score)<br>~~~</p>
+<p>Point to the code on the projector and explain every part:</p>
+<ul><li><code>team_name</code> is the <strong>variable name</strong>.</li><li><code>"Smart Builders"</code> is the <strong>value</strong> stored in that variable.</li><li><code>score</code> is another variable name.</li><li><code>10</code> is the value stored in <code>score</code>.</li><li>The <code>=</code> symbol is the <strong>assignment operator</strong>. It assigns the value on the right to the variable name on the left.</li><li><code>print(team_name)</code> asks Python to display the value stored in <code>team_name</code>, not the name itself.</li></ul>
+<p>Ask:</p>
+<ul><li><strong>“Which one is the variable?”</strong> — <code>score</code> is a variable name.</li><li><strong>“Which one is the value?”</strong> — <code>10</code> is the value.</li><li><strong>“Can I change the value?”</strong> — Yes. Change <code>score = 10</code> to <code>score = 20</code> and run the cell again.</li><li><strong>“Why do we need variables?”</strong> — They let a program remember and reuse information instead of writing the same value repeatedly.</li></ul>
+<p>Demonstrate updating a variable:</p>
+<p>~~~python<br>score = 10<br>print(score)</p>
+<p>score = 15<br>print(score)<br>~~~</p>
+<p>Explain that the second assignment gives <code>score</code> a new value. The last output is <code>15</code>.</p>
+<h3 id="g-what-is-a-data-type">G. What is a data type?</h3>
+<p>Say:</p>
+<blockquote><p>A data type tells Python what kind of value it is working with.</p></blockquote>
+<p>Introduce four basic types:</p>
+<div class="table-wrap"><table><thead><tr><th>Type</th><th>Python name</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>Text</td><td>String (<code>str</code>)</td><td>Letters, words, symbols or text</td><td><code>"Hello"</code></td></tr><tr><td>Whole number</td><td>Integer (<code>int</code>)</td><td>A number without a decimal part</td><td><code>12</code>, <code>0</code>, <code>-4</code></td></tr><tr><td>Decimal number</td><td>Float (<code>float</code>)</td><td>A number with a decimal part</td><td><code>3.5</code>, <code>10.0</code></td></tr><tr><td>True / false</td><td>Boolean (<code>bool</code>)</td><td>One of two truth values</td><td><code>True</code>, <code>False</code></td></tr></tbody></table></div>
+<p>Explain carefully:</p>
+<p><strong>String (<code>str</code>)</strong></p>
+<ul><li>A string is text.</li><li>In Python, text is normally written inside single or double quotation marks.</li><li>Examples: <code>"ATL Lab"</code>, <code>'Python'</code>, <code>"123"</code>.</li><li>Even <code>"123"</code> is text because it is inside quotation marks.</li></ul>
+<p><strong>Integer (<code>int</code>)</strong></p>
+<ul><li>An integer is a whole number with no decimal part.</li><li>Examples: <code>5</code>, <code>100</code>, <code>0</code>, <code>-2</code>.</li><li>The number <code>5</code> is an integer; the text <code>"5"</code> is a string.</li></ul>
+<p><strong>Float (<code>float</code>)</strong></p>
+<ul><li>A float is a number that can have a decimal part.</li><li>Examples: <code>2.5</code>, <code>12.75</code>, <code>8.0</code>.</li><li><code>8</code> and <code>8.0</code> have the same numerical value, but Python treats them as different types: integer and float.</li></ul>
+<p><strong>Boolean (<code>bool</code>)</strong></p>
+<ul><li>A Boolean has only two values: <code>True</code> or <code>False</code>.</li><li>The first letter must be capitalised.</li><li>Example: <code>is_ready = True</code>.</li><li>Students will use Booleans for decisions in Week 3.</li></ul>
+<p>Show:</p>
+<p>~~~python<br>student_team = "Team Blue"<br>points = 12<br>average_time = 4.5<br>is_ready = True</p>
+<p>print(student_team)<br>print(points)<br>print(average_time)<br>print(is_ready)<br>~~~</p>
+<p>Ask students to identify each variable and its data type.</p>
+<h3 id="h-how-can-we-check-a-data-type">H. How can we check a data type?</h3>
+<p>Show the <code>type()</code> function:</p>
+<p>~~~python<br>print(type("Hello"))<br>print(type(25))<br>print(type(4.5))<br>print(type(True))<br>~~~</p>
+<p>Explain:</p>
+<ul><li><code>type()</code> asks Python what kind of value it has received.</li><li>Python displays names such as <code>str</code>, <code>int</code>, <code>float</code> and <code>bool</code>.</li><li>This is a useful way to investigate code when we are unsure what kind of value we have.</li></ul>
+<h3 id="i-what-are-quotation-marks-brackets-and-commas">I. What are quotation marks, brackets and commas?</h3>
+<p>Point to the code and explain:</p>
+<ul><li><strong>Quotation marks</strong> <code>" "</code> or <code>' '</code>: mark the beginning and end of a string.</li><li><strong>Round brackets</strong> <code>()</code>: used when calling a function, such as <code>print()</code> and <code>input()</code>.</li><li><strong>Comma</strong> <code>,</code>: separates multiple values passed to a function, such as <code>print("Score:", score)</code>.</li><li><strong>Equals sign</strong> <code>=</code>: assigns a value to a variable.</li><li><strong>Underscore</strong> <code>_</code>: can be used in a variable name instead of a space, such as <code>team_name</code>.</li></ul>
+<p>Do not ask younger students to memorise punctuation rules. Let them identify the parts in working examples.</p>
+<h3 id="j-what-is-a-comment">J. What is a comment?</h3>
+<p>A comment is a note for people reading the code. Python ignores it when running the program. A comment starts with <code>#</code>.</p>
+<p>~~~python</p>
+<h1 id="store-the-team-s-points">Store the team's points</h1>
+<p>score = 10</p>
+<p>print(score)<br>~~~</p>
+<p>Explain that comments help us remember what a part of the code does.</p>
+<h3 id="k-what-is-input">K. What is <code>input()</code>?</h3>
+<p>Say:</p>
+<blockquote><p><code>input()</code> pauses the program and waits for the user to type something. The program can then store that response in a variable.</p></blockquote>
+<p>Show:</p>
+<p>~~~python<br>team_name = input("Enter your team name: ")<br>print("Welcome,", team_name)<br>~~~</p>
+<p>Explain:</p>
+<ul><li>The message inside <code>input()</code> is the question shown to the user.</li><li>The typed response is stored in <code>team_name</code>.</li><li><code>print()</code> displays the welcome message.</li><li>Use a team name or pretend name, not personal information.</li></ul>
+<p><strong>Important teacher point:</strong> <code>input()</code> returns text (a string), even when the student types digits.</p>
+<p>Demonstrate:</p>
+<p>~~~python<br>points_text = input("Enter your points: ")<br>print(type(points_text))<br>~~~</p>
+<p>If a student types <code>12</code>, Python still treats the received value as a string.</p>
+<h3 id="l-what-does-type-conversion-mean">L. What does type conversion mean?</h3>
+<p>Say:</p>
+<blockquote><p>Type conversion means changing a value from one data type to another.</p></blockquote>
+<p>Explain:</p>
+<ul><li><code>int()</code> converts suitable text or a number into an integer.</li><li><code>float()</code> converts a suitable value into a decimal number.</li><li><code>str()</code> converts a value into text.</li></ul>
+<p>Show:</p>
+<p>~~~python<br>points_text = "12"<br>points = int(points_text)</p>
+<p>print(points)<br>print(type(points))<br>~~~</p>
+<p>Then explain the common surprise:</p>
+<p>~~~python<br>print("5" + "3")<br>print(5 + 3)<br>~~~</p>
+<p>The first line joins two strings and displays <code>53</code>. The second adds two integers and displays <code>8</code>.</p>
+<p>Use this carefully: students should understand that text and numbers are different kinds of values.</p>
+<p><strong>Input with number conversion:</strong></p>
+<p>~~~python<br>points_text = input("Enter whole-number points: ")<br>points = int(points_text)</p>
+<p>total = points + 5<br>print("After the bonus:", total)<br>~~~</p>
+<p>For this beginner example, the user must type a whole number such as <code>8</code>. If someone types a word or a decimal, Python will show an error. Explain that programs need to check input; handling invalid input will come later.</p>
+<h3 id="m-basic-arithmetic-operators">M. Basic arithmetic operators</h3>
+<p>Use a few examples to show that Python can work like a calculator:</p>
+<div class="table-wrap"><table><thead><tr><th>Operator</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><code>+</code></td><td>Addition</td><td><code>5 + 2</code> gives <code>7</code></td></tr><tr><td><code>-</code></td><td>Subtraction</td><td><code>5 - 2</code> gives <code>3</code></td></tr><tr><td><code>*</code></td><td>Multiplication</td><td><code>5 * 2</code> gives <code>10</code></td></tr><tr><td><code>/</code></td><td>Division</td><td><code>5 / 2</code> gives <code>2.5</code></td></tr></tbody></table></div>
+<p>Try:</p>
+<p>~~~python<br>first_score = 8<br>second_score = 6</p>
+<p>total = first_score + second_score<br>difference = first_score - second_score<br>product = first_score * second_score</p>
+<p>print("Total:", total)<br>print("Difference:", difference)<br>print("Product:", product)<br>~~~</p>
+<p>This is an extension if time allows. Students do not need to learn every Python operator in this lesson.</p>
+<h2 id="4-lesson-timing-fit-the-actual-timetable">4. Lesson timing — fit the actual timetable</h2>
+<h3 id="35-minute-ai-slot">35-minute AI slot</h3>
+<div class="table-wrap"><table><thead><tr><th>Time</th><th>Teacher action</th><th>Student action</th></tr></thead><tbody><tr><td>0–4 min</td><td>Ask: “How can we make a computer remember our team's name and score?”</td><td>Predict and discuss</td></tr><tr><td>4–10 min</td><td>Demonstrate a notebook cell, <code>print()</code>, a variable and its value</td><td>Identify code parts on the projector</td></tr><tr><td>10–16 min</td><td>Explain string, integer, float and Boolean with examples</td><td>Classify the example values</td></tr><tr><td>16–27 min</td><td>Guide the Team Greeting and Scoreboard practical</td><td>Type, change values and run cells</td></tr><tr><td>27–32 min</td><td>Demonstrate <code>input()</code> and, if ready, number conversion</td><td>Enter a team name or points and observe the output</td></tr><tr><td>32–35 min</td><td>Ask quick questions and check understanding</td><td>Explain one variable and one data type</td></tr></tbody></table></div>
+<h3 id="30-minute-ai-slot">30-minute AI slot</h3>
+<div class="table-wrap"><table><thead><tr><th>Time</th><th>Teacher action</th><th>Student action</th></tr></thead><tbody><tr><td>0–3 min</td><td>Ask the opening question</td><td>Predict</td></tr><tr><td>3–8 min</td><td>Demonstrate notebook, <code>print()</code> and variable</td><td>Identify code parts</td></tr><tr><td>8–13 min</td><td>Explain string, integer and float; mention Boolean</td><td>Classify example values</td></tr><tr><td>13–24 min</td><td>Run the Team Greeting and Scoreboard practical</td><td>Change and run code</td></tr><tr><td>24–28 min</td><td>Show <code>input()</code> or the score calculator</td><td>Try one short extension</td></tr><tr><td>28–30 min</td><td>Ask the exit questions</td><td>Answer</td></tr></tbody></table></div>
+<p>For 30-minute batches, leave type conversion as a teacher demonstration or a follow-up challenge. Do not rush the core practical.</p>
+<h2 id="5-main-practical-team-greeting-and-scoreboard">5. Main practical — Team Greeting and Scoreboard</h2>
+<p><strong>Goal:</strong> Students identify variables and data types while building a tiny team program.</p>
+<h3 id="task-1-display-a-message">Task 1 — Display a message</h3>
+<p>~~~python<br>print("Welcome to the AI Lab")<br>~~~</p>
+<p>Ask: “Which part is the instruction? Which part is the message?”</p>
+<p>Answer: <code>print</code> is the instruction/function; the text inside the quotes is the message.</p>
+<h3 id="task-2-store-a-team-name-and-score">Task 2 — Store a team name and score</h3>
+<p>~~~python<br>team_name = "Team A"<br>score = 5</p>
+<p>print(team_name)<br>print(score)<br>~~~</p>
+<p>Ask students to point out:</p>
+<ul><li>Variable names: <code>team_name</code> and <code>score</code>.</li><li>Values: <code>"Team A"</code> and <code>5</code>.</li><li>Data types: string and integer.</li></ul>
+<p>Ask each group to change the team name and score.</p>
+<h3 id="task-3-add-a-second-score">Task 3 — Add a second score</h3>
+<p>~~~python<br>first_score = 8<br>second_score = 6<br>total = first_score + second_score</p>
+<p>print("Total score:", total)<br>~~~</p>
+<p>Ask students to predict the answer before running it. Then change one score and run again.</p>
+<h3 id="task-4-ask-the-team-for-its-name">Task 4 — Ask the team for its name</h3>
+<p>~~~python<br>team_name = input("Enter your team name: ")<br>print("Welcome,", team_name)<br>~~~</p>
+<p>Ask: “Where is the answer stored?”<br>Answer: In the variable named <code>team_name</code>.</p>
+<h3 id="optional-task-5-ask-for-points-and-add-a-bonus">Optional Task 5 — Ask for points and add a bonus</h3>
+<p>~~~python<br>points_text = input("Enter whole-number points: ")<br>points = int(points_text)</p>
+<p>total = points + 5<br>print("Your points plus bonus:", total)<br>~~~</p>
+<p>Explain that <code>input()</code> first receives text and <code>int()</code> converts suitable digit text into a whole number.</p>
+<h2 id="6-student-questions-ready-answers-for-the-teacher">6. Student questions — ready answers for the teacher</h2>
+<p>Use these as a question bank. You do not need to explain every answer in the first lesson. Answer questions when they arise, and keep the class moving toward the practical.</p>
+<div class="table-wrap"><table><thead><tr><th>Student asks</th><th>Simple answer</th></tr></thead><tbody><tr><td>What is coding?</td><td>Coding means writing instructions for a computer using a programming language.</td></tr><tr><td>What is programming?</td><td>Programming is the process of designing, writing, running and improving computer instructions.</td></tr><tr><td>What is Python?</td><td>Python is a programming language that lets us write instructions for computers.</td></tr><tr><td>Is Python AI?</td><td>No. Python is a language. We can use it to build AI programs and work with AI models.</td></tr><tr><td>Why are we learning Python for AI?</td><td>Many tools for data, machine learning and AI projects can be used through Python.</td></tr><tr><td>What is a program?</td><td>A program is a set of instructions that a computer runs.</td></tr><tr><td>What is a notebook?</td><td>It is a digital document where we can write and run code in separate cells.</td></tr><tr><td>What is a cell?</td><td>One section of a notebook. A code cell contains instructions we can run.</td></tr><tr><td>What is output?</td><td>The result displayed after the program runs.</td></tr><tr><td>What does print mean?</td><td>It displays information on the screen or in the notebook.</td></tr><tr><td>What is a variable?</td><td>A named place or label used to refer to a value that the program can use.</td></tr><tr><td>Which part is the variable in <code>score = 10</code>?</td><td><code>score</code> is the variable name.</td></tr><tr><td>Which part is the value?</td><td><code>10</code> is the value stored in the variable.</td></tr><tr><td>What does the equals sign do?</td><td>It assigns the value on the right to the variable name on the left.</td></tr><tr><td>Can a variable change?</td><td>Yes. We can assign it a new value.</td></tr><tr><td>Why not just write the number every time?</td><td>A variable lets us give information a name and reuse or update it easily.</td></tr><tr><td>What is a string?</td><td>A string is text, usually written inside quotation marks.</td></tr><tr><td>What is an integer?</td><td>An integer is a whole number without a decimal part, such as 7 or 25.</td></tr><tr><td>Is <code>"7"</code> an integer?</td><td>No. Because it is inside quotes, it is a string containing the character 7.</td></tr><tr><td>What is a float?</td><td>A number that can have a decimal part, such as 2.5.</td></tr><tr><td>Is 5.0 an integer?</td><td>No. Python treats 5.0 as a float, even though its value is mathematically five.</td></tr><tr><td>What is a Boolean?</td><td>A value that is either <code>True</code> or <code>False</code>.</td></tr><tr><td>Why is True written with a capital T?</td><td>Python's Boolean values use the exact spellings <code>True</code> and <code>False</code>.</td></tr><tr><td>What are quotation marks for?</td><td>They tell Python that the content is text.</td></tr><tr><td>Why do we use brackets after print?</td><td>The parentheses hold the information we want the function to display.</td></tr><tr><td>What is input?</td><td>It lets a program receive something typed by the user.</td></tr><tr><td>Why does input turn 12 into text?</td><td>Python's <code>input()</code> returns the typed response as a string.</td></tr><tr><td>How do I turn text digits into a number?</td><td>Use <code>int()</code> for a whole number or <code>float()</code> for a decimal number, when the text is suitable.</td></tr><tr><td>What is type()?</td><td>It lets us ask Python what kind of value something is.</td></tr><tr><td>Why does 5 + 3 give 8 but "5" + "3" give 53?</td><td>The first adds numbers. The second joins two pieces of text.</td></tr><tr><td>What happens if I make a spelling mistake?</td><td>Python may not understand the instruction or may say that a name is not defined. Read the error and check the code carefully.</td></tr><tr><td>Does Python understand capital and small letters as the same?</td><td>No. Python is case-sensitive. For example, <code>score</code> and <code>Score</code> are different names.</td></tr><tr><td>Can a variable name contain spaces?</td><td>No. Use an underscore, such as <code>team_score</code>.</td></tr><tr><td>Can a variable name start with a number?</td><td>No. Start with a letter or underscore, such as <code>score2</code> or <code>_score</code>.</td></tr><tr><td>What is a comment?</td><td>A note for people reading the code. Python ignores text after <code>#</code> on that line.</td></tr><tr><td>What is an error?</td><td>A message or problem that tells us the program could not run as expected. We investigate and fix it.</td></tr><tr><td>Does the computer know what I mean?</td><td>It follows the instructions we write. We must be clear and precise.</td></tr></tbody></table></div>
+<h2 id="7-common-mistakes-show-students-how-to-fix-them">7. Common mistakes — show students how to fix them</h2>
+<div class="table-wrap"><table><thead><tr><th>Mistake</th><th>What may happen</th><th>Correct version</th></tr></thead><tbody><tr><td>Missing quotation mark</td><td>Python reports a syntax error</td><td><code>print("Hello")</code></td></tr><tr><td>Missing closing bracket</td><td>Python reports a syntax error</td><td><code>print("Hello")</code></td></tr><tr><td>Using a variable before creating it</td><td>Python reports that the name is not defined</td><td>Set <code>score = 10</code> before <code>print(score)</code></td></tr><tr><td>Wrong capital letters in a name</td><td>Python may say the variable is not defined</td><td>Use the same spelling and case each time</td></tr><tr><td>Writing <code>"score"</code> instead of <code>score</code></td><td>Python prints the word score, not the stored value</td><td>Use <code>print(score)</code></td></tr><tr><td>Adding text directly to an integer</td><td>Python reports a type error</td><td>Convert carefully or use <code>print("Score:", score)</code></td></tr><tr><td>Writing <code>true</code> instead of <code>True</code></td><td>Python treats it as an unknown name</td><td>Write <code>is_ready = True</code></td></tr></tbody></table></div>
+<p>Teach students not to panic when they see an error. Ask them to:</p>
+<ol><li>Read the last line of the error message.</li><li>Look at the code cell that failed.</li><li>Check spelling, quotes, brackets and the line mentioned.</li><li>Change one thing and run it again.</li><li>Ask a teammate before asking the teacher to fix it.</li></ol>
+<h2 id="8-variable-naming-rules-simple-version">8. Variable naming rules — simple version</h2>
+<p>Good variable names describe the information:</p>
+<p>~~~python<br>team_name = "Team Blue"<br>student_score = 15<br>number_of_points = 20<br>~~~</p>
+<p>Rules:</p>
+<ul><li>Use letters, numbers and underscores.</li><li>Do not put spaces in a variable name.</li><li>Do not start a variable name with a number.</li><li>Python distinguishes capital and small letters.</li><li>Choose names that explain what the value means.</li></ul>
+<p>For this class, prefer <code>team_name</code>, <code>score</code> and <code>total_points</code>, not unclear names such as <code>x1</code> or <code>abc</code>.</p>
+<h2 id="9-what-is-the-difference-between-and">9. What is the difference between = and ==?</h2>
+<p>This is a common question. Give a short preview; teach comparisons properly in Week 3.</p>
+<ul><li>One equals sign, <code>=</code>, assigns a value: <code>score = 10</code>.</li><li>Two equals signs, <code>==</code>, compare two values: <code>score == 10</code>.</li></ul>
+<p>Say:</p>
+<blockquote><p>One equals sign stores something. Two equals signs ask whether two things are equal.</p></blockquote>
+<p>Students do not need to use <code>==</code> independently yet.</p>
+<h2 id="10-class-wise-teaching-adjustments">10. Class-wise teaching adjustments</h2>
+<div class="table-wrap"><table><thead><tr><th>Class</th><th>What to expect in this lesson</th><th>Suitable challenge</th></tr></thead><tbody><tr><td class="nowrap"><strong>5 — Discover</strong></td><td>Run prepared cells, change text and numbers, identify the variable by pointing</td><td>Change the team name and score; tell the teacher what changed</td></tr><tr><td class="nowrap"><strong>6 — Understand</strong></td><td>Type simple print and variable examples with guidance; identify strings and integers</td><td>Add a second score and calculate the total</td></tr><tr><td class="nowrap"><strong>7 — Experiment</strong></td><td>Use variables, input and type() with some independence</td><td>Ask for points, convert to integer and calculate a bonus</td></tr><tr><td class="nowrap"><strong>8 — Build</strong></td><td>Explain string, integer and float; use arithmetic and debug a small mistake</td><td>Build a two-value score calculator and explain each variable</td></tr><tr><td class="nowrap"><strong>9 — Create and evaluate</strong></td><td>Explain assignment, types, input conversion and common errors</td><td>Extend the scoreboard with several variables and test different inputs</td></tr></tbody></table></div>
+<p>Offer a prepared/starter version for students who need support and an extension task for students who finish early. Rotate the laptop operator so everyone gets a turn.</p>
+<h2 id="11-quick-assessment-ask-before-the-bell">11. Quick assessment — ask before the bell</h2>
+<p>Ask students to answer aloud or on a small exit slip:</p>
+<ol><li>In <code>score = 10</code>, what is the variable name?</li><li>What is the value?</li><li>Is <code>"10"</code> a string or an integer?</li><li>What does <code>print()</code> do?</li><li>What data type does <code>input()</code> return?</li><li>What is one difference between an integer and a float?</li></ol>
+<p><strong>Expected answers:</strong> <code>score</code>; <code>10</code>; string; displays information; string; an integer has no decimal part while a float can have one.</p>
+<p>A student has understood the lesson when they can point to a variable, identify its value and type, change it, run the program and explain the output.</p>
+<h2 id="12-what-students-should-write-in-their-notebooks">12. What students should write in their notebooks</h2>
+<p>Keep the student notes short. They do not need to copy the complete teacher guide.</p>
+<h3 id="python-basics-quick-notes">Python Basics — Quick Notes</h3>
+<ul><li><strong>Python:</strong> a programming language used to write instructions for a computer.</li><li><strong>Program:</strong> a set of instructions that a computer runs.</li><li><strong>Notebook cell:</strong> a section where we write and run code.</li><li><strong><code>print()</code>:</strong> displays information.</li><li><strong>Variable:</strong> a name used to store or refer to a value.</li><li><strong>String (<code>str</code>):</strong> text, such as <code>"Hello"</code>.</li><li><strong>Integer (<code>int</code>):</strong> a whole number, such as <code>12</code>.</li><li><strong>Float (<code>float</code>):</strong> a decimal number, such as <code>3.5</code>.</li><li><strong>Boolean (<code>bool</code>):</strong> <code>True</code> or <code>False</code>.</li><li><strong><code>input()</code>:</strong> receives text typed by the user.</li><li><strong><code>type()</code>:</strong> tells us the data type of a value.</li><li><strong><code>int()</code>:</strong> converts suitable input into a whole number.</li></ul>
+<p>Example:</p>
+<p>~~~python<br>team_name = "Team Blue"<br>score = 10</p>
+<p>print("Team:", team_name)<br>print("Score:", score)<br>print(type(team_name))<br>print(type(score))<br>~~~</p>
+<h2 id="13-after-the-lesson-teacher-record">13. After the lesson — teacher record</h2>
+<p>Complete this after each batch. Record what actually happened, not only what was planned.</p>
+<p><strong>Date:</strong><br><strong>Class / Batch:</strong><br><strong>Students completed which tasks:</strong><br><strong>Could students identify a variable and its value?</strong><br><strong>Could students distinguish string, integer and float?</strong><br><strong>Did students understand that input() returns text?</strong><br><strong>Common questions asked:</strong><br><strong>Where did students struggle?</strong><br><strong>What worked well?</strong><br><strong>What should change for the next batch?</strong><br><strong>Next lesson:</strong> Week 3 — Algorithms, conditions and loops.<br><strong>Preparation needed:</strong> Prepare the quiz notebook, number-pattern notebook and a simple flowchart.</p>
+<hr>
+<p><strong>Teacher reminder:</strong> Do not try to teach every detail in this document in one short period. Use Sections 3–5 for the live explanation and practical, Section 6 when students ask questions, and Sections 7–12 as reference or extension material. The goal is understanding through doing, not memorising every definition.</p>
+</main>
+<footer>
+  <p>Source: <a href="WEEK-02-TEACHER-NOTES.md">WEEK-02-TEACHER-NOTES.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

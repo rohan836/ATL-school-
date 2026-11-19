@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teacher Delivery Guide — Practical AI Classes 5–9</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; AI &amp; Computing</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Teacher Delivery Guide — Practical AI Classes 5–9</h1>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#1-weekly-ai-slots-from-the-current-timetable">1. Weekly AI slots from the current timetable</a></li><li><a href="#2-how-to-run-an-ai-lesson">2. How to run an AI lesson</a></li><li><a href="#3-teaching-method">3. Teaching method</a></li><li><a href="#4-python-and-notebook-teaching">4. Python and notebook teaching</a></li><li><a href="#5-how-to-introduce-machine-learning">5. How to introduce machine learning</a></li><li><a href="#6-ai-tools-and-ai-assisted-building">6. AI tools and AI-assisted building</a></li><li><a href="#7-keep-responsible-ai-practical">7. Keep responsible AI practical</a></li><li><a href="#8-adjust-the-challenge-by-class">8. Adjust the challenge by class</a></li><li><a href="#9-prepare-before-each-batch">9. Prepare before each batch</a></li><li><a href="#10-what-students-should-record">10. What students should record</a></li><li><a href="#11-teacher-lesson-log-copy-for-each-delivery">11. Teacher lesson log — copy for each delivery</a></li><li><a href="#12-assessment-after-a-lesson">12. Assessment after a lesson</a></li><li><a href="#related-records">Related records</a></li></ul></nav>
+<p><strong>Purpose:</strong> A quick working guide for preparing, teaching and remembering each AI lesson. Use it alongside the <a href="FOUR-MONTH-LEARNING-ROADMAP.html">16-week learning roadmap</a>.</p>
+<p><strong>Teaching rule:</strong> Demonstrate first, let students try, then help them understand what happened. Keep theory short and make something in every lesson.</p>
+<h2 id="1-weekly-ai-slots-from-the-current-timetable">1. Weekly AI slots from the current timetable</h2>
+<p>Each class has Batch C and Batch D. The current timetable gives one dedicated AI session per batch each week.</p>
+<div class="table-wrap"><table><thead><tr><th>Class and batch</th><th>AI day</th><th>AI time</th><th style="text-align:right">Duration</th></tr></thead><tbody><tr><td>Class 5C</td><td>Wednesday</td><td>8:00–8:35 AM</td><td style="text-align:right">35 min</td></tr><tr><td>Class 5D</td><td>Wednesday</td><td>9:20–9:55 AM</td><td style="text-align:right">35 min</td></tr><tr><td>Class 6C</td><td>Saturday</td><td>8:10–8:45 AM</td><td style="text-align:right">35 min</td></tr><tr><td>Class 6D</td><td>Saturday</td><td>9:35–10:10 AM</td><td style="text-align:right">35 min</td></tr><tr><td>Class 7C</td><td>Tuesday</td><td>10:40–11:15 AM</td><td style="text-align:right">35 min</td></tr><tr><td>Class 7D</td><td>Tuesday</td><td>11:55 AM–12:25 PM</td><td style="text-align:right">30 min</td></tr><tr><td>Class 8C</td><td>Thursday</td><td>10:40–11:15 AM</td><td style="text-align:right">35 min</td></tr><tr><td>Class 8D</td><td>Thursday</td><td>11:55 AM–12:25 PM</td><td style="text-align:right">30 min</td></tr><tr><td>Class 9C</td><td>Saturday</td><td>10:55–11:25 AM</td><td style="text-align:right">30 min</td></tr><tr><td>Class 9D</td><td>Saturday</td><td>12:00–12:30 PM</td><td style="text-align:right">30 min</td></tr></tbody></table></div>
+<p>The times above are taken from the current <a href="../../../../main%20ATL%20school/ATL%20Lab%20Timetable/ATL-LAB-TIMETABLE.html">ATL-LAB-TIMETABLE.md</a>. Check that source again if the school timetable changes. Do not use the 70-minute electronics period as the AI lesson duration.</p>
+<h2 id="2-how-to-run-an-ai-lesson">2. How to run an AI lesson</h2>
+<h3 id="for-a-35-minute-session">For a 35-minute session</h3>
+<div class="table-wrap"><table><thead><tr><th>Time</th><th>What to do</th></tr></thead><tbody><tr><td>0–4 min</td><td>Start with a surprising question, quick challenge or live demo</td></tr><tr><td>4–9 min</td><td>Explain one key idea using the screen, an example or a physical object</td></tr><tr><td>9–22 min</td><td>Students experiment in pairs or small teams</td></tr><tr><td>22–31 min</td><td>Give a mini-build, competition or improvement challenge</td></tr><tr><td>31–35 min</td><td>Ask students to show the result and explain one thing they learned</td></tr></tbody></table></div>
+<h3 id="for-a-30-minute-session">For a 30-minute session</h3>
+<div class="table-wrap"><table><thead><tr><th>Time</th><th>What to do</th></tr></thead><tbody><tr><td>0–3 min</td><td>Question or quick demonstration</td></tr><tr><td>3–7 min</td><td>Explain the one essential concept</td></tr><tr><td>7–19 min</td><td>Student experiment</td></tr><tr><td>19–27 min</td><td>Short challenge or improvement</td></tr><tr><td>27–30 min</td><td>Show, explain and exit question</td></tr></tbody></table></div>
+<p>Prepare the notebook, links, sample data and projector before the batch enters. Avoid spending the student activity time installing software or creating accounts.</p>
+<h2 id="3-teaching-method">3. Teaching method</h2>
+<p>Use this loop in every lesson:</p>
+<ol><li><strong>Ask:</strong> Start with a question students want to answer.</li><li><strong>Show:</strong> Demonstrate the result before explaining the theory.</li><li><strong>Try:</strong> Let students change inputs, code or examples.</li><li><strong>Challenge:</strong> Give them one small goal to complete.</li><li><strong>Test:</strong> Ask them to try a new example or unusual case.</li><li><strong>Explain:</strong> Students describe what worked, what failed and why.</li></ol>
+<p>Keep explanations to one or two core ideas. Do not turn the session into a long lecture or a note-copying exercise.</p>
+<h2 id="4-python-and-notebook-teaching">4. Python and notebook teaching</h2>
+<p>Use Jupyter Notebook or another school-approved notebook environment. Start with prepared notebooks so students can focus on learning rather than setup.</p>
+<p>Suggested order:</p>
+<ol><li>Open a notebook; identify Markdown and code cells; run a cell.</li><li>Use <code>print()</code>, variables, input and simple data types.</li><li>Use comparisons and <code>if/else</code>.</li><li>Use loops to generate patterns and repeat actions.</li><li>Create functions and use lists.</li><li>Import a library and run a small example.</li><li>Use NumPy for simple number experiments.</li><li>Use pandas to read and inspect a small table or CSV.</li><li>Use Matplotlib to make a simple chart.</li><li>Use scikit-learn in prepared examples for basic regression and classification.</li></ol>
+<p>Teach students to read error messages, change one thing at a time and rerun the notebook in order. Give younger students partly completed cells; older students can write more of the code themselves.</p>
+<h2 id="5-how-to-introduce-machine-learning">5. How to introduce machine learning</h2>
+<p>Make the learning process visible:</p>
+<p><strong>Examples and labels → Training → New example → Prediction → Check the result → Improve the data or model.</strong></p>
+<p>Use simple examples:</p>
+<ul><li><strong>Number prediction:</strong> learn a trend from a small numeric dataset and predict an approximate value.</li><li><strong>Digit recognition:</strong> train/test a model that classifies handwritten digits from 0 to 9.</li><li><strong>Image classification:</strong> use labelled pictures of safe objects such as fruit or stationery.</li><li><strong>Object detection:</strong> show the difference between giving one label to an image and identifying the locations of objects within it.</li></ul>
+<p>Always reserve a few test examples that the model has not seen during training. Let students record correct and incorrect predictions. Explain that a prediction is an estimate, not a guarantee.</p>
+<h2 id="6-ai-tools-and-ai-assisted-building">6. AI tools and AI-assisted building</h2>
+<p>Possible tools for teacher preparation and supervised classroom demonstrations:</p>
+<ul><li><strong>Python and Jupyter Notebook:</strong> for coding, data and small models.</li><li><strong>NumPy, pandas and Matplotlib:</strong> for numerical work, tables and charts.</li><li><strong>scikit-learn:</strong> for beginner-friendly regression and classification examples.</li><li><strong>Teachable Machine or a similar approved visual tool:</strong> for quick image, sound or pose classification demonstrations.</li><li><strong>ChatGPT:</strong> for explaining concepts, brainstorming, drafting prompts and teacher-led demonstrations.</li><li><strong>Codex, Claude Code or another approved coding assistant:</strong> for teacher-guided code generation, explanation, debugging and small application builds.</li></ul>
+<p>Treat these as candidate tools, not guaranteed school resources. Before a lesson, check access, internet, device compatibility, school approval and the current age/account terms of each service. For younger students, use teacher-operated demonstrations or a school-approved supervised setup; do not require children to create personal accounts without approval.</p>
+<p>Teach the AI coding workflow:</p>
+<ol><li>Describe the problem in plain language.</li><li>Ask the assistant for one small step, not the whole project at once.</li><li>Read the suggested code and ask what it does.</li><li>Run it in the notebook or approved environment.</li><li>Test it with more than one example.</li><li>Show the error and ask for an explanation if it fails.</li><li>Make a change and test again.</li><li>Ask the student to explain the final result without relying on the assistant.</li></ol>
+<p>The student remains responsible for understanding and testing the work. AI-generated code and answers can be wrong.</p>
+<h2 id="7-keep-responsible-ai-practical">7. Keep responsible AI practical</h2>
+<p>Do not begin with a long lecture on rules. Bring these checks into the project:</p>
+<ul><li><strong>Privacy:</strong> use sample or non-personal data; do not upload student names, faces, voices or personal records to public services.</li><li><strong>Fairness:</strong> test whether a model behaves differently across suitable, non-sensitive examples.</li><li><strong>Reliability:</strong> verify generated facts and test model predictions.</li><li><strong>Attribution:</strong> record when AI helped and credit sources or assets as required.</li><li><strong>Human judgement:</strong> explain why an AI result should not make important decisions by itself.</li></ul>
+<p>Use teacher-approved datasets and provide an offline or pre-downloaded alternative when internet access is uncertain.</p>
+<h2 id="8-adjust-the-challenge-by-class">8. Adjust the challenge by class</h2>
+<div class="table-wrap"><table><thead><tr><th>Class</th><th>Teacher approach</th></tr></thead><tbody><tr><td class="nowrap">5</td><td>More show-and-try; use visuals, objects, guided notebooks and short code edits</td></tr><tr><td class="nowrap">6</td><td>Pair programming, basic Python and labelled data activities</td></tr><tr><td class="nowrap">7</td><td>Let students modify code, train a model and record test results</td></tr><tr><td class="nowrap">8</td><td>Expect more independent notebook work and a small application</td></tr><tr><td class="nowrap">9</td><td>Expect experiment planning, evaluation, debugging and a clear explanation of limitations</td></tr></tbody></table></div>
+<p>Offer a <strong>starter task</strong> for students who need support and an <strong>extension task</strong> for students who finish early. Keep the core project the same where practical, but change the depth expected.</p>
+<h2 id="9-prepare-before-each-batch">9. Prepare before each batch</h2>
+<ul><li>[ ] Confirm the week's topic and learning outcome.</li><li>[ ] Open and test the notebook, demo or application.</li><li>[ ] Prepare sample data and a non-internet backup.</li><li>[ ] Check projector, devices, power and internet if needed.</li><li>[ ] Test the activity with one example before class.</li><li>[ ] Prepare one challenge and one extension.</li><li>[ ] Decide what students should show or submit by the end.</li></ul>
+<p>For Batch C and Batch D, reuse the same core lesson where possible. Record any change needed after the first batch before teaching the second.</p>
+<h2 id="10-what-students-should-record">10. What students should record</h2>
+<p>Keep the student record short. A practical page can include:</p>
+<ol><li>Project or experiment name.</li><li>What problem or question they explored.</li><li>Data, examples or inputs used.</li><li>Tool, Python library or model used.</li><li>What the model or program produced.</li><li>One test that worked and one that failed.</li><li>What they changed or would improve.</li><li>What they can explain in their own words.</li></ol>
+<h2 id="11-teacher-lesson-log-copy-for-each-delivery">11. Teacher lesson log — copy for each delivery</h2>
+<p>Use one entry for each class and batch. Record what actually happened, not what was planned.</p>
+<p><strong>Date:</strong><br><strong>Class / Batch:</strong><br><strong>Week and topic:</strong><br><strong>Learning goal:</strong><br><strong>Demo or hook used:</strong><br><strong>Practical task completed:</strong><br><strong>Tools / dataset used:</strong><br><strong>What students understood:</strong><br><strong>Where students got stuck:</strong><br><strong>What worked well:</strong><br><strong>What I should change next time:</strong><br><strong>Next lesson / preparation needed:</strong></p>
+<p>Do not record student personal or sensitive information in this public repository. Use class-level observations only.</p>
+<h2 id="12-assessment-after-a-lesson">12. Assessment after a lesson</h2>
+<p>Use quick evidence rather than a long test. Check whether students can:</p>
+<ul><li>demonstrate the activity or run the notebook;</li><li>explain the main idea in their own words;</li><li>test a new example;</li><li>identify one error or limitation;</li><li>describe one possible improvement.</li></ul>
+<p>The programme's suggested assessment balance is: practical experiments and notebook work 30%, projects 30%, concept understanding 20%, problem-solving and creativity 10%, responsible use and teamwork 10%.</p>
+<h2 id="related-records">Related records</h2>
+<ul><li><a href="FOUR-MONTH-LEARNING-ROADMAP.html">16-week practical AI learning roadmap</a></li><li><a href="../AI-CURRICULUM-CLASSES-5-TO-9.html">Canonical AI curriculum</a></li><li><a href="../FOUR-MONTH-AI-TEACHING-IMPLEMENTATION-PLAN.html">Existing four-month AI framework</a></li><li><a href="../../../../main%20ATL%20school/ATL%20Lab%20Timetable/ATL-LAB-TIMETABLE.html">Current ATL timetable</a></li><li><a href="../../../../main%20ATL%20school/Teacher%20Operational%20Guide%20%26%20Weekly%20Teaching%20Plan/TEACHER-OPERATIONAL-GUIDE-AND-WEEKLY-PLAN.html">Teacher operational guide</a></li></ul>
+</main>
+<footer>
+  <p>Source: <a href="TEACHER-DELIVERY-GUIDE.md">TEACHER-DELIVERY-GUIDE.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

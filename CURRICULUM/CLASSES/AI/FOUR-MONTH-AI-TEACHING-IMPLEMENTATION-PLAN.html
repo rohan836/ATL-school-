@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Four-Month AI Teaching Framework for Classes 5–9</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../INDEX.html">Curriculum</a> &rsaquo; AI &amp; Computing</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Four-Month AI Teaching Framework for Classes 5–9</h1>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#core-philosophy">Core Philosophy</a></li><li><a href="#a-consistent-structure-for-every-lesson">A Consistent Structure for Every Lesson</a></li><li><a href="#month-1-ai-foundations-and-thinking-like-a-problem-solver">Month 1: AI Foundations and Thinking Like a Problem Solver</a></li><li><a href="#week-5-what-is-data">Week 5: What is data?</a></li><li><a href="#week-9-computer-vision">Week 9: Computer vision</a></li><li><a href="#week-13-responsible-ai">Week 13: Responsible AI</a></li><li><a href="#week-14-project-planning">Week 14: Project planning</a></li><li><a href="#week-15-build-test-improve">Week 15: Build, test, improve</a></li><li><a href="#week-16-final-exhibition">Week 16: Final exhibition</a></li><li><a href="#class-5-discover">Class 5: Discover</a></li><li><a href="#class-6-understand">Class 6: Understand</a></li><li><a href="#class-7-experiment">Class 7: Experiment</a></li><li><a href="#class-8-build">Class 8: Build</a></li><li><a href="#class-9-create-and-evaluate">Class 9: Create and Evaluate</a></li><li><a href="#final-teaching-philosophy">Final Teaching Philosophy</a></li></ul></nav>
+<p><strong>Atal Thinking Lab | Practical, Project-Oriented and Interactive AI Learning</strong></p>
+<p>This document is an implementation guide for the existing AI Curriculum for Classes 5–9. It does <strong>not</strong> replace or modify the canonical curriculum. It provides a practical four-month plan for teaching new students through activities, experiments, AI-assisted building, projects, testing, and reflection.</p>
+<h2 id="core-philosophy">Core Philosophy</h2>
+<p>Students should not just learn about AI. Students should learn by using AI to <strong>think, experiment, build, test, fail, improve, and create</strong>.</p>
+<p>The central learning cycle is:</p>
+<blockquote><p><strong>Learn → Try → Build → Test → Improve → Explain</strong></p></blockquote>
+<p>Students should write less and make more.</p>
+<p>The goal is not to make every student an AI programmer. The goal is to develop AI creators, problem-solvers, and critical thinkers.</p>
+<p>By the end of the four months, students should be able to:</p>
+<ul><li>Explain, in simple language, what AI and machine learning are.</li><li>Understand the importance of data.</li><li>Use AI tools responsibly.</li><li>Give clear instructions to AI.</li><li>Build simple digital projects with AI assistance.</li><li>Test whether an AI system works properly.</li><li>Identify mistakes, bias, and limitations.</li><li>Improve their project based on testing.</li><li>Present and explain what they built.</li></ul>
+<h2 id="a-consistent-structure-for-every-lesson">A Consistent Structure for Every Lesson</h2>
+<h3 id="1-start-with-a-question-5-to-10-minutes">1. Start with a question — 5 to 10 minutes</h3>
+<p>Do not begin with definitions. Ask something interesting, such as:</p>
+<ul><li>Can a computer recognize a mango?</li><li>Can AI make mistakes?</li><li>Can we teach a computer to recognize sounds?</li><li>Can we build an app without writing every line of code ourselves?</li></ul>
+<p>Let students discuss first.</p>
+<h3 id="2-explain-the-concept-10-to-15-minutes">2. Explain the concept — 10 to 15 minutes</h3>
+<p>Give only the essential theory. Use demonstrations, examples, objects, and visual explanations. Avoid long notes.</p>
+<h3 id="3-practical-experiment-20-to-30-minutes">3. Practical experiment — 20 to 30 minutes</h3>
+<p>Students try the concept themselves. They might:</p>
+<ul><li>Label data.</li><li>Test an AI model.</li><li>Compare AI answers.</li><li>Build a small application.</li><li>Give different prompts to an AI tool.</li></ul>
+<h3 id="4-build-or-improve-20-to-30-minutes">4. Build or improve — 20 to 30 minutes</h3>
+<p>Students create something. Modern AI-assisted development tools can help students build projects.</p>
+<p>The key rule is:</p>
+<blockquote><p><strong>AI can help build the project. The student must understand, test, and explain the project.</strong></p></blockquote>
+<h3 id="5-reflection-5-minutes">5. Reflection — 5 minutes</h3>
+<p>Ask:</p>
+<ul><li>What worked?</li><li>What failed?</li><li>Why did it fail?</li><li>What would you change?</li></ul>
+<p>This is where students turn experimentation into learning.</p>
+<h1 id="four-month-plan">Four-Month Plan</h1>
+<h2 id="month-1-ai-foundations-and-thinking-like-a-problem-solver">Month 1: AI Foundations and Thinking Like a Problem Solver</h2>
+<h3 id="main-objective">Main objective</h3>
+<p>Students understand what AI is, how computers follow instructions, and how to break real-world problems into smaller parts.</p>
+<h3 id="week-1-what-is-ai">Week 1: What is AI?</h3>
+<p><strong>Teach:</strong></p>
+<ul><li>What Artificial Intelligence means.</li><li>AI around us.</li><li>AI versus normal computer programs.</li><li>What AI can and cannot do.</li></ul>
+<p><strong>Practical activity: AI Detective</strong></p>
+<p>Students look around their school or daily life and identify technologies that may use AI, such as recommendations, voice assistants, phone cameras, maps, and translation tools.</p>
+<p><strong>Mini challenge:</strong></p>
+<p>Students choose one AI system and answer:</p>
+<blockquote><p>What problem does this AI solve?</p></blockquote>
+<p><strong>Outcome:</strong> Students understand that AI is a tool designed to solve certain problems.</p>
+<h3 id="week-2-how-computers-think">Week 2: How computers think</h3>
+<p><strong>Teach:</strong></p>
+<ul><li>Instructions.</li><li>Algorithms.</li><li>Decision-making.</li><li>Simple flowcharts.</li></ul>
+<p><strong>Practical activity: Human Robot</strong></p>
+<p>One student acts as a robot. Other students must give extremely precise instructions for a task, such as making a sandwich. The “robot” follows the instructions literally.</p>
+<p>This teaches students why computers need clear instructions.</p>
+<p><strong>Build challenge:</strong></p>
+<p>Create a flowchart for:</p>
+<ul><li>A school attendance system.</li><li>Choosing a route to school.</li><li>A smart dustbin.</li></ul>
+<h3 id="week-3-computational-thinking">Week 3: Computational thinking</h3>
+<p><strong>Teach:</strong></p>
+<ul><li>Decomposition.</li><li>Pattern recognition.</li><li>Abstraction.</li><li>Algorithms.</li></ul>
+<p><strong>Practical activity: Solve a school problem</strong></p>
+<p>Give groups a real problem, such as:</p>
+<blockquote><p>Students often lose their water bottles.</p></blockquote>
+<p>Students break the problem into smaller questions:</p>
+<ol><li>What information is needed?</li><li>What patterns exist?</li><li>What solution could technology provide?</li></ol>
+<p><strong>Outcome:</strong> Students start thinking like designers and engineers.</p>
+<h3 id="week-4-introduction-to-ai-tools">Week 4: Introduction to AI tools</h3>
+<p>Introduce appropriate modern AI tools and AI-assisted development workflows.</p>
+<p>Teach students:</p>
+<ul><li>How to give clear instructions.</li><li>How to ask follow-up questions.</li><li>How to verify AI answers.</li><li>Why AI can make mistakes.</li><li>Why they should not share private information.</li></ul>
+<p><strong>Practical: Prompt Experiment</strong></p>
+<p>Give every group the same task.</p>
+<p>First, they give a poor prompt. Then they improve the prompt.</p>
+<p>Poor prompt:</p>
+<blockquote><p>Make a school project.</p></blockquote>
+<p>Better prompt:</p>
+<blockquote><p>Help us design a simple project to reduce water waste in our school. Give us three ideas suitable for Class 7 students, using low-cost materials.</p></blockquote>
+<p>Students compare the results.</p>
+<p><strong>Month 1 project: AI Problem Solver</strong></p>
+<p>Each group selects one school or community problem and creates a simple digital presentation or prototype idea with AI assistance.</p>
+<h1 id="month-2-data-and-how-ai-learns">Month 2: Data and How AI Learns</h1>
+<h3 id="main-objective-1">Main objective</h3>
+<p>Students understand that AI depends on data and that poor data can produce poor results.</p>
+<h2 id="week-5-what-is-data">Week 5: What is data?</h2>
+<p><strong>Teach:</strong></p>
+<ul><li>Text data.</li><li>Images.</li><li>Audio.</li><li>Numbers.</li></ul>
+<p><strong>Practical activity: Data Hunt</strong></p>
+<p>Students collect safe, non-personal data from their environment, such as:</p>
+<ul><li>Number of plants in different areas.</li><li>Types of waste in classrooms.</li><li>Daily temperature records.</li></ul>
+<p>Then organize the information into a table.</p>
+<h3 id="week-6-data-collection-and-labeling">Week 6: Data collection and labeling</h3>
+<p><strong>Teach:</strong></p>
+<ul><li>Why AI needs examples.</li><li>Data labels.</li><li>Good versus poor-quality data.</li></ul>
+<p><strong>Practical: Build a small dataset</strong></p>
+<p>Students create a simple dataset.</p>
+<div class="table-wrap"><table><thead><tr><th>Item</th><th>Category</th></tr></thead><tbody><tr><td>Apple</td><td>Fruit</td></tr><tr><td>Banana</td><td>Fruit</td></tr><tr><td>Carrot</td><td>Vegetable</td></tr></tbody></table></div>
+<p>Then discuss:</p>
+<blockquote><p>What happens if we label something incorrectly?</p></blockquote>
+<p>This creates a practical understanding of machine learning without excessive mathematics.</p>
+<h3 id="week-7-how-machine-learning-learns-patterns">Week 7: How machine learning learns patterns</h3>
+<p>Explain simply:</p>
+<blockquote><p>We show an AI many examples. It looks for patterns and tries to make predictions about new examples.</p></blockquote>
+<p>Introduce:</p>
+<ul><li>Training data.</li><li>Testing data.</li><li>Classification.</li><li>Prediction.</li></ul>
+<p><strong>Practical experiment:</strong></p>
+<p>Use an age-appropriate, approved tool to train a simple image or sound classifier using safe categories such as classroom objects, hand gestures, or other non-identifiable objects.</p>
+<p>Do not use identifiable student data unnecessarily.</p>
+<h3 id="week-8-test-the-ai">Week 8: Test the AI</h3>
+<p>Students test their model with new examples.</p>
+<p>Ask:</p>
+<ul><li>When does it work?</li><li>When does it fail?</li><li>Does more data help?</li><li>What happens with poor-quality data?</li></ul>
+<p><strong>Month 2 project: Train and Test an AI</strong></p>
+<p>Each group builds a small classification experiment and creates a simple report:</p>
+<ol><li>What did we teach the AI?</li><li>What data did we use?</li><li>What worked?</li><li>What failed?</li><li>How would we improve it?</li></ol>
+<p>The learning value is not simply making the model work; it is understanding its limitations and improving it.</p>
+<h1 id="month-3-building-with-ai">Month 3: Building with AI</h1>
+<h3 id="main-objective-2">Main objective</h3>
+<p>Students move from understanding AI to creating useful things with AI.</p>
+<h2 id="week-9-computer-vision">Week 9: Computer vision</h2>
+<p><strong>Teach:</strong></p>
+<ul><li>Images are represented digitally.</li><li>Image classification.</li><li>Object detection.</li><li>Applications of computer vision.</li></ul>
+<p><strong>Practical:</strong></p>
+<p>Experiment with image classification or object recognition.</p>
+<p>Discuss:</p>
+<ul><li>Where could this help?</li><li>Where could it be dangerous?</li><li>What privacy issues exist?</li></ul>
+<h3 id="week-10-language-and-generative-ai">Week 10: Language and Generative AI</h3>
+<p><strong>Teach:</strong></p>
+<ul><li>What NLP means in simple language.</li><li>Chatbots.</li><li>Generative AI.</li><li>AI-generated text, images, and audio.</li><li>Hallucinations.</li></ul>
+<p><strong>Practical: AI Fact Checker</strong></p>
+<p>Students ask AI questions about a topic and then verify the answers using reliable sources or teacher-provided material.</p>
+<p>The lesson is:</p>
+<blockquote><p><strong>AI can help us find information, but AI is not automatically correct.</strong></p></blockquote>
+<h3 id="week-11-ai-assisted-building">Week 11: AI-assisted building</h3>
+<p>Introduce AI-assisted development more seriously.</p>
+<p>Students can use appropriate tools such as ChatGPT, Codex, Claude Code, or other approved AI-assisted development tools to help build projects.</p>
+<p>Teach this workflow:</p>
+<h3 id="the-ai-builder-workflow">The AI Builder Workflow</h3>
+<p><strong>Step 1:</strong> Define the problem.</p>
+<p><strong>Step 2:</strong> Design the solution.</p>
+<p><strong>Step 3:</strong> Ask AI for help with one small part.</p>
+<p><strong>Step 4:</strong> Read and understand the result.</p>
+<p><strong>Step 5:</strong> Test it.</p>
+<p><strong>Step 6:</strong> Find errors.</p>
+<p><strong>Step 7:</strong> Improve it.</p>
+<p>Students should not simply ask AI to build everything for them. They should work with AI as a collaborative assistant.</p>
+<h3 id="week-12-mini-build-challenge">Week 12: Mini Build Challenge</h3>
+<p>Give students a simple challenge.</p>
+<p>Possible projects:</p>
+<ul><li>A quiz application.</li><li>A school information chatbot.</li><li>A waste-management awareness tool.</li><li>A plant information application.</li><li>A study helper.</li><li>A simple game.</li><li>A community problem solution.</li></ul>
+<p>Students build a basic prototype.</p>
+<p><strong>Month 3 project: Build Something Useful</strong></p>
+<p>The project does not need to be technically complex. It must solve a real problem, and students must be able to explain how they used AI.</p>
+<h1 id="month-4-responsible-ai-and-final-projects">Month 4: Responsible AI and Final Projects</h1>
+<h3 id="main-objective-3">Main objective</h3>
+<p>Students become responsible creators and complete an independent project.</p>
+<h2 id="week-13-responsible-ai">Week 13: Responsible AI</h2>
+<p>Teach through examples and activities:</p>
+<ul><li>Bias.</li><li>Fairness.</li><li>Privacy.</li><li>Deepfakes.</li><li>Misinformation.</li><li>Copyright.</li><li>Human responsibility.</li></ul>
+<p><strong>Practical activity: AI Ethics Detective</strong></p>
+<p>Give students scenarios.</p>
+<p>For example:</p>
+<blockquote><p>An AI system is trained using only data from one group of people.</p></blockquote>
+<p>Ask:</p>
+<ul><li>What could go wrong?</li><li>Is this fair?</li><li>How could we improve it?</li></ul>
+<h2 id="week-14-project-planning">Week 14: Project planning</h2>
+<p>Students form teams and select a real problem.</p>
+<p>Use this simple project canvas.</p>
+<h3 id="the-7-questions">The 7 Questions</h3>
+<ol><li>What problem are we solving?</li><li>Who has this problem?</li><li>Why is it important?</li><li>Can AI help?</li><li>What will we build?</li><li>How will we test it?</li><li>What are its limitations?</li></ol>
+<p>This becomes the foundation of the final project.</p>
+<h2 id="week-15-build-test-improve">Week 15: Build, test, improve</h2>
+<p>This week should mostly be practical.</p>
+<p>Students:</p>
+<ul><li>Build their prototype.</li><li>Use AI tools for assistance.</li><li>Test their project.</li><li>Find problems.</li><li>Improve the design.</li></ul>
+<p>The teacher's role changes from lecturer to mentor and project guide.</p>
+<p>Ask questions instead of immediately giving answers:</p>
+<blockquote><p>Why did you choose this approach?</p></blockquote>
+<blockquote><p>How do you know it works?</p></blockquote>
+<blockquote><p>What happens if it fails?</p></blockquote>
+<blockquote><p>How could you test that?</p></blockquote>
+<h2 id="week-16-final-exhibition">Week 16: Final exhibition</h2>
+<p>Students present their projects.</p>
+<p>Every team should explain:</p>
+<ol><li>The problem.</li><li>Their idea.</li><li>What they built.</li><li>How they used AI.</li><li>What worked.</li><li>What did not work.</li><li>How they would improve it.</li></ol>
+<p>Do not reward only the best-looking project.</p>
+<p>Reward:</p>
+<ul><li>Good problem-solving.</li><li>Experimentation.</li><li>Learning from failure.</li><li>Responsible AI use.</li><li>Teamwork.</li><li>Clear explanation.</li></ul>
+<h1 id="assessment-system">Assessment System</h1>
+<p>Use a balanced assessment structure:</p>
+<div class="table-wrap"><table><thead><tr><th>Area</th><th style="text-align:right">Weight</th></tr></thead><tbody><tr><td>Practical work and experiments</td><td style="text-align:right">30%</td></tr><tr><td>Projects</td><td style="text-align:right">30%</td></tr><tr><td>Understanding concepts</td><td style="text-align:right">20%</td></tr><tr><td>Problem-solving and creativity</td><td style="text-align:right">10%</td></tr><tr><td>Responsible AI and teamwork</td><td style="text-align:right">10%</td></tr></tbody></table></div>
+<p>This prevents the course from becoming a traditional theory subject.</p>
+<h1 id="learning-progression-from-class-5-to-class-9">Learning Progression from Class 5 to Class 9</h1>
+<p>Use the same overall framework while changing the depth and independence expected from students.</p>
+<h2 id="class-5-discover">Class 5: Discover</h2>
+<p>Focus on:</p>
+<ul><li>What is AI?</li><li>AI around us.</li><li>Simple algorithms.</li><li>Guided activities.</li><li>Basic AI safety.</li></ul>
+<h2 id="class-6-understand">Class 6: Understand</h2>
+<p>Add:</p>
+<ul><li>Data.</li><li>Patterns.</li><li>Basic programming.</li><li>Simple AI experiments.</li></ul>
+<h2 id="class-7-experiment">Class 7: Experiment</h2>
+<p>Add:</p>
+<ul><li>Machine learning models.</li><li>Data labeling.</li><li>Testing models.</li><li>More independent projects.</li></ul>
+<h2 id="class-8-build">Class 8: Build</h2>
+<p>Add:</p>
+<ul><li>Computer vision.</li><li>NLP.</li><li>Generative AI.</li><li>AI-assisted coding and development.</li></ul>
+<h2 id="class-9-create-and-evaluate">Class 9: Create and Evaluate</h2>
+<p>Focus on:</p>
+<ul><li>Independent projects.</li><li>Model evaluation.</li><li>Error analysis.</li><li>Responsible AI.</li><li>Real-world problem solving.</li></ul>
+<h1 id="essential-curriculum-principles">Essential Curriculum Principles</h1>
+<p>The existing AI curriculum provides a strong conceptual foundation. This implementation framework strengthens the practical side.</p>
+<p>The programme should balance:</p>
+<ul><li><strong>Subject coverage:</strong> AI concepts, data, machine learning, computer vision, NLP, generative AI, ethics, and projects.</li><li><strong>Learning progression:</strong> Students move from discovering AI to understanding, experimenting, building, and evaluating.</li><li><strong>Practical learning:</strong> Every major concept should include an activity, experiment, or build challenge.</li><li><strong>Project-based learning:</strong> Students solve real problems and create useful prototypes.</li><li><strong>Responsible AI:</strong> Privacy, bias, misinformation, verification, copyright, and human responsibility should appear throughout the programme, not only in one module.</li><li><strong>Assessment:</strong> Evaluate practical work, projects, conceptual understanding, problem-solving, and responsible AI use.</li><li><strong>Teacher guidance:</strong> Use a consistent lesson structure so different teachers can deliver the programme effectively.</li></ul>
+<h2 id="final-teaching-philosophy">Final Teaching Philosophy</h2>
+<blockquote><p><strong>Students should not just learn about AI. Students should learn by using AI to think, experiment, build, test, fail, improve, and create.</strong></p></blockquote>
+<p>The aim is that a student completing the programme can understand the fundamentals of AI, experiment with data and models, use modern AI tools responsibly, build useful projects, evaluate results, understand limitations, and explain their own work.</p>
+<p>This document is designed to support the existing canonical AI curriculum for Classes 5–9 without changing it.</p>
+</main>
+<footer>
+  <p>Source: <a href="FOUR-MONTH-AI-TEACHING-IMPLEMENTATION-PLAN.md">FOUR-MONTH-AI-TEACHING-IMPLEMENTATION-PLAN.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

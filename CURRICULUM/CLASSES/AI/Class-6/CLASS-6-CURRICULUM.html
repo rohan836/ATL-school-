@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 6 AI, Computing &amp; Robotics Curriculum</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; AI &amp; Computing &rsaquo; Class 6</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Class 6 AI, Computing &amp; Robotics Curriculum</h1>
+<p class="meta">Class 6</p>
+
+</header>
+<main>
+
+<div class="table-wrap"><table><thead><tr><th>Term</th><th>Month</th><th>Week</th><th>Module</th><th>Concept / Topic</th><th>Project 1</th><th>Project 2</th><th>Project 3</th><th>Project 4</th><th>Project 5</th></tr></thead><tbody><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: AI Foundations &amp; Purpose</td><td>What Is AI: Narrow, Generative &amp; Reasoning AI</td><td>AI Timeline Poster 2017–2026</td><td>Rule vs Learning Comparator</td><td>Smart Tool Audit</td><td>Can-AI-Do-It Matrix</td><td>Everyday AI Architecture</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: AI Foundations &amp; Purpose</td><td>Computational Thinking &amp; Flowcharting</td><td>Emergency Evacuation Flow</td><td>ATM Cash Logic Map</td><td>Disease-Symptom Tree</td><td>Quiz Engine Flowchart</td><td>Bug Isolation Checklist</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 2: Logic Gates &amp; AI Hardware</td><td>Logic Gates: AND, OR, NOT, XOR &amp; Truth Tables</td><td>Python Gate Simulator</td><td>Three-Input Alarm Logic</td><td>Parity Checker Puzzle</td><td>Adder Circuit Logic</td><td>Security Lock Truth Table</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 2: Logic Gates &amp; AI Hardware</td><td>Hardware Behind AI: CPU, GPU &amp; Parallel Math</td><td>Batch Grid Multiplier</td><td>Image Blur Speed Race</td><td>Core Count Estimator</td><td>Cloud vs Local Compute</td><td>Memory Bandwidth Game</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 03</td><td>Module 3: Structured Python &amp; Jupyter</td><td>Jupyter Notebooks, Functions &amp; Clean Code</td><td>Reusable Converter Kit</td><td>Modular Quiz Runner</td><td>Grade Calculator Function</td><td>Password Strength Meter</td><td>Mini Weather Reporter</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 04</td><td>Module 3: Structured Python &amp; Jupyter</td><td>Python Lists, Tuples &amp; Dictionaries</td><td>Student Contact Book</td><td>Word Frequency Counter</td><td>Menu Billing Register</td><td>Sensor Readings Table</td><td>Mini Rule Chatbot</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 05</td><td>Module 3: Structured Python &amp; Jupyter</td><td>Reading CSV Files &amp; Basic Data Charts</td><td>Rainfall Bar Plotter</td><td>School Marks Histogram</td><td>Temperature Line Chart</td><td>Toy Sales Pie Explorer</td><td>Clean Missing Data Lab</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 06</td><td>Module 4: Machine Learning Concepts</td><td>Supervised vs Unsupervised Learning</td><td>Email Spam Sorter Lab</td><td>Customer Grouping Game</td><td>House Price Clue Table</td><td>Plant Leaf Classifier</td><td>Anomaly Outlier Finder</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 07</td><td>Module 4: Machine Learning Concepts</td><td>Decision Trees &amp; Nearest-Neighbor Intuition</td><td>Twenty-Questions Tree</td><td>Animal Habitat Classifier</td><td>Nearest-Shop Finder</td><td>Fruit Ripeness Decision</td><td>Loan Safety Rule Tree</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 08</td><td>Module 5: Computer Vision Systems</td><td>Digital Images, RGB Channels &amp; Pixel Math</td><td>Color Channel Splitter</td><td>Brightness &amp; Contrast Lab</td><td>Green-Screen Cutout Trick</td><td>Edge-Highlight Grid</td><td>QR Code Grid Decoder</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 09</td><td>Module 5: Computer Vision Systems</td><td>Classification vs Bounding-Box Object Detection</td><td>Waste-Bin Image Tagger</td><td>Street-Sign Box Annotator</td><td>Wildlife Camera Classifier</td><td>Defect Check Conveyor</td><td>Parking Space Detector</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 10</td><td>Module 6: NLP &amp; How ChatGPT Works</td><td>Natural Language Processing &amp; Tokenization</td><td>Word Tokenizer Counter</td><td>Positive-Negative Mood App</td><td>Text Cleanup Pipeline</td><td>Keyword Extractor Tool</td><td>Translation Pitfall Test</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 11</td><td>Module 6: NLP &amp; How ChatGPT Works</td><td>How LLMs &amp; ChatGPT Predict Tokens</td><td>Probability Next-Word Wheel</td><td>Temperature Creativity Lab</td><td>Context-Window Memory Demo</td><td>Role-Prompting Studio</td><td>Hallucination Stress Test</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 12</td><td>Module 6: NLP &amp; How ChatGPT Works</td><td>Transformer Breakthrough (2017) &amp; Attention</td><td>Word-Link Highlighter</td><td>Pronoun-Reference Matcher</td><td>Attention Spotlight Card</td><td>Story Continuity Checker</td><td>Multi-Step Summary Prompt</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 13</td><td>Module 7: Robotics &amp; Physical AI Code</td><td>Python Control Loops for Smart Hardware</td><td>Simulated Smart Streetlight</td><td>Timed Watering Scheduler</td><td>Ultrasonic Alert Simulator</td><td>Servo Angle Sweep Loop</td><td>Door-Access Log Script</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 14</td><td>Module 7: Robotics &amp; Physical AI Code</td><td>Raspberry Pi Python Automation Concepts</td><td>Desktop System Monitor</td><td>Auto-Snapshot Folder Watch</td><td>CSV Temperature Logger</td><td>Button Event Handler</td><td>Mini Status Web Page</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 15</td><td>Module 8: Neural Nets &amp; Reinforcement Learning</td><td>Artificial Neurons, Weights &amp; Activation</td><td>Weighted Score Calculator</td><td>Threshold Alarm Neuron</td><td>Step-by-Step Bias Tuner</td><td>Mini Perceptron Playground</td><td>Handwriting Pixel Vote</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 16</td><td>Module 8: Neural Nets &amp; Reinforcement Learning</td><td>Reinforcement Learning: States, Actions &amp; Rewards</td><td>Gridworld Path Explorer</td><td>Frozen-Lake Slippery Maze</td><td>Bandit Machine Optimizer</td><td>Reward-Shaping Experiment</td><td>Adaptive Pong AI Demo</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 17</td><td>Module 9: Frontier AI Case Studies</td><td>DeepMind AlphaGo, AlphaZero &amp; OpenAI Five Dota 2</td><td>Look-Ahead Tree Counter</td><td>Self-Play Strategy Log</td><td>Multi-Agent Role Planner</td><td>Fog-of-War Decision Lab</td><td>Game State Evaluator</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 18</td><td>Module 9: Frontier AI Case Studies</td><td>Reasoning Models: OpenAI o1/o3 &amp; DeepSeek-R1</td><td>Chain-of-Thought Solver</td><td>Fast vs Deep Think Compare</td><td>Math Step Verifier</td><td>Logic Riddle Debugger</td><td>Self-Correction Checklist</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 19</td><td>Module 9: Frontier AI Case Studies</td><td>World Models &amp; Science: Sora, Genie 2 &amp; AlphaGenome</td><td>Physics-Fail Video Hunt</td><td>3D World Prompt Storyboard</td><td>DNA Base-Pair Matcher</td><td>Protein Shape Fold Model</td><td>Climate Sim Predictor</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 20</td><td>Module 10: Physical AI &amp; Embodied Robotics</td><td>Vision-Language-Action (Gemini Robotics) Concepts</td><td>Natural Command Splitter</td><td>Pick-and-Place Planner</td><td>Obstacle Re-Route Logic</td><td>Safe Human-Zone Guard</td><td>Warehouse Kitting Plan</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 21</td><td>Module 10: Physical AI &amp; Embodied Robotics</td><td>Sensor Fusion &amp; State Logic in Python</td><td>Two-Sensor Vote Alert</td><td>Line + Obstacle Hybrid Bot</td><td>Battery-Aware Rover Mode</td><td>Noisy Signal Smoother</td><td>Autonomous Gate Guard</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 22</td><td>Module 11: Prompting &amp; Responsible AI</td><td>Structured Prompting &amp; Fact Checking</td><td>JSON Output Formatter</td><td>Stepwise Study Tutor</td><td>Citation &amp; Source Audit</td><td>Adversarial Trick Tester</td><td>Safe Classroom Policy</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 23</td><td>Module 11: Prompting &amp; Responsible AI</td><td>Deepfakes, Watermarking &amp; Privacy Engineering</td><td>Image Forensics Checklist</td><td>Voice-Clone Safety Guide</td><td>Personal Data Redactor</td><td>Bias Audit Report Card</td><td>Copyright Attribution Lab</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 24</td><td>Module 12: Applied Python Mini-Projects</td><td>Building Multi-Function CLI &amp; Notebook Tools</td><td>Smart Expense Analyzer</td><td>Quiz Bank CSV Engine</td><td>Sentiment Review Sorter</td><td>Plant Water Advisor App</td><td>Study Timer with Logs</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 25</td><td>Module 12: Applied Python Mini-Projects</td><td>Testing, Debugging &amp; Handling Edge Cases</td><td>Empty-Input Crash Guard</td><td>Outlier Value Filter</td><td>Unit-Check Test Script</td><td>Error Message Polisher</td><td>Reproducible Seed Demo</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 26</td><td>Module 13: Capstone Design &amp; Data Prep</td><td>Problem Definition &amp; Dataset Curation</td><td>Agritech Crop Helper Plan</td><td>Safe School Route Finder</td><td>Waste Classification Set</td><td>Air Quality Trend App</td><td>Accessibility Reader Bot</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 27</td><td>Module 13: Capstone Design &amp; Data Prep</td><td>Prototype Integration &amp; Model Evaluation</td><td>Accuracy Check Dashboard</td><td>Failure Case Showcase</td><td>Clean User Instructions</td><td>Speed vs Quality Test</td><td>Peer Critique Review</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 28</td><td>Module 13: Capstone Design &amp; Data Prep</td><td>Class 6 AI &amp; Robotics Expo</td><td>Recycling Vision Classifier</td><td>Sentiment Feedback Kiosk</td><td>Smart Irrigation Advisor</td><td>RL Grid-Solver Game</td><td>Autonomous Logic Rover</td></tr></tbody></table></div>
+</main>
+<footer>
+  <p>Source: <a href="CLASS-6-CURRICULUM.md">CLASS-6-CURRICULUM.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

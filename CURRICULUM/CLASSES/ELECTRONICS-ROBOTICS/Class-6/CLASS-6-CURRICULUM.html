@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 6 Electronics &amp; Robotics Curriculum</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; Electronics &amp; Robotics &rsaquo; Class 6</p>
+<header class="page">
+  <p class="eyebrow">Electronics &amp; Robotics</p>
+  <h1>Class 6 Electronics &amp; Robotics Curriculum</h1>
+<p class="meta">Class 6</p>
+
+</header>
+<main>
+
+<div class="table-wrap"><table><thead><tr><th>Term</th><th>Month</th><th>Week</th><th>Module</th><th>Component / Topic</th><th>Project 1</th><th>Project 2</th><th>Project 3</th><th>Project 4</th><th>Project 5</th></tr></thead><tbody><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: Safety, Power &amp; Measurement</td><td>Safety Gear, Power Extension Board &amp; 12V 2A Adapter</td><td>Safe Multi-Bench Strip</td><td>Regulated Rail Check</td><td>Polarity Test Rig</td><td>Emergency Off Switch</td><td>Tool Safety Audit</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: Safety, Power &amp; Measurement</td><td>Current, AC vs DC &amp; Continuity Tester with Green LED</td><td>Broken-Wire Tracer</td><td>Door-Loop Alarm</td><td>Liquid Conductivity Tester</td><td>Fuse Integrity Check</td><td>Metal Seam Verifier</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 1: Safety, Power &amp; Measurement</td><td>Digital Multimeter DMM</td><td>Resistor Band Verifier</td><td>Battery Load Drop Test</td><td>Diode One-Way Meter</td><td>Current Draw Audit</td><td>Continuity Fault Hunt</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 2: Core Components &amp; Breadboarding</td><td>Resistor, Breadboard &amp; 5mm LEDs</td><td>Matched Multi-Color LEDs</td><td>Dual-Bus Signal Matrix</td><td>Voltage Divider Ladder</td><td>Current-Limit Calculator</td><td>Tidy Test Strip</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 03</td><td>Module 2: Core Components &amp; Breadboarding</td><td>Tactile Push, Slide &amp; DIP Switch Array</td><td>Binary 4-Bit LED Board</td><td>Two-Key Safe Vault</td><td>Mode Selector Panel</td><td>Hardware Address Switch</td><td>Truth-Table Trainer</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 03</td><td>Module 2: Core Components &amp; Breadboarding</td><td>Self-Adhesive Mini Proto Shield &amp; Series-Parallel</td><td>Arduino Quick-Test Cap</td><td>Parallel Emergency Strip</td><td>Series String Compare</td><td>Compact Traffic Pod</td><td>Snap-On Button Deck</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 04</td><td>Module 3: Analog Tuning, Storage &amp; Switching</td><td>Potentiometer &amp; Breadboard Trimpot 3362P</td><td>Precision Threshold Dial</td><td>Dual-LED Crossfader</td><td>Tone Pitch Controller</td><td>Comparator Reference Pod</td><td>Sensor Calibration Dial</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 04</td><td>Module 3: Analog Tuning, Storage &amp; Switching</td><td>Bare LDR Photoresistor &amp; Bare NTC Thermistor 10kΩ</td><td>Streetlight Darkness Trigger</td><td>Fire Heat Sensor LED</td><td>Tea-Cup Overheat Alert</td><td>Sun-Shade Window Trigger</td><td>Dual Light-Heat Guard</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 05</td><td>Module 3: Analog Tuning, Storage &amp; Switching</td><td>Capacitor, Diode &amp; Transistors BC547 / BC557</td><td>10-Second RC Timer</td><td>Flyback Motor Guard</td><td>Finger Touch Latch</td><td>Dual-Transistor Dark Lamp</td><td>Water Tank Level Probe</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 06</td><td>Module 4: Voltage Regulation &amp; Displays</td><td>Linear Voltage Regulators LM7805, LM7809 &amp; LM7812</td><td>Steady 5V Bench Rail</td><td>12V-to-9V Radio Supply</td><td>Triple-Rail Power Box</td><td>Clean Sensor Bus</td><td>Over-Voltage Motor Guard</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 07</td><td>Module 4: Voltage Regulation &amp; Displays</td><td>10-Segment LED Bargraph Display Array</td><td>Battery Charge Meter</td><td>Potentiometer Bar Gauge</td><td>Sound Level VU Bar</td><td>Water Tank Depth Meter</td><td>Darkness Intensity Bar</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 08</td><td>Module 4: Voltage Regulation &amp; Displays</td><td>Single 1-Digit 7-Segment Common Cathode &amp; Anode</td><td>Manual BCD Number Box</td><td>Quiz Score Counter</td><td>Elevator Floor Sign</td><td>Stopwatch Digit Pod</td><td>Active High-Low Compare</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 09</td><td>Module 5: LM555 Timer IC</td><td>Timer IC LM555 / NE555 Astable Mode</td><td>Variable Speed LED Blinker</td><td>Police Alternating Beacon</td><td>Adjustable Tone Piano</td><td>Tick-Tock Metronome</td><td>Laser Beam Modulator</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 10</td><td>Module 5: LM555 Timer IC</td><td>Timer IC LM555 / NE555 Monostable Mode</td><td>10-Second Handwash Timer</td><td>Hallway Delay Pushlight</td><td>Anti-Bounce Button Gate</td><td>Touch Latch Buzzer</td><td>Egg Boil Countdown</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 11</td><td>Module 6: Relays &amp; Arduino Nano</td><td>2-Channel 5V Optocoupler Relay Module</td><td>Dual Lamp Sequencer</td><td>Alternating Pump Switch</td><td>Safe 12V Load Bridge</td><td>High-Low Trigger Test</td><td>Remote Door Chime Relay</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 12</td><td>Module 6: Relays &amp; Arduino Nano</td><td>Arduino Nano &amp; USB Mini-B Cable</td><td>Compact Breadboard Blinker</td><td>Portable Ultrasonic Ruler</td><td>Pocket Reaction Duel</td><td>Mini Servo Sweeper</td><td>Nano Serial Monitor Lab</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 13</td><td>Module 7: Environmental &amp; Touch Sensors</td><td>DHT11 Digital Temperature &amp; Humidity Sensor</td><td>Classroom Comfort Station</td><td>Heatwave Warning LED</td><td>Greenhouse Humidity Check</td><td>Breath Moisture Tester</td><td>Smart Fan Trigger</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 14</td><td>Module 7: Environmental &amp; Touch Sensors</td><td>Soil Moisture Sensor FC-28 &amp; Raindrop Board</td><td>Potted Plant Thirst Alarm</td><td>Rooftop Rain Alert</td><td>Automatic Clothesline Retract</td><td>Flood Drain Detector</td><td>Dry-Soil Relay Trigger</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 15</td><td>Module 8: Audio &amp; Capacitive Touch</td><td>Sound Detection &amp; Big Sound Microphone Modules</td><td>Clap-On Desk Lamp</td><td>Noise-Level Class Meter</td><td>Whistle-Triggered Buzzer</td><td>Knock Pattern Counter</td><td>Acoustic Relay Switch</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 16</td><td>Module 8: Audio &amp; Capacitive Touch</td><td>Capacitive Touch TTP223B, TTP22X &amp; Metal Touch KY-036</td><td>Secret Bookcase Latch</td><td>Tap-Toggle Bedside Light</td><td>Skin-Contact Door Bell</td><td>Touch-Safe Quiz Button</td><td>Hidden Drawer Lock</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 17</td><td>Module 9: Optical &amp; Motion Sensing</td><td>Laser Diode Emitter Module</td><td>Hallway Laser Tripwire</td><td>Mirror Bounce Maze</td><td>Long-Range Door Counter</td><td>Laser Morse Sender</td><td>Museum Case Protector</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 18</td><td>Module 9: Optical &amp; Motion Sensing</td><td>IR Optical Pair TSOP1738 + 940nm LED</td><td>TV Remote Decoder LED</td><td>Optical Wheel Tachometer</td><td>Non-Contact Lap Counter</td><td>IR Room Switch</td><td>Infrared Data Blipper</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 19</td><td>Module 9: Optical &amp; Motion Sensing</td><td>PIR Human Motion Detector HC-SR501</td><td>Auto Classroom Entry Light</td><td>Intruder Motion Beeper</td><td>Wildlife Snap Trigger</td><td>Washroom Auto Fan</td><td>Corridor Welcome Voice</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 20</td><td>Module 10: Control &amp; Metal-Gear Actuators</td><td>Dual-Axis Analog Joystick Module</td><td>2-Axis Pan-Tilt Laser</td><td>Maze Tilt Table</td><td>RGB Color Stick</td><td>LED Matrix Cursor</td><td>Robotic Crane Controller</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 21</td><td>Module 10: Control &amp; Metal-Gear Actuators</td><td>MG90S Metal-Gear Micro Servo</td><td>Heavy Barrier Toll Arm</td><td>Joystick Pan-Tilt Turret</td><td>Robotic Gripper Jaw</td><td>Laser Target Tracker</td><td>Auto Window Latch</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 22</td><td>Module 11: Motor Drivers &amp; Mobile Robotics</td><td>L293D Dual H-Bridge Motor Driver Module</td><td>Joystick Speed Car</td><td>No-Code IR Obstacle Buggy</td><td>Bidirectional Belt Lift</td><td>Differential Turn Rover</td><td>Dual-Fan Air Boat</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 23</td><td>Module 11: Motor Drivers &amp; Mobile Robotics</td><td>BLE Bluetooth Module HM-10 / AT-09</td><td>iOS/Android Rover Control</td><td>BLE Smart Relay Switch</td><td>Wireless Touch Lamp</td><td>Phone Servo Dial</td><td>Remote Buzzer Locator</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 24</td><td>Module 12: Fluid Pumping &amp; Lab Organization</td><td>Submersible 12V Mini Water Pump</td><td>Auto Plant Irrigation Rig</td><td>Push-Button Drink Dispenser</td><td>Rain-Drain Sump Pump</td><td>Desktop Mini Fountain</td><td>Soil-Relay Closed Loop</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 25</td><td>Module 12: Fluid Pumping &amp; Lab Organization</td><td>Plastic Drawer Cabinet, Wall Pegboard &amp; Storage Org</td><td>60-Bin Resistor Library</td><td>Color-Coded LED Vault</td><td>Sensor Pinout Drawer Map</td><td>Bench Tool Shadow Board</td><td>Weekly Kit Audit System</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 26</td><td>Module 13: Hand Measurement &amp; Precision</td><td>Stainless Steel Rule, Measuring Tape &amp; Sandpaper</td><td>Chassis Cutout Layout</td><td>Smooth Enclosure Edges</td><td>Sensor Window Sizing</td><td>Battery Bay Alignment</td><td>Wood/Acrylic Sand Finish</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 27</td><td>Module 14: Thematic STEM Applications</td><td>Agritech STEM Application Kit</td><td>Smart Crop Watering Rig</td><td>Sunlight Tracked Bed</td><td>Rainwater Harvest Alert</td><td>Humidity Controlled Dome</td><td>Seed-Tray Heat Alarm</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 28</td><td>Module 14: Thematic STEM Applications</td><td>Water &amp; Sanitation STEM Kit</td><td>Overhead Tank Cutoff</td><td>Clean-Water Flow Alert</td><td>Greywater Level Gauge</td><td>Touchless Wash Timer</td><td>Overflow Valve Demo</td></tr></tbody></table></div>
+</main>
+<footer>
+  <p>Source: <a href="CLASS-6-CURRICULUM.md">CLASS-6-CURRICULUM.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

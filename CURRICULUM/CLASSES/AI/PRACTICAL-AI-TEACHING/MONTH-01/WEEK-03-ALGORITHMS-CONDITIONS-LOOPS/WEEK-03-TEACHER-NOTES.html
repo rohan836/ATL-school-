@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 3 — Decisions, Conditions, Loops and Algorithms</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../../../INDEX.html">Curriculum</a> &rsaquo; AI &amp; Computing</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Week 3 — Decisions, Conditions, Loops and Algorithms</h1>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#teacher-notes-simple-explanation">Teacher notes — simple explanation</a></li><li><a href="#lesson-plan-35-minutes">Lesson plan — 35 minutes</a></li><li><a href="#practical-activity-a-quiz-game">Practical activity A — Quiz Game</a></li><li><a href="#practical-activity-b-number-pattern-generator">Practical activity B — Number Pattern Generator</a></li><li><a href="#class-wise-adjustment">Class-wise adjustment</a></li></ul></nav>
+<p><strong>Big question:</strong> How can a program make a choice and repeat a task?</p>
+<p><strong>Learning goals</strong><br>Students should be able to:</p>
+<ol><li>Explain an algorithm as a set of steps.</li><li>Use if/else to make a decision.</li><li>Use a loop to repeat instructions.</li><li>Build a short quiz or number-pattern program.</li></ol>
+<h3 id="prepare-before-class">Prepare before class</h3>
+<ul><li>Open a prepared notebook with separate cells for the examples.</li><li>Prepare one simple flowchart: “Is the answer correct?”</li><li>Prepare a short quiz question for the group challenge.</li></ul>
+<h2 id="teacher-notes-simple-explanation">Teacher notes — simple explanation</h2>
+<h3 id="1-what-is-an-algorithm">1. What is an algorithm?</h3>
+<p>Say:</p>
+<blockquote><p>An algorithm is a clear set of steps for solving a problem or completing a task.</p></blockquote>
+<p>Example — making lemon water:</p>
+<ol><li>Take a glass.</li><li>Add water.</li><li>Add lemon.</li><li>Add a little sugar.</li><li>Stir.</li></ol>
+<p>Explain that the order matters. Computers need instructions that are clear and precise.</p>
+<h3 id="2-what-is-a-condition">2. What is a condition?</h3>
+<p>Say:</p>
+<blockquote><p>A condition helps a program choose what to do.</p></blockquote>
+<p>Example:</p>
+<ul><li>If the answer is correct, show “Correct”.</li><li>Otherwise, show “Try again”.</li></ul>
+<p>~~~python<br>answer = input("What is 2 + 3? ")</p>
+<p>if answer == "5":<br>print("Correct!")<br>else:<br>print("Try again!")<br>~~~</p>
+<p>Explain:</p>
+<ul><li>if checks a condition.</li><li>else gives another path.</li><li>The indented lines belong to that choice.</li></ul>
+<h3 id="3-what-is-a-loop">3. What is a loop?</h3>
+<p>Say:</p>
+<blockquote><p>A loop repeats instructions so we do not have to write the same instruction again and again.</p></blockquote>
+<p>~~~python<br>for number in range(1, 6):<br>print(number)<br>~~~</p>
+<p>Ask what numbers will appear before running it.</p>
+<h3 id="4-an-algorithm-can-become-code">4. An algorithm can become code</h3>
+<p>Show:</p>
+<p><strong>Start → Ask a question → Check the answer → Show result → End</strong></p>
+<p>Explain that a flowchart is a picture of the steps a program follows.</p>
+<h2 id="lesson-plan-35-minutes">Lesson plan — 35 minutes</h2>
+<div class="table-wrap"><table><thead><tr><th>Time</th><th>Teacher action</th><th>Student action</th></tr></thead><tbody><tr><td>0–4 min</td><td>Play Human Robot: give a deliberately incomplete instruction</td><td>Identify what is missing</td></tr><tr><td>4–9 min</td><td>Explain algorithms and decisions with a simple flowchart</td><td>Suggest the next step</td></tr><tr><td>9–16 min</td><td>Demonstrate if/else using the quiz example</td><td>Predict the result and run the code</td></tr><tr><td>16–22 min</td><td>Demonstrate a loop and a number pattern</td><td>Predict and run the loop</td></tr><tr><td>22–31 min</td><td>Guide the group challenge</td><td>Build or modify a quiz or pattern</td></tr><tr><td>31–35 min</td><td>Ask teams to explain the condition or loop they used</td><td>Show output and explain</td></tr></tbody></table></div>
+<p><strong>For a 30-minute session:</strong> use a shorter Human Robot challenge and one practical task (quiz or pattern), while still demonstrating both a condition and a loop.</p>
+<h2 id="practical-activity-a-quiz-game">Practical activity A — Quiz Game</h2>
+<p>~~~python<br>score = 0</p>
+<p>answer = input("What is 4 + 5? ")</p>
+<p>if answer == "9":<br>print("Correct!")<br>score = score + 1<br>else:<br>print("Good try. The answer is 9.")</p>
+<p>print("Your score is:", score)<br>~~~</p>
+<p>Challenge:</p>
+<ul><li>Change the question and answer.</li><li>Add a second question using the same pattern.</li><li>Ask what happens when the answer is typed in a different format.</li></ul>
+<h2 id="practical-activity-b-number-pattern-generator">Practical activity B — Number Pattern Generator</h2>
+<p>~~~python<br>for number in range(1, 6):<br>print(number * 2)<br>~~~</p>
+<p>Challenge:</p>
+<ul><li>Change the range.</li><li>Change the multiplier.</li><li>Try number multiplied by itself and observe the pattern.</li></ul>
+<h2 id="class-wise-adjustment">Class-wise adjustment</h2>
+<ul><li><strong>Class 5:</strong> use prepared code; change the question or multiplier.</li><li><strong>Class 6:</strong> complete missing words in an if/else example.</li><li><strong>Class 7:</strong> add a score counter or a second quiz question.</li><li><strong>Class 8:</strong> create a loop that prints a multiplication table.</li><li><strong>Class 9:</strong> combine a loop and a condition to count how many values meet a rule.</li></ul>
+<p><strong>Check learning:</strong> Can the student explain the difference between a decision and a loop?</p>
+<hr>
+</main>
+<footer>
+  <p>Source: <a href="WEEK-03-TEACHER-NOTES.md">WEEK-03-TEACHER-NOTES.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

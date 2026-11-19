@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 8 AI, Computing &amp; Robotics Curriculum</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; AI &amp; Computing &rsaquo; Class 8</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Class 8 AI, Computing &amp; Robotics Curriculum</h1>
+<p class="meta">Class 8</p>
+
+</header>
+<main>
+
+<div class="table-wrap"><table><thead><tr><th>Term</th><th>Month</th><th>Week</th><th>Module</th><th>Concept / Topic</th><th>Project 1</th><th>Project 2</th><th>Project 3</th><th>Project 4</th><th>Project 5</th></tr></thead><tbody><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: Modern AI Architecture &amp; Thinking</td><td>AI Paradigm Shifts (2017–2026) &amp; Systems Thinking</td><td>Transformer-to-Agent Map</td><td>Test-Time Compute Case</td><td>System Decomposition Spec</td><td>Open vs Closed Weight Audit</td><td>AI Failure Postmortem</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: Modern AI Architecture &amp; Thinking</td><td>Boolean Logic, Flip-Flops &amp; Digital Compute</td><td>State Memory Gate Sim</td><td>Priority Interrupt Logic</td><td>Checksum XOR Verifier</td><td>Finite State Machine Lab</td><td>Bitwise Telemetry Packer</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 2: GPUs, Tensors &amp; Numerical Python</td><td>GPU Parallel Architecture, CUDA Intuition &amp; VRAM</td><td>Matrix Block Tiling Demo</td><td>Batch Size VRAM Calculator</td><td>CPU vs GPU Training Log</td><td>Precision FP32 vs FP16</td><td>Quantized Memory Planner</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 2: GPUs, Tensors &amp; Numerical Python</td><td>Object-Oriented Python Basics for AI Projects</td><td>SensorData Class Model</td><td>Dataset Loader Class</td><td>Experiment Logger Object</td><td>Agent Persona Class</td><td>Robot Kinematics Object</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 03</td><td>Module 3: PyTorch Foundations</td><td>PyTorch Tensors, Broadcasting &amp; Autograd</td><td>Custom Autograd Linear Fit</td><td>Gradient Vanishing Probe</td><td>Vectorized Cosine Search</td><td>Batch Image Normalizer</td><td>Dynamic Compute Graph Lab</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 04</td><td>Module 3: PyTorch Foundations</td><td>PyTorch nn.Module, Loss &amp; Optimizers (SGD/Adam)</td><td>Custom MLP Classifier</td><td>SGD vs Adam Race Plot</td><td>Early Stopping Trainer</td><td>Weighted Class Loss Fix</td><td>Saved Checkpoint Loader</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 05</td><td>Module 4: Evaluation &amp; Data Engineering</td><td>Scikit-Learn Metrics: Precision, Recall, F1 &amp; ROC</td><td>Medical Triage Threshold</td><td>Fraud Recall Optimizer</td><td>Multi-Class F1 Matrix</td><td>Cross-Validation Harness</td><td>Data Leakage Detector</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 06</td><td>Module 4: Evaluation &amp; Data Engineering</td><td>Feature Engineering, PCA &amp; Unsupervised Clustering</td><td>Student Cluster Explorer</td><td>Sensor Drift Compressor</td><td>K-Means Color Quantizer</td><td>Anomaly Z-Score Monitor</td><td>Pipeline Transformer Rig</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 07</td><td>Module 5: Deep Computer Vision</td><td>Convolutional Neural Networks (CNN) in PyTorch</td><td>Digit Recognition CNN</td><td>Receptive Field Visualizer</td><td>Data Augmentation Trainer</td><td>Overfit Dropout Compare</td><td>Real-Time Sketch Reader</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 08</td><td>Module 5: Deep Computer Vision</td><td>Real-Time Vision: Object Detection &amp; Pose Estimation</td><td>PPE Safety Helmet Detector</td><td>Hand-Gesture Command Node</td><td>Traffic Sign Localizer</td><td>Posture Alignment Tracker</td><td>Bounding-Box IoU Grader</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 09</td><td>Module 6: NLP, Embeddings &amp; Transformers</td><td>Word Embeddings, Semantic Search &amp; Cosine Vectors</td><td>Local FAQ Vector Search</td><td>Synonym Clustering Map</td><td>Bias in Word Vectors Lab</td><td>Resume-Skill Matcher</td><td>Hybrid Keyword+Vector Lab</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 10</td><td>Module 6: NLP, Embeddings &amp; Transformers</td><td>Transformer Self-Attention (Q/K/V) &amp; Context</td><td>Scaled Dot-Product Script</td><td>Multi-Head Split Toy Lab</td><td>Causal Masking Simulator</td><td>Long-Context Needle Test</td><td>Token Budget Optimizer</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 11</td><td>Module 7: LLMs, RAG &amp; Tool Calling</td><td>How ChatGPT Works: Pretraining, RLHF &amp; Tool Use</td><td>Function-Calling Calculator</td><td>Grounded RAG School Bot</td><td>Schema-Validated JSON API</td><td>Critique-and-Refine Loop</td><td>Prompt Injection Shield</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 12</td><td>Module 7: LLMs, RAG &amp; Tool Calling</td><td>Reasoning AI: OpenAI o1/o3 &amp; DeepSeek-R1 Patterns</td><td>CoT Reasoning Evaluator</td><td>Verifier-Guided Code Fix</td><td>Hard Logic Tree Solver</td><td>Confidence Calibration Lab</td><td>Cost vs Accuracy Router</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 13</td><td>Module 8: Intermediate C++ for Controllers</td><td>C++ Pointers, References, Structs &amp; Ring Buffers</td><td>Zero-Copy Packet Buffer</td><td>Rolling Sensor Filter C++</td><td>Struct Telemetry Frame</td><td>Pointer Swap Profiler</td><td>Fixed-Memory Task Queue</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 14</td><td>Module 8: Intermediate C++ for Controllers</td><td>C++ Classes, State Machines &amp; PID Control</td><td>OOP Motor Controller C++</td><td>Line-Following PID Tuner</td><td>UART/I2C Protocol Parser</td><td>Multi-Mode Robot FSM</td><td>Emergency Failsafe Watchdog</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 15</td><td>Module 9: Edge AI &amp; Raspberry Pi Python</td><td>Raspberry Pi Python: OpenCV + Hardware Control</td><td>Pi Traffic Light Vision</td><td>Edge Barcode Inventory Hub</td><td>Flask Live Telemetry UI</td><td>Audio Keyword Trigger Node</td><td>Pi-to-Controller Serial Link</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 16</td><td>Module 9: Edge AI &amp; Raspberry Pi Python</td><td>TinyML &amp; On-Device Model Optimization</td><td>Model Size Profiler</td><td>Pruned Classifier Benchmark</td><td>Threshold Calibration Node</td><td>Offline Latency Stress Test</td><td>Edge Battery-Power Budget</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 17</td><td>Module 10: Reinforcement Learning Systems</td><td>RL Foundations: MDP, Q-Learning &amp; Deep Q-Networks</td><td>Lunar-Lander Policy Sim</td><td>Gridworld Maze Learner</td><td>Dynamic Signal Scheduler</td><td>Multi-Step Reward Shaper</td><td>Policy Collapse Debugger</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 18</td><td>Module 10: Reinforcement Learning Systems</td><td>AlphaGo, AlphaZero &amp; OpenAI Five Dota 2 Mechanics</td><td>Minimax vs MCTS Arena</td><td>Self-Play Elo Tracker</td><td>Multi-Agent Team Comms</td><td>Reward Hacking Case Study</td><td>Opponent Strategy Explorer</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 19</td><td>Module 11: 2024–2026 Frontier Breakthroughs</td><td>Diffusion &amp; World Models: OpenAI Sora &amp; DeepMind Genie 2</td><td>Denoising Step Visualizer</td><td>Latents &amp; Consistency Audit</td><td>Simulated Game World Agent</td><td>Video Deepfake Forensic Lab</td><td>Action-Conditioned Rollout</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 20</td><td>Module 11: 2024–2026 Frontier Breakthroughs</td><td>AI for Biology: AlphaFold 3 &amp; AlphaGenome (2025–2026)</td><td>Non-Coding DNA Motif Finder</td><td>Gene Variant Impact Ranker</td><td>Protein Contact Distance Lab</td><td>Sequence Window Scorer</td><td>Scientific Claim Verifier</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 21</td><td>Module 12: Physical AI &amp; Humanoid Robotics</td><td>Vision-Language-Action (Gemini Robotics 2 &amp; 2.5)</td><td>Task-Plan-to-Joint Motion</td><td>Factory Kitting Simulator</td><td>Visual Servoing Target Lock</td><td>Safety-Fence Collision Guard</td><td>Sim-to-Real Gap Checklist</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 22</td><td>Module 12: Physical AI &amp; Humanoid Robotics</td><td>Hybrid Robotics: Python Vision Brain + C++ Reflex</td><td>Vision Gesture-to-Rover</td><td>Auto-Tracking Gimbal Node</td><td>Voice-Command Warehouse Bot</td><td>Line + Object Hybrid Nav</td><td>Failsafe Telemetry Logger</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 23</td><td>Module 13: AI Agents &amp; Coding Assistants</td><td>Agentic Workflows: Plan, Tool Use, Test &amp; Verify</td><td>Multi-Step Research Agent</td><td>Automated Test-Fix Loop</td><td>Code Review Critic Agent</td><td>Guardrailed File Helper</td><td>Human-Approval Checkpoints</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 24</td><td>Module 13: AI Agents &amp; Coding Assistants</td><td>Adversarial Robustness, Security &amp; AI Red-Teaming</td><td>Prompt Jailbreak Defense</td><td>Poisoned Dataset Detector</td><td>Hallucination Benchmark Suite</td><td>Model Card &amp; Bias Audit</td><td>Data Governance Checklist</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 25</td><td>Module 14: Applied PyTorch Systems</td><td>Transfer Learning with Pretrained Vision Backbones</td><td>Leaf Disease Classifier</td><td>Sign-Language Digit Reader</td><td>Fine-Tune Freeze vs Unfreeze</td><td>Few-Shot Custom Sorting</td><td>Grad-CAM Saliency Map</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 26</td><td>Module 14: Applied PyTorch Systems</td><td>Hybrid Audio &amp; Time-Series Sequence Models</td><td>Vibration Fault Classifier</td><td>Keyword Spotting Spectrogram</td><td>Air Quality Forecast Net</td><td>Heartbeat Pattern Detector</td><td>Sliding-Window Predictor</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 27</td><td>Module 15: Class 8 Capstone Engineering</td><td>End-to-End Architecture, Data &amp; Hardware Loops</td><td>Problem &amp; Constraint Spec</td><td>Clean Versioned Dataset</td><td>PyTorch Model &amp; Eval</td><td>C++ / Pi Control Execution</td><td>Failure Mode Playbook</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 28</td><td>Module 15: Class 8 Capstone Engineering</td><td>Class 8 AI, PyTorch &amp; Robotics Showcase</td><td>Autonomous Gesture Rover</td><td>Leaf Health Vision Scanner</td><td>Local RAG Lab Assistant</td><td>PID + Vision Tracker Rig</td><td>Smart Industrial Kitting Sim</td></tr></tbody></table></div>
+</main>
+<footer>
+  <p>Source: <a href="CLASS-8-CURRICULUM.md">CLASS-8-CURRICULUM.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

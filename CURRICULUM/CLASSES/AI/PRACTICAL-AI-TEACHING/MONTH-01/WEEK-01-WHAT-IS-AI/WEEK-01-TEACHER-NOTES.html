@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 1 — What Is AI? (AI Detective)</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../../../INDEX.html">Curriculum</a> &rsaquo; AI &amp; Computing</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Week 1 — What Is AI? (AI Detective)</h1>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#teacher-notes-simple-explanation">Teacher notes — simple explanation</a></li><li><a href="#lesson-plan-35-minutes">Lesson plan — 35 minutes</a></li><li><a href="#practical-activity-ai-detective">Practical activity — AI Detective</a></li><li><a href="#projector-demonstration-prompt-experiment">Projector demonstration — prompt experiment</a></li><li><a href="#board-student-notebook-notes">Board / student notebook notes</a></li><li><a href="#class-wise-adjustment">Class-wise adjustment</a></li></ul></nav>
+<p><strong>Big question:</strong> How can a computer recognise, recommend, predict or create something?</p>
+<p><strong>Learning goals</strong><br>By the end of the lesson, students should be able to:</p>
+<ol><li>Give a simple explanation of AI.</li><li>Identify a few everyday examples of AI.</li><li>Distinguish an AI system from an ordinary fixed-rule program in simple cases.</li><li>Explain that AI can make mistakes.</li></ol>
+<h3 id="prepare-before-class">Prepare before class</h3>
+<ul><li>Prepare 5–6 example pictures or slides: calculator, voice assistant, film recommendation, spam filter, fixed timer and image-recognition example.</li><li>Prepare one teacher-controlled AI demonstration, such as asking a language model to explain a topic or generate a short quiz.</li><li>Do not require students to create personal accounts. Use teacher-operated demonstrations or a school-approved supervised setup.</li><li>Prepare a paper version of the AI Detective activity in case the internet is unavailable.</li></ul>
+<h2 id="teacher-notes-simple-explanation">Teacher notes — simple explanation</h2>
+<h3 id="1-what-is-artificial-intelligence">1. What is Artificial Intelligence?</h3>
+<p>Say:</p>
+<blockquote><p>Artificial Intelligence, or AI, is technology that helps computers do tasks such as recognising pictures, understanding language, finding patterns, making predictions or generating content.</p></blockquote>
+<p>Explain:</p>
+<ul><li>A computer follows instructions.</li><li>Some programs follow rules written directly by a programmer.</li><li>Some AI systems learn patterns from examples or use trained models to produce an answer or prediction.</li><li>AI is useful, but it does not know everything and can make mistakes.</li></ul>
+<p><strong>Easy example:</strong> A program that always says “Good morning” at 8 AM is following a fixed rule. A trained model that looks at many pictures of cats and dogs and predicts which one is in a new picture is using a learned pattern.</p>
+<h3 id="2-ai-is-not-the-same-as-all-software">2. AI is not the same as all software</h3>
+<p>Write on the projector:</p>
+<ul><li>All AI systems use software.</li><li>Not all software is AI.</li><li>A basic calculator follows exact instructions.</li><li>An image classifier uses a model to recognise patterns in pictures.</li></ul>
+<p>Avoid telling students that every smart-looking device uses AI. Some devices mainly use fixed rules; some combine rules and AI.</p>
+<h3 id="3-where-do-we-see-ai">3. Where do we see AI?</h3>
+<p>Use familiar examples:</p>
+<ul><li>Voice typing converts speech into text.</li><li>A photo app may recognise objects or group similar pictures.</li><li>A video or music app may recommend what to watch or hear.</li><li>A translation tool generates a translation.</li><li>A spam filter identifies likely unwanted messages.</li><li>A map app may estimate traffic or travel time.</li></ul>
+<p>Ask: “What is the input? What does the computer produce?”</p>
+<h3 id="4-a-simple-ai-process">4. A simple AI process</h3>
+<p>Show:</p>
+<p><strong>Input → AI model → Output</strong></p>
+<p>Example:</p>
+<ul><li>Input: a picture of a fruit.</li><li>AI model: examines patterns learned from example pictures.</li><li>Output: “This may be a mango.”</li></ul>
+<p>Explain that the output is a prediction, not a promise that the answer is correct.</p>
+<h2 id="lesson-plan-35-minutes">Lesson plan — 35 minutes</h2>
+<div class="table-wrap"><table><thead><tr><th>Time</th><th>Teacher action</th><th>Student action</th></tr></thead><tbody><tr><td>0–4 min</td><td>Show three surprising examples. Ask: “Which of these do you think uses AI?”</td><td>Vote and explain guesses</td></tr><tr><td>4–9 min</td><td>Explain AI, ordinary software and input–model–output</td><td>Listen and answer quick questions</td></tr><tr><td>9–15 min</td><td>Run a teacher-controlled AI demonstration. Change the instruction and compare results</td><td>Suggest a prompt and compare outputs</td></tr><tr><td>15–25 min</td><td>Run the AI Detective group challenge</td><td>Sort examples and record reasons</td></tr><tr><td>25–31 min</td><td>Ask each team to choose one example and explain how it helps a user</td><td>Prepare a 30-second explanation</td></tr><tr><td>31–35 min</td><td>Ask the exit questions and correct misunderstandings</td><td>Answer individually or as a team</td></tr></tbody></table></div>
+<p><strong>For a 30-minute session:</strong> use 0–3, 3–7, 7–11, 11–21, 21–27 and 27–30 minute sections. Shorten discussion, not the group activity.</p>
+<h2 id="practical-activity-ai-detective">Practical activity — AI Detective</h2>
+<p><strong>Goal:</strong> Decide whether an example uses AI, fixed rules or a mixture.</p>
+<p>Give each group these examples:</p>
+<ol><li>A basic calculator.</li><li>A voice-to-text system.</li><li>A fixed traffic-light timer.</li><li>A film or music recommendation system.</li><li>A spam email filter.</li><li>A trained program that classifies pictures of cats and dogs.</li></ol>
+<p>Ask teams to complete:</p>
+<div class="table-wrap"><table><thead><tr><th>Example</th><th>What goes in?</th><th>What comes out?</th><th>AI, fixed rules or unsure? Why?</th></tr></thead><tbody><tr><td>Voice typing</td><td>Speech</td><td>Text</td><td></td></tr><tr><td>Recommendation app</td><td>Viewing/listening history</td><td>Suggested content</td><td></td></tr><tr><td>Calculator</td><td>Numbers and operation</td><td>Answer</td><td></td></tr></tbody></table></div>
+<p>Some systems combine fixed rules and AI. Accept “unsure” when students can explain what they would need to investigate.</p>
+<p><strong>Challenge:</strong> Ask each team to invent one useful AI idea for the school. They must explain the problem it could help solve.</p>
+<h2 id="projector-demonstration-prompt-experiment">Projector demonstration — prompt experiment</h2>
+<p>Show two prompts to a teacher-controlled AI assistant:</p>
+<p><strong>Prompt A:</strong> “Make a quiz.”</p>
+<p><strong>Prompt B:</strong> “Create three easy multiple-choice questions about planets for Class 5. Give four options and show the correct answer separately.”</p>
+<p>Ask students:</p>
+<ul><li>Which instruction is clearer?</li><li>What changed in the answer?</li><li>Should we trust every answer without checking?</li></ul>
+<p>Do not enter student names, photographs, voices or personal information.</p>
+<h2 id="board-student-notebook-notes">Board / student notebook notes</h2>
+<p>Students only need to record:</p>
+<ol><li>AI helps computers recognise, understand, predict or create.</li><li>AI can learn patterns from examples.</li><li>Input → model → output.</li><li>AI can make mistakes, so we test its results.</li><li>One AI example I found: ________.</li></ol>
+<h2 id="class-wise-adjustment">Class-wise adjustment</h2>
+<ul><li><strong>Class 5:</strong> use pictures and simple examples; sort the six cards and explain one choice.</li><li><strong>Class 6:</strong> identify input and output for each example.</li><li><strong>Class 7:</strong> discuss why a recommendation system might need data from previous examples.</li><li><strong>Class 8:</strong> compare a fixed-rule program with a learned image classifier.</li><li><strong>Class 9:</strong> discuss what evidence would show whether a system uses AI and how its predictions might fail.</li></ul>
+<p><strong>Check learning:</strong> Can each student explain one AI example and one non-AI or fixed-rule example?</p>
+<hr>
+</main>
+<footer>
+  <p>Source: <a href="WEEK-01-TEACHER-NOTES.md">WEEK-01-TEACHER-NOTES.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

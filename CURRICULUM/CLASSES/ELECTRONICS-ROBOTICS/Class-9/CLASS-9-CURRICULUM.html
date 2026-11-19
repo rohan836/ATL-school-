@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 9 Electronics &amp; Robotics Curriculum</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; Electronics &amp; Robotics &rsaquo; Class 9</p>
+<header class="page">
+  <p class="eyebrow">Electronics &amp; Robotics</p>
+  <h1>Class 9 Electronics &amp; Robotics Curriculum</h1>
+<p class="meta">Class 9</p>
+
+</header>
+<main>
+
+<div class="table-wrap"><table><thead><tr><th>Term</th><th>Month</th><th>Week</th><th>Module</th><th>Component / Topic</th><th>Project 1</th><th>Project 2</th><th>Project 3</th><th>Project 4</th><th>Project 5</th></tr></thead><tbody><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: Safety, Power &amp; Core Verification</td><td>Safety Gear, DMM, 4S 4A Li-ion Charger &amp; Battery Safety</td><td>4S 14.8V Field Pack</td><td>Cell-Balance Health Check</td><td>High-Current Safety Fuse</td><td>Power-Rail Stress Test</td><td>Lab Fire &amp; LiPo Drill</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: Safety, Power &amp; Core Verification</td><td>AC vs DC, Resistor, Breadboard &amp; LEDs, Switches, Potentiometer &amp; LDR, Capacitor, Diode, Transistor, MOSFET &amp; Regulators</td><td>High-Speed MOSFET Switch</td><td>Precision RC Low-Pass</td><td>Dual-Rail Buck Supply</td><td>Zener Reference Clamp</td><td>Differential Sensor Stage</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 2: Oscilloscope &amp; Bare Microcontrollers</td><td>50 MHz Digital Storage Oscilloscope DSO</td><td>PWM Duty-Cycle Inspector</td><td>Switch Bounce Capture</td><td>555 Frequency &amp; Rise Time</td><td>I2C/UART Signal Decoder</td><td>Motor Noise &amp; Decoupling</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 03</td><td>Module 2: Oscilloscope &amp; Bare Microcontrollers</td><td>ATmega328P-PU Standalone IC with 16MHz Crystal</td><td>DIY Arduino on Breadboard</td><td>Ultra-Low-Power Sleep Node</td><td>Bare-Chip Bootloader Burn</td><td>Custom Clock Frequency Lab</td><td>Minimal Zero-PCB Timer</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 03</td><td>Module 2: Oscilloscope &amp; Bare Microcontrollers</td><td>ATmega16U2 Standalone IC</td><td>Custom USB-to-UART Bridge</td><td>USB HID Macro Keypad</td><td>USB Game Controller</td><td>Firmware Flasher Dongle</td><td>Serial Bus Sniffer</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 04</td><td>Module 3: ESP32 Dual-Core &amp; Edge IoT</td><td>ESP32 DevKit V1 Wi-Fi &amp; BLE</td><td>Dual-Core Async Web Hub</td><td>BLE Telemetry App</td><td>Capacitive Touch Dimmer</td><td>OTA Firmware Station</td><td>Local MQTT Relay Node</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 05</td><td>Module 3: ESP32 Dual-Core &amp; Edge IoT</td><td>Seeed Studio XIAO ESP32-S3</td><td>Thumb-Sized Lipo Wearable</td><td>Gesture Watch Prototype</td><td>BLE Step Counter</td><td>Mini Wi-Fi Panic Badge</td><td>Compact Smart Sensor Tag</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 06</td><td>Module 3: ESP32 Dual-Core &amp; Edge IoT</td><td>Espressif ESP32-S3-DevKitC-1-N8R8</td><td>High-Speed Telemetry Logger</td><td>PSRAM Ring-Buffer Scope</td><td>Dual-USB Command Bridge</td><td>Smart Lab Environmental Hub</td><td>Multi-Sensor Dashboard</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 07</td><td>Module 4: Hazardous Gas &amp; Air Safety Array</td><td>MQ-2 Smoke &amp; MQ-3 Alcohol Vapor Gas Sensors</td><td>Kitchen Fire Smoke Node</td><td>Breathalyzer Demo Gauge</td><td>Workshop Fume Extractor</td><td>Flammable Leak Cutoff</td><td>Garage Gas Alert</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 08</td><td>Module 4: Hazardous Gas &amp; Air Safety Array</td><td>MQ-4 Methane, MQ-5 LPG &amp; MQ-6 Propane Sensors</td><td>Kitchen Cylinder Leak Alert</td><td>Natural Gas Pipeline Node</td><td>Auto Exhaust Relay Fan</td><td>Gas Valve Safety Trigger</td><td>Dual-Gas Kitchen Pod</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 09</td><td>Module 4: Hazardous Gas &amp; Air Safety Array</td><td>MQ-7 Carbon Monoxide, MQ-8 Hydrogen &amp; MQ-135 Air Quality</td><td>Classroom Air Quality Index</td><td>Exhaust CO Danger Siren</td><td>Battery Room H2 Guard</td><td>City Smog Data Logger</td><td>Smart Ventilation Trigger</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 10</td><td>Module 5: 6-Axis IMU, GPS &amp; Cellular Telemetry</td><td>MPU6050 6-Axis Gyroscope &amp; Accelerometer</td><td>Self-Balancing 2-Wheel Bot</td><td>3D Orientation Visualizer</td><td>Hand-Gesture Drone Stick</td><td>Vibration Fault Analyzer</td><td>Gimbal Horizon Stabilizer</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 11</td><td>Module 5: 6-Axis IMU, GPS &amp; Cellular Telemetry</td><td>GPS Satellite Module GY-NEO6MV2 / NEO-8M</td><td>Outdoor Speedometer OLED</td><td>Geofence Boundary Alarm</td><td>Walking Route SD Logger</td><td>Vehicle Locator Ping</td><td>Satellite Clock Sync</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 12</td><td>Module 5: 6-Axis IMU, GPS &amp; Cellular Telemetry</td><td>GSM / GPRS Cellular Module SIM900</td><td>SMS Gas-Leak Alert System</td><td>Missed-Call Pump Starter</td><td>GPS-over-SMS Tracker</td><td>Remote SMS Temperature</td><td>Intruder Call Alert</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 13</td><td>Module 6: 2-Layer PCB Engineering</td><td>2-Layer PCB Design, Ground Pours &amp; Gerber Export</td><td>2-Layer ESP32 Sensor Shield</td><td>Dual-Side Motor Controller</td><td>Compact Power Distribution</td><td>Eagle/KiCad DRC Cleanout</td><td>Gerber Fabrication Package</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 14</td><td>Module 6: 2-Layer PCB Engineering</td><td>BGA Desoldering Wick, Sn63/Pb37 Paste &amp; Rework</td><td>Fine-Pitch SMD Soldering</td><td>PCB Pad Rescue Lab</td><td>Clean Bridge Removal</td><td>Heat-Gun SMD Reflow</td><td>Oscilloscope Rail QA</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 15</td><td>Module 7: Raspberry Pi Linux &amp; SBC Systems</td><td>Raspberry Pi 3 Model B+ &amp; 16GB microSDXC Setup</td><td>Headless SSH Lab Server</td><td>Python GPIO Traffic Pod</td><td>Local Flask Sensor Web</td><td>Cron Job Data Logger</td><td>Networked Door Monitor</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 16</td><td>Module 7: Raspberry Pi Linux &amp; SBC Systems</td><td>Raspberry Pi 4 Model B &amp; Raspberry Pi 5</td><td>High-Speed SQLite Dashboard</td><td>Dual-Display Kiosk Console</td><td>Multi-Client MQTT Broker</td><td>USB Telemetry Recorder</td><td>Automated Lab Monitor Hub</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 17</td><td>Module 7: Raspberry Pi Linux &amp; SBC Systems</td><td>Raspberry Pi Zero, Zero W &amp; Zero 2 W</td><td>Pocket Wi-Fi Air Monitor</td><td>Compact GPS Field Logger</td><td>Mini Time-Lapse Trigger</td><td>Zero-W BLE Presence Hub</td><td>Portable Network Ping Tool</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 18</td><td>Module 8: Hybrid SBC-MCU Automation</td><td>Raspberry Pi + Arduino Mega USB Serial Bridge</td><td>Real-Time Hydroponics Hub</td><td>Smart Energy &amp; Relay Panel</td><td>Multi-Room Weather Server</td><td>Web-Controlled Tank Bot</td><td>Automated Lab Bench Console</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 19</td><td>Module 8: Hybrid SBC-MCU Automation</td><td>Mini Mic Pro, Web Dashboard &amp; Telemetry Alerts</td><td>Voice-Narrated Lab Demo</td><td>Audio-Annotated Scope Lab</td><td>Classroom Showcase Cast</td><td>Remote Status Web Panel</td><td>Wireless Presenter Setup</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 20</td><td>Module 9: Multi-Part Fabrication &amp; Tools</td><td>Multi-Part 3D Enclosure Engineering</td><td>Snap-Fit Pi 5 Vented Case</td><td>Multi-Piece GPS Housing</td><td>Gasketed Gas Monitor Pod</td><td>Cable-Routed Gimbal Mount</td><td>Modular Drone Landing Feet</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 21</td><td>Module 9: Multi-Part Fabrication &amp; Tools</td><td>Tin Snips, Claw/Ball Pein Hammers, Air Blower &amp; Sewing Kit</td><td>Sheet-Metal Shield Cover</td><td>Riveted Aluminum Brackets</td><td>Dust-Free Bench Blower</td><td>Stitched Wearable Pouch</td><td>Soft Sensor Harness</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 22</td><td>Module 9: Multi-Part Fabrication &amp; Tools</td><td>Detail Pen Knife, Electric Tools &amp; Oscilloscope Diagnostics</td><td>Stencil Solder-Paste Frame</td><td>Calibrated Chassis Tolerances</td><td>Signal-Integrity Enclosure</td><td>Vibration-Damped Mounts</td><td>Lab Tool Maintenance</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 23</td><td>Module 10: DIY Drone Engineering</td><td>DIY Drone Kit: Airframe, CW/CCW Motors &amp; Prop Guards</td><td>Balanced Frame Construction</td><td>Motor Spin Direction Check</td><td>Prop-Guard Safety Rig</td><td>Power Distribution Wiring</td><td>Landing Gear Shock Test</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 24</td><td>Module 10: DIY Drone Engineering</td><td>DIY Drone Kit: STM32 Flight Controller, IMU &amp; Barometer</td><td>Betaflight Accelerometer Trim</td><td>Barometer Altitude Lock Check</td><td>6-Channel Radio Failsafe Test</td><td>Receiver Channel Mapping</td><td>Arming &amp; Pre-Flight Lock</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 25</td><td>Module 10: DIY Drone Engineering</td><td>DIY Drone Kit: LiPo Balance Charging, Safety Bag &amp; ESC Test</td><td>Oscilloscope ESC PWM Check</td><td>LiPo Cell Voltage Balance</td><td>Fireproof Bag Storage Protocol</td><td>Caged Hover Stability Test</td><td>Tethered Throttle Tuning</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 26</td><td>Module 11: Specialized STEM Application Kits</td><td>Aerospace STEM Kit</td><td>Altitude Pressure Telemetry</td><td>Wind-Tunnel Thrust Rig</td><td>Attitude Gyro Mockup</td><td>Pitch-Roll Control Surface</td><td>Launch Angle Logger</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 27</td><td>Module 11: Specialized STEM Application Kits</td><td>Bio-Tech &amp; Other STEM Application Kits</td><td>Environmental Incubator Pod</td><td>Automated Nutrient Mixer</td><td>Turbidity Light Comparator</td><td>Optical Growth Logger</td><td>Smart Lab Sample Timer</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 28</td><td>Module 12: Flagship Systems Integration</td><td>Integrated Multi-Node IoT, Robotics &amp; Drone Capstone</td><td>Campus Air &amp; Gas Network</td><td>GPS/GSM Emergency Rover</td><td>Raspberry Pi Lab Server</td><td>Custom 2-Layer PCB Node</td><td>Calibrated Quadcopter Demo</td></tr></tbody></table></div>
+</main>
+<footer>
+  <p>Source: <a href="CLASS-9-CURRICULUM.md">CLASS-9-CURRICULUM.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

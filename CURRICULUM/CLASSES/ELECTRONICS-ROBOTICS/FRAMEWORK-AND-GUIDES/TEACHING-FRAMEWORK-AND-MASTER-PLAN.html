@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATL Electronics Master Teaching Plan (Classes 5–9)</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; Electronics &amp; Robotics</p>
+<header class="page">
+  <p class="eyebrow">Electronics &amp; Robotics</p>
+  <h1>ATL Electronics Master Teaching Plan (Classes 5–9)</h1>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#1-two-term-structure-term-1-shared-core-term-2-grade-progression">1. Two-Term Structure (Term 1 Shared Core &amp; Term 2 Grade Progression)</a></li><li><a href="#2-the-70-minute-atl-facilitator-class-flow-40-students-8-groups-of-5">2. The 70-Minute ATL Facilitator Class Flow (40 Students · 8 Groups of 5)</a></li><li><a href="#3-standard-student-notebook-3-box-debugging-log">3. Standard Student Notebook: 3-Box Debugging Log</a></li><li><a href="#4-fault-finder-rule-before-calling-the-facilitator">4. Fault-Finder Rule (Before Calling the Facilitator)</a></li><li><a href="#5-8-group-bench-shared-equipment-rotation-plan-40-students">5. 8-Group Bench &amp; Shared Equipment Rotation Plan (40 Students)</a></li><li><a href="#6-two-term-grade-progression-summary">6. Two-Term Grade Progression Summary</a></li></ul></nav>
+<p><strong>Atal Thinking Lab · Term 1 Shared Core + Term 2 Grade Progression · 28 Active Weeks</strong></p>
+<blockquote><p><strong>Facilitation Style:</strong> Facilitator, Not Lecturer (zero textbook theory memorization, zero step-by-step wiring handouts)   <strong>Classroom Setup:</strong> <code>70 min</code> · <code>40 students</code> organized into <strong><code>8 groups of 5</code></strong>   <strong>Hardware Catalog:</strong> 160-item ATL Sorted Equipment Catalog (<code>main ATL school/Electronic component sorted list/README.md</code>)</p></blockquote>
+<hr>
+<h2 id="1-two-term-structure-term-1-shared-core-term-2-grade-progression">1. Two-Term Structure (Term 1 Shared Core &amp; Term 2 Grade Progression)</h2>
+<p>Every class (Classes 5 through 9) runs <strong>28 active weeks</strong> split cleanly into <strong>Term 1 (<code>June–October</code>, <code>Weeks 01–14</code>)</strong> and <strong>Term 2 (<code>November–March</code>, <code>Weeks 15–28</code>)</strong>:</p>
+<ul><li>Every grade begins <strong>June (<code>Week 01</code>)</strong> with safety, power, <code>AC vs DC</code>, <code>Digital Multimeter</code>, and essential foundational parts (<code>Resistor</code>, <code>Breadboard</code>, <code>LED</code>, <code>Switches</code>, <code>Potentiometer</code>, <code>LDR</code>, <code>Capacitor</code>, <code>Diode</code>, <code>Transistor</code>) so nobody enters upper builds missing basic circuit fluency.</li><li>Across both Term 1 and Term 2, each grade balances core electronics with age-appropriate sensors, soldering, coding, PCB, 3D fabrication, IoT, and robotics modules.</li></ul>
+<p>Every row pairs directly with <strong>5 hands-on projects (<code>Project 1</code>–<code>Project 5</code>)</strong> inside each grade's unified curriculum table (<code>Class-5/CLASS-5-CURRICULUM.md</code> through <code>Class-9/CLASS-9-CURRICULUM.md</code>).</p>
+<hr>
+<h2 id="2-the-70-minute-atl-facilitator-class-flow-40-students-8-groups-of-5">2. The 70-Minute ATL Facilitator Class Flow (40 Students · 8 Groups of 5)</h2>
+<p>Instead of lecturing or handing out pin-by-pin wiring recipes, the teacher acts purely as a <strong>lab facilitator</strong> while <strong>8 groups of 5 students</strong> learn through building and debugging:</p>
+<div class="table-wrap"><table><thead><tr><th>Time Block</th><th>Duration</th><th>Facilitator &amp; Student Role</th><th>What Happens on the Projector / Benches</th></tr></thead><tbody><tr><td><strong>1. Visual Behavior Intro</strong></td><td><strong>10–15 min</strong></td><td>Facilitator shows <em>only</em> how the component behaves—no formulas, no history, no step-by-step schematic to copy.</td><td>Open <strong>Chrome diagrams</strong> (pinout, polarity legs, safe voltage limits) and play a <strong>short 2–4 min YouTube clip</strong> showing what the part reacts to or drives. Pose a project challenge (<code>Project 1</code>–<code>Project 5</code>) from <code>CLASS-&lt;N&gt;-CURRICULUM.md</code>.</td></tr><tr><td><strong>2. Open-Ended Group Build &amp; Debugging</strong></td><td><strong>35–40 min</strong></td><td><strong>8 groups of 5</strong> design, test, break, and fix circuits on their own. Facilitator circulates asking diagnostic questions instead of wiring for students.</td><td>Groups collect verified parts from ATL trays, experiment on breadboards/chassis/boards, use the <strong>4-Step Fault-Finder</strong> when something fails, and iterate until their group build works reliably.</td></tr><tr><td><strong>3. Showcase &amp; 3-Box Debugging Log</strong></td><td><strong>10 min</strong></td><td>Quick group demos + concise notebook reflection (zero copied definitions).</td><td>2–3 groups demonstrate their working build and share one failure they fixed. Every student completes the <strong>3-Box Debugging Log</strong> in their notebook before pack-up (<code>5 min</code> buffer for tray reset).</td></tr></tbody></table></div>
+<h3 id="group-roles-inside-every-team-of-5">Group Roles Inside Every Team of 5</h3>
+<p>To ensure all 40 students participate hands-on across 8 benches:</p>
+<ol><li><strong>Parts &amp; Safety Lead:</strong> Collects exact ATL stock, checks battery/rail voltage, and enforces PPE goggles when required.</li><li><strong>Circuit Builder:</strong> Places components and jumpers cleanly on breadboard / Zero-PCB / chassis.</li><li><strong>Tester / Coder:</strong> Runs measurements (DMM / Serial Monitor / Oscilloscope in higher grades) or edits sketch parameters.</li><li><strong>Fault-Finder:</strong> Runs the 4-Step Fault-Finder checklist whenever output breaks.</li><li><strong>Logger &amp; Presenter:</strong> Tracks bugs fixed during the build and presents the 30-second showcase demo.</li></ol>
+<p><em>(Students rotate roles every week.)</em></p>
+<hr>
+<h2 id="3-standard-student-notebook-3-box-debugging-log">3. Standard Student Notebook: 3-Box Debugging Log</h2>
+<p>Students never copy textbook definitions or long paragraphs. Every project session fills only <strong>three crisp boxes</strong>:</p>
+<pre><code>┌──────────────────────────────────────────────────────────────────────┐
+│ PROBLEM                                                              │
+│ What real-world problem or challenge prompt did our group build for? │
+├──────────────────────────────────────────────────────────────────────┤
+│ WHAT BROKE                                                           │
+│ What failed first? (Wrong polarity, loose row, missing resistor...)  │
+├──────────────────────────────────────────────────────────────────────┤
+│ HOW WE FIXED IT                                                      │
+│ Exact change or test that made our circuit or code work properly.    │
+└──────────────────────────────────────────────────────────────────────┘</code></pre>
+<hr>
+<h2 id="4-fault-finder-rule-before-calling-the-facilitator">4. Fault-Finder Rule (Before Calling the Facilitator)</h2>
+<p>Before raising a hand, every group of 5 must check four things together:</p>
+<ol><li><strong>Power &amp; Polarity:</strong> Is the 5V/9V/12V supply switched on? Are <code>+</code> and <code>−</code> legs (LED long/short, electrolytic stripe, diode silver band) right?</li><li><strong>Breadboard &amp; Wire Contact:</strong> Are pins seated firmly in connected rows with no loose jumpers?</li><li><strong>Component Value &amp; Pinout:</strong> Is that 220 Ω or 220 kΩ? Are sensor VCC, GND, and OUT/SDA/SCL pins matched?</li><li><strong>Measure or Isolate:</strong> Check continuity/voltage with a Digital Multimeter (Class 6+), Serial Monitor (Class 7+), or 50 MHz Oscilloscope (Class 9).</li></ol>
+<hr>
+<h2 id="5-8-group-bench-shared-equipment-rotation-plan-40-students">5. 8-Group Bench &amp; Shared Equipment Rotation Plan (40 Students)</h2>
+<div class="table-wrap"><table><thead><tr><th>ATL Equipment &amp; Lab Stock</th><th>How 8 Groups of 5 Share Smoothly</th></tr></thead><tbody><tr><td><strong>Breadboards (80), Arduino Unos (45), Resistors/LEDs/Caps (30+ kits), BO Motors (60)</strong></td><td>All <strong>8 groups</strong> work in parallel (1–2 kits per group, zero waiting).</td></tr><tr><td><strong>Soldering Stations (6), Helping Hands (6), Desoldering Pumps (6)</strong></td><td>Classes 7–9 assign 6 groups to soldering benches while 2 groups prep layouts/DMM checks, rotating every 12–15 minutes.</td></tr><tr><td><strong>Digital Multimeters (5)</strong></td><td>Shared across bench clusters on demand during diagnostic checks.</td></tr><tr><td><strong>3D Printer (1 FDM + 2-hr UPS) &amp; Vernier Calipers (2)</strong></td><td>Groups measure parts with calipers and export STL brackets during build time; printing runs queued between sessions.</td></tr><tr><td><strong>50 MHz Digital Oscilloscope (1, Class 9)</strong></td><td>Connected to the projector for waveform behavior demos + group probe checks at the diagnostic station.</td></tr></tbody></table></div>
+<hr>
+<h2 id="6-two-term-grade-progression-summary">6. Two-Term Grade Progression Summary</h2>
+<div class="table-wrap"><table><thead><tr><th>Grade</th><th>Term 1 (<code>June–October</code> · <code>Weeks 01–14</code>)</th><th>Term 2 (<code>November–March</code> · <code>Weeks 15–28</code>)</th><th>Key Group Deliverables</th></tr></thead><tbody><tr><td><strong>Class 5</strong></td><td>Safety, AC vs DC, DMM, Core Passives/Transistors, Buzzers, RGB LED, Haptic Motor, Arduino Uno R3</td><td>BO Gear Motors, SG90 Servo &amp; Tester, HC-SR04, IR, Tilt, Bluetooth HC-05, Relay, ISD1820, Craft &amp; Guided Kits</td><td>Phone-Controlled Rover, Touchless Trash Lid, Wired Buzzer Quiz, Geared Crane</td></tr><tr><td><strong>Class 6</strong></td><td>Core + DMM, LM78xx Regulators, Bargraph/7-Seg, LM555 Timer, 2-Ch Relay, Nano, DHT11, Soil/Rain</td><td>Sound, Capacitive Touch, Laser/IR/PIR, Joystick, MG90S, L293D, HM-10 BLE, Water Pump, Agritech/Water Kits</td><td>555 Timer Siren, Laser Tripwire, Auto Plant Irrigator, No-Code IR Buggy</td></tr><tr><td><strong>Class 7</strong></td><td>Pen DMM + Core, Zeners, Zero-PCB Soldering, Uno C++, 16×2 LCD, 4-Digit 7-Seg, 8×8 Matrix, Keypad, Bio Sensors</td><td>TB6612FNG, Stepper, MG995/996R, 433 MHz RF, RFID, DS3231, SD Card, Color Sensor, FDM 3D Printing, Tools, Bio-Med Kit</td><td>Soldered 555 PCB, RFID Attendance Logger, Color Candy Sorter, 3D-Printed Turret</td></tr><tr><td><strong>Class 8</strong></td><td>SMPS + Core, Bare ICs (<code>LM358/393</code>, <code>MOSFET</code>, <code>74HC595</code>, <code>L293D/ULN</code>), Mega 2560, 8-IR, OLED, MPR121, 4/8-Ch Relay, L298P, PCA9685</td><td>ESP8266 Wi-Fi, NRF24L01, ADXL345, HMC5883L, Buck/LiPo/18650, Single-Sided PCB, Machining, Capstone</td><td>ESP8266 Web Console, 6-Legged Hexapod, Long-Range NRF Rover, Custom Shield</td></tr><tr><td><strong>Class 9</strong></td><td>4S Charger + Core, 50 MHz DSO, Standalone ATmega328P/16U2, ESP32/S3, MQ-2..135 Gas, MPU6050, GPS, GSM, 2-Layer PCB</td><td>Raspberry Pi 3B+/4/5/Zero + Mega Bridge, Multi-Part 3D &amp; Sheet Metal, DIY Drone Kit, Aerospace/Bio-Tech Kits, Capstone</td><td>Campus Gas IoT Network, GPS/GSM Tracker, Raspberry Pi Server, DIY Quadcopter</td></tr></tbody></table></div>
+</main>
+<footer>
+  <p>Source: <a href="TEACHING-FRAMEWORK-AND-MASTER-PLAN.md">TEACHING-FRAMEWORK-AND-MASTER-PLAN.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

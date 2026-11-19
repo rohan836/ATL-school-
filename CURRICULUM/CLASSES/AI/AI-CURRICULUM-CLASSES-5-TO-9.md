@@ -1,72 +1,154 @@
-# Artificial Intelligence Curriculum
+# AI, Computing & Robotics Master Curriculum (Classes 5–9)
 
-**Atal Thinking Lab | Shared curriculum for Classes 5–9**
-
-This is the single shared AI curriculum for Classes 5–9. Teachers adjust complexity, scaffolding, tools, and project expectations by grade.
-
-| Module No. | Module Name | Topic No. | Topic |
-|---:|---|---:|---|
-| **1** | **Understanding Artificial Intelligence** | 1.1 | What is Artificial Intelligence? |
-|  |  | 1.2 | AI around us in everyday life |
-|  |  | 1.3 | AI vs. traditional computer programs |
-|  |  | 1.4 | How computers follow instructions |
-|  |  | 1.5 | What AI can and cannot do |
-|  |  | 1.6 | Narrow AI and the idea of General AI |
-|  |  | 1.7 | Activity: Identify AI in everyday applications |
-| **2** | **Computational Thinking & Problem-Solving** | 2.1 | What is computational thinking? |
-|  |  | 2.2 | Decomposition: break a problem into smaller parts |
-|  |  | 2.3 | Pattern recognition |
-|  |  | 2.4 | Abstraction: focus on important information |
-|  |  | 2.5 | Algorithms and step-by-step instructions |
-|  |  | 2.6 | Flowcharts and decision-making |
-|  |  | 2.7 | Practical: Create an algorithm for a real-world task |
-| **3** | **Data & How AI Learns** | 3.1 | What is data? |
-|  |  | 3.2 | Types of data: text, images, audio, and numbers |
-|  |  | 3.3 | Data collection and labeling |
-|  |  | 3.4 | Structured and unstructured data |
-|  |  | 3.5 | Training data and testing data |
-|  |  | 3.6 | How AI finds patterns in data |
-|  |  | 3.7 | Data quality: missing, incorrect, and biased data |
-|  |  | 3.8 | Practical: Organize and label a small dataset |
-| **4** | **Machine Learning Fundamentals** | 4.1 | What is Machine Learning? |
-|  |  | 4.2 | AI, Machine Learning, and Deep Learning |
-|  |  | 4.3 | Supervised learning |
-|  |  | 4.4 | Unsupervised learning |
-|  |  | 4.5 | Reinforcement learning: learning through feedback |
-|  |  | 4.6 | Classification and prediction |
-|  |  | 4.7 | Training, testing, and evaluating a model |
-|  |  | 4.8 | Practical: Train a simple image or sound classifier |
-| **5** | **Computer Vision & Image AI** | 5.1 | What is Computer Vision? |
-|  |  | 5.2 | How computers represent images as pixels |
-|  |  | 5.3 | Image classification |
-|  |  | 5.4 | Object detection: identifying objects in an image |
-|  |  | 5.5 | Facial recognition concepts and privacy |
-|  |  | 5.6 | Applications of Computer Vision |
-|  |  | 5.7 | Practical: Build an image classification demo |
-| **6** | **Natural Language Processing & Generative AI** | 6.1 | What is Natural Language Processing (NLP)? |
-|  |  | 6.2 | How computers process human language |
-|  |  | 6.3 | Chatbots and conversational AI |
-|  |  | 6.4 | What is Generative AI? |
-|  |  | 6.5 | Text, image, and audio generation |
-|  |  | 6.6 | Large Language Models (LLMs): introductory concepts |
-|  |  | 6.7 | Prompting: giving clear instructions to AI |
-|  |  | 6.8 | AI hallucinations and verifying generated information |
-|  |  | 6.9 | Practical: Design a simple chatbot or AI-assisted project |
-| **7** | **Responsible AI, Ethics & Safety** | 7.1 | What is responsible AI? |
-|  |  | 7.2 | Fairness and bias in AI |
-|  |  | 7.3 | Privacy and personal data |
-|  |  | 7.4 | AI-generated misinformation and deepfakes |
-|  |  | 7.5 | Copyright, attribution, and ownership |
-|  |  | 7.6 | Cybersecurity and safe AI use |
-|  |  | 7.7 | Human judgment and AI decision-making |
-|  |  | 7.8 | Activity: Evaluate an AI system for fairness and safety |
-| **8** | **AI Projects, Innovation & Future Careers** | 8.1 | Identify a real-world problem |
-|  |  | 8.2 | Understand users and define the problem |
-|  |  | 8.3 | Collect and prepare data |
-|  |  | 8.4 | Select an AI approach or tool |
-|  |  | 8.5 | Build an AI prototype |
-|  |  | 8.6 | Test, evaluate, and improve the solution |
-|  |  | 8.7 | Document the project and explain its limitations |
-|  |  | 8.8 | AI applications in healthcare, agriculture, education, and environment |
-|  |  | 8.9 | AI careers and future opportunities |
-|  |  | 8.10 | Final AI project exhibition |
+| Class | Term | Month | Week | Module | Concept / Topic | Project 1 | Project 2 | Project 3 | Project 4 | Project 5 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Class 5 | Term 1 | June | Week 01 | Module 1: What Is AI & Purpose | What Is Artificial Intelligence & Why We Build It | Classroom AI Spotter | Human vs AI Task Poster | Smart Helper Storyboard | Daily AI Hunt Map | Good vs Risky AI Chart |
+| Class 5 | Term 1 | June | Week 01 | Module 1: What Is AI & Purpose | Traditional Rules vs Learning Systems | Rule-Based Traffic Game | Guess-by-Example Card Sort | Fixed vs Adaptive Quiz | Sorting Robot Game | Kitchen Helper Comparison |
+| Class 5 | Term 1 | June | Week 02 | Module 2: Computational Thinking & Hardware | Decomposition, Patterns & Abstraction | Morning Routine Splitter | Emoji Pattern Decoder | Map Without Clutter | Sandwich Algorithm Game | Bug-Hunt Puzzle Sheet |
+| Class 5 | Term 1 | June | Week 02 | Module 2: Computational Thinking & Hardware | Binary Numbers & Logic Gates Basics | 5-Bit Name Bracelet | AND-OR Classroom Gate | Two-Key Vault Puzzle | Secret Binary Flashcards | Light-Switch Truth Table |
+| Class 5 | Term 1 | June | Week 03 | Module 2: Computational Thinking & Hardware | How Computers Think: CPU vs GPU Intuition | One-Chef vs 100-Chef Race | Pixel Paint Speed Game | Sequential vs Parallel Deck | GPU Picture Grid Puzzle | Why AI Needs Fast Chips |
+| Class 5 | Term 1 | July | Week 04 | Module 3: Python Foundations in Jupyter | Jupyter Notebook & Python First Steps | Interactive Greeting Cell | Talking Name Badge | School Bell Countdown | Story Mad-Libs Runner | Emoji Banner Printer |
+| Class 5 | Term 1 | July | Week 05 | Module 3: Python Foundations in Jupyter | Python Variables, Numbers & User Input | Pocket Allowance Tracker | Age-on-Mars Calculator | Scoreboard Updater | Unit Converter Tool | Pet Profile Card |
+| Class 5 | Term 1 | July | Week 06 | Module 3: Python Foundations in Jupyter | Python Decisions with If, Elif & Else | Smart Weather Jacket Tip | Quiz Grader Bot | Traffic Light Simulator | Rock-Paper-Scissors | Rule-Based Chatbot |
+| Class 5 | Term 1 | July | Week 07 | Module 3: Python Foundations in Jupyter | Python Loops: For & While Repetition | Multiplication Table Maker | Rocket Launch Timer | Number Guessing Game | Pattern Star Painter | Step-Counter Loop |
+| Class 5 | Term 1 | August | Week 08 | Module 3: Python Foundations in Jupyter | Python Lists & Mini Menu Apps | Favorite Snack Organizer | Class Attendance List | Random Team Picker | Flashcard Study Deck | Inventory Checklist App |
+| Class 5 | Term 1 | August | Week 09 | Module 4: Data & How Machines Learn | Data Types: Numbers, Text, Images & Audio | Classroom Survey Table | Sound-Word-Picture Match | Clean vs Messy Data Game | Fruit Feature Tally | Mini Weather Diary |
+| Class 5 | Term 1 | August | Week 10 | Module 4: Data & How Machines Learn | Training vs Testing & Data Bias | Apples vs Oranges Trainer | Mystery Box Test Round | Balanced vs Biased Deck | Handwriting Sample Audit | Fair Class Pet Predictor |
+| Class 5 | Term 1 | September | Week 11 | Module 5: Computer Vision Basics | Images as Pixel Grids & Colors | 8×8 Pixel Art Initials | Secret Number Grid | RGB Color Mixer Toy | Black-White Threshold Map | Emoji Pixel Scanner |
+| Class 5 | Term 1 | September | Week 12 | Module 5: Computer Vision Basics | Image Classification & Object Detection | Animal Picture Sorter | Classroom Object Finder | Healthy Lunch Spotter | Sign-Language Card Test | Clean vs Littered Park |
+| Class 5 | Term 1 | October | Week 13 | Module 6: Language & Modern AI | Natural Language & Keyword vs Smart Chatbots | School Helpdesk Menu Bot | Synonym Greeting Matcher | Question-Answer Lookup | Mood Word Counter | Friendly Story Prompter |
+| Class 5 | Term 1 | October | Week 14 | Module 6: Language & Modern AI | Inside Modern AI: ChatGPT & Word Prediction | Next-Word Classroom Chain | Weak vs Clear Prompt Fix | Fact-Check AI Answers | Study Summary Helper | Rhyme & Riddle Co-Writer |
+| Class 5 | Term 2 | November | Week 15 | Module 7: How Modern AI Learns | Deep Learning Layers Intuition | Clue-Layer Detective Game | Cat Ear-Tail Feature Vote | Multi-Step Filter Relay | Layered Puzzle Solver | Sound-to-Meaning Flow |
+| Class 5 | Term 2 | November | Week 16 | Module 7: How Modern AI Learns | Reinforcement Learning: Rewards & Trial | Hot-Cold Treasure Walk | Maze Coin Collector | Dog-Trick Reward Chart | Penalty vs Bonus Game | Adaptive Grid Runner |
+| Class 5 | Term 2 | December | Week 17 | Module 8: Famous AI Milestones | Game-Playing AI: AlphaGo & OpenAI Five Dota 2 | Board-Move Tree Game | Strategy Card Simulator | Teamwork Role Relay | Mini Tic-Tac-Toe Learner | Self-Play Tournament |
+| Class 5 | Term 2 | December | Week 18 | Module 8: Famous AI Milestones | Science & World AI: AlphaFold, AlphaGenome & Sora | Origami Shape Folding Lab | DNA Letter Pattern Hunt | Predict-Next-Frame Flipbook | Weather Simulation Story | Dream-World Video Prompt |
+| Class 5 | Term 2 | December | Week 19 | Module 9: AI + Robotics Foundations | Sense, Think, Act Loop in Robotics | Blindfold Path Guide | Obstacle-Stop Floor Game | Line-Track Command Cards | Voice-Command Robot Role | Classroom Delivery Map |
+| Class 5 | Term 2 | January | Week 20 | Module 9: AI + Robotics Foundations | Python Logic for Smart Controllers | Simulated Sensor Doorbell | Auto-Fan Temp Rule Script | Smart Trash Bin Logic | Blink-Pattern Signal Code | Mini Rover Command Loop |
+| Class 5 | Term 2 | January | Week 21 | Module 9: AI + Robotics Foundations | Edge Devices: MicroPython & Raspberry Pi Intro | Pi-Ready Greeting Script | Virtual LED Pattern Loop | Classroom Time Logger | Sensor Alert Simulator | Pocket AI Dashboard |
+| Class 5 | Term 2 | January | Week 22 | Module 10: Creative Generative AI | Text, Image & Music Generation Concepts | Safe Poster Idea Studio | Storybook Character Helper | Soundscape Prompt Lab | Hallucination Bug Hunter | Real vs Synthetic Quiz |
+| Class 5 | Term 2 | January | Week 23 | Module 10: Creative Generative AI | Prompt Crafting: Role, Context & Format | Five-Step Study Coach | Science Diagram Describer | Debate Partner Prompt | Recipe Safety Checker | Quiz Question Generator |
+| Class 5 | Term 2 | February | Week 24 | Module 11: Ethics, Safety & Privacy | AI Fairness, Privacy & Digital Footprint | Privacy Safe-Share Shield | Biased Training Fixer | Deepfake Clue Inspector | Human-in-the-Loop Pact | Honest AI Citation Card |
+| Class 5 | Term 2 | February | Week 25 | Module 11: Ethics, Safety & Privacy | Testing What AI Gets Wrong | Trick Riddle Tester | Counting Mistakes Hunt | Confident Wrong Answer Log | Safe Calculator vs LLM | Fact Verification Badge |
+| Class 5 | Term 2 | February | Week 26 | Module 12: Guided AI & Python Build | Combining Python Menus & Smart Rules | Eco-Waste Sorter Advisor | Library Book Finder | Homework Planner Bot | Water-Saver Quiz App | Health Habit Coach |
+| Class 5 | Term 2 | March | Week 27 | Module 12: Guided AI & Python Build | Mini Project Prototyping & Testing | Problem Statement Pitch | Input-Output Flow Sketch | Peer Bug-Test Session | Error Improvement Pass | Clean Demo Notebook |
+| Class 5 | Term 2 | March | Week 28 | Module 12: Guided AI & Python Build | Class 5 AI & Robotics Showcase | Smart Classroom Assistant | Vision Sorting Poster App | Safe Prompting Kiosk | Simulated Delivery Rover | Eco-Alert Python Helper |
+| Class 6 | Term 1 | June | Week 01 | Module 1: AI Foundations & Purpose | What Is AI: Narrow, Generative & Reasoning AI | AI Timeline Poster 2017–2026 | Rule vs Learning Comparator | Smart Tool Audit | Can-AI-Do-It Matrix | Everyday AI Architecture |
+| Class 6 | Term 1 | June | Week 01 | Module 1: AI Foundations & Purpose | Computational Thinking & Flowcharting | Emergency Evacuation Flow | ATM Cash Logic Map | Disease-Symptom Tree | Quiz Engine Flowchart | Bug Isolation Checklist |
+| Class 6 | Term 1 | June | Week 02 | Module 2: Logic Gates & AI Hardware | Logic Gates: AND, OR, NOT, XOR & Truth Tables | Python Gate Simulator | Three-Input Alarm Logic | Parity Checker Puzzle | Adder Circuit Logic | Security Lock Truth Table |
+| Class 6 | Term 1 | June | Week 02 | Module 2: Logic Gates & AI Hardware | Hardware Behind AI: CPU, GPU & Parallel Math | Batch Grid Multiplier | Image Blur Speed Race | Core Count Estimator | Cloud vs Local Compute | Memory Bandwidth Game |
+| Class 6 | Term 1 | June | Week 03 | Module 3: Structured Python & Jupyter | Jupyter Notebooks, Functions & Clean Code | Reusable Converter Kit | Modular Quiz Runner | Grade Calculator Function | Password Strength Meter | Mini Weather Reporter |
+| Class 6 | Term 1 | July | Week 04 | Module 3: Structured Python & Jupyter | Python Lists, Tuples & Dictionaries | Student Contact Book | Word Frequency Counter | Menu Billing Register | Sensor Readings Table | Mini Rule Chatbot |
+| Class 6 | Term 1 | July | Week 05 | Module 3: Structured Python & Jupyter | Reading CSV Files & Basic Data Charts | Rainfall Bar Plotter | School Marks Histogram | Temperature Line Chart | Toy Sales Pie Explorer | Clean Missing Data Lab |
+| Class 6 | Term 1 | July | Week 06 | Module 4: Machine Learning Concepts | Supervised vs Unsupervised Learning | Email Spam Sorter Lab | Customer Grouping Game | House Price Clue Table | Plant Leaf Classifier | Anomaly Outlier Finder |
+| Class 6 | Term 1 | July | Week 07 | Module 4: Machine Learning Concepts | Decision Trees & Nearest-Neighbor Intuition | Twenty-Questions Tree | Animal Habitat Classifier | Nearest-Shop Finder | Fruit Ripeness Decision | Loan Safety Rule Tree |
+| Class 6 | Term 1 | August | Week 08 | Module 5: Computer Vision Systems | Digital Images, RGB Channels & Pixel Math | Color Channel Splitter | Brightness & Contrast Lab | Green-Screen Cutout Trick | Edge-Highlight Grid | QR Code Grid Decoder |
+| Class 6 | Term 1 | August | Week 09 | Module 5: Computer Vision Systems | Classification vs Bounding-Box Object Detection | Waste-Bin Image Tagger | Street-Sign Box Annotator | Wildlife Camera Classifier | Defect Check Conveyor | Parking Space Detector |
+| Class 6 | Term 1 | August | Week 10 | Module 6: NLP & How ChatGPT Works | Natural Language Processing & Tokenization | Word Tokenizer Counter | Positive-Negative Mood App | Text Cleanup Pipeline | Keyword Extractor Tool | Translation Pitfall Test |
+| Class 6 | Term 1 | September | Week 11 | Module 6: NLP & How ChatGPT Works | How LLMs & ChatGPT Predict Tokens | Probability Next-Word Wheel | Temperature Creativity Lab | Context-Window Memory Demo | Role-Prompting Studio | Hallucination Stress Test |
+| Class 6 | Term 1 | September | Week 12 | Module 6: NLP & How ChatGPT Works | Transformer Breakthrough (2017) & Attention | Word-Link Highlighter | Pronoun-Reference Matcher | Attention Spotlight Card | Story Continuity Checker | Multi-Step Summary Prompt |
+| Class 6 | Term 1 | October | Week 13 | Module 7: Robotics & Physical AI Code | Python Control Loops for Smart Hardware | Simulated Smart Streetlight | Timed Watering Scheduler | Ultrasonic Alert Simulator | Servo Angle Sweep Loop | Door-Access Log Script |
+| Class 6 | Term 1 | October | Week 14 | Module 7: Robotics & Physical AI Code | Raspberry Pi Python Automation Concepts | Desktop System Monitor | Auto-Snapshot Folder Watch | CSV Temperature Logger | Button Event Handler | Mini Status Web Page |
+| Class 6 | Term 2 | November | Week 15 | Module 8: Neural Nets & Reinforcement Learning | Artificial Neurons, Weights & Activation | Weighted Score Calculator | Threshold Alarm Neuron | Step-by-Step Bias Tuner | Mini Perceptron Playground | Handwriting Pixel Vote |
+| Class 6 | Term 2 | November | Week 16 | Module 8: Neural Nets & Reinforcement Learning | Reinforcement Learning: States, Actions & Rewards | Gridworld Path Explorer | Frozen-Lake Slippery Maze | Bandit Machine Optimizer | Reward-Shaping Experiment | Adaptive Pong AI Demo |
+| Class 6 | Term 2 | December | Week 17 | Module 9: Frontier AI Case Studies | DeepMind AlphaGo, AlphaZero & OpenAI Five Dota 2 | Look-Ahead Tree Counter | Self-Play Strategy Log | Multi-Agent Role Planner | Fog-of-War Decision Lab | Game State Evaluator |
+| Class 6 | Term 2 | December | Week 18 | Module 9: Frontier AI Case Studies | Reasoning Models: OpenAI o1/o3 & DeepSeek-R1 | Chain-of-Thought Solver | Fast vs Deep Think Compare | Math Step Verifier | Logic Riddle Debugger | Self-Correction Checklist |
+| Class 6 | Term 2 | December | Week 19 | Module 9: Frontier AI Case Studies | World Models & Science: Sora, Genie 2 & AlphaGenome | Physics-Fail Video Hunt | 3D World Prompt Storyboard | DNA Base-Pair Matcher | Protein Shape Fold Model | Climate Sim Predictor |
+| Class 6 | Term 2 | January | Week 20 | Module 10: Physical AI & Embodied Robotics | Vision-Language-Action (Gemini Robotics) Concepts | Natural Command Splitter | Pick-and-Place Planner | Obstacle Re-Route Logic | Safe Human-Zone Guard | Warehouse Kitting Plan |
+| Class 6 | Term 2 | January | Week 21 | Module 10: Physical AI & Embodied Robotics | Sensor Fusion & State Logic in Python | Two-Sensor Vote Alert | Line + Obstacle Hybrid Bot | Battery-Aware Rover Mode | Noisy Signal Smoother | Autonomous Gate Guard |
+| Class 6 | Term 2 | January | Week 22 | Module 11: Prompting & Responsible AI | Structured Prompting & Fact Checking | JSON Output Formatter | Stepwise Study Tutor | Citation & Source Audit | Adversarial Trick Tester | Safe Classroom Policy |
+| Class 6 | Term 2 | January | Week 23 | Module 11: Prompting & Responsible AI | Deepfakes, Watermarking & Privacy Engineering | Image Forensics Checklist | Voice-Clone Safety Guide | Personal Data Redactor | Bias Audit Report Card | Copyright Attribution Lab |
+| Class 6 | Term 2 | February | Week 24 | Module 12: Applied Python Mini-Projects | Building Multi-Function CLI & Notebook Tools | Smart Expense Analyzer | Quiz Bank CSV Engine | Sentiment Review Sorter | Plant Water Advisor App | Study Timer with Logs |
+| Class 6 | Term 2 | February | Week 25 | Module 12: Applied Python Mini-Projects | Testing, Debugging & Handling Edge Cases | Empty-Input Crash Guard | Outlier Value Filter | Unit-Check Test Script | Error Message Polisher | Reproducible Seed Demo |
+| Class 6 | Term 2 | February | Week 26 | Module 13: Capstone Design & Data Prep | Problem Definition & Dataset Curation | Agritech Crop Helper Plan | Safe School Route Finder | Waste Classification Set | Air Quality Trend App | Accessibility Reader Bot |
+| Class 6 | Term 2 | March | Week 27 | Module 13: Capstone Design & Data Prep | Prototype Integration & Model Evaluation | Accuracy Check Dashboard | Failure Case Showcase | Clean User Instructions | Speed vs Quality Test | Peer Critique Review |
+| Class 6 | Term 2 | March | Week 28 | Module 13: Capstone Design & Data Prep | Class 6 AI & Robotics Expo | Recycling Vision Classifier | Sentiment Feedback Kiosk | Smart Irrigation Advisor | RL Grid-Solver Game | Autonomous Logic Rover |
+| Class 7 | Term 1 | June | Week 01 | Module 1: AI Purpose, History & Computational Thinking | Evolution of AI: Logic to Deep Learning & 2026 Systems | 2017–2026 AI Evolution Map | Symbolic vs Neural Debate | Narrow vs Reasoning Audit | Real-World AI Impact Log | Human Responsibility Pact |
+| Class 7 | Term 1 | June | Week 01 | Module 1: AI Purpose, History & Computational Thinking | Computational Thinking & Algorithmic Efficiency | Linear vs Binary Search | Recursion Maze Unwrapper | Sorting Cost Visualizer | Problem Decomposition Doc | Flowchart Verification |
+| Class 7 | Term 1 | June | Week 02 | Module 2: Logic Gates & GPU Compute Hardware | Logic Gates, Combinational Circuits & Half-Adder | Half-Adder Truth Builder | Multiplexer Logic Script | NAND Universal Gate Lab | Sensor Priority Encoder | Binary Math Evaluator |
+| Class 7 | Term 1 | June | Week 02 | Module 2: Logic Gates & GPU Compute Hardware | CPU vs GPU vs TPU/NPU & Tensor Arithmetic | Matrix Multiply Speed Lab | Parallel Pixel Shader Idea | VRAM Size Estimator | Cloud vs Edge Latency | Energy-per-Token Audit |
+| Class 7 | Term 1 | June | Week 03 | Module 3: Intermediate Python & Data Stack | Python Comprehensions, Modules & File I/O | Reusable Utility Package | JSON Config Manager | Log Parser & Analyzer | Automated Quiz Grader | Clean CSV Transformer |
+| Class 7 | Term 1 | July | Week 04 | Module 3: Intermediate Python & Data Stack | NumPy Arrays, Vectorization & Matrix Operations | Image Matrix Flipper | Broadcasting Speed Test | Dot-Product Similarity | Grade Matrix Analytics | Synthetic Sensor Array |
+| Class 7 | Term 1 | July | Week 05 | Module 3: Intermediate Python & Data Stack | Pandas DataFrames & Exploratory Data Cleaning | Missing-Value Cleaner | Weather Trend Aggregator | Student Habit Correlator | Outlier Flagging Script | Multi-Table Join Report |
+| Class 7 | Term 1 | July | Week 06 | Module 4: Classical Machine Learning | Scikit-Learn Workflow: Train, Test & Overfitting | Iris Classifier Pipeline | Overfit Depth Comparator | Train-Test Split Guard | Feature Scaling Impact | Confusion Matrix Lab |
+| Class 7 | Term 1 | July | Week 07 | Module 4: Classical Machine Learning | Linear Regression, k-NN & Decision Tree Models | Exam Score Predictor | House Price Regressor | Crop Yield Classifier | Heart-Rate Risk Tree | Hyperparameter Tuner |
+| Class 7 | Term 1 | August | Week 08 | Module 5: Computer Vision Engineering | OpenCV Fundamentals: Grayscale, Blur & Edges | Canny Edge Sketcher | HSV Color Object Tracker | Motion Frame Differencer | Document Corner Finder | Face-Blur Privacy Filter |
+| Class 7 | Term 1 | August | Week 09 | Module 5: Computer Vision Engineering | Feature Extraction, CNN Filters & Object Detection | Manual 3×3 Edge Kernel | Shape Contour Counter | Helmet Safety Detector | Barcode/QR Scanner Tool | Smart Parking Counter |
+| Class 7 | Term 1 | August | Week 10 | Module 6: NLP & Transformer LLMs | Text Vectorization: TF-IDF & Cosine Similarity | Mini Search Engine | News Topic Classifier | Duplicate Question Finder | Book Recommender Tool | Spam Filter Trainer |
+| Class 7 | Term 1 | September | Week 11 | Module 6: NLP & Transformer LLMs | Attention Mechanism (2017) & Transformer Blocks | Self-Attention Heat Map | Token Embedding Explorer | Context Window Slicer | RAG Document QA Demo | Prompt Injection Tester |
+| Class 7 | Term 1 | September | Week 12 | Module 6: NLP & Transformer LLMs | How ChatGPT Works: Pretraining, SFT & RLHF | Reward Preference Ranker | System vs User Prompt Lab | Temperature & Top-p Lab | Hallucination Checker | Structured JSON Extractor |
+| Class 7 | Term 1 | October | Week 13 | Module 7: C++ Foundations for Embedded & Robotics | C++ Core Syntax, Types, Functions & Loops | Fast Prime Checker C++ | Telemetry Unit Converter | Sensor Threshold Alert C++ | Array Running Average | Bitmask Flag Controller |
+| Class 7 | Term 1 | October | Week 14 | Module 7: C++ Foundations for Embedded & Robotics | C++ Controller Patterns: setup/loop & millis Timers | Dual-LED Non-Blocking Sync | Debounced Button State C++ | Timed Pump Scheduler | Servo Sweep Trajectory | Watchdog Timeout Guard |
+| Class 7 | Term 2 | November | Week 15 | Module 8: Deep Learning & PyTorch Intro | Neural Networks, Loss Functions & Backprop | Single-Layer Binary Gate | Loss Landscape Plotter | Learning Rate Explorer | Activation Curve Compare | Iris Neural Classifier |
+| Class 7 | Term 2 | November | Week 16 | Module 8: Deep Learning & PyTorch Intro | PyTorch Tensors & Simple Sequential Training | Tensor Shape Debugger | Autograd Slope Calculator | PyTorch Tabular Predictor | Training Loss Visualizer | Saved Weights Predictor |
+| Class 7 | Term 2 | December | Week 17 | Module 9: Reinforcement Learning & Milestones | Q-Learning & Policy Feedback Loops | Grid-Maze Q-Table Agent | Cart-Balance Heuristic Lab | Epsilon-Greedy Explorer | Traffic-Signal Optimizer | Warehouse Bot Scheduler |
+| Class 7 | Term 2 | December | Week 18 | Module 9: Reinforcement Learning & Milestones | DeepMind AlphaGo, AlphaZero & OpenAI Five Dota 2 | MCTS Rollout Simulator | Self-Play Policy Log | Multi-Agent Team Tactics | Heuristic vs Learned Eval | Sparse Reward Challenge |
+| Class 7 | Term 2 | December | Week 19 | Module 9: Reinforcement Learning & Milestones | 2024–2026 Milestones: o1/o3, DeepSeek-R1 & AlphaGenome | Inference Budget Compare | Pure RL Reasoning Trace | DNA Variant Priority Demo | Video World-Model Critique | Benchmark Gaming Audit |
+| Class 7 | Term 2 | January | Week 20 | Module 10: Raspberry Pi Python & C++ Robotics | Raspberry Pi Python Vision & GPIO Control | Camera Motion Snapshot | Color-Zone Signal Script | Local Flask Sensor Page | Serial Command Sender | Edge Log Monitor |
+| Class 7 | Term 2 | January | Week 21 | Module 10: Raspberry Pi Python & C++ Robotics | C++ Sensor Parsing & Mobile Robot Control | Ultrasonic Distance Filter | Line-Follower State Table | Differential Speed Mix | Serial Command Parser C++ | Emergency Obstacle Stop |
+| Class 7 | Term 2 | January | Week 22 | Module 11: Multimodal, World & Physical AI | Vision-Language-Action (Gemini Robotics 2.5) | Scene-to-Action Planner | Spoken Instruction Parser | Safe Grasp Constraint Lab | Factory Kitting Sequence | On-Device vs Cloud Robot |
+| Class 7 | Term 2 | January | Week 23 | Module 11: Multimodal, World & Physical AI | Multimodal AI: Vision + Audio + Text Integration | Image-Caption QA Helper | Voice-to-Task Assistant | Chart-Reading Analyzer | Cross-Modal Fact Check | Accessible UI Narrator |
+| Class 7 | Term 2 | February | Week 24 | Module 12: Responsible AI & Security | Model Bias, Adversarial Inputs & Deepfake Defense | Dataset Imbalance Audit | Confident Error Stress Test | Prompt Guardrail Wrapper | Privacy-Preserving Pipeline | Watermark Verification |
+| Class 7 | Term 2 | February | Week 25 | Module 12: Responsible AI & Security | Reproducible Engineering & Evaluation Hygiene | Random Seed Replicator | Baseline vs Model Report | Failure-Slice Analyzer | Clean README & Model Card | Latency & Cost Profiler |
+| Class 7 | Term 2 | February | Week 26 | Module 13: Capstone Engineering | Dual-Stack Design: Python AI + C++ Control | Problem Spec & Architecture | Annotated Mini Dataset | Python Model Training | C++ Safety Control Loop | Integration Test Matrix |
+| Class 7 | Term 2 | March | Week 27 | Module 13: Capstone Engineering | Debugging, Latency Tuning & Model Packaging | Frame-Rate Speedup Lab | False-Positive Reduction | Battery-Safe Loop Audit | Live Edge Demo Script | Peer Code Review |
+| Class 7 | Term 2 | March | Week 28 | Module 13: Capstone Engineering | Class 7 AI & Robotics Capstone Exhibition | Vision Waste-Sorting Gate | Smart Greenhouse Predictor | RAG School Knowledge Kiosk | C++ Obstacle Rover Sim | Bilingual Study Helper |
+| Class 8 | Term 1 | June | Week 01 | Module 1: Modern AI Architecture & Thinking | AI Paradigm Shifts (2017–2026) & Systems Thinking | Transformer-to-Agent Map | Test-Time Compute Case | System Decomposition Spec | Open vs Closed Weight Audit | AI Failure Postmortem |
+| Class 8 | Term 1 | June | Week 01 | Module 1: Modern AI Architecture & Thinking | Boolean Logic, Flip-Flops & Digital Compute | State Memory Gate Sim | Priority Interrupt Logic | Checksum XOR Verifier | Finite State Machine Lab | Bitwise Telemetry Packer |
+| Class 8 | Term 1 | June | Week 02 | Module 2: GPUs, Tensors & Numerical Python | GPU Parallel Architecture, CUDA Intuition & VRAM | Matrix Block Tiling Demo | Batch Size VRAM Calculator | CPU vs GPU Training Log | Precision FP32 vs FP16 | Quantized Memory Planner |
+| Class 8 | Term 1 | June | Week 02 | Module 2: GPUs, Tensors & Numerical Python | Object-Oriented Python Basics for AI Projects | SensorData Class Model | Dataset Loader Class | Experiment Logger Object | Agent Persona Class | Robot Kinematics Object |
+| Class 8 | Term 1 | June | Week 03 | Module 3: PyTorch Foundations | PyTorch Tensors, Broadcasting & Autograd | Custom Autograd Linear Fit | Gradient Vanishing Probe | Vectorized Cosine Search | Batch Image Normalizer | Dynamic Compute Graph Lab |
+| Class 8 | Term 1 | July | Week 04 | Module 3: PyTorch Foundations | PyTorch nn.Module, Loss & Optimizers (SGD/Adam) | Custom MLP Classifier | SGD vs Adam Race Plot | Early Stopping Trainer | Weighted Class Loss Fix | Saved Checkpoint Loader |
+| Class 8 | Term 1 | July | Week 05 | Module 4: Evaluation & Data Engineering | Scikit-Learn Metrics: Precision, Recall, F1 & ROC | Medical Triage Threshold | Fraud Recall Optimizer | Multi-Class F1 Matrix | Cross-Validation Harness | Data Leakage Detector |
+| Class 8 | Term 1 | July | Week 06 | Module 4: Evaluation & Data Engineering | Feature Engineering, PCA & Unsupervised Clustering | Student Cluster Explorer | Sensor Drift Compressor | K-Means Color Quantizer | Anomaly Z-Score Monitor | Pipeline Transformer Rig |
+| Class 8 | Term 1 | July | Week 07 | Module 5: Deep Computer Vision | Convolutional Neural Networks (CNN) in PyTorch | Digit Recognition CNN | Receptive Field Visualizer | Data Augmentation Trainer | Overfit Dropout Compare | Real-Time Sketch Reader |
+| Class 8 | Term 1 | August | Week 08 | Module 5: Deep Computer Vision | Real-Time Vision: Object Detection & Pose Estimation | PPE Safety Helmet Detector | Hand-Gesture Command Node | Traffic Sign Localizer | Posture Alignment Tracker | Bounding-Box IoU Grader |
+| Class 8 | Term 1 | August | Week 09 | Module 6: NLP, Embeddings & Transformers | Word Embeddings, Semantic Search & Cosine Vectors | Local FAQ Vector Search | Synonym Clustering Map | Bias in Word Vectors Lab | Resume-Skill Matcher | Hybrid Keyword+Vector Lab |
+| Class 8 | Term 1 | August | Week 10 | Module 6: NLP, Embeddings & Transformers | Transformer Self-Attention (Q/K/V) & Context | Scaled Dot-Product Script | Multi-Head Split Toy Lab | Causal Masking Simulator | Long-Context Needle Test | Token Budget Optimizer |
+| Class 8 | Term 1 | September | Week 11 | Module 7: LLMs, RAG & Tool Calling | How ChatGPT Works: Pretraining, RLHF & Tool Use | Function-Calling Calculator | Grounded RAG School Bot | Schema-Validated JSON API | Critique-and-Refine Loop | Prompt Injection Shield |
+| Class 8 | Term 1 | September | Week 12 | Module 7: LLMs, RAG & Tool Calling | Reasoning AI: OpenAI o1/o3 & DeepSeek-R1 Patterns | CoT Reasoning Evaluator | Verifier-Guided Code Fix | Hard Logic Tree Solver | Confidence Calibration Lab | Cost vs Accuracy Router |
+| Class 8 | Term 1 | October | Week 13 | Module 8: Intermediate C++ for Controllers | C++ Pointers, References, Structs & Ring Buffers | Zero-Copy Packet Buffer | Rolling Sensor Filter C++ | Struct Telemetry Frame | Pointer Swap Profiler | Fixed-Memory Task Queue |
+| Class 8 | Term 1 | October | Week 14 | Module 8: Intermediate C++ for Controllers | C++ Classes, State Machines & PID Control | OOP Motor Controller C++ | Line-Following PID Tuner | UART/I2C Protocol Parser | Multi-Mode Robot FSM | Emergency Failsafe Watchdog |
+| Class 8 | Term 2 | November | Week 15 | Module 9: Edge AI & Raspberry Pi Python | Raspberry Pi Python: OpenCV + Hardware Control | Pi Traffic Light Vision | Edge Barcode Inventory Hub | Flask Live Telemetry UI | Audio Keyword Trigger Node | Pi-to-Controller Serial Link |
+| Class 8 | Term 2 | November | Week 16 | Module 9: Edge AI & Raspberry Pi Python | TinyML & On-Device Model Optimization | Model Size Profiler | Pruned Classifier Benchmark | Threshold Calibration Node | Offline Latency Stress Test | Edge Battery-Power Budget |
+| Class 8 | Term 2 | December | Week 17 | Module 10: Reinforcement Learning Systems | RL Foundations: MDP, Q-Learning & Deep Q-Networks | Lunar-Lander Policy Sim | Gridworld Maze Learner | Dynamic Signal Scheduler | Multi-Step Reward Shaper | Policy Collapse Debugger |
+| Class 8 | Term 2 | December | Week 18 | Module 10: Reinforcement Learning Systems | AlphaGo, AlphaZero & OpenAI Five Dota 2 Mechanics | Minimax vs MCTS Arena | Self-Play Elo Tracker | Multi-Agent Team Comms | Reward Hacking Case Study | Opponent Strategy Explorer |
+| Class 8 | Term 2 | December | Week 19 | Module 11: 2024–2026 Frontier Breakthroughs | Diffusion & World Models: OpenAI Sora & DeepMind Genie 2 | Denoising Step Visualizer | Latents & Consistency Audit | Simulated Game World Agent | Video Deepfake Forensic Lab | Action-Conditioned Rollout |
+| Class 8 | Term 2 | January | Week 20 | Module 11: 2024–2026 Frontier Breakthroughs | AI for Biology: AlphaFold 3 & AlphaGenome (2025–2026) | Non-Coding DNA Motif Finder | Gene Variant Impact Ranker | Protein Contact Distance Lab | Sequence Window Scorer | Scientific Claim Verifier |
+| Class 8 | Term 2 | January | Week 21 | Module 12: Physical AI & Humanoid Robotics | Vision-Language-Action (Gemini Robotics 2 & 2.5) | Task-Plan-to-Joint Motion | Factory Kitting Simulator | Visual Servoing Target Lock | Safety-Fence Collision Guard | Sim-to-Real Gap Checklist |
+| Class 8 | Term 2 | January | Week 22 | Module 12: Physical AI & Humanoid Robotics | Hybrid Robotics: Python Vision Brain + C++ Reflex | Vision Gesture-to-Rover | Auto-Tracking Gimbal Node | Voice-Command Warehouse Bot | Line + Object Hybrid Nav | Failsafe Telemetry Logger |
+| Class 8 | Term 2 | January | Week 23 | Module 13: AI Agents & Coding Assistants | Agentic Workflows: Plan, Tool Use, Test & Verify | Multi-Step Research Agent | Automated Test-Fix Loop | Code Review Critic Agent | Guardrailed File Helper | Human-Approval Checkpoints |
+| Class 8 | Term 2 | February | Week 24 | Module 13: AI Agents & Coding Assistants | Adversarial Robustness, Security & AI Red-Teaming | Prompt Jailbreak Defense | Poisoned Dataset Detector | Hallucination Benchmark Suite | Model Card & Bias Audit | Data Governance Checklist |
+| Class 8 | Term 2 | February | Week 25 | Module 14: Applied PyTorch Systems | Transfer Learning with Pretrained Vision Backbones | Leaf Disease Classifier | Sign-Language Digit Reader | Fine-Tune Freeze vs Unfreeze | Few-Shot Custom Sorting | Grad-CAM Saliency Map |
+| Class 8 | Term 2 | February | Week 26 | Module 14: Applied PyTorch Systems | Hybrid Audio & Time-Series Sequence Models | Vibration Fault Classifier | Keyword Spotting Spectrogram | Air Quality Forecast Net | Heartbeat Pattern Detector | Sliding-Window Predictor |
+| Class 8 | Term 2 | March | Week 27 | Module 15: Class 8 Capstone Engineering | End-to-End Architecture, Data & Hardware Loops | Problem & Constraint Spec | Clean Versioned Dataset | PyTorch Model & Eval | C++ / Pi Control Execution | Failure Mode Playbook |
+| Class 8 | Term 2 | March | Week 28 | Module 15: Class 8 Capstone Engineering | Class 8 AI, PyTorch & Robotics Showcase | Autonomous Gesture Rover | Leaf Health Vision Scanner | Local RAG Lab Assistant | PID + Vision Tracker Rig | Smart Industrial Kitting Sim |
+| Class 9 | Term 1 | June | Week 01 | Module 1: Frontier AI & Systems Architecture | Frontier Landscape (2017–2026) & Scaling Laws | Compute vs Reasoning Audit | Test-Time Scaling Analysis | End-to-End System Blueprint | Lab Hardware-Software Spec | Reproducibility Contract |
+| Class 9 | Term 1 | June | Week 01 | Module 1: Frontier AI & Systems Architecture | Digital Logic to ALU, GPU, TPU & NPU Hardware | 4-Bit ALU Python Simulator | Systolic Array Matrix Flow | GPU Tensor Core Throughput | NPU Edge Quantization Plan | KV-Cache Memory Calculator |
+| Class 9 | Term 1 | June | Week 02 | Module 2: Object-Oriented Python Engineering | Python OOP: Classes, Inheritance & Polymorphism | Modular BaseSensor Hierarchy | Pluggable Model Interface | Robot Agent State Classes | Custom Exception Hierarchy | Unit-Tested Python Package |
+| Class 9 | Term 1 | June | Week 02 | Module 2: Object-Oriented Python Engineering | Clean Software Patterns: Composition, Logging & Typing | Typed Config Dataclasses | Structured Experiment Logger | Deterministic Seed Harness | CLI Pipeline Orchestrator | Pytest/Unittest Suite |
+| Class 9 | Term 1 | June | Week 03 | Module 3: PyTorch Deep Learning Architecture | Custom PyTorch Datasets, DataLoaders & Training Loops | Streaming Image DataLoader | Mixed-Precision AMP Trainer | Learning-Rate Warmup Lab | Gradient Clipping Debugger | Experiment Metric Tracker |
+| Class 9 | Term 1 | July | Week 04 | Module 3: PyTorch Deep Learning Architecture | Deep CNNs, Residual Blocks & Transfer Learning | ResNet-Style Skip Block | Medical X-Ray Classifier | Fine-Tuned Industrial QA | Feature-Map Grad-CAM Tool | Class-Imbalance Focal Loss |
+| Class 9 | Term 1 | July | Week 05 | Module 3: PyTorch Deep Learning Architecture | PyTorch Model Optimization: Quantization & ONNX Export | Dynamic INT8 Quantizer | ONNX Runtime Speed Test | Latency vs Accuracy Pareto | Weight Pruning Experiment | Edge Packaging Benchmark |
+| Class 9 | Term 1 | July | Week 06 | Module 4: Modern NLP & Transformer Internals | Multi-Head Self-Attention & Positional Encoding | From-Scratch Attention Block | RoPE / Positional Demo | Byte-Pair Tokenizer Lab | Tiny Character Transformer | Attention Entropy Inspector |
+| Class 9 | Term 1 | July | Week 07 | Module 4: Modern NLP & Transformer Internals | LLM Training Pipeline: Pretraining, SFT, RLHF & DPO | Preference Pair Dataset Lab | LoRA Low-Rank Intuition | DPO Alignment Toy Demo | Catastrophic Forget Test | Eval Perplexity Benchmark |
+| Class 9 | Term 1 | August | Week 08 | Module 5: Applied Generative AI & Agents | Production RAG, Vector Indexing & Hybrid Retrieval | Chunking & Overlap Tuner | Hybrid BM25 + Dense Search | Grounded Citation Evaluator | Knowledge Refresh Indexer | Context Poisoning Guard |
+| Class 9 | Term 1 | August | Week 09 | Module 5: Applied Generative AI & Agents | Autonomous Agent Workflows, Planning & Evals | ReAct Tool-Use Runner | Multi-Agent Critic Pipeline | Deterministic Eval Harness | Sandboxed Code Executor | Failure Recovery Loop |
+| Class 9 | Term 1 | August | Week 10 | Module 6: Reasoning & Frontier Models (2024–2026) | Test-Time Compute & Reasoning: OpenAI o1/o3 & DeepSeek-R1 | GRPO Verification Toy Loop | Chain-of-Thought Budgeter | Self-Consistency Voter | Reasoning vs Memorize Test | Distilled Small Reasoner |
+| Class 9 | Term 1 | September | Week 11 | Module 6: Reasoning & Frontier Models (2024–2026) | Mixture-of-Experts (MoE) & Efficiency Scaling | Sparse Router Simulator | Expert Load-Balance Plot | Small vs Frontier Cost Audit | Local Quantized SLM Lab | Latency SLA Planner |
+| Class 9 | Term 1 | September | Week 12 | Module 7: Scientific AI & World Models | DeepMind AlphaFold 3 & AlphaGenome 2 Atlas (2026) | Variant Impact Prioritizer | Non-Coding Motif Scorer | 3D Structure Distance Map | Single-Cell Profile Lab | Scientific Validation Audit |
+| Class 9 | Term 1 | October | Week 13 | Module 7: Scientific AI & World Models | Generative World Models: Sora & DeepMind Genie 2 | Latent Diffusion Stepper | Temporal Consistency Probe | Interactive Rollout Sim | Physics Hallucination Audit | Synthetic Training Data Lab |
+| Class 9 | Term 1 | October | Week 14 | Module 8: Deep Reinforcement Learning | PPO, Actor-Critic & MuZero/AlphaZero Concepts | Continuous Control Agent | Advantage Normalization Lab | Monte Carlo Tree Search | AlphaZero Self-Play Demo | OpenAI Five Strategy Sim |
+| Class 9 | Term 2 | November | Week 15 | Module 9: Applied C++ & Real-Time Firmware | C++ OOP: Classes, Encapsulation, Vectors & Memory | OOP Motor & Sensor Library | Deterministic Fixed Alloc | Template Ring-Buffer C++ | Safe ISR Flag Architecture | Telemetry Codec Class |
+| Class 9 | Term 2 | November | Week 16 | Module 9: Applied C++ & Real-Time Firmware | Real-Time Embedded C++ for Arduino & ESP Controllers | Non-Blocking Scheduler C++ | Dual-Loop PID + Filter | Multi-Sensor I2C/SPI Fusion | Failsafe Watchdog Firmware | Serial Binary Protocol |
+| Class 9 | Term 2 | December | Week 17 | Module 10: Edge AI, TinyML & Hybrid SBC Systems | TinyML: Exporting Models to C++ Controllers | Gesture Classifier to C++ | Vibration Anomaly Edge MCU | Wake-Word Quantized Filter | Flash & RAM Footprint Audit | Real-Time Inference Bench |
+| Class 9 | Term 2 | December | Week 18 | Module 10: Edge AI, TinyML & Hybrid SBC Systems | Raspberry Pi Linux Python Vision + C++ Controller Bridge | Pi Camera Lane & Sign Net | Two-Way UART Command Node | Async Telemetry Dashboard | Local MQTT Fleet Broker | Edge Watchdog Recovery |
+| Class 9 | Term 2 | December | Week 19 | Module 11: Computer Vision & Spatial Intelligence | Modern Object Detection, Tracking & Optical Flow | Multi-Object Tracker ID | Optical Flow Velocity Map | Depth-from-Stereo Intuition | Defect Bounding Evaluator | Low-Light Robustness Test |
+| Class 9 | Term 2 | January | Week 20 | Module 11: Computer Vision & Spatial Intelligence | Physical AI: Vision-Language-Action (Gemini Robotics 2.5) | VLA Policy Architecture | Natural-Language Grasping | Whole-Body Balance Sim | Industrial Kitting Planner | On-Device Gemma Edge Node |
+| Class 9 | Term 2 | January | Week 21 | Module 12: Robotics Autonomy & Control | Autonomous Navigation, SLAM Intuition & Path Planning | A* & Dijkstra Grid Planner | Occupancy Grid Mapper | Kalman/Complementary Filter | Dynamic Obstacle Re-Planner | Swarm Coordination Demo |
+| Class 9 | Term 2 | January | Week 22 | Module 12: Robotics Autonomy & Control | Autonomous Flight & Drone Intelligence Concepts | Attitude Stabilization Loop | Optical-Flow Hover Logic | Waypoint Mission Planner | Battery Return-to-Home AI | Failsafe Geofence Monitor |
+| Class 9 | Term 2 | January | Week 23 | Module 13: AI Safety, Alignment & Governance | AI Alignment, Red-Teaming & Interpretability | Mechanistic Activation Probe | Adversarial Patch Attack | System Card & Risk Matrix | Privacy Threat Modeling | Human Override Protocol |
+| Class 9 | Term 2 | February | Week 24 | Module 13: AI Safety, Alignment & Governance | Benchmarking, Evals & Production Reliability | Golden Dataset Eval Runner | Regression Gate CI Script | Drift & Out-of-Distrib Alert | Latency P95 Profiler | Incident Postmortem Template |
+| Class 9 | Term 2 | February | Week 25 | Module 14: Flagship Systems Engineering | Phase 1: Architecture, Dataset & Baseline Model | Technical Design Review | Curated Versioned Dataset | Baseline PyTorch Model | Error & Bias Diagnosis | Resource Budget Sign-Off |
+| Class 9 | Term 2 | February | Week 26 | Module 14: Flagship Systems Engineering | Phase 2: OOP Python + C++ / Edge Integration | Clean OOP Python Core | C++ Real-Time Loop Build | Hardware-in-Loop Bench Test | Quantized Model Benchmark | Failsafe Verification |
+| Class 9 | Term 2 | March | Week 27 | Module 14: Flagship Systems Engineering | Phase 3: Stress Testing, Optimization & Docs | Adversarial Edge Cases | Frame-Rate & Memory Polish | Complete Repro Repo & Docs | Live Fault Recovery Drill | Dry-Run Pitch Critique |
+| Class 9 | Term 2 | March | Week 28 | Module 14: Flagship Systems Engineering | Class 9 Flagship AI & Robotics Exhibition | Edge Vision Drone/Rover | Hybrid Pi-Controller Farm AI | Audited Local RAG Assistant | TinyML Anomaly Wearable | VLA Humanoid Task Sim |

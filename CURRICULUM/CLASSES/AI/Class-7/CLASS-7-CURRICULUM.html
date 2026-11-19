@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class 7 AI, Computing &amp; Robotics Curriculum</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; AI &amp; Computing &rsaquo; Class 7</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Class 7 AI, Computing &amp; Robotics Curriculum</h1>
+<p class="meta">Class 7</p>
+
+</header>
+<main>
+
+<div class="table-wrap"><table><thead><tr><th>Term</th><th>Month</th><th>Week</th><th>Module</th><th>Concept / Topic</th><th>Project 1</th><th>Project 2</th><th>Project 3</th><th>Project 4</th><th>Project 5</th></tr></thead><tbody><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: AI Purpose, History &amp; Computational Thinking</td><td>Evolution of AI: Logic to Deep Learning &amp; 2026 Systems</td><td>2017–2026 AI Evolution Map</td><td>Symbolic vs Neural Debate</td><td>Narrow vs Reasoning Audit</td><td>Real-World AI Impact Log</td><td>Human Responsibility Pact</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 01</td><td>Module 1: AI Purpose, History &amp; Computational Thinking</td><td>Computational Thinking &amp; Algorithmic Efficiency</td><td>Linear vs Binary Search</td><td>Recursion Maze Unwrapper</td><td>Sorting Cost Visualizer</td><td>Problem Decomposition Doc</td><td>Flowchart Verification</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 2: Logic Gates &amp; GPU Compute Hardware</td><td>Logic Gates, Combinational Circuits &amp; Half-Adder</td><td>Half-Adder Truth Builder</td><td>Multiplexer Logic Script</td><td>NAND Universal Gate Lab</td><td>Sensor Priority Encoder</td><td>Binary Math Evaluator</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 02</td><td>Module 2: Logic Gates &amp; GPU Compute Hardware</td><td>CPU vs GPU vs TPU/NPU &amp; Tensor Arithmetic</td><td>Matrix Multiply Speed Lab</td><td>Parallel Pixel Shader Idea</td><td>VRAM Size Estimator</td><td>Cloud vs Edge Latency</td><td>Energy-per-Token Audit</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">June</td><td class="nowrap">Week 03</td><td>Module 3: Intermediate Python &amp; Data Stack</td><td>Python Comprehensions, Modules &amp; File I/O</td><td>Reusable Utility Package</td><td>JSON Config Manager</td><td>Log Parser &amp; Analyzer</td><td>Automated Quiz Grader</td><td>Clean CSV Transformer</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 04</td><td>Module 3: Intermediate Python &amp; Data Stack</td><td>NumPy Arrays, Vectorization &amp; Matrix Operations</td><td>Image Matrix Flipper</td><td>Broadcasting Speed Test</td><td>Dot-Product Similarity</td><td>Grade Matrix Analytics</td><td>Synthetic Sensor Array</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 05</td><td>Module 3: Intermediate Python &amp; Data Stack</td><td>Pandas DataFrames &amp; Exploratory Data Cleaning</td><td>Missing-Value Cleaner</td><td>Weather Trend Aggregator</td><td>Student Habit Correlator</td><td>Outlier Flagging Script</td><td>Multi-Table Join Report</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 06</td><td>Module 4: Classical Machine Learning</td><td>Scikit-Learn Workflow: Train, Test &amp; Overfitting</td><td>Iris Classifier Pipeline</td><td>Overfit Depth Comparator</td><td>Train-Test Split Guard</td><td>Feature Scaling Impact</td><td>Confusion Matrix Lab</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">July</td><td class="nowrap">Week 07</td><td>Module 4: Classical Machine Learning</td><td>Linear Regression, k-NN &amp; Decision Tree Models</td><td>Exam Score Predictor</td><td>House Price Regressor</td><td>Crop Yield Classifier</td><td>Heart-Rate Risk Tree</td><td>Hyperparameter Tuner</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 08</td><td>Module 5: Computer Vision Engineering</td><td>OpenCV Fundamentals: Grayscale, Blur &amp; Edges</td><td>Canny Edge Sketcher</td><td>HSV Color Object Tracker</td><td>Motion Frame Differencer</td><td>Document Corner Finder</td><td>Face-Blur Privacy Filter</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 09</td><td>Module 5: Computer Vision Engineering</td><td>Feature Extraction, CNN Filters &amp; Object Detection</td><td>Manual 3×3 Edge Kernel</td><td>Shape Contour Counter</td><td>Helmet Safety Detector</td><td>Barcode/QR Scanner Tool</td><td>Smart Parking Counter</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">August</td><td class="nowrap">Week 10</td><td>Module 6: NLP &amp; Transformer LLMs</td><td>Text Vectorization: TF-IDF &amp; Cosine Similarity</td><td>Mini Search Engine</td><td>News Topic Classifier</td><td>Duplicate Question Finder</td><td>Book Recommender Tool</td><td>Spam Filter Trainer</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 11</td><td>Module 6: NLP &amp; Transformer LLMs</td><td>Attention Mechanism (2017) &amp; Transformer Blocks</td><td>Self-Attention Heat Map</td><td>Token Embedding Explorer</td><td>Context Window Slicer</td><td>RAG Document QA Demo</td><td>Prompt Injection Tester</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">September</td><td class="nowrap">Week 12</td><td>Module 6: NLP &amp; Transformer LLMs</td><td>How ChatGPT Works: Pretraining, SFT &amp; RLHF</td><td>Reward Preference Ranker</td><td>System vs User Prompt Lab</td><td>Temperature &amp; Top-p Lab</td><td>Hallucination Checker</td><td>Structured JSON Extractor</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 13</td><td>Module 7: C++ Foundations for Embedded &amp; Robotics</td><td>C++ Core Syntax, Types, Functions &amp; Loops</td><td>Fast Prime Checker C++</td><td>Telemetry Unit Converter</td><td>Sensor Threshold Alert C++</td><td>Array Running Average</td><td>Bitmask Flag Controller</td></tr><tr><td class="nowrap">Term 1</td><td class="nowrap">October</td><td class="nowrap">Week 14</td><td>Module 7: C++ Foundations for Embedded &amp; Robotics</td><td>C++ Controller Patterns: setup/loop &amp; millis Timers</td><td>Dual-LED Non-Blocking Sync</td><td>Debounced Button State C++</td><td>Timed Pump Scheduler</td><td>Servo Sweep Trajectory</td><td>Watchdog Timeout Guard</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 15</td><td>Module 8: Deep Learning &amp; PyTorch Intro</td><td>Neural Networks, Loss Functions &amp; Backprop</td><td>Single-Layer Binary Gate</td><td>Loss Landscape Plotter</td><td>Learning Rate Explorer</td><td>Activation Curve Compare</td><td>Iris Neural Classifier</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">November</td><td class="nowrap">Week 16</td><td>Module 8: Deep Learning &amp; PyTorch Intro</td><td>PyTorch Tensors &amp; Simple Sequential Training</td><td>Tensor Shape Debugger</td><td>Autograd Slope Calculator</td><td>PyTorch Tabular Predictor</td><td>Training Loss Visualizer</td><td>Saved Weights Predictor</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 17</td><td>Module 9: Reinforcement Learning &amp; Milestones</td><td>Q-Learning &amp; Policy Feedback Loops</td><td>Grid-Maze Q-Table Agent</td><td>Cart-Balance Heuristic Lab</td><td>Epsilon-Greedy Explorer</td><td>Traffic-Signal Optimizer</td><td>Warehouse Bot Scheduler</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 18</td><td>Module 9: Reinforcement Learning &amp; Milestones</td><td>DeepMind AlphaGo, AlphaZero &amp; OpenAI Five Dota 2</td><td>MCTS Rollout Simulator</td><td>Self-Play Policy Log</td><td>Multi-Agent Team Tactics</td><td>Heuristic vs Learned Eval</td><td>Sparse Reward Challenge</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">December</td><td class="nowrap">Week 19</td><td>Module 9: Reinforcement Learning &amp; Milestones</td><td>2024–2026 Milestones: o1/o3, DeepSeek-R1 &amp; AlphaGenome</td><td>Inference Budget Compare</td><td>Pure RL Reasoning Trace</td><td>DNA Variant Priority Demo</td><td>Video World-Model Critique</td><td>Benchmark Gaming Audit</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 20</td><td>Module 10: Raspberry Pi Python &amp; C++ Robotics</td><td>Raspberry Pi Python Vision &amp; GPIO Control</td><td>Camera Motion Snapshot</td><td>Color-Zone Signal Script</td><td>Local Flask Sensor Page</td><td>Serial Command Sender</td><td>Edge Log Monitor</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 21</td><td>Module 10: Raspberry Pi Python &amp; C++ Robotics</td><td>C++ Sensor Parsing &amp; Mobile Robot Control</td><td>Ultrasonic Distance Filter</td><td>Line-Follower State Table</td><td>Differential Speed Mix</td><td>Serial Command Parser C++</td><td>Emergency Obstacle Stop</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 22</td><td>Module 11: Multimodal, World &amp; Physical AI</td><td>Vision-Language-Action (Gemini Robotics 2.5)</td><td>Scene-to-Action Planner</td><td>Spoken Instruction Parser</td><td>Safe Grasp Constraint Lab</td><td>Factory Kitting Sequence</td><td>On-Device vs Cloud Robot</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">January</td><td class="nowrap">Week 23</td><td>Module 11: Multimodal, World &amp; Physical AI</td><td>Multimodal AI: Vision + Audio + Text Integration</td><td>Image-Caption QA Helper</td><td>Voice-to-Task Assistant</td><td>Chart-Reading Analyzer</td><td>Cross-Modal Fact Check</td><td>Accessible UI Narrator</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 24</td><td>Module 12: Responsible AI &amp; Security</td><td>Model Bias, Adversarial Inputs &amp; Deepfake Defense</td><td>Dataset Imbalance Audit</td><td>Confident Error Stress Test</td><td>Prompt Guardrail Wrapper</td><td>Privacy-Preserving Pipeline</td><td>Watermark Verification</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 25</td><td>Module 12: Responsible AI &amp; Security</td><td>Reproducible Engineering &amp; Evaluation Hygiene</td><td>Random Seed Replicator</td><td>Baseline vs Model Report</td><td>Failure-Slice Analyzer</td><td>Clean README &amp; Model Card</td><td>Latency &amp; Cost Profiler</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">February</td><td class="nowrap">Week 26</td><td>Module 13: Capstone Engineering</td><td>Dual-Stack Design: Python AI + C++ Control</td><td>Problem Spec &amp; Architecture</td><td>Annotated Mini Dataset</td><td>Python Model Training</td><td>C++ Safety Control Loop</td><td>Integration Test Matrix</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 27</td><td>Module 13: Capstone Engineering</td><td>Debugging, Latency Tuning &amp; Model Packaging</td><td>Frame-Rate Speedup Lab</td><td>False-Positive Reduction</td><td>Battery-Safe Loop Audit</td><td>Live Edge Demo Script</td><td>Peer Code Review</td></tr><tr><td class="nowrap">Term 2</td><td class="nowrap">March</td><td class="nowrap">Week 28</td><td>Module 13: Capstone Engineering</td><td>Class 7 AI &amp; Robotics Capstone Exhibition</td><td>Vision Waste-Sorting Gate</td><td>Smart Greenhouse Predictor</td><td>RAG School Knowledge Kiosk</td><td>C++ Obstacle Rover Sim</td><td>Bilingual Study Helper</td></tr></tbody></table></div>
+</main>
+<footer>
+  <p>Source: <a href="CLASS-7-CURRICULUM.md">CLASS-7-CURRICULUM.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

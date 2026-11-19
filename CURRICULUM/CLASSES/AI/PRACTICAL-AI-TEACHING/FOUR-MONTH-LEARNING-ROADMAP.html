@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practical AI Learning Roadmap — Classes 5–9</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="">
+<div class="wrap">
+<p class="crumbs"><a href="../../../INDEX.html">Curriculum</a> &rsaquo; AI &amp; Computing</p>
+<header class="page">
+  <p class="eyebrow">AI &amp; Computing</p>
+  <h1>Practical AI Learning Roadmap — Classes 5–9</h1>
+
+</header>
+<main>
+<nav class="toc"><p>On this page</p><ul><li><a href="#the-learning-approach">The learning approach</a></li><li><a href="#16-week-curriculum">16-week curriculum</a></li><li><a href="#class-wise-expectations">Class-wise expectations</a></li><li><a href="#project-library-to-draw-from">Project library to draw from</a></li><li><a href="#core-skills-to-cover">Core skills to cover</a></li><li><a href="#suggested-assessment">Suggested assessment</a></li><li><a href="#links-to-related-records">Links to related records</a></li><li><a href="#planning-note">Planning note</a></li></ul></nav>
+<p><strong>Programme:</strong> 16 teaching weeks<br><strong>Audience:</strong> Classes 5–9, Batch C and Batch D<br><strong>Status:</strong> Proposed teaching plan; update the lesson log as lessons are actually delivered.<br><strong>Purpose:</strong> A practical starter pathway that helps students understand AI by coding, experimenting, training small models and building useful projects.</p>
+<p>This roadmap supplements the <a href="../AI-CURRICULUM-CLASSES-5-TO-9.html">canonical eight-module AI curriculum</a>. It does not replace it. Topics are sequenced for a practical 16-week introduction. Exact calendar dates can be entered after matching the programme to the school calendar.</p>
+<h2 id="the-learning-approach">The learning approach</h2>
+<p>Students should repeatedly:</p>
+<p><strong>See it → Try it → Change it → Test it → Explain it → Build with it.</strong></p>
+<p>Keep explanations short. Every major idea should connect to a visible experiment or a small product. Students should understand the work they build, not simply copy code or accept an AI-generated answer.</p>
+<h2 id="16-week-curriculum">16-week curriculum</h2>
+<h3 id="month-1-python-coding-and-ai-foundations">Month 1 — Python, coding and AI foundations</h3>
+<div class="table-wrap"><table><thead><tr><th>Week</th><th>Teach</th><th>Practical lesson / build</th><th>Students should be able to</th></tr></thead><tbody><tr><td class="nowrap">1</td><td>What AI is; AI around us; AI vs ordinary rule-based programs; what AI can and cannot do</td><td><strong>AI Detective:</strong> sort real-world examples, try a teacher-led AI demonstration and identify the problem it solves</td><td>Give simple examples of AI and explain what a chosen system does</td></tr><tr><td class="nowrap">2</td><td>Python setup; notebook cells; <code>print()</code>; variables; input; basic data types</td><td><strong>Number Guessing Game:</strong> change a starter notebook so the computer gives clues and responds to the player</td><td>Run a notebook, change values and explain variables and input</td></tr><tr><td class="nowrap">3</td><td>Comparisons; <code>if/else</code>; loops; step-by-step algorithms</td><td><strong>Quiz Game and Pattern Generator:</strong> build a small quiz or make the computer generate number patterns</td><td>Use conditions and loops to control a simple program</td></tr><tr><td class="nowrap">4</td><td>Functions; lists; importing a library; reading simple error messages</td><td><strong>Mini Python Toolkit:</strong> create a calculator, list-based quiz or pattern tool using reusable functions</td><td>Explain a function, use a list and import a library</td></tr></tbody></table></div>
+<h3 id="month-2-data-and-machine-learning">Month 2 — Data and machine learning</h3>
+<div class="table-wrap"><table><thead><tr><th>Week</th><th>Teach</th><th>Practical lesson / build</th><th>Students should be able to</th></tr></thead><tbody><tr><td class="nowrap">5</td><td>Jupyter Notebook workflow; code and Markdown cells; running cells; NumPy introduction; simple charts with Matplotlib</td><td><strong>Interactive Data Playground:</strong> change numbers and see a chart update</td><td>Run cells in order, import a library and describe a simple chart</td></tr><tr><td class="nowrap">6</td><td>Rows, columns, datasets, labels, CSV files, missing or incorrect values; introductory pandas</td><td><strong>Data Detective:</strong> explore a small, safe dataset such as plant counts, classroom objects or daily temperatures</td><td>Organise data, identify a problem in a dataset and describe a pattern</td></tr><tr><td class="nowrap">7</td><td>Machine learning; features and labels; training examples; regression and numeric prediction</td><td><strong>Number Predictor:</strong> train a small model on a simple numeric dataset, make a prediction and compare it with the known value</td><td>Explain that a model learns a pattern from examples and produces an estimate</td></tr><tr><td class="nowrap">8</td><td>Classification; training vs test data; predictions; accuracy and common errors</td><td><strong>Handwritten Digit Recogniser:</strong> use a prepared 0–9 digit dataset or approved demo, test new examples and inspect mistakes</td><td>Explain classification and why a model must be tested on examples it did not train on</td></tr></tbody></table></div>
+<h3 id="month-3-computer-vision-and-generative-ai">Month 3 — Computer vision and generative AI</h3>
+<div class="table-wrap"><table><thead><tr><th>Week</th><th>Teach</th><th>Practical lesson / build</th><th>Students should be able to</th></tr></thead><tbody><tr><td class="nowrap">9</td><td>Images as pixels; colour channels; image classification; training examples</td><td><strong>Teach an Image Classifier:</strong> classify safe object categories such as bottles, books or fruit using an approved tool or prepared dataset</td><td>Explain that images are represented as data and that labels guide classification</td></tr><tr><td class="nowrap">10</td><td>Object detection vs image classification; test conditions; model limitations</td><td><strong>Object Recognition Challenge:</strong> change image backgrounds, angles, distance or lighting and record when the model fails</td><td>Distinguish classification from detection and describe conditions that affect results</td></tr><tr><td class="nowrap">11</td><td>Natural language processing; generative AI; large language models; prompting; hallucinations and verification</td><td><strong>AI Quiz or Study Assistant:</strong> compare prompts, generate questions and check answers against teacher-approved sources</td><td>Write a clearer prompt and verify an AI-generated answer</td></tr><tr><td class="nowrap">12</td><td>AI coding assistants; asking for small changes; reading generated code; running, debugging and improving</td><td><strong>Build with an AI Assistant:</strong> create a simple quiz, calculator or information app with teacher-guided help</td><td>Explain what the assistant contributed and describe how the code was tested</td></tr></tbody></table></div>
+<h3 id="month-4-applications-and-student-projects">Month 4 — Applications and student projects</h3>
+<div class="table-wrap"><table><thead><tr><th>Week</th><th>Teach</th><th>Practical lesson / build</th><th>Students should be able to</th></tr></thead><tbody><tr><td class="nowrap">13</td><td>Connecting Python, a trained model and a simple application; responsible use in practice</td><td><strong>Model-powered Mini App:</strong> show a model prediction in a simple notebook or interface; check data privacy, fairness and output reliability</td><td>Demonstrate a model in use and identify at least one limitation or risk</td></tr><tr><td class="nowrap">14</td><td>Finding a real problem; identifying users; choosing whether AI is useful; planning and dividing team roles</td><td><strong>Project Design Sprint:</strong> choose a school or community problem and prepare a simple project plan</td><td>State the problem, intended user, proposed solution and how it will be tested</td></tr><tr><td class="nowrap">15</td><td>Building, testing, debugging, improving and documenting</td><td><strong>Project Build Lab:</strong> make a working prototype, test different cases and improve one weakness</td><td>Show evidence of testing and explain one improvement</td></tr><tr><td class="nowrap">16</td><td>Demonstration, explanation, reflection and next steps</td><td><strong>AI Project Exhibition:</strong> demonstrate the project and explain the problem, data, AI method, tests, failures and improvements</td><td>Present their work and explain what they understand rather than only showing the result</td></tr></tbody></table></div>
+<h2 id="class-wise-expectations">Class-wise expectations</h2>
+<p>Teach the same weekly theme across Classes 5–9, but adjust the amount of code, independence and explanation expected.</p>
+<div class="table-wrap"><table><thead><tr><th>Class</th><th>Expected level</th><th>Adaptation</th></tr></thead><tbody><tr><td class="nowrap">5 — Discover</td><td>Highly guided and visual</td><td>Use demonstrations, prepared notebooks, small code edits, object sorting and simple patterns. Keep typing and mathematics light.</td></tr><tr><td class="nowrap">6 — Understand</td><td>Guided coding and data work</td><td>Write short Python programs, organise small datasets, label examples and run prepared model experiments.</td></tr><tr><td class="nowrap">7 — Experiment</td><td>More independent coding and testing</td><td>Write and modify notebook cells, split examples into training and test sets, compare predictions and record errors.</td></tr><tr><td class="nowrap">8 — Build</td><td>Applied Python and AI projects</td><td>Use functions and libraries, analyse datasets, train simple models and connect model outputs to a small application.</td></tr><tr><td class="nowrap">9 — Create and evaluate</td><td>Greater independence and reasoning</td><td>Design experiments, compare model results, investigate errors, use AI coding assistants critically and document reproducible steps.</td></tr></tbody></table></div>
+<p>Do not assume every student in a class has the same prior experience. Provide a starter version and an extension challenge for each activity.</p>
+<h2 id="project-library-to-draw-from">Project library to draw from</h2>
+<p>Choose projects according to class level, available devices and preparation time.</p>
+<ol><li><strong>Number pattern explorer:</strong> generate sequences and ask students to predict the next value.</li><li><strong>Number predictor:</strong> fit a simple regression model to a small, understandable dataset.</li><li><strong>Handwritten digit recogniser:</strong> classify digits from 0 to 9 using a prepared dataset.</li><li><strong>Object image classifier:</strong> classify safe, non-personal images such as fruit, stationery or recyclable objects.</li><li><strong>Object recognition experiment:</strong> explore how position, lighting and background affect predictions.</li><li><strong>Data explorer:</strong> turn a small dataset into charts and observations.</li><li><strong>AI quiz generator:</strong> use a language model to draft questions, then verify and edit them.</li><li><strong>School information assistant:</strong> create a simple guided chatbot using only approved, non-sensitive information.</li><li><strong>Waste awareness/classification tool:</strong> demonstrate how image categories might support waste sorting; do not present it as a safety-critical sorting system.</li><li><strong>Student-designed application:</strong> use Python and an AI coding assistant to prototype a solution to a real problem.</li></ol>
+<p>A project is successful when students can explain its purpose, inputs, method, output, tests and limitations. A polished appearance alone is not sufficient.</p>
+<h2 id="core-skills-to-cover">Core skills to cover</h2>
+<ul><li><strong>Computational thinking:</strong> decomposition, patterns, abstraction, algorithms and flowcharts.</li><li><strong>Python:</strong> output, variables, input, data types, conditions, loops, lists, functions, imports and debugging.</li><li><strong>Notebook skills:</strong> cells, execution order, Markdown notes, simple charts and recording experiments.</li><li><strong>Data:</strong> tables, CSV, labels, quality, missing values, training data and test data.</li><li><strong>Machine learning:</strong> regression, classification, prediction, training, testing and evaluation.</li><li><strong>Computer vision:</strong> pixels, image classification, object detection and model limitations.</li><li><strong>Generative AI:</strong> language models, prompts, generated content and verification.</li><li><strong>AI-assisted development:</strong> asking for small changes, understanding code, testing, debugging and iterating.</li><li><strong>Project skills:</strong> problem definition, teamwork, prototyping, evaluation and presentation.</li><li><strong>Responsible AI:</strong> privacy, bias, fairness, attribution and human checking, taught through project decisions rather than long standalone lectures.</li></ul>
+<h2 id="suggested-assessment">Suggested assessment</h2>
+<div class="table-wrap"><table><thead><tr><th>Area</th><th style="text-align:right">Weight</th></tr></thead><tbody><tr><td>Practical experiments and notebook work</td><td style="text-align:right">30%</td></tr><tr><td>Projects and prototypes</td><td style="text-align:right">30%</td></tr><tr><td>Understanding and explaining concepts</td><td style="text-align:right">20%</td></tr><tr><td>Problem-solving and creativity</td><td style="text-align:right">10%</td></tr><tr><td>Responsible use and teamwork</td><td style="text-align:right">10%</td></tr></tbody></table></div>
+<p>Use a simple check after each lesson: Can the student explain what they tried, what happened and what they would change?</p>
+<h2 id="links-to-related-records">Links to related records</h2>
+<ul><li><a href="../AI-CURRICULUM-CLASSES-5-TO-9.html">Canonical AI curriculum — Classes 5–9</a></li><li><a href="../FOUR-MONTH-AI-TEACHING-IMPLEMENTATION-PLAN.html">Existing four-month AI teaching framework</a></li><li><a href="TEACHER-DELIVERY-GUIDE.html">Teacher delivery guide and lesson log</a></li><li><a href="../../../../main%20ATL%20school/ATL%20Lab%20Timetable/ATL-LAB-TIMETABLE.html">ATL timetable source</a></li></ul>
+<h2 id="planning-note">Planning note</h2>
+<p>This is a proposed 16-week teaching sequence, not a record that lessons have already been delivered. Record actual dates, activities, student understanding and next steps in the teacher delivery guide.</p>
+</main>
+<footer>
+  <p>Source: <a href="FOUR-MONTH-LEARNING-ROADMAP.md">FOUR-MONTH-LEARNING-ROADMAP.md</a> &middot; Markdown is the source of truth.
+  Regenerate with <code>python CURRICULUM/build_html.py</code>.</p>
+</footer>
+</div>
+</body>
+</html>

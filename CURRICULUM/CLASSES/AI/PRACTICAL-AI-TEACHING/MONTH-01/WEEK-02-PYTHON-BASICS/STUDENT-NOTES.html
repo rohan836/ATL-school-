@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Python Basics — Student Notes</title>
+<style>
+:root{
+  --ink:#182230;--muted:#5b6675;--line:#dbe2ea;--surface:#fff;--page:#f4f7fb;
+  --navy:#17365d;--blue:#e8f1ff;--soft:#f8fbff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:26px 20px 46px}
+header.page{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:20px}
+.eyebrow{margin:0 0 8px;color:#c9dcf7;font-size:.72rem;font-weight:750;
+  letter-spacing:.09em;text-transform:uppercase}
+header.page h1{margin:0;font-size:1.65rem;line-height:1.25}
+.meta{margin:10px 0 0;color:#dbe8fb;font-size:.88rem}
+.crumbs{font-size:.84rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--navy);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+main{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+main>h2:first-child{margin-top:0}
+h2{font-size:1.2rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:1.03rem;margin:20px 0 8px}
+h4,h5,h6{font-size:.97rem;margin:16px 0 6px}
+p{margin:10px 0}
+a{color:#15437e}
+ul,ol{padding-left:22px;margin:10px 0}
+li{margin:4px 0}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;margin:0;font-size:.85rem;line-height:1.45}
+th{background:var(--blue);text-align:left;font-weight:700;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+td.nowrap{white-space:nowrap}
+.table-wrap table th:first-child,.table-wrap table td:first-child{border-left:0}
+.table-wrap table th:last-child,.table-wrap table td:last-child{border-right:0}
+.table-wrap table tr:first-child th{border-top:0}
+.table-wrap table tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:var(--soft)}
+code{background:#eef2f7;padding:1px 5px;border-radius:5px;font-size:.9em}
+blockquote{margin:14px 0;padding:10px 16px;border-left:4px solid #8bb7f0;background:var(--blue);border-radius:0 10px 10px 0}
+blockquote p{margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin:0 0 18px}
+.toc p{margin:0 0 6px;font-weight:700;font-size:.82rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted)}
+.toc ul{margin:0;padding-left:18px}
+.toc li{margin:2px 0}
+footer{margin-top:18px;color:var(--muted);font-size:.84rem}
+footer a{color:var(--navy)}
+details.reveal{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--soft);overflow:hidden}
+details.reveal summary{list-style:none;cursor:pointer;padding:10px 14px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.reveal summary::-webkit-details-marker{display:none}
+details.reveal summary::before{content:"👁";font-size:1em}
+details.reveal[open] summary{border-bottom:1px solid var(--line);background:var(--blue)}
+details.reveal .reveal-body{padding:12px 16px;background:var(--surface)}
+
+/* Clean, home-ready study sheet for Student Notes */
+body.student-doc{font-size:17px;line-height:1.68}
+body.student-doc .wrap{max-width:920px;padding:28px 20px 54px}
+body.student-doc header.page{padding:26px 30px;margin-bottom:22px}
+body.student-doc header.page h1{font-size:1.8rem}
+body.student-doc main{padding:32px 36px}
+body.student-doc h2{font-size:1.34rem;color:var(--navy);margin:32px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+body.student-doc h3{font-size:1.12rem;color:var(--navy);margin:24px 0 10px}
+body.student-doc th,body.student-doc td{padding:11px 14px}
+body.student-doc details.reveal{margin:12px 0 18px;border:1.5px solid #cbd5e1;border-radius:12px}
+body.student-doc details.reveal summary{padding:12px 16px;font-size:1rem;min-height:46px}
+body.student-doc details.reveal .reveal-body{padding:14px 18px;font-size:1rem}
+
+@media (max-width:720px){
+  body.student-doc main{padding:22px 18px}
+  body.student-doc header.page{padding:20px 20px}
+}
+@media print{
+  body{background:#fff}
+  .wrap{max-width:none;padding:0}
+  header.page{background:#fff;color:#000;border:1px solid #000}
+  .eyebrow,.meta{color:#333}
+  main{border:0;padding:0}
+  .toc,details.reveal,table{break-inside:avoid}
+  a{color:#000}
+}
+</style>
+</head>
+<body class="student-doc">
+<div class="wrap">
+
+<header class="page">
+  <p class="eyebrow">Home Study &amp; Quiz Notes</p>
+  <h1>Python Basics — Student Notes</h1>
+<p class="meta">Month 1 &middot; Week 02</p>
+
+</header>
+<main>
+
+<p><strong>AI Lab | Classes 5–9</strong></p>
+<h2 id="1-what-is-python">1. What is Python?</h2>
+<p>Python is a programming language. We use it to write instructions that a computer can run.</p>
+<p>Python can be used to:</p>
+<ul><li>Create games and applications.</li><li>Work with numbers and data.</li><li>Automate tasks.</li><li>Build and experiment with Artificial Intelligence (AI).</li></ul>
+<h2 id="2-what-is-a-python-notebook">2. What is a Python notebook?</h2>
+<p>A notebook is a digital document where we can write and run Python code.</p>
+<ul><li><strong>Cell:</strong> one section of a notebook.</li><li><strong>Code cell:</strong> a cell that contains Python instructions.</li><li><strong>Run:</strong> executes the code in the selected cell.</li><li><strong>Output:</strong> the result shown after the code runs.</li><li><strong>Markdown cell:</strong> a cell used for headings and written notes.</li></ul>
+<p>Run cells one at a time and read the output.</p>
+<h2 id="3-your-first-python-command">3. Your first Python command</h2>
+<p>~~~python<br>print("Hello, AI Lab!")<br>~~~</p>
+<ul><li><code>print()</code> displays information.</li><li>The round brackets <code>()</code> contain the information to display.</li><li>Quotation marks <code>" "</code> or <code>' '</code> mark text.</li></ul>
+<p>Try changing the message:</p>
+<p>~~~python<br>print("Welcome to Python!")<br>print("I am learning to code.")<br>print(25)<br>~~~</p>
+<h2 id="4-variables">4. Variables</h2>
+<p>A <strong>variable</strong> is a name that refers to a value stored in a program.</p>
+<p>~~~python<br>team_name = "Smart Builders"<br>score = 10</p>
+<p>print(team_name)<br>print(score)<br>~~~</p>
+<p>In this example:</p>
+<div class="table-wrap"><table><thead><tr><th>Code part</th><th>Meaning</th></tr></thead><tbody><tr><td><code>team_name</code></td><td>Variable name</td></tr><tr><td><code>"Smart Builders"</code></td><td>String value stored in the variable</td></tr><tr><td><code>score</code></td><td>Another variable name</td></tr><tr><td><code>10</code></td><td>Integer value stored in the variable</td></tr><tr><td><code>=</code></td><td>Assignment operator; assigns the value on the right to the name on the left</td></tr></tbody></table></div>
+<p>A variable's value can be changed:</p>
+<p>~~~python<br>score = 10<br>print(score)</p>
+<p>score = 15<br>print(score)<br>~~~</p>
+<p>The second assignment changes the value of <code>score</code> to <code>15</code>.</p>
+<h2 id="5-basic-data-types">5. Basic data types</h2>
+<p>A <strong>data type</strong> tells Python what kind of value it is working with.</p>
+<div class="table-wrap"><table><thead><tr><th>Data type</th><th>Python name</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>String</td><td><code>str</code></td><td>Text</td><td><code>"Hello"</code></td></tr><tr><td>Integer</td><td><code>int</code></td><td>Whole number without a decimal part</td><td><code>12</code></td></tr><tr><td>Float</td><td><code>float</code></td><td>Number that can have a decimal part</td><td><code>3.5</code></td></tr><tr><td>Boolean</td><td><code>bool</code></td><td>A true-or-false value</td><td><code>True</code></td></tr></tbody></table></div>
+<h3 id="string-str">String — <code>str</code></h3>
+<p>A string is text written inside quotation marks.</p>
+<p>~~~python<br>school = "ATL Lab"<br>language = "Python"<br>number_as_text = "123"<br>~~~</p>
+<p>Even <code>"123"</code> is a string because it is inside quotation marks.</p>
+<h3 id="integer-int">Integer — <code>int</code></h3>
+<p>An integer is a whole number without a decimal part.</p>
+<p>~~~python<br>age = 12<br>score = 100<br>temperature_change = -3<br>~~~</p>
+<h3 id="float-float">Float — <code>float</code></h3>
+<p>A float is a number that can contain a decimal part.</p>
+<p>~~~python<br>height = 4.5<br>price = 25.75<br>whole_value_as_float = 8.0<br>~~~</p>
+<p>Python treats <code>8</code> as an integer and <code>8.0</code> as a float.</p>
+<h3 id="boolean-bool">Boolean — <code>bool</code></h3>
+<p>A Boolean has only two possible values: <code>True</code> or <code>False</code>.</p>
+<p>~~~python<br>is_ready = True<br>is_finished = False<br>~~~</p>
+<p>The first letters in <code>True</code> and <code>False</code> must be capitalised.</p>
+<h2 id="6-check-a-value-s-data-type">6. Check a value's data type</h2>
+<p>Use <code>type()</code> to see the type of a value.</p>
+<p>~~~python<br>print(type("Hello"))<br>print(type(25))<br>print(type(4.5))<br>print(type(True))<br>~~~</p>
+<p>Python reports types such as <code>str</code>, <code>int</code>, <code>float</code> and <code>bool</code>.</p>
+<h2 id="7-getting-information-with-input">7. Getting information with input()</h2>
+<p>The <code>input()</code> function allows a program to receive text typed by a user.</p>
+<p>~~~python<br>team_name = input("Enter your team name: ")<br>print("Welcome,", team_name)<br>~~~</p>
+<p>The typed response is stored in the variable <code>team_name</code>.</p>
+<p><strong>Important:</strong> <code>input()</code> returns text (a string), even when a person types digits.</p>
+<p>~~~python<br>points_text = input("Enter your points: ")<br>print(type(points_text))<br>~~~</p>
+<h2 id="8-converting-data-types">8. Converting data types</h2>
+<p><strong>Type conversion</strong> means changing a value from one data type to another.</p>
+<div class="table-wrap"><table><thead><tr><th>Function</th><th>Purpose</th></tr></thead><tbody><tr><td><code>int()</code></td><td>Converts a suitable value to an integer</td></tr><tr><td><code>float()</code></td><td>Converts a suitable value to a float</td></tr><tr><td><code>str()</code></td><td>Converts a value to text</td></tr></tbody></table></div>
+<p>Example:</p>
+<p>~~~python<br>points_text = "12"<br>points = int(points_text)</p>
+<p>print(points)<br>print(type(points))<br>~~~</p>
+<p>Using a number entered by the user:</p>
+<p>~~~python<br>points_text = input("Enter whole-number points: ")<br>points = int(points_text)</p>
+<p>total = points + 5<br>print("Points plus bonus:", total)<br>~~~</p>
+<p>For this example, enter a whole number such as <code>8</code>. The text must contain a valid number for <code>int()</code> to convert it.</p>
+<h2 id="9-basic-arithmetic-in-python">9. Basic arithmetic in Python</h2>
+<div class="table-wrap"><table><thead><tr><th>Operator</th><th>Operation</th><th>Example</th><th style="text-align:right">Result</th></tr></thead><tbody><tr><td><code>+</code></td><td>Addition</td><td><code>5 + 2</code></td><td style="text-align:right">7</td></tr><tr><td><code>-</code></td><td>Subtraction</td><td><code>5 - 2</code></td><td style="text-align:right">3</td></tr><tr><td><code>*</code></td><td>Multiplication</td><td><code>5 * 2</code></td><td style="text-align:right">10</td></tr><tr><td><code>/</code></td><td>Division</td><td><code>5 / 2</code></td><td style="text-align:right">2.5</td></tr></tbody></table></div>
+<p>Example:</p>
+<p>~~~python<br>first_score = 8<br>second_score = 6</p>
+<p>total = first_score + second_score<br>difference = first_score - second_score<br>product = first_score * second_score</p>
+<p>print("Total:", total)<br>print("Difference:", difference)<br>print("Product:", product)<br>~~~</p>
+<h2 id="10-important-symbols-in-python">10. Important symbols in Python</h2>
+<div class="table-wrap"><table><thead><tr><th>Symbol</th><th>Name / use</th></tr></thead><tbody><tr><td><code>" "</code> or <code>' '</code></td><td>Quotation marks; mark text</td></tr><tr><td><code>()</code></td><td>Parentheses; used when calling functions</td></tr><tr><td><code>=</code></td><td>Assignment; stores a value in a variable</td></tr><tr><td><code>,</code></td><td>Comma; separates items or function arguments</td></tr><tr><td><code>#</code></td><td>Starts a comment</td></tr><tr><td><code>_</code></td><td>Underscore; can be used in variable names</td></tr></tbody></table></div>
+<h3 id="assignment-and-comparison">Assignment and comparison</h3>
+<ul><li>One equals sign <code>=</code> assigns a value: <code>score = 10</code>.</li><li>Two equals signs <code>==</code> compare values: <code>score == 10</code>.</li></ul>
+<p>We will use comparisons more in the next lesson.</p>
+<h2 id="11-variable-naming-rules">11. Variable naming rules</h2>
+<p>Good variable names describe the information they store.</p>
+<p>~~~python<br>team_name = "Team Blue"<br>student_score = 15<br>number_of_points = 20<br>~~~</p>
+<p>Rules:</p>
+<ul><li>Use letters, numbers and underscores.</li><li>Do not use spaces in a variable name.</li><li>Do not begin a variable name with a number.</li><li>Python distinguishes uppercase and lowercase letters.</li><li>Use names that describe the value.</li></ul>
+<p>For example, <code>score</code> and <code>Score</code> are different names in Python.</p>
+<h2 id="12-comments">12. Comments</h2>
+<p>A comment is a note in the code for people reading it. Python does not run the comment.</p>
+<p>~~~python</p>
+<h1 id="store-the-team-s-points">Store the team's points</h1>
+<p>score = 10</p>
+<p>print(score)<br>~~~</p>
+<p>A comment begins with <code>#</code>.</p>
+<h2 id="13-mini-project-team-greeting-and-scoreboard">13. Mini Project — Team Greeting and Scoreboard</h2>
+<p>Build a small program for your group.</p>
+<h3 id="step-1-display-a-welcome-message">Step 1 — Display a welcome message</h3>
+<p>~~~python<br>print("Welcome to the AI Lab")<br>~~~</p>
+<h3 id="step-2-store-your-team-name-and-score">Step 2 — Store your team name and score</h3>
+<p>~~~python<br>team_name = "Team A"<br>score = 5</p>
+<p>print(team_name)<br>print(score)<br>~~~</p>
+<p>Change the example team name and score.</p>
+<h3 id="step-3-add-two-scores">Step 3 — Add two scores</h3>
+<p>~~~python<br>first_score = 8<br>second_score = 6<br>total = first_score + second_score</p>
+<p>print("Total score:", total)<br>~~~</p>
+<p>Change the two scores and run the program again.</p>
+<h3 id="step-4-ask-for-your-team-name">Step 4 — Ask for your team name</h3>
+<p>~~~python<br>team_name = input("Enter your team name: ")<br>print("Welcome,", team_name)<br>~~~</p>
+<h3 id="step-5-optional-challenge-add-a-bonus">Step 5 — Optional challenge: add a bonus</h3>
+<p>~~~python<br>points_text = input("Enter whole-number points: ")<br>points = int(points_text)</p>
+<p>total = points + 5<br>print("Your points plus bonus:", total)<br>~~~</p>
+<h2 id="14-practice-challenges">14. Practice challenges</h2>
+<p>Try these tasks in your notebook:</p>
+<ol><li>Display your favourite subject using <code>print()</code>.</li><li>Create a variable called <code>team_name</code> and store a team name in it.</li><li>Create an integer variable called <code>score</code>.</li><li>Create a float variable called <code>average_score</code>.</li><li>Create a Boolean variable called <code>is_ready</code>.</li><li>Use <code>type()</code> to check the types of your variables.</li><li>Ask the user for a team name using <code>input()</code>.</li><li>Ask for a whole-number score, convert it with <code>int()</code> and add 10 points.</li><li>Make a calculator that adds two numbers.</li><li>Change a variable's value and observe how the output changes.</li></ol>
+<h2 id="15-quick-revision">15. Quick revision</h2>
+<ul><li><strong>Python:</strong> a programming language used to write instructions for a computer.</li><li><strong>Program:</strong> a set of instructions that a computer runs.</li><li><strong>Notebook cell:</strong> a section where we write and run code.</li><li><strong>Output:</strong> the result produced by running code.</li><li><strong><code>print()</code>:</strong> displays information.</li><li><strong>Variable:</strong> a name that refers to a value.</li><li><strong>String (<code>str</code>):</strong> text.</li><li><strong>Integer (<code>int</code>):</strong> a whole number.</li><li><strong>Float (<code>float</code>):</strong> a number that can have a decimal part.</li><li><strong>Boolean (<code>bool</code>):</strong> <code>True</code> or <code>False</code>.</li><li><strong><code>input()</code>:</strong> receives text typed by a user.</li><li><strong><code>type()</code>:</strong> checks the type of a value.</li><li><strong><code>int()</code>:</strong> converts a suitable value to a whole number.</li><li><strong>Comment:</strong> a note in code that begins with <code>#</code>.</li></ul>
+<h2 id="16-self-check">16. Self-check</h2>
+<p>Before finishing, make sure you can:</p>
+<ul><li>[ ] Open a Python notebook and run a code cell.</li><li>[ ] Use <code>print()</code> to display text and numbers.</li><li>[ ] Identify a variable name and its value.</li><li>[ ] Recognise strings, integers, floats and Booleans.</li><li>[ ] Use <code>input()</code> to receive information.</li><li>[ ] Explain why <code>input()</code> returns text.</li><li>[ ] Use <code>int()</code> to convert valid digit text to a whole number.</li><li>[ ] Change code, run it again and explain the output.</li></ul>
+<p><strong>Next topic:</strong> Algorithms, decisions, conditions and loops.</p>
+</main>
+
+</div>
+</body>
+</html>
