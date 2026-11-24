@@ -1,34 +1,23 @@
-# Class 8 AI, Computing & Robotics Curriculum
+# Class 8 AI & Python Curriculum
 
-| Term | Month | Week | Module | Concept / Topic | Project 1 | Project 2 | Project 3 | Project 4 | Project 5 |
-|---|---|---|---|---|---|---|---|---|---|
-| Term 1 | June | Week 01 | Module 1: Modern AI Architecture & Thinking | AI Paradigm Shifts (2017–2026) & Systems Thinking | Transformer-to-Agent Map | Test-Time Compute Case | System Decomposition Spec | Open vs Closed Weight Audit | AI Failure Postmortem |
-| Term 1 | June | Week 01 | Module 1: Modern AI Architecture & Thinking | Boolean Logic, Flip-Flops & Digital Compute | State Memory Gate Sim | Priority Interrupt Logic | Checksum XOR Verifier | Finite State Machine Lab | Bitwise Telemetry Packer |
-| Term 1 | June | Week 02 | Module 2: GPUs, Tensors & Numerical Python | GPU Parallel Architecture, CUDA Intuition & VRAM | Matrix Block Tiling Demo | Batch Size VRAM Calculator | CPU vs GPU Training Log | Precision FP32 vs FP16 | Quantized Memory Planner |
-| Term 1 | June | Week 02 | Module 2: GPUs, Tensors & Numerical Python | Object-Oriented Python Basics for AI Projects | SensorData Class Model | Dataset Loader Class | Experiment Logger Object | Agent Persona Class | Robot Kinematics Object |
-| Term 1 | June | Week 03 | Module 3: PyTorch Foundations | PyTorch Tensors, Broadcasting & Autograd | Custom Autograd Linear Fit | Gradient Vanishing Probe | Vectorized Cosine Search | Batch Image Normalizer | Dynamic Compute Graph Lab |
-| Term 1 | July | Week 04 | Module 3: PyTorch Foundations | PyTorch nn.Module, Loss & Optimizers (SGD/Adam) | Custom MLP Classifier | SGD vs Adam Race Plot | Early Stopping Trainer | Weighted Class Loss Fix | Saved Checkpoint Loader |
-| Term 1 | July | Week 05 | Module 4: Evaluation & Data Engineering | Scikit-Learn Metrics: Precision, Recall, F1 & ROC | Medical Triage Threshold | Fraud Recall Optimizer | Multi-Class F1 Matrix | Cross-Validation Harness | Data Leakage Detector |
-| Term 1 | July | Week 06 | Module 4: Evaluation & Data Engineering | Feature Engineering, PCA & Unsupervised Clustering | Student Cluster Explorer | Sensor Drift Compressor | K-Means Color Quantizer | Anomaly Z-Score Monitor | Pipeline Transformer Rig |
-| Term 1 | July | Week 07 | Module 5: Deep Computer Vision | Convolutional Neural Networks (CNN) in PyTorch | Digit Recognition CNN | Receptive Field Visualizer | Data Augmentation Trainer | Overfit Dropout Compare | Real-Time Sketch Reader |
-| Term 1 | August | Week 08 | Module 5: Deep Computer Vision | Real-Time Vision: Object Detection & Pose Estimation | PPE Safety Helmet Detector | Hand-Gesture Command Node | Traffic Sign Localizer | Posture Alignment Tracker | Bounding-Box IoU Grader |
-| Term 1 | August | Week 09 | Module 6: NLP, Embeddings & Transformers | Word Embeddings, Semantic Search & Cosine Vectors | Local FAQ Vector Search | Synonym Clustering Map | Bias in Word Vectors Lab | Resume-Skill Matcher | Hybrid Keyword+Vector Lab |
-| Term 1 | August | Week 10 | Module 6: NLP, Embeddings & Transformers | Transformer Self-Attention (Q/K/V) & Context | Scaled Dot-Product Script | Multi-Head Split Toy Lab | Causal Masking Simulator | Long-Context Needle Test | Token Budget Optimizer |
-| Term 1 | September | Week 11 | Module 7: LLMs, RAG & Tool Calling | How ChatGPT Works: Pretraining, RLHF & Tool Use | Function-Calling Calculator | Grounded RAG School Bot | Schema-Validated JSON API | Critique-and-Refine Loop | Prompt Injection Shield |
-| Term 1 | September | Week 12 | Module 7: LLMs, RAG & Tool Calling | Reasoning AI: OpenAI o1/o3 & DeepSeek-R1 Patterns | CoT Reasoning Evaluator | Verifier-Guided Code Fix | Hard Logic Tree Solver | Confidence Calibration Lab | Cost vs Accuracy Router |
-| Term 1 | October | Week 13 | Module 8: Intermediate C++ for Controllers | C++ Pointers, References, Structs & Ring Buffers | Zero-Copy Packet Buffer | Rolling Sensor Filter C++ | Struct Telemetry Frame | Pointer Swap Profiler | Fixed-Memory Task Queue |
-| Term 1 | October | Week 14 | Module 8: Intermediate C++ for Controllers | C++ Classes, State Machines & PID Control | OOP Motor Controller C++ | Line-Following PID Tuner | UART/I2C Protocol Parser | Multi-Mode Robot FSM | Emergency Failsafe Watchdog |
-| Term 2 | November | Week 15 | Module 9: Edge AI & Raspberry Pi Python | Raspberry Pi Python: OpenCV + Hardware Control | Pi Traffic Light Vision | Edge Barcode Inventory Hub | Flask Live Telemetry UI | Audio Keyword Trigger Node | Pi-to-Controller Serial Link |
-| Term 2 | November | Week 16 | Module 9: Edge AI & Raspberry Pi Python | TinyML & On-Device Model Optimization | Model Size Profiler | Pruned Classifier Benchmark | Threshold Calibration Node | Offline Latency Stress Test | Edge Battery-Power Budget |
-| Term 2 | December | Week 17 | Module 10: Reinforcement Learning Systems | RL Foundations: MDP, Q-Learning & Deep Q-Networks | Lunar-Lander Policy Sim | Gridworld Maze Learner | Dynamic Signal Scheduler | Multi-Step Reward Shaper | Policy Collapse Debugger |
-| Term 2 | December | Week 18 | Module 10: Reinforcement Learning Systems | AlphaGo, AlphaZero & OpenAI Five Dota 2 Mechanics | Minimax vs MCTS Arena | Self-Play Elo Tracker | Multi-Agent Team Comms | Reward Hacking Case Study | Opponent Strategy Explorer |
-| Term 2 | December | Week 19 | Module 11: 2024–2026 Frontier Breakthroughs | Diffusion & World Models: OpenAI Sora & DeepMind Genie 2 | Denoising Step Visualizer | Latents & Consistency Audit | Simulated Game World Agent | Video Deepfake Forensic Lab | Action-Conditioned Rollout |
-| Term 2 | January | Week 20 | Module 11: 2024–2026 Frontier Breakthroughs | AI for Biology: AlphaFold 3 & AlphaGenome (2025–2026) | Non-Coding DNA Motif Finder | Gene Variant Impact Ranker | Protein Contact Distance Lab | Sequence Window Scorer | Scientific Claim Verifier |
-| Term 2 | January | Week 21 | Module 12: Physical AI & Humanoid Robotics | Vision-Language-Action (Gemini Robotics 2 & 2.5) | Task-Plan-to-Joint Motion | Factory Kitting Simulator | Visual Servoing Target Lock | Safety-Fence Collision Guard | Sim-to-Real Gap Checklist |
-| Term 2 | January | Week 22 | Module 12: Physical AI & Humanoid Robotics | Hybrid Robotics: Python Vision Brain + C++ Reflex | Vision Gesture-to-Rover | Auto-Tracking Gimbal Node | Voice-Command Warehouse Bot | Line + Object Hybrid Nav | Failsafe Telemetry Logger |
-| Term 2 | January | Week 23 | Module 13: AI Agents & Coding Assistants | Agentic Workflows: Plan, Tool Use, Test & Verify | Multi-Step Research Agent | Automated Test-Fix Loop | Code Review Critic Agent | Guardrailed File Helper | Human-Approval Checkpoints |
-| Term 2 | February | Week 24 | Module 13: AI Agents & Coding Assistants | Adversarial Robustness, Security & AI Red-Teaming | Prompt Jailbreak Defense | Poisoned Dataset Detector | Hallucination Benchmark Suite | Model Card & Bias Audit | Data Governance Checklist |
-| Term 2 | February | Week 25 | Module 14: Applied PyTorch Systems | Transfer Learning with Pretrained Vision Backbones | Leaf Disease Classifier | Sign-Language Digit Reader | Fine-Tune Freeze vs Unfreeze | Few-Shot Custom Sorting | Grad-CAM Saliency Map |
-| Term 2 | February | Week 26 | Module 14: Applied PyTorch Systems | Hybrid Audio & Time-Series Sequence Models | Vibration Fault Classifier | Keyword Spotting Spectrogram | Air Quality Forecast Net | Heartbeat Pattern Detector | Sliding-Window Predictor |
-| Term 2 | March | Week 27 | Module 15: Class 8 Capstone Engineering | End-to-End Architecture, Data & Hardware Loops | Problem & Constraint Spec | Clean Versioned Dataset | PyTorch Model & Eval | C++ / Pi Control Execution | Failure Mode Playbook |
-| Term 2 | March | Week 28 | Module 15: Class 8 Capstone Engineering | Class 8 AI, PyTorch & Robotics Showcase | Autonomous Gesture Rover | Leaf Health Vision Scanner | Local RAG Lab Assistant | PID + Vision Tracker Rig | Smart Industrial Kitting Sim |
+## Term 1: The Connected Foundations (Contents 1–6)
+
+| # | Content & Core Concept *(Taught in ALL Grades 5–9)* | Class 8 |
+|---|---|---|
+| **1** | **What Is AI?**<br>*(Fixed Rules vs. Learning from Examples)* | **Concept:** Hardcoded logic vs. ML decision boundaries<br>**Project:** *Spam Filter: Rules vs. Learning* (Jupyter) |
+| **2** | **AI Use Cases**<br>*(How AI Solves Real-World Problems)* | **Concept:** Vision & safety AI in smart cities<br>**Project:** *Smart Traffic & Crowd Counter* (Jupyter) |
+| **3** | **Computational Thinking**<br>*(Decomposition, Patterns & Step-by-Step Logic)* | **Concept:** Breaking big apps into clean functions<br>**Project:** *Secret Password Cracker Game* (VS Code) |
+| **4** | **How AI Works**<br>*(Data + Training/Testing + CPU vs. GPU Speed)* | **Concept:** Features, labels, accuracy & GPU basics<br>**Project:** *Overfitting Trap Experiment* (Jupyter) |
+| **5** | **Programming Basics (Python)**<br>*(ALL taught in every class: `print`, `input`, variables, `if/else`, `loops`)* | **Concept:** Full basics + clean modular scripts<br>**Project:** *Escape-Room Text Adventure Game* (VS Code) |
+| **6** | **Essential Data Structures**<br>*(Lists & Dictionaries—how Python organizes AI data)* | **Concept:** Dictionaries, JSON & `numpy` number grids<br>**Project:** *Pixel-Art Matrix Painter* (Jupyter) |
+
+## Term 2: Building Real AI Systems (Contents 7–12)
+
+| # | Content & Core Concept *(Taught in ALL Grades 5–9)* | Class 8 |
+|---|---|---|
+| **7** | **Machine Learning**<br>*(Training a computer to predict & classify from data)* | **Concept:** Comparing classifiers & checking accuracy<br>**Project:** *Fake vs. Real Note / Fruit Classifier* (Jupyter) |
+| **8** | **Computer Vision**<br>*(How computers see pixels, faces, hands & objects)* | **Concept:** Pre-trained object detection (`YOLO Nano`)<br>**Project:** *5-Line Classroom Object Spotter* (VS Code) |
+| **9** | **NLP & Chatbots**<br>*(How computers clean, understand & reply to human text)* | **Concept:** Text similarity & smart search (`TF-IDF`)<br>**Project:** *Instant School Notes Search Engine* (Jupyter) |
+| **10** | **Deep Learning**<br>*(How multi-layer neural networks spot complex patterns)* | **Concept:** Training a 2-layer neural net (`PyTorch`)<br>**Project:** *PyTorch Pattern Classifier* (Colab) |
+| **11** | **Generative AI & Prompting**<br>*(How modern LLMs predict tokens & follow clear prompts)* | **Concept:** Grounding AI with your own chapter text<br>**Project:** *Textbook Chapter Q&A Helper* (Colab) |
+| **12** | **AI Safety & Ethics**<br>*(Testing hallucinations, dataset bias & digital privacy)* | **Concept:** Red-teaming chatbots for tricky inputs<br>**Project:** *Break-the-Bot Safety Challenge* (Jupyter) |

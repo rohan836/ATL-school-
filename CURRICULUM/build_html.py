@@ -155,7 +155,9 @@ def inline(text):
         return "\x00C%d\x00" % (len(tokens) - 1)
 
     masked = re.sub(r"`([^`]*)`", stash, text)
+    masked = re.sub(r"<br\s*/?>", "\x00BR\x00", masked, flags=re.I)
     rendered = inline_plain(masked)
+    rendered = rendered.replace("\x00BR\x00", "<br>")
     for idx, code_html in enumerate(tokens):
         rendered = rendered.replace("\x00C%d\x00" % idx, code_html)
     return rendered
@@ -293,7 +295,7 @@ def render(md):
                 for c in range(width):
                     value = inline(row[c]) if c < len(row) else ""
                     attrs = []
-                    if header[c].strip().lower() in ("class", "term", "month", "week"):
+                    if header[c].strip().lower() in ("#", "class", "term", "month", "week"):
                         attrs.append('class="nowrap"')
                     if c < len(aligns) and aligns[c]:
                         attrs.append('style="text-align:%s"' % aligns[c])

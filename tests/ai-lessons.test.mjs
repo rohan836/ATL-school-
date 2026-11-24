@@ -6,38 +6,56 @@ import path from 'node:path';
 const ROOT = process.cwd();
 const AI_DIR = path.join(ROOT, 'CURRICULUM/CLASSES/AI');
 const MASTER_MD = path.join(AI_DIR, 'AI-CURRICULUM-CLASSES-5-TO-9.md');
+const SOURCE_ATTACHMENT = path.join(ROOT, 'public/assets/aistudio/gemini-code-1795200700748_c76e9917.md');
 
-const TERM1_MONTHS = new Set(['June', 'July', 'August', 'September', 'October']);
-const TERM2_MONTHS = new Set(['November', 'December', 'January', 'February', 'March']);
-const ALL_MONTHS_ORDER = [
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-  'January',
-  'February',
-  'March',
-];
-
-function parseTableRows(md, expectedCols) {
-  return md
-    .split('\n')
-    .map((line) => line.trim())
-    .filter((line) => line.startsWith('|') && !/^\|\s*-/.test(line))
-    .slice(1) // skip header
-    .map((line) =>
-      line
-        .slice(1, line.endsWith('|') ? -1 : undefined)
-        .split('|')
-        .map((cell) => cell.trim()),
-    )
-    .filter((cells) => cells.length === expectedCols);
+function parseTables(md, expectedCols) {
+  const lines = md.split('\n');
+  const tables = [];
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i].trim();
+    if (line.startsWith('|') && i + 1 < lines.length && /^\|\s*---/.test(lines[i + 1].trim())) {
+      const parseRow = (rowLine) =>
+        rowLine
+          .trim()
+          .slice(1, rowLine.trim().endsWith('|') ? -1 : undefined)
+          .split('|')
+          .map((c) => c.trim());
+      const header = parseRow(lines[i]);
+      i += 2;
+      const rows = [];
+      while (i < lines.length && lines[i].trim().startsWith('|')) {
+        const cells = parseRow(lines[i]);
+        if (cells.length === expectedCols) rows.push(cells);
+        i += 1;
+      }
+      tables.push({ header, rows });
+    } else {
+      i += 1;
+    }
+  }
+  return tables;
 }
 
-test('AI Classes 5-9 each have a single 10-column curriculum+projects MD and HTML with June-March months, Weeks 01-28, and zero Electronics class cross-mentions', () => {
+test('AI Master curriculum matches attached source MD file word-for-word with zero extra words', () => {
+  const masterMd = fs.readFileSync(MASTER_MD, 'utf8').trim();
+  const sourceMd = fs.readFileSync(SOURCE_ATTACHMENT, 'utf8').trim();
+  assert.equal(masterMd, sourceMd, 'AI Master MD must match attached MD verbatim');
+
+  const masterHtmlPath = MASTER_MD.replace(/\.md$/, '.html');
+  assert.equal(fs.existsSync(masterHtmlPath), true, 'AI Master HTML missing');
+
+  const tables = parseTables(masterMd, 7);
+  assert.equal(tables.length, 2, 'Master AI curriculum must have Term 1 and Term 2 tables');
+  assert.equal(tables[0].rows.length, 6, 'Term 1 must have 6 contents');
+  assert.equal(tables[1].rows.length, 6, 'Term 2 must have 6 contents');
+});
+
+test('AI Classes 5-9 each match Term 1 and Term 2 rows from Master curriculum word-for-word', () => {
+  const masterMd = fs.readFileSync(MASTER_MD, 'utf8');
+  const masterTables = parseTables(masterMd, 7);
+  const masterRows = [...masterTables[0].rows, ...masterTables[1].rows];
+
   for (let grade = 5; grade <= 9; grade += 1) {
     const mdPath = path.join(AI_DIR, `Class-${grade}/CLASS-${grade}-CURRICULUM.md`);
     const htmlPath = path.join(AI_DIR, `Class-${grade}/CLASS-${grade}-CURRICULUM.html`);
@@ -45,105 +63,31 @@ test('AI Classes 5-9 each have a single 10-column curriculum+projects MD and HTM
     assert.equal(fs.existsSync(htmlPath), true, `AI Class-${grade} HTML missing`);
 
     const md = fs.readFileSync(mdPath, 'utf8');
-    assert.match(
-      md,
-      /\|\s*Term\s*\|\s*Month\s*\|\s*Week\s*\|\s*Module\s*\|\s*Concept \/ Topic\s*\|\s*Project 1\s*\|\s*Project 2\s*\|\s*Project 3\s*\|\s*Project 4\s*\|\s*Project 5\s*\|/,
-    );
-    assert.doesNotMatch(
-      md,
-      /(\b\d+\s*min\b|ELECTRONICS-ROBOTICS|electronics class|PROJECTS\.md)/i,
-      `AI Class-${grade} must not reference timetable minutes, electronics classes, or PROJECTS.md`,
-    );
+    assert.match(md, /^# Class \d AI & Python Curriculum/m);
+    assert.match(md, /## Term 1: The Connected Foundations \(Contents 1–6\)/);
+    assert.match(md, /## Term 2: Building Real AI Systems \(Contents 7–12\)/);
+    assert.doesNotMatch(md, /\bWeek\s+\d+\b/i, `AI Class-${grade} must have no weeks`);
+    assert.doesNotMatch(md, /(ELECTRONICS-ROBOTICS|electronics class|PROJECTS\.md)/i);
 
-    const rows = parseTableRows(md, 10);
-    assert.ok(rows.length >= 28, `AI Class-${grade} must have >= 28 rows (got ${rows.length})`);
+    const tables = parseTables(md, 3);
+    assert.equal(tables.length, 2, `AI Class-${grade} must have Term 1 and Term 2 tables`);
+    assert.equal(tables[0].rows.length, 6, `AI Class-${grade} Term 1 must have 6 rows`);
+    assert.equal(tables[1].rows.length, 6, `AI Class-${grade} Term 2 must have 6 rows`);
 
-    let prevWeek = 0;
-    let prevMonthIdx = 0;
-    const seenWeeks = new Set();
-
-    for (const [term, month, week, mod, topic, ...projects] of rows) {
-      assert.ok(term === 'Term 1' || term === 'Term 2', `Unexpected term ${term} in AI Class ${grade}`);
-      if (term === 'Term 1') {
-        assert.ok(TERM1_MONTHS.has(month), `Invalid Term 1 month ${month} in AI Class ${grade}`);
-      } else {
-        assert.ok(TERM2_MONTHS.has(month), `Invalid Term 2 month ${month} in AI Class ${grade}`);
-      }
-
-      const monthIdx = ALL_MONTHS_ORDER.indexOf(month);
-      assert.ok(monthIdx >= prevMonthIdx, `Months went backwards in AI Class ${grade}: ${month}`);
-      prevMonthIdx = monthIdx;
-
-      const mWeek = /^Week\s+(\d{2})$/.exec(week);
-      assert.ok(mWeek, `Bad week format "${week}" in AI Class ${grade}`);
-      const weekNum = Number(mWeek[1]);
-      assert.ok(weekNum >= 1 && weekNum <= 28, `Week out of range in AI Class ${grade}: ${weekNum}`);
-      assert.ok(weekNum >= prevWeek, `Weeks went backwards in AI Class ${grade}: ${weekNum}`);
-      prevWeek = weekNum;
-      seenWeeks.add(weekNum);
-
-      assert.ok(mod.startsWith('Module '), `Invalid module name in AI Class ${grade}: ${mod}`);
-      assert.ok(topic.length > 0, `Empty topic in AI Class ${grade}`);
-      assert.equal(projects.length, 5, `Must have 5 projects in AI Class ${grade} (${topic})`);
-      for (const p of projects) {
-        assert.ok(p.length >= 4 && p.length <= 60, `Project title "${p}" invalid length in AI Class ${grade}`);
-      }
-    }
-
-    for (let w = 1; w <= 28; w += 1) {
-      assert.equal(seenWeeks.has(w), true, `AI Class-${grade} missing Week ${String(w).padStart(2, '0')}`);
-    }
-
-    // Core required AI pillars across all classes 5-9
-    const fullText = rows.map((r) => `${r[3]} | ${r[4]}`).join('\n');
-    for (const core of [/GPU/i, /Logic Gate|Boolean|ALU/i, /Python/i, /Vision|Pixel|OpenCV/i, /NLP|Language|Transformer|ChatGPT/i, /Reinforcement Learning|AlphaGo|RL/i, /AlphaGenome|AlphaFold/i, /Robotics|Physical AI|Raspberry Pi/i]) {
-      assert.match(fullText, core, `AI Class-${grade} missing core AI pillar ${core}`);
-    }
+    const gradeRows = [...tables[0].rows, ...tables[1].rows];
+    const colIdx = grade - 3; // Class 5 -> col 2 ... Class 9 -> col 6
+    gradeRows.forEach((row, idx) => {
+      assert.equal(row[0], masterRows[idx][0], `Class ${grade} row ${idx + 1} # mismatch`);
+      assert.equal(row[1], masterRows[idx][1], `Class ${grade} row ${idx + 1} Content mismatch`);
+      assert.equal(row[2], masterRows[idx][colIdx], `Class ${grade} row ${idx + 1} cell mismatch`);
+    });
   }
 });
 
-test('Age-scaled programming progression across AI Classes 5-9 (Python Basics -> OOP Python + PyTorch + C++)', () => {
-  const c5 = fs.readFileSync(path.join(AI_DIR, 'Class-5/CLASS-5-CURRICULUM.md'), 'utf8');
-  const c6 = fs.readFileSync(path.join(AI_DIR, 'Class-6/CLASS-6-CURRICULUM.md'), 'utf8');
-  const c7 = fs.readFileSync(path.join(AI_DIR, 'Class-7/CLASS-7-CURRICULUM.md'), 'utf8');
-  const c8 = fs.readFileSync(path.join(AI_DIR, 'Class-8/CLASS-8-CURRICULUM.md'), 'utf8');
-  const c9 = fs.readFileSync(path.join(AI_DIR, 'Class-9/CLASS-9-CURRICULUM.md'), 'utf8');
-
-  assert.match(c5, /Jupyter/i);
-  assert.match(c6, /Jupyter/i);
-  assert.match(c7, /\bC\+\+/i);
-  assert.match(c7, /PyTorch/i);
-  assert.match(c8, /Object-Oriented Python/i);
-  assert.match(c8, /\bC\+\+/i);
-  assert.match(c8, /PyTorch/i);
-  assert.match(c9, /Object-Oriented Python/i);
-  assert.match(c9, /C\+\+ OOP/i);
-  assert.match(c9, /PyTorch/i);
-  assert.match(c9, /TinyML/i);
-});
-
-test('AI Master unified curriculum combines all Class 5-9 rows in ONE single 11-column table matching class files', () => {
-  const masterMd = fs.readFileSync(MASTER_MD, 'utf8');
-  const masterHtmlPath = MASTER_MD.replace(/\.md$/, '.html');
-  assert.equal(fs.existsSync(masterHtmlPath), true, 'AI Master HTML missing');
-
-  assert.match(
-    masterMd,
-    /\|\s*Class\s*\|\s*Term\s*\|\s*Month\s*\|\s*Week\s*\|\s*Module\s*\|\s*Concept \/ Topic\s*\|\s*Project 1\s*\|\s*Project 2\s*\|\s*Project 3\s*\|\s*Project 4\s*\|\s*Project 5\s*\|/,
-  );
-
-  const separators = masterMd.split('\n').filter((line) => /^\|\s*---/.test(line.trim()));
-  assert.equal(separators.length, 1, 'AI Master curriculum must contain exactly ONE table');
-
-  const masterRows = parseTableRows(masterMd, 11);
-  const expectedRows = [];
-  for (let grade = 5; grade <= 9; grade += 1) {
-    const md = fs.readFileSync(path.join(AI_DIR, `Class-${grade}/CLASS-${grade}-CURRICULUM.md`), 'utf8');
-    for (const row of parseTableRows(md, 10)) {
-      expectedRows.push([`Class ${grade}`, ...row]);
-    }
-  }
-  assert.deepEqual(masterRows, expectedRows, 'AI Master table must match Class 5-9 files verbatim');
+test('Generated AI HTML renders real <br> breaks instead of escaped &lt;br&gt;', () => {
+  const masterHtml = fs.readFileSync(MASTER_MD.replace(/\.md$/, '.html'), 'utf8');
+  assert.doesNotMatch(masterHtml, /&lt;br&gt;/i, 'HTML must not contain escaped &lt;br&gt;');
+  assert.match(masterHtml, /<br><strong>Project:<\/strong>/, 'HTML must render clean <br><strong>Project:</strong>');
 });
 
 test('No separate PROJECTS.md or forbidden HTML files exist under CURRICULUM/CLASSES/AI', () => {

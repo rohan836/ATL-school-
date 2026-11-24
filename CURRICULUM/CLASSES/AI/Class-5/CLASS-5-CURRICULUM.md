@@ -1,34 +1,23 @@
-# Class 5 AI, Computing & Robotics Curriculum
+# Class 5 AI & Python Curriculum
 
-| Term | Month | Week | Module | Concept / Topic | Project 1 | Project 2 | Project 3 | Project 4 | Project 5 |
-|---|---|---|---|---|---|---|---|---|---|
-| Term 1 | June | Week 01 | Module 1: What Is AI & Purpose | What Is Artificial Intelligence & Why We Build It | Classroom AI Spotter | Human vs AI Task Poster | Smart Helper Storyboard | Daily AI Hunt Map | Good vs Risky AI Chart |
-| Term 1 | June | Week 01 | Module 1: What Is AI & Purpose | Traditional Rules vs Learning Systems | Rule-Based Traffic Game | Guess-by-Example Card Sort | Fixed vs Adaptive Quiz | Sorting Robot Game | Kitchen Helper Comparison |
-| Term 1 | June | Week 02 | Module 2: Computational Thinking & Hardware | Decomposition, Patterns & Abstraction | Morning Routine Splitter | Emoji Pattern Decoder | Map Without Clutter | Sandwich Algorithm Game | Bug-Hunt Puzzle Sheet |
-| Term 1 | June | Week 02 | Module 2: Computational Thinking & Hardware | Binary Numbers & Logic Gates Basics | 5-Bit Name Bracelet | AND-OR Classroom Gate | Two-Key Vault Puzzle | Secret Binary Flashcards | Light-Switch Truth Table |
-| Term 1 | June | Week 03 | Module 2: Computational Thinking & Hardware | How Computers Think: CPU vs GPU Intuition | One-Chef vs 100-Chef Race | Pixel Paint Speed Game | Sequential vs Parallel Deck | GPU Picture Grid Puzzle | Why AI Needs Fast Chips |
-| Term 1 | July | Week 04 | Module 3: Python Foundations in Jupyter | Jupyter Notebook & Python First Steps | Interactive Greeting Cell | Talking Name Badge | School Bell Countdown | Story Mad-Libs Runner | Emoji Banner Printer |
-| Term 1 | July | Week 05 | Module 3: Python Foundations in Jupyter | Python Variables, Numbers & User Input | Pocket Allowance Tracker | Age-on-Mars Calculator | Scoreboard Updater | Unit Converter Tool | Pet Profile Card |
-| Term 1 | July | Week 06 | Module 3: Python Foundations in Jupyter | Python Decisions with If, Elif & Else | Smart Weather Jacket Tip | Quiz Grader Bot | Traffic Light Simulator | Rock-Paper-Scissors | Rule-Based Chatbot |
-| Term 1 | July | Week 07 | Module 3: Python Foundations in Jupyter | Python Loops: For & While Repetition | Multiplication Table Maker | Rocket Launch Timer | Number Guessing Game | Pattern Star Painter | Step-Counter Loop |
-| Term 1 | August | Week 08 | Module 3: Python Foundations in Jupyter | Python Lists & Mini Menu Apps | Favorite Snack Organizer | Class Attendance List | Random Team Picker | Flashcard Study Deck | Inventory Checklist App |
-| Term 1 | August | Week 09 | Module 4: Data & How Machines Learn | Data Types: Numbers, Text, Images & Audio | Classroom Survey Table | Sound-Word-Picture Match | Clean vs Messy Data Game | Fruit Feature Tally | Mini Weather Diary |
-| Term 1 | August | Week 10 | Module 4: Data & How Machines Learn | Training vs Testing & Data Bias | Apples vs Oranges Trainer | Mystery Box Test Round | Balanced vs Biased Deck | Handwriting Sample Audit | Fair Class Pet Predictor |
-| Term 1 | September | Week 11 | Module 5: Computer Vision Basics | Images as Pixel Grids & Colors | 8×8 Pixel Art Initials | Secret Number Grid | RGB Color Mixer Toy | Black-White Threshold Map | Emoji Pixel Scanner |
-| Term 1 | September | Week 12 | Module 5: Computer Vision Basics | Image Classification & Object Detection | Animal Picture Sorter | Classroom Object Finder | Healthy Lunch Spotter | Sign-Language Card Test | Clean vs Littered Park |
-| Term 1 | October | Week 13 | Module 6: Language & Modern AI | Natural Language & Keyword vs Smart Chatbots | School Helpdesk Menu Bot | Synonym Greeting Matcher | Question-Answer Lookup | Mood Word Counter | Friendly Story Prompter |
-| Term 1 | October | Week 14 | Module 6: Language & Modern AI | Inside Modern AI: ChatGPT & Word Prediction | Next-Word Classroom Chain | Weak vs Clear Prompt Fix | Fact-Check AI Answers | Study Summary Helper | Rhyme & Riddle Co-Writer |
-| Term 2 | November | Week 15 | Module 7: How Modern AI Learns | Deep Learning Layers Intuition | Clue-Layer Detective Game | Cat Ear-Tail Feature Vote | Multi-Step Filter Relay | Layered Puzzle Solver | Sound-to-Meaning Flow |
-| Term 2 | November | Week 16 | Module 7: How Modern AI Learns | Reinforcement Learning: Rewards & Trial | Hot-Cold Treasure Walk | Maze Coin Collector | Dog-Trick Reward Chart | Penalty vs Bonus Game | Adaptive Grid Runner |
-| Term 2 | December | Week 17 | Module 8: Famous AI Milestones | Game-Playing AI: AlphaGo & OpenAI Five Dota 2 | Board-Move Tree Game | Strategy Card Simulator | Teamwork Role Relay | Mini Tic-Tac-Toe Learner | Self-Play Tournament |
-| Term 2 | December | Week 18 | Module 8: Famous AI Milestones | Science & World AI: AlphaFold, AlphaGenome & Sora | Origami Shape Folding Lab | DNA Letter Pattern Hunt | Predict-Next-Frame Flipbook | Weather Simulation Story | Dream-World Video Prompt |
-| Term 2 | December | Week 19 | Module 9: AI + Robotics Foundations | Sense, Think, Act Loop in Robotics | Blindfold Path Guide | Obstacle-Stop Floor Game | Line-Track Command Cards | Voice-Command Robot Role | Classroom Delivery Map |
-| Term 2 | January | Week 20 | Module 9: AI + Robotics Foundations | Python Logic for Smart Controllers | Simulated Sensor Doorbell | Auto-Fan Temp Rule Script | Smart Trash Bin Logic | Blink-Pattern Signal Code | Mini Rover Command Loop |
-| Term 2 | January | Week 21 | Module 9: AI + Robotics Foundations | Edge Devices: MicroPython & Raspberry Pi Intro | Pi-Ready Greeting Script | Virtual LED Pattern Loop | Classroom Time Logger | Sensor Alert Simulator | Pocket AI Dashboard |
-| Term 2 | January | Week 22 | Module 10: Creative Generative AI | Text, Image & Music Generation Concepts | Safe Poster Idea Studio | Storybook Character Helper | Soundscape Prompt Lab | Hallucination Bug Hunter | Real vs Synthetic Quiz |
-| Term 2 | January | Week 23 | Module 10: Creative Generative AI | Prompt Crafting: Role, Context & Format | Five-Step Study Coach | Science Diagram Describer | Debate Partner Prompt | Recipe Safety Checker | Quiz Question Generator |
-| Term 2 | February | Week 24 | Module 11: Ethics, Safety & Privacy | AI Fairness, Privacy & Digital Footprint | Privacy Safe-Share Shield | Biased Training Fixer | Deepfake Clue Inspector | Human-in-the-Loop Pact | Honest AI Citation Card |
-| Term 2 | February | Week 25 | Module 11: Ethics, Safety & Privacy | Testing What AI Gets Wrong | Trick Riddle Tester | Counting Mistakes Hunt | Confident Wrong Answer Log | Safe Calculator vs LLM | Fact Verification Badge |
-| Term 2 | February | Week 26 | Module 12: Guided AI & Python Build | Combining Python Menus & Smart Rules | Eco-Waste Sorter Advisor | Library Book Finder | Homework Planner Bot | Water-Saver Quiz App | Health Habit Coach |
-| Term 2 | March | Week 27 | Module 12: Guided AI & Python Build | Mini Project Prototyping & Testing | Problem Statement Pitch | Input-Output Flow Sketch | Peer Bug-Test Session | Error Improvement Pass | Clean Demo Notebook |
-| Term 2 | March | Week 28 | Module 12: Guided AI & Python Build | Class 5 AI & Robotics Showcase | Smart Classroom Assistant | Vision Sorting Poster App | Safe Prompting Kiosk | Simulated Delivery Rover | Eco-Alert Python Helper |
+## Term 1: The Connected Foundations (Contents 1–6)
+
+| # | Content & Core Concept *(Taught in ALL Grades 5–9)* | Class 5 |
+|---|---|---|
+| **1** | **What Is AI?**<br>*(Fixed Rules vs. Learning from Examples)* | **Concept:** Rules vs. Learning via visual games<br>**Project:** *AI or Not? Mystery Box Game* (Browser) |
+| **2** | **AI Use Cases**<br>*(How AI Solves Real-World Problems)* | **Concept:** AI in games, phones & school life<br>**Project:** *Smart School Helper Simulator* (Browser) |
+| **3** | **Computational Thinking**<br>*(Decomposition, Patterns & Step-by-Step Logic)* | **Concept:** Breaking puzzles into small steps<br>**Project:** *Emoji Secret Code Breaker* (Jupyter) |
+| **4** | **How AI Works**<br>*(Data + Training/Testing + CPU vs. GPU Speed)* | **Concept:** Data fuel + 1-worker CPU vs. 100-worker GPU<br>**Project:** *Clean vs. Messy Data Toy Sorter* (Teachable Machine) |
+| **5** | **Programming Basics (Python)**<br>*(ALL taught in every class: `print`, `input`, variables, `if/else`, `loops`)* | **Concept:** Full basics using fun guided templates<br>**Project:** *Magic 8-Ball Fortune Teller Game* (Jupyter) |
+| **6** | **Essential Data Structures**<br>*(Lists & Dictionaries—how Python organizes AI data)* | **Concept:** Lists & key-value pairs with simple items<br>**Project:** *Random Superhero Team Maker* (Jupyter) |
+
+## Term 2: Building Real AI Systems (Contents 7–12)
+
+| # | Content & Core Concept *(Taught in ALL Grades 5–9)* | Class 5 |
+|---|---|---|
+| **7** | **Machine Learning**<br>*(Training a computer to predict & classify from data)* | **Concept:** Teaching by showing examples & testing<br>**Project:** *Rock-Paper-Scissors Webcam AI* (Teachable Machine) |
+| **8** | **Computer Vision**<br>*(How computers see pixels, faces, hands & objects)* | **Concept:** Pixels, RGB colors & visual detection<br>**Project:** *RGB Color Mixer & Emoji Detector* (Jupyter) |
+| **9** | **NLP & Chatbots**<br>*(How computers clean, understand & reply to human text)* | **Concept:** Keyword rules & smart text matching<br>**Project:** *Funny School Helpdesk Chatbot* (Jupyter) |
+| **10** | **Deep Learning**<br>*(How multi-layer neural networks spot complex patterns)* | **Concept:** Clue-layers & brain-neuron intuition<br>**Project:** *Draw-a-Digit Neural Net Game* (Browser/Jupyter) |
+| **11** | **Generative AI & Prompting**<br>*(How modern LLMs predict tokens & follow clear prompts)* | **Concept:** Next-word guessing + clear prompt rules<br>**Project:** *AI Riddle & Comic Story Co-Writer* (Browser) |
+| **12** | **AI Safety & Ethics**<br>*(Testing hallucinations, dataset bias & digital privacy)* | **Concept:** Catching confident wrong answers & privacy<br>**Project:** *Trick-Riddle AI Lie Detector* (Browser) |

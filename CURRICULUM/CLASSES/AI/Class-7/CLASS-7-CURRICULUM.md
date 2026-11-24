@@ -1,34 +1,23 @@
-# Class 7 AI, Computing & Robotics Curriculum
+# Class 7 AI & Python Curriculum
 
-| Term | Month | Week | Module | Concept / Topic | Project 1 | Project 2 | Project 3 | Project 4 | Project 5 |
-|---|---|---|---|---|---|---|---|---|---|
-| Term 1 | June | Week 01 | Module 1: AI Purpose, History & Computational Thinking | Evolution of AI: Logic to Deep Learning & 2026 Systems | 2017–2026 AI Evolution Map | Symbolic vs Neural Debate | Narrow vs Reasoning Audit | Real-World AI Impact Log | Human Responsibility Pact |
-| Term 1 | June | Week 01 | Module 1: AI Purpose, History & Computational Thinking | Computational Thinking & Algorithmic Efficiency | Linear vs Binary Search | Recursion Maze Unwrapper | Sorting Cost Visualizer | Problem Decomposition Doc | Flowchart Verification |
-| Term 1 | June | Week 02 | Module 2: Logic Gates & GPU Compute Hardware | Logic Gates, Combinational Circuits & Half-Adder | Half-Adder Truth Builder | Multiplexer Logic Script | NAND Universal Gate Lab | Sensor Priority Encoder | Binary Math Evaluator |
-| Term 1 | June | Week 02 | Module 2: Logic Gates & GPU Compute Hardware | CPU vs GPU vs TPU/NPU & Tensor Arithmetic | Matrix Multiply Speed Lab | Parallel Pixel Shader Idea | VRAM Size Estimator | Cloud vs Edge Latency | Energy-per-Token Audit |
-| Term 1 | June | Week 03 | Module 3: Intermediate Python & Data Stack | Python Comprehensions, Modules & File I/O | Reusable Utility Package | JSON Config Manager | Log Parser & Analyzer | Automated Quiz Grader | Clean CSV Transformer |
-| Term 1 | July | Week 04 | Module 3: Intermediate Python & Data Stack | NumPy Arrays, Vectorization & Matrix Operations | Image Matrix Flipper | Broadcasting Speed Test | Dot-Product Similarity | Grade Matrix Analytics | Synthetic Sensor Array |
-| Term 1 | July | Week 05 | Module 3: Intermediate Python & Data Stack | Pandas DataFrames & Exploratory Data Cleaning | Missing-Value Cleaner | Weather Trend Aggregator | Student Habit Correlator | Outlier Flagging Script | Multi-Table Join Report |
-| Term 1 | July | Week 06 | Module 4: Classical Machine Learning | Scikit-Learn Workflow: Train, Test & Overfitting | Iris Classifier Pipeline | Overfit Depth Comparator | Train-Test Split Guard | Feature Scaling Impact | Confusion Matrix Lab |
-| Term 1 | July | Week 07 | Module 4: Classical Machine Learning | Linear Regression, k-NN & Decision Tree Models | Exam Score Predictor | House Price Regressor | Crop Yield Classifier | Heart-Rate Risk Tree | Hyperparameter Tuner |
-| Term 1 | August | Week 08 | Module 5: Computer Vision Engineering | OpenCV Fundamentals: Grayscale, Blur & Edges | Canny Edge Sketcher | HSV Color Object Tracker | Motion Frame Differencer | Document Corner Finder | Face-Blur Privacy Filter |
-| Term 1 | August | Week 09 | Module 5: Computer Vision Engineering | Feature Extraction, CNN Filters & Object Detection | Manual 3×3 Edge Kernel | Shape Contour Counter | Helmet Safety Detector | Barcode/QR Scanner Tool | Smart Parking Counter |
-| Term 1 | August | Week 10 | Module 6: NLP & Transformer LLMs | Text Vectorization: TF-IDF & Cosine Similarity | Mini Search Engine | News Topic Classifier | Duplicate Question Finder | Book Recommender Tool | Spam Filter Trainer |
-| Term 1 | September | Week 11 | Module 6: NLP & Transformer LLMs | Attention Mechanism (2017) & Transformer Blocks | Self-Attention Heat Map | Token Embedding Explorer | Context Window Slicer | RAG Document QA Demo | Prompt Injection Tester |
-| Term 1 | September | Week 12 | Module 6: NLP & Transformer LLMs | How ChatGPT Works: Pretraining, SFT & RLHF | Reward Preference Ranker | System vs User Prompt Lab | Temperature & Top-p Lab | Hallucination Checker | Structured JSON Extractor |
-| Term 1 | October | Week 13 | Module 7: C++ Foundations for Embedded & Robotics | C++ Core Syntax, Types, Functions & Loops | Fast Prime Checker C++ | Telemetry Unit Converter | Sensor Threshold Alert C++ | Array Running Average | Bitmask Flag Controller |
-| Term 1 | October | Week 14 | Module 7: C++ Foundations for Embedded & Robotics | C++ Controller Patterns: setup/loop & millis Timers | Dual-LED Non-Blocking Sync | Debounced Button State C++ | Timed Pump Scheduler | Servo Sweep Trajectory | Watchdog Timeout Guard |
-| Term 2 | November | Week 15 | Module 8: Deep Learning & PyTorch Intro | Neural Networks, Loss Functions & Backprop | Single-Layer Binary Gate | Loss Landscape Plotter | Learning Rate Explorer | Activation Curve Compare | Iris Neural Classifier |
-| Term 2 | November | Week 16 | Module 8: Deep Learning & PyTorch Intro | PyTorch Tensors & Simple Sequential Training | Tensor Shape Debugger | Autograd Slope Calculator | PyTorch Tabular Predictor | Training Loss Visualizer | Saved Weights Predictor |
-| Term 2 | December | Week 17 | Module 9: Reinforcement Learning & Milestones | Q-Learning & Policy Feedback Loops | Grid-Maze Q-Table Agent | Cart-Balance Heuristic Lab | Epsilon-Greedy Explorer | Traffic-Signal Optimizer | Warehouse Bot Scheduler |
-| Term 2 | December | Week 18 | Module 9: Reinforcement Learning & Milestones | DeepMind AlphaGo, AlphaZero & OpenAI Five Dota 2 | MCTS Rollout Simulator | Self-Play Policy Log | Multi-Agent Team Tactics | Heuristic vs Learned Eval | Sparse Reward Challenge |
-| Term 2 | December | Week 19 | Module 9: Reinforcement Learning & Milestones | 2024–2026 Milestones: o1/o3, DeepSeek-R1 & AlphaGenome | Inference Budget Compare | Pure RL Reasoning Trace | DNA Variant Priority Demo | Video World-Model Critique | Benchmark Gaming Audit |
-| Term 2 | January | Week 20 | Module 10: Raspberry Pi Python & C++ Robotics | Raspberry Pi Python Vision & GPIO Control | Camera Motion Snapshot | Color-Zone Signal Script | Local Flask Sensor Page | Serial Command Sender | Edge Log Monitor |
-| Term 2 | January | Week 21 | Module 10: Raspberry Pi Python & C++ Robotics | C++ Sensor Parsing & Mobile Robot Control | Ultrasonic Distance Filter | Line-Follower State Table | Differential Speed Mix | Serial Command Parser C++ | Emergency Obstacle Stop |
-| Term 2 | January | Week 22 | Module 11: Multimodal, World & Physical AI | Vision-Language-Action (Gemini Robotics 2.5) | Scene-to-Action Planner | Spoken Instruction Parser | Safe Grasp Constraint Lab | Factory Kitting Sequence | On-Device vs Cloud Robot |
-| Term 2 | January | Week 23 | Module 11: Multimodal, World & Physical AI | Multimodal AI: Vision + Audio + Text Integration | Image-Caption QA Helper | Voice-to-Task Assistant | Chart-Reading Analyzer | Cross-Modal Fact Check | Accessible UI Narrator |
-| Term 2 | February | Week 24 | Module 12: Responsible AI & Security | Model Bias, Adversarial Inputs & Deepfake Defense | Dataset Imbalance Audit | Confident Error Stress Test | Prompt Guardrail Wrapper | Privacy-Preserving Pipeline | Watermark Verification |
-| Term 2 | February | Week 25 | Module 12: Responsible AI & Security | Reproducible Engineering & Evaluation Hygiene | Random Seed Replicator | Baseline vs Model Report | Failure-Slice Analyzer | Clean README & Model Card | Latency & Cost Profiler |
-| Term 2 | February | Week 26 | Module 13: Capstone Engineering | Dual-Stack Design: Python AI + C++ Control | Problem Spec & Architecture | Annotated Mini Dataset | Python Model Training | C++ Safety Control Loop | Integration Test Matrix |
-| Term 2 | March | Week 27 | Module 13: Capstone Engineering | Debugging, Latency Tuning & Model Packaging | Frame-Rate Speedup Lab | False-Positive Reduction | Battery-Safe Loop Audit | Live Edge Demo Script | Peer Code Review |
-| Term 2 | March | Week 28 | Module 13: Capstone Engineering | Class 7 AI & Robotics Capstone Exhibition | Vision Waste-Sorting Gate | Smart Greenhouse Predictor | RAG School Knowledge Kiosk | C++ Obstacle Rover Sim | Bilingual Study Helper |
+## Term 1: The Connected Foundations (Contents 1–6)
+
+| # | Content & Core Concept *(Taught in ALL Grades 5–9)* | Class 7 |
+|---|---|---|
+| **1** | **What Is AI?**<br>*(Fixed Rules vs. Learning from Examples)* | **Concept:** Rule code vs. pattern-learning code<br>**Project:** *Guess-the-Animal Rule vs. AI* (Jupyter) |
+| **2** | **AI Use Cases**<br>*(How AI Solves Real-World Problems)* | **Concept:** Recommendation & smart assistant apps<br>**Project:** *Movie & Song Matchmaker* (Jupyter) |
+| **3** | **Computational Thinking**<br>*(Decomposition, Patterns & Step-by-Step Logic)* | **Concept:** Logic steps & smart searching<br>**Project:** *20-Questions Number Detective* (Jupyter) |
+| **4** | **How AI Works**<br>*(Data + Training/Testing + CPU vs. GPU Speed)* | **Concept:** Train/test split + why GPUs run fast math<br>**Project:** *CPU vs. Fast-Loop Speed Race* (Jupyter) |
+| **5** | **Programming Basics (Python)**<br>*(ALL taught in every class: `print`, `input`, variables, `if/else`, `loops`)* | **Concept:** Full basics + reusable functions (`def`)<br>**Project:** *Battle-Math Arena Quiz Game* (Jupyter) |
+| **6** | **Essential Data Structures**<br>*(Lists & Dictionaries—how Python organizes AI data)* | **Concept:** Lists, dictionaries & `pandas` tables<br>**Project:** *Class Cricket Stats & Bar Chart* (Jupyter) |
+
+## Term 2: Building Real AI Systems (Contents 7–12)
+
+| # | Content & Core Concept *(Taught in ALL Grades 5–9)* | Class 7 |
+|---|---|---|
+| **7** | **Machine Learning**<br>*(Training a computer to predict & classify from data)* | **Concept:** Predicting numbers & classes (`scikit-learn`)<br>**Project:** *Study Hours vs. Exam Score Predictor* (Jupyter) |
+| **8** | **Computer Vision**<br>*(How computers see pixels, faces, hands & objects)* | **Concept:** Real-time hand & pose tracking (`mediapipe`)<br>**Project:** *Webcam Finger-Count Math Game* (VS Code) |
+| **9** | **NLP & Chatbots**<br>*(How computers clean, understand & reply to human text)* | **Concept:** Sentiment analysis (`textblob` / `sklearn`)<br>**Project:** *Movie Review Happy/Sad Meter* (Jupyter) |
+| **10** | **Deep Learning**<br>*(How multi-layer neural networks spot complex patterns)* | **Concept:** How neural layers recognize sketches<br>**Project:** *Quick-Draw Sketch Guesser Lab* (Colab) |
+| **11** | **Generative AI & Prompting**<br>*(How modern LLMs predict tokens & follow clear prompts)* | **Concept:** Controlling tone, steps & structured output<br>**Project:** *Interactive History Character Bot* (Browser/Jupyter) |
+| **12** | **AI Safety & Ethics**<br>*(Testing hallucinations, dataset bias & digital privacy)* | **Concept:** Spotting deepfakes & hiding private info<br>**Project:** *Personal Info Auto-Hider Script* (Jupyter) |
