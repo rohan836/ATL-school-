@@ -3,13 +3,13 @@
 ## Term 1: The Connected Foundations (Contents 1–6)
 
 | # | Content & Core Concept *(Taught in ALL Grades 5–9)* | Class 8 |
-|---|---|---|
-| **1** | **What Is AI?**<br>*(Fixed Rules vs. Learning from Examples)* | **Concept:** Hardcoded logic vs. ML decision boundaries<br>**Project:** *Spam Filter: Rules vs. Learning* (Jupyter) |
-| **2** | **AI Use Cases**<br>*(How AI Solves Real-World Problems)* | **Concept:** Vision & safety AI in smart cities<br>**Project:** *Smart Traffic & Crowd Counter* (Jupyter) |
-| **3** | **Computational Thinking**<br>*(Decomposition, Patterns & Step-by-Step Logic)* | **Concept:** Breaking big apps into clean functions<br>**Project:** *Secret Password Cracker Game* (VS Code) |
-| **4** | **How AI Works**<br>*(Data + Training/Testing + CPU vs. GPU Speed)* | **Concept:** Features, labels, accuracy & GPU basics<br>**Project:** *Overfitting Trap Experiment* (Jupyter) |
-| **5** | **Programming Basics (Python)**<br>*(ALL taught in every class: `print`, `input`, variables, `if/else`, `loops`)* | **Concept:** Full basics + clean modular scripts<br>**Project:** *Escape-Room Text Adventure Game* (VS Code) |
-| **6** | **Essential Data Structures**<br>*(Lists & Dictionaries—how Python organizes AI data)* | **Concept:** Dictionaries, JSON & `numpy` number grids<br>**Project:** *Pixel-Art Matrix Painter* (Jupyter) |
+| --- | --- | --- |
+| **1** | **What Is AI?**<br>*(Fixed rules vs. learning from examples)* | **Project:** *Rules vs. Smart Spam Filter* (Browser)<br>**Why:** Compare keyword rules with a small example-based message classifier.<br>**Learn:** Explain why learned predictions differ from fixed rules. |
+| **2** | **AI in Everyday Life**<br>*(Recognition, recommendations, predictions and safe use)* | **Project:** *Smart Message Detector* (Browser)<br>**Why:** Test a prepared detector on fictional messages.<br>**Learn:** Understand classification, false alarms and safe data use. |
+| **3** | **Computational Thinking**<br>*(Patterns, logical decisions and step-by-step problem solving)* | **Project:** *Escape-Room Planner* (Browser)<br>**Why:** Arrange clues and decisions into a working plan.<br>**Learn:** Practice decomposition, conditions and testing. |
+| **4** | **Python Programming Basics**<br>*(Output, input, variables, conditions and loops at suitable depth)* | **Project:** *Text Adventure* (Python)<br>**Why:** Create a story where choices change the outcome.<br>**Learn:** Use functions, conditions, loops and debugging. |
+| **5** | **Understanding Data**<br>*(Collect, organize, label and clean information)* | **Project:** *School Canteen Analyzer* (Python)<br>**Why:** Organize fictional sales and compare popular snacks.<br>**Learn:** Use tables represented by lists and dictionaries, totals and data cleaning. |
+| **6** | **How AI Learns**<br>*(Training examples, testing, predictions and improvement)* | **Project:** *Spam Classifier* (Python (guided notebook))<br>**Why:** Train a small classifier on fictional labeled messages and test new ones.<br>**Learn:** Understand features, labels, accuracy and false predictions. |
 
 ## Term 2: Building Real AI Systems (Contents 7–12)
 
