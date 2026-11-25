@@ -4,12 +4,12 @@
 
 | # | Content & Core Concept *(Taught in ALL Grades 5–9)* | Class 6 |
 |---|---|---|
-| **1** | **What Is AI?**<br>*(Fixed Rules vs. Learning from Examples)* | **Concept:** Rules vs. Learning + Narrow vs. Smart AI<br>**Project:** *Beat the Rule-Bot Game* (Jupyter) |
-| **2** | **AI Use Cases**<br>*(How AI Solves Real-World Problems)* | **Concept:** AI in farming, health & traffic<br>**Project:** *Crop & Rain Helper Game* (Teachable Machine) |
-| **3** | **Computational Thinking**<br>*(Decomposition, Patterns & Step-by-Step Logic)* | **Concept:** Flowcharts, patterns & step logic<br>**Project:** *Treasure Maze Step-Planner* (Jupyter) |
-| **4** | **How AI Works**<br>*(Data + Training/Testing + CPU vs. GPU Speed)* | **Concept:** Training vs. testing + parallel GPU race<br>**Project:** *Fruit Ripeness Tester + Speed Race* (Teachable Machine) |
-| **5** | **Programming Basics (Python)**<br>*(ALL taught in every class: `print`, `input`, variables, `if/else`, `loops`)* | **Concept:** Full basics building interactive mini-games<br>**Project:** *Rock-Paper-Scissors vs. Computer* (Jupyter) |
-| **6** | **Essential Data Structures**<br>*(Lists & Dictionaries—how Python organizes AI data)* | **Concept:** Lists & dictionaries for game inventories<br>**Project:** *Pokemon / Cricket Card Lookup* (Jupyter) |
+| **1** | **What Is AI?**<br>*(Fixed rules vs. learning from examples)* | **Project:** *Beat the Rule-Bot* (Browser)<br>**Why:** Play against a fixed-rule bot and a bot that learns from examples.<br>**Learn:** Compare programmed rules with learning. |
+| **2** | **AI in Everyday Life**<br>*(Recognition, recommendations, predictions and safe use)* | **Project:** *Waste Sorting Demo* (Browser)<br>**Why:** Explore how an example-based sorter can group waste pictures.<br>**Learn:** Understand image recognition and why people check results. |
+| **3** | **Computational Thinking**<br>*(Patterns, logical decisions and step-by-step problem solving)* | **Project:** *Treasure Maze* (Browser)<br>**Why:** Plan and test a route through a maze.<br>**Learn:** Break problems into steps and debug instructions. |
+| **4** | **Python Programming Basics**<br>*(Output, input, variables, conditions and loops at suitable depth)* | **Project:** *Rock-Paper-Scissors* (Python)<br>**Why:** Build a game against a random computer choice.<br>**Learn:** Use variables, conditions, loops and random choices. |
+| **5** | **Understanding Data**<br>*(Collect, organize, label and clean information)* | **Project:** *Cricket Card Lookup* (Python)<br>**Why:** Store fictional player cards and look up details.<br>**Learn:** Use lists, dictionaries and key-value pairs. |
+| **6** | **How AI Learns**<br>*(Training examples, testing, predictions and improvement)* | **Project:** *Fruit Image Classifier* (Browser (Teachable Machine or prepared classifier))<br>**Why:** Train on fruit pictures and test different appearances.<br>**Learn:** Understand varied examples, classification and prediction errors. |
 
 ## Term 2: Building Real AI Systems (Contents 7–12)
 
