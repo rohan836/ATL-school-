@@ -4,12 +4,12 @@
 
 | # | Content & Core Concept *(Taught in ALL Grades 5–9)* | Class 7 |
 |---|---|---|
-| **1** | **What Is AI?**<br>*(Fixed Rules vs. Learning from Examples)* | **Concept:** Rule code vs. pattern-learning code<br>**Project:** *Guess-the-Animal Rule vs. AI* (Jupyter) |
-| **2** | **AI Use Cases**<br>*(How AI Solves Real-World Problems)* | **Concept:** Recommendation & smart assistant apps<br>**Project:** *Movie & Song Matchmaker* (Jupyter) |
-| **3** | **Computational Thinking**<br>*(Decomposition, Patterns & Step-by-Step Logic)* | **Concept:** Logic steps & smart searching<br>**Project:** *20-Questions Number Detective* (Jupyter) |
-| **4** | **How AI Works**<br>*(Data + Training/Testing + CPU vs. GPU Speed)* | **Concept:** Train/test split + why GPUs run fast math<br>**Project:** *CPU vs. Fast-Loop Speed Race* (Jupyter) |
-| **5** | **Programming Basics (Python)**<br>*(ALL taught in every class: `print`, `input`, variables, `if/else`, `loops`)* | **Concept:** Full basics + reusable functions (`def`)<br>**Project:** *Battle-Math Arena Quiz Game* (Jupyter) |
-| **6** | **Essential Data Structures**<br>*(Lists & Dictionaries—how Python organizes AI data)* | **Concept:** Lists, dictionaries & `pandas` tables<br>**Project:** *Class Cricket Stats & Bar Chart* (Jupyter) |
+| **1** | **What Is AI?**<br>*(Fixed rules vs. learning from examples)* | **Project:** *Animal Guesser* (Browser)<br>**Why:** Compare a rule-based guesser with an example-based classifier.<br>**Learn:** Identify clues, patterns and prediction errors. |
+| **2** | **AI in Everyday Life**<br>*(Recognition, recommendations, predictions and safe use)* | **Project:** *Movie Recommender* (Browser)<br>**Why:** Explore suggestions based on fictional viewing preferences.<br>**Learn:** Understand recommendations, preferences and limitations. |
+| **3** | **Computational Thinking**<br>*(Patterns, logical decisions and step-by-step problem solving)* | **Project:** *Number Detective* (Browser)<br>**Why:** Find a hidden number by choosing useful questions.<br>**Learn:** Practice logical decisions and efficient searching. |
+| **4** | **Python Programming Basics**<br>*(Output, input, variables, conditions and loops at suitable depth)* | **Project:** *Math Battle Game* (Python)<br>**Why:** Build a quiz that repeats and tracks points.<br>**Learn:** Use loops, conditions, scores and simple functions. |
+| **5** | **Understanding Data**<br>*(Collect, organize, label and clean information)* | **Project:** *Cricket Data Analyzer* (Python)<br>**Why:** Compare fictional cricket scores and find totals and averages.<br>**Learn:** Use lists, dictionaries, simple calculations and clean data. |
+| **6** | **How AI Learns**<br>*(Training examples, testing, predictions and improvement)* | **Project:** *Simple Number Predictor* (Python (guided notebook))<br>**Why:** Fit a simple predictor to small example pairs and test new values.<br>**Learn:** Understand learning from data, prediction and test errors. |
 
 ## Term 2: Building Real AI Systems (Contents 7–12)
 
